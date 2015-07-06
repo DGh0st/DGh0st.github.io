@@ -15,7 +15,7 @@ var template = ' \
 <h1>DGh0st\'s Repo</h1> \
 </div> \
  \
-<div align="center" style="background-color:#FFFFFF;"> \
+<div align="center" style="background-color:#00FF00;"> \
 <table><td> \
 ';
 
