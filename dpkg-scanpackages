@@ -75,6 +75,7 @@ sub version {
 sub usage {
     printf _g(
 "Usage: %s [<option> ...] <binarypath> <overridefile> [<pathprefix>] > Packages
+
 Options:
   -u, --udeb               scan for udebs.
   -a, --arch <arch>        architecture to scan for.
