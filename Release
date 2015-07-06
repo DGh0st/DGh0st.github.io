@@ -1,0 +1,8 @@
+Origin: DGh0st
+Label: DGh0st's repo
+Suite: stable
+Version: 1.0
+Codename: dgh0strepo
+Architectures: iphoneos-arm
+Components: main
+Description: DGh0st's Cydia Repository
