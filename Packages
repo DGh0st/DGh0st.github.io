@@ -13,15 +13,15 @@ Name: AppSwitchCurrent
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.appswitchcurrentOrig
-Version: 1.0-1
+Version: 1.0-2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-1_iphoneos-arm.deb
-Size: 15336
+Filename: Files/appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-2_iphoneos-arm.deb
+Size: 15316
 Installed-Size: 188
-MD5sum: 6fa823d737adb0f9b724e05cf7c7b83c
+MD5sum: d6e882aa2bfb288ecb20b79ee24b3010
 Description: App Switcher to current instead of last app.
 Name: AppSwitchCurrentOrig
 Author: DGh0st <deeppwnage@yahoo.com>
