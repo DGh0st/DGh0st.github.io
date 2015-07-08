@@ -41,15 +41,15 @@ Name: NCClearText
 Author: DGh0st
 
 Package: com.dgh0st.noupsidedown
-Version: 0.0.1-1
+Version: 0.0.1-2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.1-1_iphoneos-arm.deb
-Size: 3950
+Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.1-2_iphoneos-arm.deb
+Size: 3956
 Installed-Size: 72
-MD5sum: 8852d298d7454833e43e85ec402d66b5
+MD5sum: 83c3caf9ae084cb7d8df1a74f8284c5e
 Description: No upside down orientation
 Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
