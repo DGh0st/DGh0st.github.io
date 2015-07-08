@@ -47,9 +47,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.1-2_iphoneos-arm.deb
-Size: 3956
+Size: 3988
 Installed-Size: 72
-MD5sum: 83c3caf9ae084cb7d8df1a74f8284c5e
+MD5sum: e36be8f4b15eaa53334303037fb8767c
 Description: No upside down orientation
 Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
