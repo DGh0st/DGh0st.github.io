@@ -1,3 +1,17 @@
+Package: com.dgg0st.delayvolchange
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/delayvolchange/com.dgg0st.delayvolchange_0.0.1-1_iphoneos-arm.deb
+Size: 4216
+Installed-Size: 72
+MD5sum: ed80f4d60be4f1707f42bf562f98ab78
+Description: Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume change.
+Name: DelayVolChange
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.appswitchcurrent
 Version: 1.2-5
 Section: Tweaks
