@@ -83,15 +83,15 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.whitelistswitcher
-Version: 1.0-7
+Version: 1.0-8
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-7_iphoneos-arm.deb
-Size: 18332
-Installed-Size: 188
-MD5sum: 6913c70116529762bf7b07cbef620102
+Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-8_iphoneos-arm.deb
+Size: 19218
+Installed-Size: 192
+MD5sum: e88803e3b96354f794d7f3ed2db67aab
 Description: Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.
 Name: WhitelistSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
