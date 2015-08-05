@@ -86,12 +86,12 @@ Package: com.dgh0st.whitelistswitcher
 Version: 1.0-8
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
+Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-8_iphoneos-arm.deb
-Size: 19218
+Size: 19222
 Installed-Size: 192
-MD5sum: e88803e3b96354f794d7f3ed2db67aab
+MD5sum: 71ff422823181f5d6de9358372ade7bc
 Description: Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.
 Name: WhitelistSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
