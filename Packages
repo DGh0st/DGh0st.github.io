@@ -89,9 +89,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/reachoffset/com.dgh0st.reachoffset_1.1_iphoneos-arm.deb
-Size: 19494
+Size: 19350
 Installed-Size: 196
-MD5sum: d8c10fa783f3aa6d770ba0a601e4c1a7
+MD5sum: be4bfe7630891768d9fc305b3157376a
 Description: Set a custom reachability offset.
 Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
