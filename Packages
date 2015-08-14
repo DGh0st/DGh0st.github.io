@@ -83,15 +83,15 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.reachoffset
-Version: 1.0
+Version: 1.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/reachoffset/com.dgh0st.reachoffset_1.0_iphoneos-arm.deb
-Size: 19238
+Filename: Files/reachoffset/com.dgh0st.reachoffset_1.1_iphoneos-arm.deb
+Size: 19494
 Installed-Size: 196
-MD5sum: d058c0b0d328dfa2cfdf082f731f5ece
+MD5sum: d8c10fa783f3aa6d770ba0a601e4c1a7
 Description: Set a custom reachability offset.
 Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
