@@ -83,15 +83,15 @@ Name: NCClearText
 Author: DGh0st
 
 Package: com.dgh0st.noupsidedown
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.quantumtweaks.libcatalyst
 Architecture: iphoneos-arm
-Filename: Files/noupsidedown/com.dgh0st.noupsidedown_1.0.1_iphoneos-arm.deb
-Size: 17266
+Filename: Files/noupsidedown/com.dgh0st.noupsidedown_1.0.2_iphoneos-arm.deb
+Size: 17294
 Installed-Size: 192
-MD5sum: 73e546ba48960a950a685ab33d11c6fc
+MD5sum: 5964d0e4f99b490cefbdbbe6463355ac
 Description: Disable orientations throughout IOS, require libCatalyst in order to load preference.
 Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
