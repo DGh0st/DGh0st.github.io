@@ -51,7 +51,7 @@ a:hover {
   outline: 0;
 }
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-bottom: 0px dotted;
 }
 b,
 strong {
@@ -1403,14 +1403,14 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  padding-bottom: 0px;
+  margin: 0px 0 0px;
+  border-bottom: 0px solid #eee;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 ul ul,
 ol ul,
@@ -1434,7 +1434,7 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 dt,
 dd {
