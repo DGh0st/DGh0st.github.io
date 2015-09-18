@@ -61,9 +61,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.3_iphoneos-arm.deb
-Size: 18048
+Size: 17680
 Installed-Size: 192
-MD5sum: c1fb11c9d280767dd3fee09b62ba42d0
+MD5sum: 0a0fda7742c28cfef7c890ddb8d87c01
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
