@@ -54,6 +54,20 @@ Description: Makes Auxo LE dark.
 Name: DarkAuxo
 Author: DGh0st <deeppwnage@yahoo.com>
 
+Package: com.dgh0st.defaultpage
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.1_iphoneos-arm.deb
+Size: 3400
+Installed-Size: 72
+MD5sum: 2352a739c7df3f03579cc8a5f695ac05
+Description: Set the default homescreen page to 2.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.delayvolchange
 Version: 0.0.1-6
 Section: Tweaks
