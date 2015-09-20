@@ -1,0 +1,123 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    border: 0%;
+    background-color: #1f1f1f;
+    color: white;
+    padding-bottom: 3%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.intro-header {
+    padding-top: 0%;
+    padding-bottom: 0px;
+    text-align: center;
+    background: #1f1f1f url(../img/green-floral.jpg) no-repeat center -175px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 30%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 1%;
+    padding-right: 15%;
+}
+
+li {
+    padding: 1%;
+    list-style-type: none;
+    float:right;
+}
+
+li.web-title {
+    padding-left: 15%;
+    float: left;
+    font-weight: 800;
+    font-size: 150%;
+}
+
+a.nav-bar {
+    display: block;
+}
+
+a:link{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;   
+}
+
+a:hover{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
+a:active{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
+.nav-bar {
+    width: 100%;
+    background: url(../img/nav-bar-bg.png);
+    position: absolute;
+    z-index: 999;
+    vertical-align: bottom;
+}
+
+.home {
+    display: block;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.projects {
+    display: none;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.about {
+    display: none;
+    padding-right: 20%;
+    padding-left: 20%;
+}
