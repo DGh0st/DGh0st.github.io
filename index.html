@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>DGh0st</title>
+    <title>DGh0st - Home</title>
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
     <script src="js/main.js" type="text/javascript"></script>
 </head>
 
-<body onload="openHome()">
-    <div class="intro-header" id="intro">
+<body>
+    <div class="intro-header">
         <div class="intro-message">
-            <h1 id="headerTitle">DGh0st</h1>
+            <h1>DGh0st</h1>
             <hr class="intro-divider">
-            <h3 id="headerDescription">iOS Runtime Modification Developer</h3>
+            <h3>iOS Runtime Modification Developer</h3>
         </div>
     </div>
     <div id="mainbody" class ="mainbody">
@@ -23,99 +24,16 @@
             </div>
             <div>
                 <ul>
-                    <li id="navAbout"><a href="#about" onclick="openAbout()">About</a></li>
-                    <li id="navAddSource"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Add Cydia Repo</a></li>
-                    <li id="navProjects"><a href="#projects" onclick="openProjects()">Projects</a></li>
-                    <li id="navHome"><a href="#home" onclick="openHome()">Home</a></li>
+                    <li><a href="about/about.html">About</a></li>
+                    <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Add Cydia Repo</a></li>
+                    <li><a href="projects/projects.html">Projects</a></li>
+                    <li class="highlight-nav"><a href="index.html">Home</a></li>
                 </ul>
             </div>
         </div>
         <div class="home">
             <h2>Cydia Repository</h2>
             <h5>The beta Cydia repository is "https://DGh0st.github.io" or you can click on the "Add Cydia Repo" on your IOS device to do it automatically.</h5>
-        </div>
-        <div class="projects">
-            <h2>IOS Projects</h2>
-            <h5>Several IOS runtime modifications (extensions for jailbroken devices) that I worked on during my free time. The total download for all the packages are shown on <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">TheBigBoss stats</a></h5>
-            <div class = "projects-ios">
-                <div class = "tweak">
-                    <h3>AlertClose</h3>
-                    <img src="img/AlertClose.png">
-                    <h5>Display an alert stylesheet while closing applications.</h5>
-                    <a href="https://www.github.com/DGh0st/AlertClose">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>AppSwitcherCurrentOrig</h3>
-                    <img src="img/AppSwitchCurent.gif">
-                    <h5>Open App Switcher to current instead of last app.</h5>
-                    <a href="https://www.github.com/DGh0st/AppSwitchCurrentOrig">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>DarkAuxo</h3>
-                    <img src="img/DarkAuxo.png">
-                    <h5>Makes Auxo LE dark, works with regular Control Center.</h5>
-                    <a href="https://www.github.com/DGh0st/DarkAuxo">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>DefaultPage</h3>
-                    <img src="img/DefaultPage.gif">
-                    <h5>Set a custom default home screen page.</h5>
-                    <a href="https://www.github.com/DGh0st/DefaultPage">GitHub</a>
-                </div>
-            </div>
-            <div class = "projects-ios">
-                <div class = "tweak">
-                    <h3>DelayVolChange</h3>
-                    <img src="img/DelayVolChange.png">
-                    <h5>Prevents the first volume press to actually effect the volume.</h5>
-                    <a href="https://www.github.com/DGh0st/DelayVolChange">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>NCClearText</h3>
-                    <img src="img/NCClearText.png">
-                    <h5>Set a custom text for the Notification Center Clear text.</h5>
-                    <a href="https://www.github.com/DGh0st/NCClearText">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>NoUpsideDown</h3>
-                    <img src="img/NoUpsideDown.png">
-                    <h5>Disable UpsideDown Orientation throughout IOS.</h5>
-                    <a href="https://www.github.com/DGh0st/NoUpsideDown">GitHub</a>
-                </div>
-                <div class = "tweak">
-                    <h3>ReachOffset</h3>
-                    <img src="img/ReachOffset.png">
-                    <h5>Set a custom reachability height/offset.</h5>
-                    <a href="https://www.github.com/DGh0st/ReachOffset">GitHub</a>
-                </div>
-            </div>
-            <div class = "projects-ios">
-                <div class = "tweak">
-                    <h3>WhiteListSwitcherClose</h3>
-                    <img src="img/WhitelistSwitcher.gif">
-                    <h5>Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.</h5>
-                    <a href="https://www.github.com/DGh0st/WhiteListSwitcherClose">GitHub</a>
-                </div>
-            </div>
-            <h2>Other Projects</h2>
-            <h5>All my other completed projects are open sourced on my 
-            <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html and css of this website.</h5>
-        </div>
-        <div class="about">
-            <h2>Little More About Me</h2>
-            <h5>I'm Deep Patel.
-            <br><br>
-            I'm a student at the University Of Illinois at Urbana-Champaign studying Computer Science.
-            <br><br>
-            I love programming and playing video games in my free time.
-            <br><br>
-            I have developed some IOS runtime modifications, which you can see in my Projects.
-            <br><br>
-            You can contact me through 
-            <a href="mailto:patel97deep@gmail.com">patel97deep@gmail.com</a>, 
-            <a href="https://twitter.com/D_Gh0st">Twitter</a>, or 
-            <a href="https://www.reddit.com/user/DGh0st/">Reddit</a>
-            </h5>
         </div>
     <div>
     <div class="footer"><footer>DGh0st(Deep Patel) &copy; 2015</footer></div>
