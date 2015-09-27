@@ -26,8 +26,8 @@
 .projects {
     display: block;
     padding-top: 5%;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 img {
@@ -37,14 +37,22 @@ img {
 }
 
 .projects-ios {
-    display:inline-block;
+    float:center;
     width: 100%;
 }
 
 .tweak {
     margin: 0px;
     text-align: center;
-    float:left;
-    width: 25%;
+    float:center;
+    display: inline-block;
+    width: 24%;
     padding:0;
+    vertical-align: top;
+}
+
+.tweak > h5{
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
 }
