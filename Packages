@@ -1,13 +1,13 @@
 Package: com.dgh0st.alertclose
-Version: 1.1
+Version: 1.2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.1_iphoneos-arm.deb
-Size: 25942
+Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
+Size: 26210
 Installed-Size: 196
-MD5sum: 709efe82e93069d8ee4c80769c392eb9
+MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -55,15 +55,15 @@ Name: DarkAuxo
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
-Version: 0.0.3
+Version: 0.0.5
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.3_iphoneos-arm.deb
-Size: 17680
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.5_iphoneos-arm.deb
+Size: 17982
 Installed-Size: 192
-MD5sum: 0a0fda7742c28cfef7c890ddb8d87c01
+MD5sum: 4370d78227f3a65b83b4d4ea9d9dbcf6
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -111,15 +111,15 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.reachoffset
-Version: 1.1
+Version: 1.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/reachoffset/com.dgh0st.reachoffset_1.1_iphoneos-arm.deb
-Size: 19350
+Filename: Files/reachoffset/com.dgh0st.reachoffset_1.3_iphoneos-arm.deb
+Size: 20106
 Installed-Size: 196
-MD5sum: be4bfe7630891768d9fc305b3157376a
+MD5sum: a6d256a2019b43e188be7a471e4f9402
 Description: Set a custom reachability offset.
 Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
