@@ -26,8 +26,9 @@
 .projects {
     display: block;
     padding-top: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    overflow-x: hidden;
 }
 
 img {
@@ -36,9 +37,42 @@ img {
     margin: 0px;
 }
 
+.previous {
+    text-align: center;
+    display: inline;
+    position: relative;
+    margin-top: 20%;
+}
+
+.previous > div { 
+    width: 100%;
+    display: inline;
+}
+
+.previous > h1 {
+    display: inline;
+}
+
+img.previous {
+    vertical-align: top;
+    width: 5%;
+    padding: 0;
+}
+
+
 .projects-ios {
+    display: inline;
+    position: relative;
+    text-align: left;
     float:center;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+.projects-ios-hide {
+    display:none;
 }
 
 .tweak {
@@ -46,7 +80,7 @@ img {
     text-align: center;
     float:center;
     display: inline-block;
-    width: 24%;
+    width: 21.75%;
     padding:0;
     vertical-align: top;
 }
