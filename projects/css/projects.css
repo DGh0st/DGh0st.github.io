@@ -53,12 +53,12 @@ img {
     display: inline;
 }
 
+
 img.previous {
     vertical-align: top;
     width: 5%;
     padding: 0;
 }
-
 
 .projects-ios {
     display: inline;
@@ -80,13 +80,21 @@ img.previous {
     text-align: center;
     float:center;
     display: inline-block;
-    width: 21.75%;
+    width: 22.17%;
     padding:0;
     vertical-align: top;
+}
+
+.tweak > a {
+    display: inline-block;
 }
 
 .tweak > h5{
     text-align: left;
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.tweak > h3 {
+    text-align: center;
 }
