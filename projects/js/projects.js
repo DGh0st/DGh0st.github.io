@@ -17,10 +17,10 @@ function previous(){
 	if(--i <= 0){
 		i = iosprojects.length;
 	}
-	div.innerHTML = iosprojects[i % iosprojects.length];
-	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
+	div.innerHTML = iosprojects[(i + 3) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
-	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
+	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
+	div.innerHTML += iosprojects[i % iosprojects.length];
 	setInterval(function() {shouldAutoSlide = true;}, 500000);
 	div.children[3].style.animation = "slideFromLeft 1s 1";
 	div.children[2].style.animation = "slideFromLeft 1s 1";
@@ -39,10 +39,10 @@ function next(){
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
 	setInterval(function() {shouldAutoSlide = true;}, 500000);
-	div.children[3].style.animation = "fadeInFromRight 1s 1";
-	div.children[2].style.animation = "slideFromRight 1s 1";
-	div.children[1].style.animation = "slideFromRight 1s 1";	
 	div.children[0].style.animation = "slideFromRight 1s 1";
+	div.children[1].style.animation = "slideFromRight 1s 1";	
+	div.children[2].style.animation = "slideFromRight 1s 1";
+	div.children[3].style.animation = "fadeInFromRight 1s 1";
 }
 
 function fadeSlides(){
