@@ -25,6 +25,7 @@
 
 .projects {
     display: block;
+    position: relative;
     padding-top: 5%;
     margin-right: 10%;
     margin-left: 10%;
@@ -44,45 +45,58 @@ img {
     margin-top: 20%;
 }
 
-.previous > div { 
-    width: 100%;
-    display: inline;
-}
-
 .previous > h1 {
-    display: inline;
+    display: inline-block;
+    width:5%;
+    vertical-align: top;
 }
 
-
-img.previous {
-    vertical-align: top;
-    width: 5%;
-    padding: 0;
+.previous > div {
+    display: inline;
 }
 
 .projects-ios {
-    display: inline;
+    display: inline-block;
     position: relative;
     text-align: center;
     float:center;
-    width: 100%;
+    width: 90%;
     overflow-x: hidden;
     overflow-y: hidden;
-    max-width: 100%;
-}
-
-.projects-ios-hide {
-    display:none;
+    max-width: 90%;
 }
 
 .tweak {
     margin: 0px;
     text-align: center;
+    position: relative;
     float:center;
     display: inline-block;
-    width: 20.5%;
+    width: 21.25%;
     padding:0;
     vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes fadeInFromRight{
+    from {opacity: 0; left: 21.25%}
+    to   {opacity: 1; left: 0%;}
+}
+
+@keyframes slideFromRight{
+    from {left: 21.25%}
+    to   {left: 0%;} 
+}
+
+@keyframes fadeInFromLeft{
+    from {opacity: 0; left: -21.25%}
+    to   {opacity: 1; left: 0%;}   
+}
+
+@keyframes slideFromLeft{
+    from {left: -21.25%}
+    to   {left: 0%;} 
 }
 
 .tweak > a {
