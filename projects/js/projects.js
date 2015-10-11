@@ -63,6 +63,10 @@ function autoSlideNext() {
 		div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
+		div.children[3].style.animation = "fadeInFromRight 1s 1";
+		div.children[2].style.animation = "slideFromRight 1s 1";
+		div.children[1].style.animation = "slideFromRight 1s 1";	
+		div.children[0].style.animation = "slideFromRight 1s 1";
   	}
 }
 
