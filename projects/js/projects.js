@@ -14,7 +14,6 @@ var animating = false;
 function previous(){
 	shouldAutoSlide = false;
 	var div = document.getElementById("projects-slide");
-	div.children[3].style.animation = "fadeOutToRight 1s 0.5";
 	if(--i <= 0){
 		i = iosprojects.length;
 	}
@@ -32,7 +31,6 @@ function previous(){
 function next(){
 	shouldAutoSlide = false;
 	var div = document.getElementById("projects-slide");
-	div.children[0].style.animation = "fadeOutToRight 1s 1";
 	if(++i > iosprojects.length - 1){
 		i = 1;
 	}
