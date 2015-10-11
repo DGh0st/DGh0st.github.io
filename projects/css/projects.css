@@ -42,11 +42,12 @@ img {
     text-align: center;
     display: inline;
     position: relative;
-    margin-top: 20%;
 }
 
-.previous > h1 {
+.previous > img {
+    margin-top: 20%;
     display: inline-block;
+    padding: 0;
     width:5%;
     vertical-align: top;
 }
@@ -97,6 +98,12 @@ img {
 @keyframes slideFromLeft{
     from {left: -21.25%}
     to   {left: 0%;} 
+}
+
+@keyframes fadeSlideButton{
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .tweak > a {
