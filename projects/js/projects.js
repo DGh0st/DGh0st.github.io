@@ -49,18 +49,18 @@ var autoSlide = setInterval(autoSlideNext, 10000);
 
 function autoSlideNext() {
 	if(shouldAutoSlide){
-		if(++i > iosprojects.length - 1){
-			i = 0;
-		}
 		var div = document.getElementById("projects-slide");
-		div.innerHTML = iosprojects[(i + 3) % iosprojects.length];
-		div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
-		div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
-		div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
-		div.children[3].style.animation = "fadeInFromRight 1s 1";
-		div.children[2].style.animation = "slideFromRight 1s 1";
-		div.children[1].style.animation = "slideFromRight 1s 1";	
-		div.children[0].style.animation = "slideFromRight 1s 1";
+	if(++i > iosprojects.length - 1){
+		i = 1;
+	}
+	div.innerHTML = iosprojects[(i + 3) % iosprojects.length];
+	div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
+	div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
+	div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
+	div.children[0].style.animation = "slideFromRight 1s 1";
+	div.children[1].style.animation = "slideFromRight 1s 1";	
+	div.children[2].style.animation = "slideFromRight 1s 1";
+	div.children[3].style.animation = "fadeInFromRight 1s 1";
   	}
 }
 
