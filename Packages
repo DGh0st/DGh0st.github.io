@@ -135,7 +135,7 @@ Size: 3406
 Installed-Size: 196
 MD5sum: 1f7a8953969b009a47f0a58d7a49d3bd
 Description: Set a custom reachability offset.
-Name: ReachOffset
+Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.whitelistswitcher
