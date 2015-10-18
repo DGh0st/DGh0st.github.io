@@ -8,6 +8,7 @@ var iosprojects = ['<div class = "tweak"><h3>WhiteListSwitcherClose</h3><img src
                     '<div class = "tweak"><h3>NCClearText</h3><img src="img/NCClearText.png"><br><a href="https://www.github.com/DGh0st/NCClearText">GitHub</a><h5>Set a custom text for the Notification Center Clear text.</h5><h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5></div>',
                     '<div class = "tweak"><h3>NoUpsideDown</h3><img src="img/NoUpsideDown.png"><br><a href="https://www.github.com/DGh0st/NoUpsideDown">GitHub</a><h5>Disable UpsideDown Orientation throughout IOS.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=noupsidedownDp">BigBoss</a></h5></div>',
                     '<div class = "tweak"><h3>ReachOffset</h3><img src="img/ReachOffset.png"><br><a href="https://www.github.com/DGh0st/ReachOffset">GitHub</a><h5>Set a custom reachability height/offset.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=reachoffsetDp">BigBoss</a></h5></div>'];
+                    '<div class = "tweak"><h3>ShiftTopSwitcher</h3><img src="img/ShiftTopSwitcher.png"><br><a href="https://www.github.com/DGh0st/ShiftTopSwitcher">GitHub</a><h5>Shift the top application in the switcher.</h5><h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5></div>'];
 var shouldAutoSlide = true;
 var i = 1;
 var animating = false;
