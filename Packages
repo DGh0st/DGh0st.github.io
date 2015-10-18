@@ -82,6 +82,20 @@ Description: Delays the volume change, prevents the first volume press to actual
 Name: DelayVolChange
 Author: DGh0st <deeppwnage@yahoo.com>
 
+Package: com.dgh0st.nccleartext
+Version: 1.1
+Section: Tweaks
+Maintainer: DGh0st
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.1_iphoneos-arm.deb
+Size: 17412
+Installed-Size: 174
+MD5sum: 08fa023731acdf6c5897e6c3f02c150d
+Description: Sets the Notification Center "clear" text to custom text
+Name: NCClearText
+Author: DGh0st
+
 Package: com.dgh0st.noupsidedown
 Version: 0.0.2
 Section: Tweaks
@@ -108,6 +122,20 @@ Installed-Size: 212
 MD5sum: 5c6377fs2044fccf9d43651a7b96
 Description: Set a custom reachability offset.
 Name: ReachOffset
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.shifttopswitcher
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/shifttopswitcher/com.dgh0st.shifttopswitcher_0.0.1_iphoneos-arm.deb
+Size: 3406
+Installed-Size: 34
+MD5sum: 1f7a8953969b009a47f0a58d7a49d3bd
+Description: Set a custom reachability offset.
+Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.whitelistswitcher
