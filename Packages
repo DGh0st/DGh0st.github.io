@@ -6,7 +6,7 @@ Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
 Size: 26210
-Installed-Size: 262
+Installed-Size: 196
 MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
@@ -20,7 +20,7 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/appswitchcurrent/com.dgh0st.appswitchcurrent_1.2-5_iphoneos-arm.deb
 Size: 16652
-Installed-Size: 166
+Installed-Size: 188
 MD5sum: 456466a985bfb04f250b2bdcbbb596d7
 Description: App Switcher to current application instead of last app.
 Name: AppSwitchCurrent
@@ -34,7 +34,7 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-6_iphoneos-arm.deb
 Size: 15284
-Installed-Size: 153
+Installed-Size: 188
 MD5sum: 77f8b1c66a1fc934f2fcc876783d4d75
 Description: App Switcher to current instead of last app.
 Name: AppSwitchCurrentOrig
@@ -48,10 +48,10 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.2_iphoneos-arm.deb
 Size: 3752
-Installed-Size: 38
+Installed-Size: 101
 MD5sum: cf4523bce740c06d9e9607392bbee0d4
 Description: Makes Auxo LE dark.
-Name: DarkAuxo
+Name: DarkAuxo(CC)
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
@@ -62,7 +62,7 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.6_iphoneos-arm.deb
 Size: 19030
-Installed-Size: 190
+Installed-Size: 222
 MD5sum: e8f0d59754a73bc3d6e2efd73bbb4f91
 Description: Set the default homescreen page.
 Name: DefaultPage
@@ -76,7 +76,7 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.2_iphoneos-arm.deb
 Size: 3948
-Installed-Size: 39
+Installed-Size: 101
 MD5sum: 0b43b0c3660eca39f07f9d12a0f571b7
 Description: Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume change.
 Name: DelayVolChange
@@ -90,7 +90,7 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/nccleartext/com.dgh0st.nccleartext_1.1_iphoneos-arm.deb
 Size: 17412
-Installed-Size: 174
+Installed-Size: 218
 MD5sum: 08fa023731acdf6c5897e6c3f02c150d
 Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
@@ -104,9 +104,9 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.2_iphoneos-arm.deb
 Size: 3910
-Installed-Size: 39
-MD5sum: 4b441cc49db924e97291281d3958f2
-Description: No upside down orientation
+Installed-Size: 101
+MD5sum: 4b441cc49db924e97291281d393958f2
+Description: Disable orientations throughout IOS.
 Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 
@@ -118,8 +118,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/reachoffset/com.dgh0st.reachoffset_1.4_iphoneos-arm.deb
 Size: 21184
-Installed-Size: 212
-MD5sum: 5c6377fs2044fccf9d43651a7b96
+Installed-Size: 226
+MD5sum: 5c6377f52044fccf9d43651ae81a7b96
 Description: Set a custom reachability offset.
 Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -132,9 +132,9 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/shifttopswitcher/com.dgh0st.shifttopswitcher_0.0.1_iphoneos-arm.deb
 Size: 3406
-Installed-Size: 34
+Installed-Size: 101
 MD5sum: 1f7a8953969b009a47f0a58d7a49d3bd
-Description: Set a custom reachability offset.
+Description: Shifts the top switcher application!
 Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 
@@ -151,3 +151,4 @@ MD5sum: 71ff422823181f5d6de9358372ade7bc
 Description: Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.
 Name: WhitelistSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
+
