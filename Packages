@@ -1,13 +1,13 @@
 Package: com.dgh0st.alertclose
-Version: 1.2
+Version: 1.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
-Size: 26210
-Installed-Size: 196
-MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
+Filename: Files/alertclose/com.dgh0st.alertclose_1.3_iphoneos-arm.deb
+Size: 30044
+Installed-Size: 226
+MD5sum: d5409da85bd28198537784df6c8ace69
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -139,15 +139,15 @@ Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.whitelistswitcher
-Version: 1.0-8
+Version: 1.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-8_iphoneos-arm.deb
-Size: 19222
-Installed-Size: 192
-MD5sum: 71ff422823181f5d6de9358372ade7bc
+Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.1_iphoneos-arm.deb
+Size: 21706
+Installed-Size: 222
+MD5sum: e8415a7a2b0d803e739c7ad19afeb500
 Description: Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.
 Name: WhitelistSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
