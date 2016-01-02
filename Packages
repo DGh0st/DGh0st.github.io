@@ -55,15 +55,15 @@ Name: DarkAuxo(CC)
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
-Version: 0.0.7
+Version: 0.0.7-1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7_iphoneos-arm.deb
-Size: 19744
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7-1_iphoneos-arm.deb
+Size: 19926
 Installed-Size: 222
-MD5sum: 1575dc7987bcc9695dc6c46725a05522
+MD5sum: 901f8c941ffd3d95e3aa42866a745919
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
