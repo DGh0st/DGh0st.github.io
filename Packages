@@ -1,13 +1,13 @@
 Package: com.dgh0st.alertclose
-Version: 1.4
+Version: 1.4-1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.4_iphoneos-arm.deb
-Size: 30420
+Filename: Files/alertclose/com.dgh0st.alertclose_1.4-1_iphoneos-arm.deb
+Size: 30816
 Installed-Size: 226
-MD5sum: ec65f5f66d4f02d262fac9024c09982e
+MD5sum: 47ae1803d8a8d0368f7e194260e9bca4
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
