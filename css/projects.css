@@ -17,7 +17,7 @@
 
 .nav-bar {
     width: 100%;
-    background: url(../../img/nav-bar-bg.png);
+    background: url(../img/nav-bar-bg.png);
     position: absolute;
     z-index: 999;
     vertical-align: bottom;
@@ -54,6 +54,28 @@ img {
 
 .previous > div {
     display: inline;
+}
+
+.hexagon-fort {
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+
+.hexagon-fort > img {
+    margin-top: 30%;
+    display: inline-block;
+    padding: 0;
+    width:5%;
+    vertical-align: top;
+}
+
+.hexagon-fort > div {
+    display: inline;
+}
+
+#hexagonfort-slide {
+    width: 80%;
 }
 
 .projects-ios {

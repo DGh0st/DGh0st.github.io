@@ -9,9 +9,9 @@ var iosprojects = ['<div class = "tweak"><h3>WhiteListSwitcherClose</h3><img src
             '<div class = "tweak"><h3>NoUpsideDown</h3><img src="img/NoUpsideDown.png"><br><a href="https://www.github.com/DGh0st/NoUpsideDown">GitHub</a><h5>Disable UpsideDown Orientation throughout IOS.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=noupsidedownDp">BigBoss</a></h5></div>',
             '<div class = "tweak"><h3>ReachOffset</h3><img src="img/ReachOffset.png"><br><a href="https://www.github.com/DGh0st/ReachOffset">GitHub</a><h5>Set a custom reachability height/offset.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=reachoffsetDp">BigBoss</a></h5></div>',
             '<div class = "tweak"><h3>ShiftTopSwitcher</h3><img src="img/ShiftTopSwitcher.png"><br><a href="https://www.github.com/DGh0st/ShiftTopSwitcher">GitHub</a><h5>Shift the top application in the switcher.</h5><h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5></div>'];
+
 var shouldAutoSlide = true;
 var i = 1;
-var animating = false;
 function previous(){
 	shouldAutoSlide = false;
 	var div = document.getElementById("projects-slide");
@@ -51,17 +51,53 @@ var autoSlide = setInterval(autoSlideNext, 10000);
 function autoSlideNext() {
 	if(shouldAutoSlide){
 		var div = document.getElementById("projects-slide");
-	if(++i > iosprojects.length - 1){
-		i = 1;
+		if(++i > iosprojects.length - 1){
+			i = 1;
+		}
+		div.innerHTML = iosprojects[(i + 3) % iosprojects.length];
+		div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
+		div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
+		div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
+		div.children[0].style.animation = "slideFromRight 1s 1";
+		div.children[1].style.animation = "slideFromRight 1s 1";	
+		div.children[2].style.animation = "slideFromRight 1s 1";
+		div.children[3].style.animation = "fadeInFromRight 1s 1";
+  	}
+}
+
+var hexagonFortImages = ['<img src="img/HexagonFortTitle.png" id="hexagonfort-slide"></img>',
+						'<img src="img/HexagonFortPlay.png" id="hexagonfort-slide"></img>',
+						'<img src="img/HexagonFortPause.png" id="hexagonfort-slide"></img>'];
+
+var shouldAutoSlide2 = true;
+var j = 0;
+function previousImage(){
+	shouldAutoSlide2 = false;
+	var div = document.getElementById("hexagonfort-div");
+	if(--j < 0){
+		j =  hexagonFortImages.length - 1;
 	}
-	div.innerHTML = iosprojects[(i + 3) % iosprojects.length];
-	div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
-	div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
-	div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
-	div.children[0].style.animation = "slideFromRight 1s 1";
-	div.children[1].style.animation = "slideFromRight 1s 1";	
-	div.children[2].style.animation = "slideFromRight 1s 1";
-	div.children[3].style.animation = "fadeInFromRight 1s 1";
+	div.innerHTML = hexagonFortImages[j];
+}
+
+function nextImage(){
+	shouldAutoSlide2 = false;
+	var div = document.getElementById("hexagonfort-div");
+	if(++j > hexagonFortImages.length - 1){
+		j =  0;
+	}
+	div.innerHTML = hexagonFortImages[j];
+}
+
+var autoSlide2 = setInterval(autoSlideNext, 10000);
+
+function autoSlideNext() {
+	if(shouldAutoSlide2){
+		var div = document.getElementById("hexagonfort-div");
+		if(++j > hexagonFortImages.length - 1){
+			j = 0;
+		}
+		div.innerHTML = hexagonFortImages[j];
   	}
 }
 
@@ -71,4 +107,6 @@ function init(){
 	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
+	var div2 = document.getElementById("hexagonfort-div");
+	div2.innerHTML = hexagonFortImages[j];
 };

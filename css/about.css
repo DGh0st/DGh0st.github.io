@@ -17,7 +17,7 @@
 
 .nav-bar {
     width: 100%;
-    background: url(../../img/nav-bar-bg.png);
+    background: url(../img/nav-bar-bg.png);
     position: absolute;
     z-index: 999;
     vertical-align: bottom;
