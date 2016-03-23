@@ -77,6 +77,7 @@ function previousImage(){
 	if(--j < 0){
 		j =  hexagonFortImages.length - 1;
 	}
+	setInterval(function() {shouldAutoSlide2 = true;}, 500000);
 	div.innerHTML = hexagonFortImages[j];
 }
 
@@ -86,12 +87,13 @@ function nextImage(){
 	if(++j > hexagonFortImages.length - 1){
 		j =  0;
 	}
+	setInterval(function() {shouldAutoSlide2 = true;}, 500000);
 	div.innerHTML = hexagonFortImages[j];
 }
 
-var autoSlide2 = setInterval(autoSlideNext, 10000);
+var autoSlide2 = setInterval(autoSlideNext2, 10000);
 
-function autoSlideNext() {
+function autoSlideNext2() {
 	if(shouldAutoSlide2){
 		var div = document.getElementById("hexagonfort-div");
 		if(++j > hexagonFortImages.length - 1){
