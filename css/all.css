@@ -49,7 +49,7 @@ li {
     margin: 0.5%;
     list-style-type: none;
     float: right;
-    width: 7%;
+    width: 7.5%;
     text-align: center;
 }
 
@@ -59,11 +59,11 @@ li a {
 }
 
 li .dropdown:hover {
-    background-color: white;
+    background-color: #333333;
 }
 
 li:hover {
-    background-color: white;
+    background-color: #333333;
     border-radius: 5%;
 }
 
@@ -115,21 +115,22 @@ footer {
 }
 
 li.highlight-nav {
-    background-color: white;
+    background-color: #333333;
 }
 
 .dropdown-content {
     margin: 0;
     padding: 0;
+    margin-top: 0.45%;
     display: none;
     position: absolute;
     background-color: black;
-    width: 6.5%;
+    width: 6.1%;
 }
 
 .dropdown-content a {
     margin: 0;
-    padding: 7.5%;
+    padding: 5%;
     color: gray;
     text-decoration: none;
     display: block;
@@ -137,7 +138,7 @@ li.highlight-nav {
 }
 
 .dropdown-content a:hover {
-    background-color: white;
+    background-color: #333333;
 }
 
 .dropdown:hover .dropdown-content {

@@ -26,60 +26,68 @@
 .projects {
     display: block;
     position: relative;
+    margin: 0;
     padding-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
     overflow-x: hidden;
 }
 
 img {
     width: 75%;
-    padding: 2%;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .previous {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    display: inline;
+    display: block;
     position: relative;
 }
 
 .previous > img {
+    margin: 0;
+    padding: 0;
     margin-top: 20%;
     display: inline-block;
-    padding: 0;
-    width:5%;
+    width:4%;
     vertical-align: top;
 }
 
 .previous > div {
-    display: inline;
+    display: inline-block;
 }
 
 .hexagon-fort {
     text-align: center;
-    display: inline;
+    display: block;
     position: relative;
+    z-index: 901;
 }
 
 .hexagon-fort > img {
-    margin-top: 30%;
+    margin: 0;
     display: inline-block;
     padding: 0;
-    width:5%;
+    width: 30%;
+    padding-right: 1%; 
+    padding-left: 1%;
     vertical-align: top;
+    overflow-x: visible;
+
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transform-style: linear;
 }
 
-.hexagon-fort > div {
-    display: inline;
-}
-
-#hexagonfort-slide {
-    width: 80%;
+.hexagon-fort > img:hover {
+    transform: scale(1.5);
 }
 
 .projects-ios {
-    display: inline-block;
+    display: block;
     position: relative;
     text-align: center;
     float:center;
@@ -89,12 +97,12 @@ img {
 }
 
 .tweak {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     position: relative;
     float:center;
     display: inline-block;
-    width: 21.25%;
+    width: 25%;
     padding:0;
     vertical-align: top;
     overflow-x: hidden;
@@ -129,9 +137,16 @@ img {
 
 .tweak > a {
     display: inline-block;
+    position: relative;
+    z-index: 900;
 }
 
-.tweak > h5{
+.tweak > img {
+    margin: 0;
+    padding: 0;
+}
+
+.tweak > h5 {
     text-align: left;
     margin-right: 5%;
     margin-left: 5%;
@@ -139,4 +154,46 @@ img {
 
 .tweak > h3 {
     text-align: center;
+}
+
+.applications-ios {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    float: center;
+    margin-bottom: 2%;
+}
+
+.application-ios {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    float:center;
+    display: inline-block;
+    width: 19%;
+    padding:0;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.application-ios > a {
+    display: inline-block;
+    position: relative;
+    z-index: 900;
+}
+
+.application-ios > h5{
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.application-ios > h3 {
+    text-align: center;
+}
+
+a {
+    position: relative;
+    z-index: 900;
 }

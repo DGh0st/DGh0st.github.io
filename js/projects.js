@@ -65,50 +65,10 @@ function autoSlideNext() {
   	}
 }
 
-var hexagonFortImages = ['<img src="img/HexagonFortTitle.png" id="hexagonfort-slide"></img>',
-						'<img src="img/HexagonFortPlay.png" id="hexagonfort-slide"></img>',
-						'<img src="img/HexagonFortPause.png" id="hexagonfort-slide"></img>'];
-
-var shouldAutoSlide2 = true;
-var j = 0;
-function previousImage(){
-	shouldAutoSlide2 = false;
-	var div = document.getElementById("hexagonfort-div");
-	if(--j < 0){
-		j =  hexagonFortImages.length - 1;
-	}
-	setInterval(function() {shouldAutoSlide2 = true;}, 500000);
-	div.innerHTML = hexagonFortImages[j];
-}
-
-function nextImage(){
-	shouldAutoSlide2 = false;
-	var div = document.getElementById("hexagonfort-div");
-	if(++j > hexagonFortImages.length - 1){
-		j =  0;
-	}
-	setInterval(function() {shouldAutoSlide2 = true;}, 500000);
-	div.innerHTML = hexagonFortImages[j];
-}
-
-var autoSlide2 = setInterval(autoSlideNext2, 10000);
-
-function autoSlideNext2() {
-	if(shouldAutoSlide2){
-		var div = document.getElementById("hexagonfort-div");
-		if(++j > hexagonFortImages.length - 1){
-			j = 0;
-		}
-		div.innerHTML = hexagonFortImages[j];
-  	}
-}
-
 function init(){
 	var div = document.getElementById("projects-slide");
 	div.innerHTML = iosprojects[i % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
-	var div2 = document.getElementById("hexagonfort-div");
-	div2.innerHTML = hexagonFortImages[j];
 };
