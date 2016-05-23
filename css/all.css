@@ -58,7 +58,7 @@ li a {
     text-decoration: none;
 }
 
-li .dropdown:hover .dropbtn {
+li .dropdown:hover {
     background-color: white;
 }
 
@@ -115,9 +115,7 @@ footer {
 }
 
 li.highlight-nav {
-    background-color: #EEEEEE;
-    border-radius: 5%;
-    color: green;
+    background-color: white;
 }
 
 .dropdown-content {
