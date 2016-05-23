@@ -26,35 +26,78 @@
             <div>
                 <ul>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Add Cydia Repo</a></li>
-                    <li class="highlight-nav"><a href="projects.html">Projects</a></li>
+                    <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
+                    <li class="dropdown highlight-nav">
+                        <a href="projects.html" class="dropbtn">Projects</a>
+                        <div class="dropdown-content">
+                            <a href="projects.html#iosRuntimeModifcations">iOS Runtime Modifications</a>
+                            <a href="projects.html#playmafia">PlayMafia</a>
+                            <a href="projects.html#hexagonFort">Hexagon Fort</a>
+                            <a href="projects.html#other">Other</a>
+                        </div>
+                    </li>
                     <li><a href="index.html">Home</a></li>
                 </ul>
             </div>
         </div>
         <div class="projects">
-            <h2>IOS Runtime Modifications Projects</h2>
+            <h2 id="iosRuntimeModifcations" style="margin-top: -90px; padding-top:90px">IOS Runtime Modifications Projects</h2>
             <h5>Several IOS runtime modifications (extensions for jailbroken devices) that I worked on during my free time. The total download for all the packages are shown on <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">TheBigBoss stats</a></h5>
             <div class = "previous">
                 <img onclick="previous()" src="img/navLeft.png" style = "animation: fadeSlideButton 1s 1;"></img>
-                <div class="projects-ios" id="projects-slide"></div>
+                <div class="projects-ios" id="projects-slide">
+                    <div class = "tweak">
+                        <h3>AlertClose</h3>
+                        <img src="img/AlertClose.png">
+                        <br>
+                        <a href="https://www.github.com/DGh0st/AlertClose">GitHub</a>
+                        <h5>Display an alert stylesheet while closing applications.</h5>
+                        <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alertcloseDp">BigBoss</a></h5>
+                    </div>
+                    <div class = "tweak">
+                        <h3>AppSwitcherCurrentOrig</h3>
+                        <img src="img/AppSwitchCurent.gif">
+                        <br>
+                        <a href="https://www.github.com/DGh0st/AppSwitchCurrentOrig">GitHub</a>
+                        <h5>Open App Switcher to current instead of last app. Official version called AppSwitchCurrent.</h5>
+                        <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appswitchcurrentDp">BigBoss</a>, <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5>
+                    </div>
+                    <div class = "tweak">
+                        <h3>DarkAuxo</h3>
+                        <img src="img/DarkAuxo.png">
+                        <br>
+                        <a href="https://www.github.com/DGh0st/DarkAuxo">GitHub</a>
+                        <h5>Makes Auxo LE dark, works with regular Control Center.</h5>
+                        <h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5>
+                    </div>
+                    <div class = "tweak">
+                        <h3>DefaultPage</h3>
+                        <img src="img/DefaultPage.gif">
+                        <br>
+                        <a href="https://www.github.com/DGh0st/DefaultPage">GitHub</a>
+                        <h5>Set a custom default home screen page.</h5>
+                        <h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5>
+                    </div>
+                </div>
                 <img onclick="next()" src="img/navRight.png" style = "animation: fadeSlideButton 1s 1;"></img>
             </div>
-            <h2>PlayMafia</h2>
+            <h2 id="playmafia" style="margin-top: -90px; padding-top: 90px">PlayMafia</h2>
             <h5>PlayMafia is a multi-player online game based on the party game "Mafia." The website for the game was sadly taken down so there is no place to play it but the code for server, game and website is on 
             <a href="https://github.com/DGh0st/Mafia-Game-Manager">GitHub</a>.</h5>
-            <h2>Hexagon Fort</h2>
+            <h2 id="hexagonFort" style="margin-top: -90px; padding-top: 90px">Hexagon Fort</h2>
             <h5>Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). It is developed using
             <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a>.</h5>
             <div class="hexagon-fort">
                 <img onclick="previousImage()" src="img/navLeft.png" style = "animation: fadeSlideButton 1s 1;"></img>
-                <div id="hexagonfort-div"></div>
+                <div id="hexagonfort-div">
+                    <img src="img/HexagonFortTitle.png" id="hexagonfort-slide"></img>
+                </div>
                 <img onclick="nextImage()" src="img/navRight.png" style = "animation: fadeSlideButton 1s 1;"></img>
             </div>
             <h5>Download by follwing the links: 
             <a href="https://www.dropbox.com/s/b963an1wt2414tf/Hexagon%20Fort.zip?dl=0">[zipped dropbox version]</a> and <a href="https://www.dropbox.com/sh/nz71qjoi42g3kdq/AAChYdcA4sEs6iZH0VmSZ07fa?dl=0">[unzipped version]</a>. Also the code for the game can be viewed on
             <a href="https://github.com/DGh0st/Hexagon-Fort">GitHub</a>.</h5>
-            <h2>Other Projects</h2>
+            <h2 id="other" style="margin-top: -90px; padding-top: 90px">Other Projects</h2>
             <h5>All my other completed projects are open sourced on my 
             <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html and css of this website.</h5>
         </div>
