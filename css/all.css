@@ -32,7 +32,7 @@ h6 {
     font-size: 5em;
 }
 
-ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ ul {
     padding-bottom: 0.5%;
 }
 
-li {
+.nav-bar li {
     padding: 0;
     padding-bottom: 0.5%;
     padding-top: 0.5%;
@@ -51,23 +51,25 @@ li {
     float: right;
     width: 7.5%;
     text-align: center;
+    border-radius: 5px;
 }
 
-li a {
+.nav-bar li a {
     display: block;
     text-decoration: none;
 }
 
-li .dropdown:hover {
+.dropdown:hover {
+    background-color: #333333;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nav-bar li:hover {
     background-color: #333333;
 }
 
-li:hover {
-    background-color: #333333;
-    border-radius: 5%;
-}
-
-li.web-title {
+.nav-bar li.web-title {
     padding-left: 5%;
     float: left;
     font-weight: 800;
@@ -75,7 +77,7 @@ li.web-title {
     background: none;
 }
 
-li.web-title:hover{
+.nav-bar li.web-title:hover{
     background-color: transparent;
 }
 
@@ -114,7 +116,7 @@ footer {
     text-align: center;
 }
 
-li.highlight-nav {
+.nav-bar li.highlight-nav {
     background-color: #333333;
 }
 

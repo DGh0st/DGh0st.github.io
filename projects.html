@@ -34,6 +34,7 @@
                             <a href="projects.html#playmafia">PlayMafia</a>
                             <a href="projects.html#hexagonFort">Hexagon Fort</a>
                             <a href="projects.html#iosApplications">iOS Applications</a>
+                            <a href="projects.html#weekChallenges">Game A Week Challenge</a>
                             <a href="projects.html#other">Other</a>
                         </div>
                     </li>
@@ -47,7 +48,7 @@
             <h2 id="iosRuntimeModifcations" style="margin-top: -90px; padding-top:90px">iOS Runtime Modifications Projects</h2>
             <h5>Several iOS runtime modifications (extensions for jailbroken devices) that I worked on during my free time. The total download for all the packages are shown on <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">TheBigBoss stats</a></h5>
             <div class = "previous">
-                <img onclick="previous()" src="img/navLeft.png" style = "animation: fadeSlideButton 1s 1;">
+                <img class = "arrows" onclick="previous()" src="img/navLeft.png" style = "animation: fadeSlideButton 1s 1;">
                 <div class="projects-ios" id="projects-slide">
                     <div class = "tweak">
                         <h3>AlertClose</h3>
@@ -82,7 +83,7 @@
                         <h5>Repo: <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5>
                     </div>
                 </div>
-                <img onclick="next()" src="img/navRight.png" style = "animation: fadeSlideButton 1s 1;">
+                <img class = "arrows" onclick="next()" src="img/navRight.png" style = "animation: fadeSlideButton 1s 1;">
             </div>
 
             <!--PLAYMAFIA-->
@@ -138,6 +139,23 @@
                     <br>
                     <a href="https://github.com/DGh0st/SnapSync">GitHub</a>
                 </div>
+            </div>
+
+            <!--GAME A WEEK CHALLENGES-->
+            <h2 id="weekChallenges" style="margin-top: -90px; padding-top: 90px">Game A Week Challenges</h2>
+            <h5>These are fun little small projects where my friend and I attempted to create a game in a week to understand new concepts/game engines.</h5>
+            <ul class="weeks-tab">
+                <li onclick="changeWeek(0)" class="selected"><a href="#weekChallenge" class="weeksLinks">Dungeon Of Ooze (Week 1)</a></li>
+                <li onclick="changeWeek(1)"><a href="#weekChallenge" class="weeksLinks">The Gallant Gauntlet (Week 2 - 3)</a></li>
+            </ul>
+            <div id="weekChallenge" class="weeks-content">
+                <h5>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. It is developed using <a href="https://unity3d.com">Unity</a>.</h5>
+                <div class="week-game">
+                    <img src="img/DungeonOfOozeTitle.png">
+                    <img src="img/DungeonOfOozePlay.png">
+                    <img src="img/DungeonOfOozeGameOver.png">
+                </div>
+                <h5>Download by follwing the links: <a href="https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0">[unzipped dropbox version]</a>. Also the code for the game can be viewed on <a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_1">GitHub</a>.</h5>
             </div>
 
             <!--OTHER-->

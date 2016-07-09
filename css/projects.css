@@ -197,3 +197,68 @@ a {
     position: relative;
     z-index: 900;
 }
+
+ul.weeks-tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+ul.weeks-tab li {
+    float: left;
+    padding: 0.5% 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: none;
+}
+
+ul.weeks-tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul.weeks-tab li.selected {
+    background-color: white;
+}
+
+ul.weeks-tab li.selected a {
+    color: black;
+}
+
+.weeks-content {
+    border-top: 1px solid white;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.arrows:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.week-game {
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 901;
+}
+
+.week-game > img {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    width: 30%;
+    padding-right: 1%; 
+    padding-left: 1%;
+    vertical-align: top;
+    overflow-x: visible;
+}
