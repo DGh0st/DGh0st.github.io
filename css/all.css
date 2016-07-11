@@ -3,9 +3,13 @@ html {
     width:100%;
     height: 100%;
     margin: 0;
-    border: 0%;
+    border: 0;
     background-color: #1f1f1f;
     color: white;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 body,
@@ -36,22 +40,21 @@ h6 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     padding-right: 5%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .nav-bar li {
-    padding: 0;
-    padding-bottom: 0.5%;
-    padding-top: 0.5%;
-    margin: 0.5%;
     list-style-type: none;
+    display: inline-block;
     float: right;
-    width: 7.5%;
     text-align: center;
     border-radius: 5px;
+    padding: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .nav-bar li a {
@@ -75,14 +78,6 @@ h6 {
     font-weight: 800;
     font-size: 150%;
     background: none;
-}
-
-.nav-bar li.web-title:hover{
-    background-color: transparent;
-}
-
-a.nav-bar {
-    display: block;
 }
 
 a:link{
@@ -111,7 +106,7 @@ a:active{
 
 footer {
     font-size: 50%;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom:1%;
     text-align: center;
 }
@@ -122,20 +117,23 @@ footer {
 
 .dropdown-content {
     margin: 0;
-    padding: 0;
-    margin-top: 0.45%;
+    padding: 0.25em;
     display: none;
     position: absolute;
-    background-color: black;
-    width: 6.1%;
+    background-color: #333333;
+    margin-left: -0.5%;
+    margin-top: 0.5%;
+    border-radius: 5px;
+    border-top-left-radius: 0;
 }
 
 .dropdown-content a {
     margin: 0;
-    padding: 5%;
+    padding: 2%;
+    background-color: black;
     color: gray;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
