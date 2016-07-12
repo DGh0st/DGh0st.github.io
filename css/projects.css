@@ -261,4 +261,12 @@ ul.weeks-tab li.selected a {
     padding-left: 1%;
     vertical-align: top;
     overflow-x: visible;
+
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transform-style: linear;
+}
+
+.week-game > img:hover {
+    transform: scale(1.5);
 }
