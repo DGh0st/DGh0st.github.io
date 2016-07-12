@@ -65,12 +65,13 @@ function autoSlideNext() {
   	}
 }
 
-var weeks = ['<h5>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. It is developed using <a href="https://unity3d.com">Unity</a>.</h5><div class="week-game"><img src="img/DungeonOfOozeTitle.png"><img src="img/DungeonOfOozePlay.png"><img src="img/DungeonOfOozeGameOver.png"></div><h5>Download by follwing the links: <a href="https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0">[unzipped dropbox version]</a>. Also the code for the game can be viewed on <a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_1">GitHub</a>.</h5>',
-			'<h5>The Gallant Gauntlet is a 2D multi-player game. It is developed using <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a>.</h5><div class="week-game"><img src="img/TheGallantGauntletTitle.png"><img src="img/TheGallantGauntletPlay.png"><img src="img/TheGallantGauntletExit.png"></div><h5>Download by follwing the links: <a href="https://www.dropbox.com/s/1c7iepyw77r9c8b/TheGallantGauntlet.zip?dl=0">[zipped dropbox version]</a>. Also the code for the game can be viewed on <a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_2">GitHub</a>.</h5>'];
+var weeks = ['week1', 'week2'];
 
 function changeWeek(week) {
-	var div = document.getElementById("weekChallenge");
-	div.innerHTML = weeks[week];
+	for (var i = 0; i < weeks.length; i++) {
+		document.getElementById(weeks[i]).style = "display: none;";
+	}
+	document.getElementById(weeks[week]).style = "display: block;";
 
 	var links = document.getElementsByClassName("weeks-tab")[0].children;
 	for (var i = 0; i < links.length; i++) {
@@ -86,6 +87,4 @@ function init(){
 	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
-
-	changeWeek(0);
 };
