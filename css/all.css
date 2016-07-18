@@ -36,25 +36,31 @@ h6 {
     font-size: 5em;
 }
 
+.nav-bar {
+    width: 100%;
+    background: url(../img/nav-bar-bg.png);
+    position: absolute;
+    line-height: 1.5em;
+    z-index: 999;
+    padding: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
 .nav-bar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    overflow: hidden;
     padding-right: 5%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    padding-left: 0;
 }
 
 .nav-bar li {
     list-style-type: none;
-    display: inline-block;
     float: right;
-    text-align: center;
     border-radius: 5px;
     padding: 0.5%;
-    margin-right: 0.5%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    margin-left: 0.5%;
 }
 
 .nav-bar li a {
@@ -75,9 +81,9 @@ h6 {
 .nav-bar li.web-title {
     padding-left: 5%;
     float: left;
-    font-weight: 800;
-    font-size: 150%;
     background: none;
+    font-weight: 800;
+    font-size: 120%;
 }
 
 a:link{
@@ -121,8 +127,8 @@ footer {
     display: none;
     position: absolute;
     background-color: #333333;
-    margin-left: -0.5%;
-    margin-top: 0.5%;
+    margin-left: -0.4%;
+    margin-top: 0.4%;
     border-radius: 5px;
     border-top-left-radius: 0;
 }
