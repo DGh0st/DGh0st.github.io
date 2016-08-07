@@ -54,6 +54,20 @@ Description: Makes Auxo LE dark.
 Name: DarkAuxo(CC)
 Author: DGh0st <deeppwnage@yahoo.com>
 
+Package: com.dgh0st.deasyrespring
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/deasyrespring/com.dgh0st.deasyrespring_0.0.1_iphoneos-arm.deb
+Size: 139312
+Installed-Size: 133
+MD5sum: b8ebe3e839bee50cc1eff3776f72c4b6
+Description: DGh0st's version of EasyRespring. Created to add support for iOS 9.3.3, which means this tweak only works on iOS 9+.
+Name: DEasyRespring
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.defaultpage
 Version: 0.0.10
 Section: Tweaks
