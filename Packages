@@ -96,6 +96,20 @@ Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
 Author: DGh0st
 
+Package: com.dgh0st.nolsnotificationblur
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/nolsnotificationblur/com.dgh0st.nolsnotificationblur_0.0.1_iphoneos-arm.deb
+Size: 138258
+Installed-Size: 133
+MD5sum: da953a3f71e16a2d6345cbd763495026
+Description: Removes the lockscreen notification blur/underlay.
+Name: NoLSNotificationBlur
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.noupsidedown
 Version: 0.0.2
 Section: Tweaks
