@@ -83,15 +83,15 @@ Name: DelayVolChange
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.nccleartext
-Version: 1.2
+Version: 1.2.1
 Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2_iphoneos-arm.deb
-Size: 18290
-Installed-Size: 218
-MD5sum: e8f67437d1a193ffeedbf453de4fb6f5
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
+Size: 321018
+Installed-Size: 318
+MD5sum: 289950d4ff7984e042dc40269777494c
 Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
 Author: DGh0st
