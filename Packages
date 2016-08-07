@@ -89,9 +89,9 @@ Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
-Size: 321016
+Size: 321018
 Installed-Size: 318
-MD5sum: f93efe337cba9cd4bf0a90ac2d3d658e
+MD5sum: 7a35d68e92e83d50ef4a3cab988f3d54
 Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
 Author: DGh0st
