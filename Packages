@@ -502,6 +502,20 @@ Description: Disable the home button tap when on springboard/homescreen.
 Name: NoHomeTapOnHS
 Author: DGh0st <deeppwnage@yahoo.com>
 
+Package: com.dgh0st.nohometaponhs
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/nohometaponhs/com.dgh0st.nohometaponhs_0.0.2_iphoneos-arm.deb
+Size: 5208
+Installed-Size: 133
+MD5sum: 12e2cc52f148ff5ee1f8f4095172ee0b
+Description: Disable the home button press on springboard/homescreen.
+Name: NoHomePressOnHS
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.nolsnotificationblur
 Version: 0.0.1
 Section: Tweaks
