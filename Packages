@@ -13,48 +13,6 @@ Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.alertclose
-Version: 1.4-1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, applist, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.4-1_iphoneos-arm.deb
-Size: 30816
-Installed-Size: 226
-MD5sum: 47ae1803d8a8d0368f7e194260e9bca4
-Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
-Name: AlertClose
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.alertclose
-Version: 1.6.1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, applist, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.6.1_iphoneos-arm.deb
-Size: 335946
-Installed-Size: 334
-MD5sum: e22d07c73d3109c196aeee473aaa8dd9
-Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
-Name: AlertClose
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.alertclose
-Version: 1.6
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, applist, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.6_iphoneos-arm.deb
-Size: 335946
-Installed-Size: 334
-MD5sum: 05fd2241fb85442f4e8a4bdee863dcf2
-Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
-Name: AlertClose
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.alertclose
 Version: 1.6.4
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -64,20 +22,6 @@ Filename: Files/alertclose/com.dgh0st.alertclose_1.6.4_iphoneos-arm.deb
 Size: 372810
 Installed-Size: 374
 MD5sum: 1158fc547a8d3ed72433ee83b28ce549
-Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
-Name: AlertClose
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.alertclose
-Version: 1.6.2
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, applist, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.6.2_iphoneos-arm.deb
-Size: 336970
-Installed-Size: 338
-MD5sum: a1351172e4a051a70208ca82b0b88716
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -97,6 +41,62 @@ Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.alertclose
+Version: 1.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
+Size: 26210
+Installed-Size: 196
+MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.alertclose
+Version: 1.6.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.2_iphoneos-arm.deb
+Size: 336970
+Installed-Size: 338
+MD5sum: a1351172e4a051a70208ca82b0b88716
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.alertclose
+Version: 1.6
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6_iphoneos-arm.deb
+Size: 335946
+Installed-Size: 334
+MD5sum: 05fd2241fb85442f4e8a4bdee863dcf2
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.alertclose
+Version: 1.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/alertclose/com.dgh0st.alertclose_1.3_iphoneos-arm.deb
+Size: 30044
+Installed-Size: 226
+MD5sum: d5409da85bd28198537784df6c8ace69
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.alertclose
 Version: 1.4
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -111,15 +111,15 @@ Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.alertclose
-Version: 1.2
+Version: 1.4-1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
-Size: 26210
-Installed-Size: 196
-MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
+Filename: Files/alertclose/com.dgh0st.alertclose_1.4-1_iphoneos-arm.deb
+Size: 30816
+Installed-Size: 226
+MD5sum: 47ae1803d8a8d0368f7e194260e9bca4
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -139,15 +139,15 @@ Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.alertclose
-Version: 1.3
+Version: 1.6.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/alertclose/com.dgh0st.alertclose_1.3_iphoneos-arm.deb
-Size: 30044
-Installed-Size: 226
-MD5sum: d5409da85bd28198537784df6c8ace69
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.1_iphoneos-arm.deb
+Size: 335946
+Installed-Size: 334
+MD5sum: e22d07c73d3109c196aeee473aaa8dd9
 Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
 Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -195,20 +195,6 @@ Name: AppSwitchCurrentOrig
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.darkauxo
-Version: 0.0.2
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.2_iphoneos-arm.deb
-Size: 3752
-Installed-Size: 101
-MD5sum: cf4523bce740c06d9e9607392bbee0d4
-Description: Makes Auxo LE dark.
-Name: DarkAuxo(CC)
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.darkauxo
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -220,6 +206,20 @@ Installed-Size: 68
 MD5sum: 678ddfafad448bf00cd9d1306b6a5090
 Description: Makes Auxo LE dark.
 Name: DarkAuxo
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.darkauxo
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.2_iphoneos-arm.deb
+Size: 3752
+Installed-Size: 101
+MD5sum: cf4523bce740c06d9e9607392bbee0d4
+Description: Makes Auxo LE dark.
+Name: DarkAuxo(CC)
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.deasyrespring
@@ -237,29 +237,15 @@ Name: DEasyRespring
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
-Version: 0.0.7-1
+Version: 0.0.6
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7-1_iphoneos-arm.deb
-Size: 19926
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.6_iphoneos-arm.deb
+Size: 19030
 Installed-Size: 222
-MD5sum: 901f8c941ffd3d95e3aa42866a745919
-Description: Set the default homescreen page.
-Name: DefaultPage
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.defaultpage
-Version: 0.0.7
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7_iphoneos-arm.deb
-Size: 19744
-Installed-Size: 222
-MD5sum: 1575dc7987bcc9695dc6c46725a05522
+MD5sum: e8f0d59754a73bc3d6e2efd73bbb4f91
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -279,6 +265,20 @@ Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
+Version: 0.0.11
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.11_iphoneos-arm.deb
+Size: 327676
+Installed-Size: 330
+MD5sum: afa4d9fa0df69cc6dec2741b8d607ecd
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.defaultpage
 Version: 0.0.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -288,62 +288,6 @@ Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.3_iphoneos-arm.deb
 Size: 17680
 Installed-Size: 192
 MD5sum: 0a0fda7742c28cfef7c890ddb8d87c01
-Description: Set the default homescreen page.
-Name: DefaultPage
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.defaultpage
-Version: 0.0.8-1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.8-1_iphoneos-arm.deb
-Size: 20358
-Installed-Size: 222
-MD5sum: 24e00c8c75c28a0dbb1f7d47cd30f593
-Description: Set the default homescreen page.
-Name: DefaultPage
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.defaultpage
-Version: 0.0.9
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.9_iphoneos-arm.deb
-Size: 324602
-Installed-Size: 326
-MD5sum: 296d8e9752dd1e11a5e90028b3bf7045
-Description: Set the default homescreen page.
-Name: DefaultPage
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.defaultpage
-Version: 0.0.6
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.6_iphoneos-arm.deb
-Size: 19030
-Installed-Size: 222
-MD5sum: e8f0d59754a73bc3d6e2efd73bbb4f91
-Description: Set the default homescreen page.
-Name: DefaultPage
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.defaultpage
-Version: 0.0.12
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, applist, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.12_iphoneos-arm.deb
-Size: 28274
-Installed-Size: 330
-MD5sum: b9b7d6fa840993eaeae0c8d398917ed9
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -363,15 +307,57 @@ Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.defaultpage
-Version: 0.0.11
+Version: 0.0.7-1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.11_iphoneos-arm.deb
-Size: 327676
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7-1_iphoneos-arm.deb
+Size: 19926
+Installed-Size: 222
+MD5sum: 901f8c941ffd3d95e3aa42866a745919
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.defaultpage
+Version: 0.0.8-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.8-1_iphoneos-arm.deb
+Size: 20358
+Installed-Size: 222
+MD5sum: 24e00c8c75c28a0dbb1f7d47cd30f593
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.defaultpage
+Version: 0.0.12
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.12_iphoneos-arm.deb
+Size: 28274
 Installed-Size: 330
-MD5sum: afa4d9fa0df69cc6dec2741b8d607ecd
+MD5sum: b9b7d6fa840993eaeae0c8d398917ed9
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.defaultpage
+Version: 0.0.7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7_iphoneos-arm.deb
+Size: 19744
+Installed-Size: 222
+MD5sum: 1575dc7987bcc9695dc6c46725a05522
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -390,18 +376,18 @@ Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
 
-Package: com.dgh0st.delayvolchange
-Version: 0.0.1-6
+Package: com.dgh0st.defaultpage
+Version: 0.0.9
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.1-6_iphoneos-arm.deb
-Size: 3584
-Installed-Size: 72
-MD5sum: a5d3c53cf5188c516e66432632e73360
-Description: Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume change.
-Name: DelayVolChange
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.9_iphoneos-arm.deb
+Size: 324602
+Installed-Size: 326
+MD5sum: 296d8e9752dd1e11a5e90028b3bf7045
+Description: Set the default homescreen page.
+Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.delayvolchange
@@ -432,19 +418,19 @@ Description: Delays the volume change, prevents the first volume press to actual
 Name: DelayVolChange
 Author: DGh0st <deeppwnage@yahoo.com>
 
-Package: com.dgh0st.nccleartext
-Version: 1.0-3
+Package: com.dgh0st.delayvolchange
+Version: 0.0.1-6
 Section: Tweaks
-Maintainer: DGh0st
+Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/nccleartext/com.dgh0st.nccleartext_1.0-3_iphoneos-arm.deb
-Size: 17046
-Installed-Size: 192
-MD5sum: 1ebd000096abbdebb5fd8d91cea8cd40
-Description: Sets the Notification Center "clear" text to custom text
-Name: NCClearText
-Author: DGh0st
+Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.1-6_iphoneos-arm.deb
+Size: 3584
+Installed-Size: 72
+MD5sum: a5d3c53cf5188c516e66432632e73360
+Description: Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume change.
+Name: DelayVolChange
+Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.nccleartext
 Version: 1.2
@@ -456,6 +442,20 @@ Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2_iphoneos-arm.deb
 Size: 18290
 Installed-Size: 218
 MD5sum: e8f67437d1a193ffeedbf453de4fb6f5
+Description: Sets the Notification Center "clear" text to custom text
+Name: NCClearText
+Author: DGh0st
+
+Package: com.dgh0st.nccleartext
+Version: 1.2.1
+Section: Tweaks
+Maintainer: DGh0st
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
+Size: 321018
+Installed-Size: 318
+MD5sum: 7a35d68e92e83d50ef4a3cab988f3d54
 Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
 Author: DGh0st
@@ -475,32 +475,18 @@ Name: NCClearText
 Author: DGh0st
 
 Package: com.dgh0st.nccleartext
-Version: 1.2.1
+Version: 1.0-3
 Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
-Size: 321018
-Installed-Size: 318
-MD5sum: 7a35d68e92e83d50ef4a3cab988f3d54
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.0-3_iphoneos-arm.deb
+Size: 17046
+Installed-Size: 192
+MD5sum: 1ebd000096abbdebb5fd8d91cea8cd40
 Description: Sets the Notification Center "clear" text to custom text
 Name: NCClearText
 Author: DGh0st
-
-Package: com.dgh0st.nohometaponhs
-Version: 0.0.1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/nohometaponhs/com.dgh0st.nohometaponhs_0.0.1_iphoneos-arm.deb
-Size: 4818
-Installed-Size: 133
-MD5sum: 97fc769cb83de9a95c97e3c1c64476db
-Description: Disable the home button tap when on springboard/homescreen.
-Name: NoHomeTapOnHS
-Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.nohometaponhs
 Version: 0.0.2
@@ -514,6 +500,20 @@ Installed-Size: 133
 MD5sum: 12e2cc52f148ff5ee1f8f4095172ee0b
 Description: Disable the home button press on springboard/homescreen.
 Name: NoHomePressOnHS
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.nohometaponhs
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/nohometaponhs/com.dgh0st.nohometaponhs_0.0.1_iphoneos-arm.deb
+Size: 4818
+Installed-Size: 133
+MD5sum: 97fc769cb83de9a95c97e3c1c64476db
+Description: Disable the home button tap when on springboard/homescreen.
+Name: NoHomeTapOnHS
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.nolsnotificationblur
@@ -573,20 +573,6 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.reachoffset
-Version: 1.3
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/reachoffset/com.dgh0st.reachoffset_1.3_iphoneos-arm.deb
-Size: 20106
-Installed-Size: 196
-MD5sum: a6d256a2019b43e188be7a471e4f9402
-Description: Set a custom reachability offset.
-Name: ReachOffset
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.reachoffset
 Version: 1.4
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -596,6 +582,20 @@ Filename: Files/reachoffset/com.dgh0st.reachoffset_1.4_iphoneos-arm.deb
 Size: 21184
 Installed-Size: 226
 MD5sum: 5c6377f52044fccf9d43651ae81a7b96
+Description: Set a custom reachability offset.
+Name: ReachOffset
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.reachoffset
+Version: 1.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/reachoffset/com.dgh0st.reachoffset_1.3_iphoneos-arm.deb
+Size: 20106
+Installed-Size: 196
+MD5sum: a6d256a2019b43e188be7a471e4f9402
 Description: Set a custom reachability offset.
 Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -612,6 +612,62 @@ Installed-Size: 101
 MD5sum: 1f7a8953969b009a47f0a58d7a49d3bd
 Description: Shifts the top switcher application!
 Name: ShiftTopSwitcher
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.undorotation
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.1_iphoneos-arm.deb
+Size: 508838
+Installed-Size: 930
+MD5sum: adcd61faf0a09bf023c239d8df0c088a
+Description: Undo last rotation by taping the button and and ability to lock orientation.
+Name: UndoRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.undorotation
+Version: 0.0.4
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.4_iphoneos-arm.deb
+Size: 511152
+Installed-Size: 938
+MD5sum: d0f6ea3ea4136f3f4a08269f478cea15
+Description: Undo last rotation by taping the button and and ability to lock orientation.
+Name: UndoRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.undorotation
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.2_iphoneos-arm.deb
+Size: 508348
+Installed-Size: 930
+MD5sum: 6ddc00e91de90e2d103c7bedfdec2ab6
+Description: Undo last rotation by taping the button and and ability to lock orientation.
+Name: UndoRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.undorotation
+Version: 0.0.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.3_iphoneos-arm.deb
+Size: 511096
+Installed-Size: 938
+MD5sum: bc44c12cf4c14889002bb43e2b91aaef
+Description: Undo last rotation by taping the button and and ability to lock orientation.
+Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.whitelistswitcher
