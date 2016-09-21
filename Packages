@@ -629,15 +629,15 @@ Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~4
+Version: 0.0.8
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
+Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~4_iphoneos-arm.deb
-Size: 515362
-Installed-Size: 954
-MD5sum: 80c57805997e0cb707494e02a7002ccd
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.8_iphoneos-arm.deb
+Size: 1047254
+Installed-Size: 1741
+MD5sum: f5a8dec5986cfe5d678f231bccc4d84c
 Description: Undo last rotation by taping the button and and ability to lock orientation.
 Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -657,34 +657,6 @@ Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~3
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~3_iphoneos-arm.deb
-Size: 515082
-Installed-Size: 938
-MD5sum: b2006086d1760b6c9eb53f66617dbf11
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~6
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~6_iphoneos-arm.deb
-Size: 516172
-Installed-Size: 970
-MD5sum: e9b87f900a4ed3b8d8fbd7f9f9e0ada0
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
 Version: 0.0.4
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -699,34 +671,6 @@ Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~8
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~8_iphoneos-arm.deb
-Size: 515552
-Installed-Size: 970
-MD5sum: f8946a01b60022457223b77e2104b533
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~5
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~5_iphoneos-arm.deb
-Size: 514244
-Installed-Size: 938
-MD5sum: 82abf03d8d9571d2c83280ff6f40383c
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
 Version: 0.0.7
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -736,20 +680,6 @@ Filename: Files/undorotation/com.dgh0st.undorotation_0.0.7_iphoneos-arm.deb
 Size: 516512
 Installed-Size: 970
 MD5sum: ddc21a6456279bd4b46bed70f5537959
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~2
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~2_iphoneos-arm.deb
-Size: 515640
-Installed-Size: 954
-MD5sum: 422514dbe69b7f4300748fe07bc47a46
 Description: Undo last rotation by taping the button and and ability to lock orientation.
 Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -783,20 +713,6 @@ Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~1_iphoneos-arm.deb
-Size: 512268
-Installed-Size: 938
-MD5sum: 59808f9431ff56684aca76c658e06580
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
 Version: 0.0.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -806,34 +722,6 @@ Filename: Files/undorotation/com.dgh0st.undorotation_0.0.3_iphoneos-arm.deb
 Size: 511096
 Installed-Size: 938
 MD5sum: bc44c12cf4c14889002bb43e2b91aaef
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
-Version: 0.0.7~Beta-1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.7~Beta-1_iphoneos-arm.deb
-Size: 1047236
-Installed-Size: 1741
-MD5sum: 7f3a79ec6c5cda36a11e37ba5491c0ae
-Description: Undo last rotation by taping the button and and ability to lock orientation.
-Name: UndoRotation
-Author: DGh0st <deeppwnage@yahoo.com>
-
-Package: com.dgh0st.undorotation
-Version: 0.0.6~Beta~7
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/undorotation/com.dgh0st.undorotation_0.0.6~Beta~7_iphoneos-arm.deb
-Size: 515464
-Installed-Size: 970
-MD5sum: c72b68501e1a2527cbb69ca05110d8b2
 Description: Undo last rotation by taping the button and and ability to lock orientation.
 Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
