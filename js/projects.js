@@ -1,4 +1,5 @@
-window.onload = function(){init()};
+document.onload = function(){init()};
+
 var iosprojects = ['<div class = "tweak"><h3>WhiteListSwitcherClose</h3><img src="img/WhitelistSwitcher.gif"><br><a href="https://www.github.com/DGh0st/WhiteListSwitcherClose">GitHub</a><h5>Whitelist applications to become irremovable from the switcher and also blacklist applications to be restartable instead of closed.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whitelistswitchercloseDp">BigBoss</a></h5></div>',
 		    '<div class = "tweak"><h3>AlertClose</h3><img src="img/AlertClose.png"><br><a href="https://www.github.com/DGh0st/AlertClose">GitHub</a><h5>Display an alert stylesheet while closing applications.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alertcloseDp">BigBoss</a></h5></div>',
             '<div class = "tweak"><h3>AppSwitcherCurrentOrig</h3><img src="img/AppSwitchCurent.gif"><br><a href="https://www.github.com/DGh0st/AppSwitchCurrentOrig">GitHub</a><h5>Open App Switcher to current instead of last app. Official version called AppSwitchCurrent.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appswitchcurrentDp">BigBoss</a>, <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">DGh0st Beta Repo</a></h5></div>',
@@ -84,10 +85,10 @@ function changeWeek(week) {
 	links[week].className = "selected";
 }
 
-function init(){
+function init() {
 	var div = document.getElementById("projects-slide");
 	div.innerHTML = iosprojects[i % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
-};
+}

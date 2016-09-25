@@ -21,7 +21,7 @@ h5,
 h6 {
     position: relative;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .intro-message {
@@ -43,6 +43,7 @@ h6 {
     line-height: 1.5em;
     z-index: 999;
     padding: 0;
+    margin: 0;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
@@ -149,4 +150,8 @@ footer {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.mainbody {
+    padding-top: 3.3%;
 }

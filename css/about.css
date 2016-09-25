@@ -16,7 +16,8 @@
 
 .about {
     display: block;
-    padding-top: 5%;
+    margin: 0;
+    padding: 0;
     padding-right: 10%;
     padding-left: 10%;
 }
