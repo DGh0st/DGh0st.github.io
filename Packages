@@ -607,9 +607,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
 Filename: Files/productivityreminder/com.dgh0st.productivityreminder_0.0.2_iphoneos-arm.deb
-Size: 64540
+Size: 64524
 Installed-Size: 342
-MD5sum: 0722c9d9b0863d0e027eb17b4306ee5b
+MD5sum: 68138ffa28b118f984f17aebe9481b3d
 Description: Get an alert to be reminded to get back to work.
 Name: ProductivityReminder
 Author: DGh0st <deeppwnage@yahoo.com>
