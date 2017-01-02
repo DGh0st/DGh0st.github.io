@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6_iphoneos-arm.deb
 Size: 335946
 Installed-Size: 334
 MD5sum: 05fd2241fb85442f4e8a4bdee863dcf2
@@ -18,7 +18,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6.4_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.4_iphoneos-arm.deb
 Size: 372810
 Installed-Size: 374
 MD5sum: 1158fc547a8d3ed72433ee83b28ce549
@@ -32,7 +32,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.4-1_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.4-1_iphoneos-arm.deb
 Size: 30816
 Installed-Size: 226
 MD5sum: 47ae1803d8a8d0368f7e194260e9bca4
@@ -46,7 +46,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6.1_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.1_iphoneos-arm.deb
 Size: 335946
 Installed-Size: 334
 MD5sum: e22d07c73d3109c196aeee473aaa8dd9
@@ -60,7 +60,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.5_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.5_iphoneos-arm.deb
 Size: 34070
 Installed-Size: 226
 MD5sum: 42c6cc4cb6fedb80b19d65c14093ecea
@@ -74,7 +74,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6.3_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.3_iphoneos-arm.deb
 Size: 371784
 Installed-Size: 374
 MD5sum: ee38ab9f3ecfd70eb15ce3e76fdfb8e9
@@ -88,7 +88,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6.2_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.2_iphoneos-arm.deb
 Size: 336970
 Installed-Size: 338
 MD5sum: a1351172e4a051a70208ca82b0b88716
@@ -102,7 +102,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.2_iphoneos-arm.deb
 Size: 26210
 Installed-Size: 196
 MD5sum: 049a8b534ab07ea955e0c4d7f72d12a2
@@ -116,7 +116,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.4_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.4_iphoneos-arm.deb
 Size: 30420
 Installed-Size: 226
 MD5sum: ec65f5f66d4f02d262fac9024c09982e
@@ -130,7 +130,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.6.5_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.5_iphoneos-arm.deb
 Size: 52510
 Installed-Size: 374
 MD5sum: 201b1f86e1787b3b3d3f3d855f976f2e
@@ -144,7 +144,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//alertclose/com.dgh0st.alertclose_1.3_iphoneos-arm.deb
+Filename: Files/alertclose/com.dgh0st.alertclose_1.3_iphoneos-arm.deb
 Size: 30044
 Installed-Size: 226
 MD5sum: d5409da85bd28198537784df6c8ace69
@@ -158,7 +158,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//appswitchcurrent/com.dgh0st.appswitchcurrent_1.2-5_iphoneos-arm.deb
+Filename: Files/appswitchcurrent/com.dgh0st.appswitchcurrent_1.2-5_iphoneos-arm.deb
 Size: 16652
 Installed-Size: 188
 MD5sum: 456466a985bfb04f250b2bdcbbb596d7
@@ -172,7 +172,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-2_iphoneos-arm.deb
+Filename: Files/appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-2_iphoneos-arm.deb
 Size: 15316
 Installed-Size: 188
 MD5sum: d6e882aa2bfb288ecb20b79ee24b3010
@@ -186,7 +186,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-6_iphoneos-arm.deb
+Filename: Files/appswitchcurrentorig/com.dgh0st.appswitchcurrentOrig_1.0-6_iphoneos-arm.deb
 Size: 15284
 Installed-Size: 188
 MD5sum: 77f8b1c66a1fc934f2fcc876783d4d75
@@ -200,7 +200,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//darkauxo/com.dgh0st.darkauxo_0.0.1_iphoneos-arm.deb
+Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.1_iphoneos-arm.deb
 Size: 3250
 Installed-Size: 68
 MD5sum: 678ddfafad448bf00cd9d1306b6a5090
@@ -214,7 +214,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//darkauxo/com.dgh0st.darkauxo_0.0.2_iphoneos-arm.deb
+Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.2_iphoneos-arm.deb
 Size: 3752
 Installed-Size: 101
 MD5sum: cf4523bce740c06d9e9607392bbee0d4
@@ -228,7 +228,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//deasyrespring/com.dgh0st.deasyrespring_0.0.1_iphoneos-arm.deb
+Filename: Files/deasyrespring/com.dgh0st.deasyrespring_0.0.1_iphoneos-arm.deb
 Size: 139312
 Installed-Size: 133
 MD5sum: b8ebe3e839bee50cc1eff3776f72c4b6
@@ -242,7 +242,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.9_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.9_iphoneos-arm.deb
 Size: 324602
 Installed-Size: 326
 MD5sum: 296d8e9752dd1e11a5e90028b3bf7045
@@ -256,7 +256,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.8-1_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.8-1_iphoneos-arm.deb
 Size: 20358
 Installed-Size: 222
 MD5sum: 24e00c8c75c28a0dbb1f7d47cd30f593
@@ -270,7 +270,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.5_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.5_iphoneos-arm.deb
 Size: 17982
 Installed-Size: 192
 MD5sum: 4370d78227f3a65b83b4d4ea9d9dbcf6
@@ -284,7 +284,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.3_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.3_iphoneos-arm.deb
 Size: 17680
 Installed-Size: 192
 MD5sum: 0a0fda7742c28cfef7c890ddb8d87c01
@@ -298,7 +298,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.10_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.10_iphoneos-arm.deb
 Size: 327674
 Installed-Size: 330
 MD5sum: 624ae35c5ac5c6ecb2e5887c0eb2eaff
@@ -312,7 +312,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.6_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.6_iphoneos-arm.deb
 Size: 19030
 Installed-Size: 222
 MD5sum: e8f0d59754a73bc3d6e2efd73bbb4f91
@@ -326,7 +326,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.8-2_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.8-2_iphoneos-arm.deb
 Size: 20506
 Installed-Size: 222
 MD5sum: 64895a301360a3a49309418e175de3b5
@@ -340,7 +340,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.12_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.12_iphoneos-arm.deb
 Size: 28274
 Installed-Size: 330
 MD5sum: b9b7d6fa840993eaeae0c8d398917ed9
@@ -354,7 +354,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.7-1_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7-1_iphoneos-arm.deb
 Size: 19926
 Installed-Size: 222
 MD5sum: 901f8c941ffd3d95e3aa42866a745919
@@ -368,7 +368,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.7_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.7_iphoneos-arm.deb
 Size: 19744
 Installed-Size: 222
 MD5sum: 1575dc7987bcc9695dc6c46725a05522
@@ -382,7 +382,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.13_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.13_iphoneos-arm.deb
 Size: 27568
 Installed-Size: 330
 MD5sum: f60e409ba250de2f83e12e41f4baff9e
@@ -396,7 +396,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//defaultpage/com.dgh0st.defaultpage_0.0.11_iphoneos-arm.deb
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.11_iphoneos-arm.deb
 Size: 327676
 Installed-Size: 330
 MD5sum: afa4d9fa0df69cc6dec2741b8d607ecd
@@ -410,7 +410,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//delayvolchange/com.dgh0st.delayvolchange_0.0.1_iphoneos-arm.deb
+Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.1_iphoneos-arm.deb
 Size: 138808
 Installed-Size: 133
 MD5sum: e9f9cc4d33d9713a1776a416386e152c
@@ -424,7 +424,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//delayvolchange/com.dgh0st.delayvolchange_0.0.1-6_iphoneos-arm.deb
+Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.1-6_iphoneos-arm.deb
 Size: 3584
 Installed-Size: 72
 MD5sum: a5d3c53cf5188c516e66432632e73360
@@ -438,7 +438,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//delayvolchange/com.dgh0st.delayvolchange_0.0.2_iphoneos-arm.deb
+Filename: Files/delayvolchange/com.dgh0st.delayvolchange_0.0.2_iphoneos-arm.deb
 Size: 3948
 Installed-Size: 101
 MD5sum: 0b43b0c3660eca39f07f9d12a0f571b7
@@ -452,7 +452,7 @@ Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nccleartext/com.dgh0st.nccleartext_1.2_iphoneos-arm.deb
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2_iphoneos-arm.deb
 Size: 18290
 Installed-Size: 218
 MD5sum: e8f67437d1a193ffeedbf453de4fb6f5
@@ -466,7 +466,7 @@ Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.2.1_iphoneos-arm.deb
 Size: 321018
 Installed-Size: 318
 MD5sum: 7a35d68e92e83d50ef4a3cab988f3d54
@@ -480,7 +480,7 @@ Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nccleartext/com.dgh0st.nccleartext_1.0-3_iphoneos-arm.deb
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.0-3_iphoneos-arm.deb
 Size: 17046
 Installed-Size: 192
 MD5sum: 1ebd000096abbdebb5fd8d91cea8cd40
@@ -494,7 +494,7 @@ Section: Tweaks
 Maintainer: DGh0st
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nccleartext/com.dgh0st.nccleartext_1.1_iphoneos-arm.deb
+Filename: Files/nccleartext/com.dgh0st.nccleartext_1.1_iphoneos-arm.deb
 Size: 17412
 Installed-Size: 218
 MD5sum: 08fa023731acdf6c5897e6c3f02c150d
@@ -508,7 +508,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nohometaponhs/com.dgh0st.nohometaponhs_0.0.2_iphoneos-arm.deb
+Filename: Files/nohometaponhs/com.dgh0st.nohometaponhs_0.0.2_iphoneos-arm.deb
 Size: 5208
 Installed-Size: 133
 MD5sum: 12e2cc52f148ff5ee1f8f4095172ee0b
@@ -522,7 +522,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nohometaponhs/com.dgh0st.nohometaponhs_0.0.1_iphoneos-arm.deb
+Filename: Files/nohometaponhs/com.dgh0st.nohometaponhs_0.0.1_iphoneos-arm.deb
 Size: 4818
 Installed-Size: 133
 MD5sum: 97fc769cb83de9a95c97e3c1c64476db
@@ -536,7 +536,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nolsnotificationblur/com.dgh0st.nolsnotificationblur_0.0.1_iphoneos-arm.deb
+Filename: Files/nolsnotificationblur/com.dgh0st.nolsnotificationblur_0.0.1_iphoneos-arm.deb
 Size: 138258
 Installed-Size: 133
 MD5sum: da953a3f71e16a2d6345cbd763495026
@@ -550,7 +550,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//nolsnotificationseparators/com.dgh0st.nolsnotificationseparators_0.0.1_iphoneos-arm.deb
+Filename: Files/nolsnotificationseparators/com.dgh0st.nolsnotificationseparators_0.0.1_iphoneos-arm.deb
 Size: 138766
 Installed-Size: 133
 MD5sum: aaa70ce7418a187bfe3cdc53540fe8c7
@@ -564,7 +564,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//noupsidedown/com.dgh0st.noupsidedown_0.0.1-4_iphoneos-arm.deb
+Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.1-4_iphoneos-arm.deb
 Size: 3720
 Installed-Size: 72
 MD5sum: 5a6717391039113f3d84e5487e2f788c
@@ -578,7 +578,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//noupsidedown/com.dgh0st.noupsidedown_0.0.2_iphoneos-arm.deb
+Filename: Files/noupsidedown/com.dgh0st.noupsidedown_0.0.2_iphoneos-arm.deb
 Size: 3910
 Installed-Size: 101
 MD5sum: 4b441cc49db924e97291281d393958f2
@@ -592,7 +592,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//reachoffset/com.dgh0st.reachoffset_1.4_iphoneos-arm.deb
+Filename: Files/reachoffset/com.dgh0st.reachoffset_1.4_iphoneos-arm.deb
 Size: 21184
 Installed-Size: 226
 MD5sum: 5c6377f52044fccf9d43651ae81a7b96
@@ -606,7 +606,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//reachoffset/com.dgh0st.reachoffset_1.3_iphoneos-arm.deb
+Filename: Files/reachoffset/com.dgh0st.reachoffset_1.3_iphoneos-arm.deb
 Size: 20106
 Installed-Size: 196
 MD5sum: a6d256a2019b43e188be7a471e4f9402
@@ -620,7 +620,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//shifttopswitcher/com.dgh0st.shifttopswitcher_0.0.1_iphoneos-arm.deb
+Filename: Files/shifttopswitcher/com.dgh0st.shifttopswitcher_0.0.1_iphoneos-arm.deb
 Size: 3406
 Installed-Size: 101
 MD5sum: 1f7a8953969b009a47f0a58d7a49d3bd
@@ -634,7 +634,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.4_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.4_iphoneos-arm.deb
 Size: 511152
 Installed-Size: 938
 MD5sum: d0f6ea3ea4136f3f4a08269f478cea15
@@ -648,7 +648,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.2_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.2_iphoneos-arm.deb
 Size: 508348
 Installed-Size: 930
 MD5sum: 6ddc00e91de90e2d103c7bedfdec2ab6
@@ -662,7 +662,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.10_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.10_iphoneos-arm.deb
 Size: 1105904
 Installed-Size: 1878
 MD5sum: aceadf3fcdc2ed2c3eaad36e898ce0ac
@@ -676,7 +676,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.5_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.5_iphoneos-arm.deb
 Size: 512076
 Installed-Size: 938
 MD5sum: be2d5d76cfa70cd8370edb06220abca9
@@ -690,7 +690,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.9_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.9_iphoneos-arm.deb
 Size: 1133462
 Installed-Size: 1906
 MD5sum: 5fa30a0aa021643766ab63e21a1530e6
@@ -704,10 +704,24 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.1_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.1_iphoneos-arm.deb
 Size: 508838
 Installed-Size: 930
 MD5sum: adcd61faf0a09bf023c239d8df0c088a
+Description: Undo last rotation by taping the button and and ability to lock orientation.
+Name: UndoRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.undorotation
+Version: 0.0.11
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.11_iphoneos-arm.deb
+Size: 1106516
+Installed-Size: 1878
+MD5sum: d58d9fbd258cd611c592185287ec86df
 Description: Undo last rotation by taping the button and and ability to lock orientation.
 Name: UndoRotation
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -718,7 +732,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.8_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.8_iphoneos-arm.deb
 Size: 1047254
 Installed-Size: 1741
 MD5sum: f5a8dec5986cfe5d678f231bccc4d84c
@@ -732,7 +746,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.7_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.7_iphoneos-arm.deb
 Size: 516512
 Installed-Size: 970
 MD5sum: ddc21a6456279bd4b46bed70f5537959
@@ -746,7 +760,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//undorotation/com.dgh0st.undorotation_0.0.3_iphoneos-arm.deb
+Filename: Files/undorotation/com.dgh0st.undorotation_0.0.3_iphoneos-arm.deb
 Size: 511096
 Installed-Size: 938
 MD5sum: bc44c12cf4c14889002bb43e2b91aaef
@@ -760,7 +774,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.1_iphoneos-arm.deb
+Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.1_iphoneos-arm.deb
 Size: 21706
 Installed-Size: 222
 MD5sum: e8415a7a2b0d803e739c7ad19afeb500
@@ -774,7 +788,7 @@ Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
-Filename: Files//whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-8_iphoneos-arm.deb
+Filename: Files/whitelistswitcherclose/com.dgh0st.whitelistswitcher_1.0-8_iphoneos-arm.deb
 Size: 19222
 Installed-Size: 192
 MD5sum: 71ff422823181f5d6de9358372ade7bc
