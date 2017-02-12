@@ -83,6 +83,20 @@ Name: AlertClose
 Author: DGh0st <deeppwnage@yahoo.com>
 
 Package: com.dgh0st.alertclose
+Version: 1.6.6
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/alertclose/com.dgh0st.alertclose_1.6.6_iphoneos-arm.deb
+Size: 51422
+Installed-Size: 374
+MD5sum: 3eee7cb126186dded76f6ead3a56e215
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.alertclose
 Version: 1.6.2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -222,6 +236,20 @@ Description: Makes Auxo LE dark.
 Name: DarkAuxo(CC)
 Author: DGh0st <deeppwnage@yahoo.com>
 
+Package: com.dgh0st.darkauxo
+Version: 0.0.4
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/darkauxo/com.dgh0st.darkauxo_0.0.4_iphoneos-arm.deb
+Size: 7422
+Installed-Size: 137
+MD5sum: 10914c45c963837dbe4bcc54b18e8979
+Description: Makes Auxo LE dark, works with regular CC and NC (iOS 9 only) as well.
+Name: DarkAuxo(CC & NC)
+Author: DGh0st <deeppwnage@yahoo.com>
+
 Package: com.dgh0st.deasyrespring
 Version: 0.0.1
 Section: Tweaks
@@ -302,6 +330,20 @@ Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.10_iphoneos-arm.deb
 Size: 327674
 Installed-Size: 330
 MD5sum: 624ae35c5ac5c6ecb2e5887c0eb2eaff
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+
+Package: com.dgh0st.defaultpage
+Version: 0.0.15
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/defaultpage/com.dgh0st.defaultpage_0.0.15_iphoneos-arm.deb
+Size: 27752
+Installed-Size: 330
+MD5sum: b799b9e292f54db24f608beba20e5b58
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
