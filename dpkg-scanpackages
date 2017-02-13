@@ -173,7 +173,7 @@ FILE:
 	
 	$tv{'Filename'}= "$pathprefix$fn";
 
-	$tv{'Depiction'} = "$binarydir/?=$p";
+	$tv{'Depiction'} = "https://dgh0st.github.io/$binarydir/?=$p";
 	
 	open(C,"md5sum <$fn |") || die "$fn $!";
 	chop($_=<C>); close(C); $? and die sprintf(_g("\`md5sum < %s' exited with %d"), $fn, $?)."\n";
