@@ -14,6 +14,21 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.alertclose
 
 Package: com.dgh0st.alertclose
+Version: 1.6.8
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files//com.dgh0st.alertclose/com.dgh0st.alertclose_1.6.8_iphoneos-arm.deb
+Size: 57412
+Installed-Size: 370
+MD5sum: 5ca0b9ef7723a17e0ef7c717e7f55d9f
+Description: Display an alert with option to close, relaunch, dismiss switcher and cancel when you try to swipe application up through application switcher.
+Name: AlertClose
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.alertclose
+
+Package: com.dgh0st.alertclose
 Version: 1.6.4
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -518,6 +533,21 @@ Filename: Files//com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.13_iphoneos-a
 Size: 27568
 Installed-Size: 330
 MD5sum: f60e409ba250de2f83e12e41f4baff9e
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.defaultpage
+
+Package: com.dgh0st.defaultpage
+Version: 0.0.15-2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files//com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.15-2_iphoneos-arm.deb
+Size: 27176
+Installed-Size: 322
+MD5sum: ab88ed32ff6d6bb958c8797d311f0d4b
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
