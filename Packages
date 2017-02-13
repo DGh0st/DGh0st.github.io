@@ -659,6 +659,21 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.enhancedswitcherclose
 
 Package: com.dgh0st.enhancedswitcherclose
+Version: 0.0.6~Beta-3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files//com.dgh0st.enhancedswitcherclose/com.dgh0st.enhancedswitcherclose_0.0.6~Beta-3_iphoneos-arm.deb
+Size: 60872
+Installed-Size: 414
+MD5sum: 8ea92a1d02aff9638c6cba596926739c
+Description: Enhance Switcher Close by adding more swipe up features with clean UI.
+Name: EnhancedSwitcherClose
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.enhancedswitcherclose
+
+Package: com.dgh0st.enhancedswitcherclose
 Version: 0.0.6~Beta-2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
