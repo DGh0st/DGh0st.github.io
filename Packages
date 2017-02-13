@@ -613,6 +613,21 @@ Name: DVirtualHome
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.dvirtualhome
 
+Package: com.dgh0st.enhancedswitcherclose
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//com.dgh0st.enhancedswitcherclose/com.dgh0st.enhancedswitcherclose_0.0.1_iphoneos-arm.deb
+Size: 18268
+Installed-Size: 141
+MD5sum: 46c578bc9a77bb7ae519d62a4246102f
+Description: Enhance Switcher Close by adding more swipe up features with clean UI.
+Name: EnhancedSwitcherClose
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files//?p=com.dgh0st.enhancedswitcherclose
+
 Package: com.dgh0st.nccleartext
 Version: 1.2
 Section: Tweaks
