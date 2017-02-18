@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.defaultpage</id>
+	<name>DefaultPage</name>
+	<version>0.0.15-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>My version of Easy Repring which resprings device by swiping homescreen up from the app switcher.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Slight improvements to header/title in settings</change>
+	</changelog>
+	<links>
+	</links>
+</package>

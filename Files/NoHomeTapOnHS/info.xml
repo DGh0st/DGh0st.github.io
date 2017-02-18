@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.nohometaponhs</id>
+	<name>NoHomeTapOnHS</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Disable the home button tap/press on homescreen.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Enabled homebutton tap in newsstand and folder</change>
+	</changelog>
+	<links>
+	</links>
+</package>

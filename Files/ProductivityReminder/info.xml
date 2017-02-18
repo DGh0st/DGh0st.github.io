@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.productivityreminder</id>
+	<name>ProductivityReminder</name>
+	<version>0.0.4-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Display an alert x minutes after application open to be reminded to get back to work.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Fixed regular button not displaying when snooze is disabled</change>
+	</changelog>
+	<links>
+	</links>
+</package>

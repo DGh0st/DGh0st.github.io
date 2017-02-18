@@ -1,0 +1,24 @@
+<package>
+	<id>com.dgh0st.whitelistswitcher</id>
+	<name>WhitelistSwitcherClose</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Ever get annoyed by accidentally swiping up an application in the application switcher and not seeing what application it exactly was? Or are you trying to change your habits of closing all applications from the application switcher? Well this is the perfect tweak for you.
+
+With WhitelistSwitcherClose you have the option to create a whitelist of applications that can never be closed from the application switcher. it also has the option to relaunch and launch application when you try to close it. It is perfect for changing your old habits.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Added iOS 9 support</change>
+	</changelog>
+	<links>
+	</links>
+</package>

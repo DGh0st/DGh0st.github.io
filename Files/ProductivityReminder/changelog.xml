@@ -1,0 +1,18 @@
+<changelog>
+	<changes>
+		<version>0.0.4-1</version>
+		<change>- Fixed regular button not displaying when snooze is disabled</change>
+
+		<version>0.0.4</version>
+		<change>- Added Snooze button</change>
+
+		<version>0.0.3</version>
+		<change>- Improved preferences per application</change>
+
+		<version>0.0.2</version>
+		<change>- Improved displayed time in the alert</change>
+
+		<version>0.0.1</version>
+		<change>- Initial Release</change>
+	</changes>
+</changelog>

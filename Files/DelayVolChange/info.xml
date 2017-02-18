@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.delayvolchange</id>
+	<name>DelayVolChange</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume to change.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Added iPhone 6s/6s+ support</change>
+	</changelog>
+	<links>
+	</links>
+</package>

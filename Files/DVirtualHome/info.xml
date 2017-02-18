@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.dvirtualhome</id>
+	<name>DVirtualHome</name>
+	<version>0.0.1-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>My attempt at making virtual home iOS 10 compatible.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Added preferences</change>
+	</changelog>
+	<links>
+	</links>
+</package>

@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.appswitchcurrentOrig</id>
+	<name>AppSwitchCurrentOrig</name>
+	<version>1.0-6</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>8.4.1</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Opens the app switcher to the current application instead of the last application. Based on a flex tweak with some fixes. Older code of AppSwitchCurrent</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Fixed settings path</change>
+	</changelog>
+	<links>
+	</links>
+</package>

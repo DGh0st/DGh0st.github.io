@@ -1,0 +1,9 @@
+<changelog>
+	<changes>
+		<version>0.0.2</version>
+		<change>- Added iPhone 6s/6s+ support</change>
+		
+		<version>0.0.1-4</version>
+		<change>- Initial Release</change>
+	</changes>
+</changelog>

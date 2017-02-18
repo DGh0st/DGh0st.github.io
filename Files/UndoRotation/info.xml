@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.undorotation</id>
+	<name>UndoRotation</name>
+	<version>0.0.12-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Fully fixed crashes on iOS 9.0.x</change>
+	</changelog>
+	<links>
+	</links>
+</package>

@@ -1,0 +1,43 @@
+<package>
+	<id>com.dgh0st.alertclose</id>
+	<name>AlertClose</name>
+	<version>1.6.7-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Display an alert with option to close application, relaunch application, dismiss switcher and cancel when you try to swipe application up through application switcher.
+
+Features:
+ - Configure which buttons to display on swipe up.
+
+ - Ability to blacklist applications so the alert is only displayed for these applications.
+
+ - Perform Single Action that will perform the button action when only one button is enabled.
+
+ - Customize the text displayed in the Alert.
+
+ - Respring, Kill-All Applications (w/ white-list and option to not kill now playing application), and Cancel on home screen swipe up.
+
+ - Run a Quick Action when you swipe down a card.
+
+ - Ability to invert QuickAction and Alert.
+
+ - Configurable to auto dismiss switcher on last application close.
+
+Disclaimer: Quick Action is untested on iOS 8
+
+This tweak was suggested by /u/Jpasholk from /r/jailbreak</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Improvements to Settings header/title</change>
+	</changelog>
+	<links>
+	</links>
+</package>

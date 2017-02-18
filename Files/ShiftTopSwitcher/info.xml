@@ -1,0 +1,22 @@
+<package>
+	<id>com.dgh0st.shifttopswitcher</id>
+	<name>ShiftTopSwitcher</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Shifts the top switcher application so it seems to have focus!</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

@@ -1,0 +1,24 @@
+<package>
+	<id>com.dgh0st.appswitchcurrent</id>
+	<name>AppSwitchCurrent</name>
+	<version>1.2-5</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>8.4.1</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Opens the app switcher to the current application instead of the last application. Based on a flex tweak with some fixes.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>- Fixed a small bug with Email Support
+- Changed the repo link at the bottom of settings.
+- Also changed the label of "Email" to "Email Support" (Even though I love hearing your stories)</change>
+	</changelog>
+	<links>
+	</links>
+</package>
