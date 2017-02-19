@@ -41,8 +41,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		return 0;
 	}
-
-	alert(version);
+z
 	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 	if (!version) {
 		return 0;
