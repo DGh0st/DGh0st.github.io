@@ -47,9 +47,9 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var osVersion = [version[1], version[2], version[3] ? version[3] : 0, version[4] ? version[4] : 0];
+	var osVersion = [version[1], version[2], version[3] ? version[3] : 0, version[4] ? version[4] : 0],
 
-		osString = version.join('.');
+		osString = version.join('.'),
 		minString = minIOS,
 		maxString = maxIOS,
 
