@@ -11,20 +11,22 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description><p>Display an alert with option to close application, relaunch application, dismiss switcher and cancel when you try to swipe application up through application switcher.</p>
-<p>Features:</p>
-<ul>
-	<li>Configure which buttons to display on swipe up.</li>
- 	<li>Ability to blacklist applications so the alert is only displayed for these applications.</li>
- 	<li>Perform Single Action that will perform the button action when only one button is enabled.</li>
-	<li>Customize the text displayed in the Alert.</li>
-	<li>Respring, Kill-All Applications (w/ white-list and option to not kill now playing application), and Cancel on home screen swipe up.</li>>
-	<li>Run a Quick Action when you swipe down a card.</li>
-	<li>Ability to invert QuickAction and Alert.</li>
-	<li>Configurable to auto dismiss switcher on last application close.</li>
-<ul>
-<p>Disclaimer: Quick Action is untested on iOS 8</p>
-<p>This tweak was suggested by /u/Jpasholk from /r/jailbreak</p></description>
+		<description>Display an alert with option to close application, relaunch application, dismiss switcher and cancel when you try to swipe application up through application switcher.</description>
+		<description>Features:</description>
+		<description>
+			<![CData[
+				- Configure which buttons to display on swipe up.<br/>
+			 	- Ability to blacklist applications so the alert is only displayed for these applications.<br/>
+			 	- Perform Single Action that will perform the button action when only one button is enabled.<br/>
+				- Customize the text displayed in the Alert.<br/>
+				- Respring, Kill-All Applications (w/ white-list and option to not kill now playing application), and Cancel on home screen swipe up.<br/>
+				- Run a Quick Action when you swipe down a card.<br/>
+				- Ability to invert QuickAction and Alert.<br/>
+				- Configurable to auto dismiss switcher on last application close.<br/>
+			]]>
+		</description>
+		<description>Disclaimer: Quick Action is untested on iOS 8</description>
+		<description>This tweak was suggested by /u/Jpasholk from /r/jailbreak</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
