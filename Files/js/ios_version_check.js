@@ -16,7 +16,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0, bits[3] ? bits[3] : 0];
+		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
 	}
 
 	function compareVersions(one, two) {
@@ -42,14 +42,14 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var version = navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/);
+	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 	if (!version) {
 		return 0;
 	}
 
-	var osVersion = [version[1], version[2], version[3] ? version[3] : 0, version[4] ? version[4] : 0],
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
 
-		osString = version.join('.'),
+		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
 		maxString = maxIOS,
 
