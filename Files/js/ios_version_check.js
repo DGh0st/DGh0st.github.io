@@ -10,6 +10,8 @@ var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
+var test = "";
+
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
 
@@ -21,12 +23,16 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	function compareVersions(one, two) {
 		// https://gist.github.com/TheDistantSea/8021359
+		test = "";
 		for (var i = 0; i < one.length; ++i) {
 			if (one[i] == two[i]) {
+				test += one[i] "=" two[i];
 				continue;
 			} else if (one[i] > two[i]) {
+				test += one[i] ">" two[i];
 				return 1;
 			} else {
+				test += one[i] "<" two[i];
 				return -1;
 			}
 		}
@@ -39,12 +45,9 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ];
-	/*if (navigator.appVersion.match(/CPU(iPhone)? OS 10_(\d+)(_(\d+))? line/i)) {
-		osVersion = [ version[2], version[3], version[4], version[5] ? version[6] : 0];
-	}*/
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
 
-	var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
+		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
 		maxString = maxIOS,
 
@@ -66,7 +69,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		isBad = true;
 	}
-	message += osVersion + " " + osString + " " + minVersion + " " + minString;
+	message += osVersion + " " + osString + " " + minVersion + " " + minString + test;
 	callBack(message,isBad);
 
 	return (isBad?-1:1);
