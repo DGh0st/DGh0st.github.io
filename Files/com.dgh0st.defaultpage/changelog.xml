@@ -1,52 +1,52 @@
 <changelog>
 	<changes>
 		<version>0.0.15-1</version>
-		<change>- Slight improvements to header/title in settings</change>
+		<change>Slight improvements to header/title in settings</change>
 
 		<version>0.0.15</version>
-		<change>- Fixed folder paging for iOS 10
-- Fixed force home for iOS 10</change>
+		<change>Fixed folder paging for iOS 10</change>
+		<change>Fixed force home for iOS 10</change>
 
 		<version>0.0.13</version>
-		<change>- Fixed visual bug when going in applications with app close reset enabled</change>
+		<change>Fixed visual bug when going in applications with app close reset enabled</change>
 
 		<version>0.0.12</version>
-		<change>- Fully Fixed application moving to selected download page on updating</change>
+		<change>Fully Fixed application moving to selected download page on updating</change>
 
 		<version>0.0.11</version>
-		<change>- Parital fix to application moving to selected download page on updating</change>
+		<change>Parital fix to application moving to selected download page on updating</change>
 
 		<version>0.0.10</version>
-		<change>- Added option to select default download page</change>
+		<change>Added option to select default download page</change>
 
 		<version>0.0.9</version>
-		<change>- Added option to force homescreen on device lock</change>
+		<change>Added option to force homescreen on device lock</change>
 
 		<version>0.0.8-2</version>
-		<change>- Fixed folders not opening when App Close Reset is enabled</change>
+		<change>Fixed folders not opening when App Close Reset is enabled</change>
 
 		<version>0.0.8-1</version>
-		<change>- Reverted back to older method for App Close Reset
-- Added another method for App Close Reset</change>
+		<change>Reverted back to older method for App Close Reset</change>
+		<change>Added another method for App Close Reset</change>
 
 		<version>0.0.8</version>
-		<change>- Moved App Close Reset out of beta</change>
+		<change>Moved App Close Reset out of beta</change>
 
 		<version>0.0.7-1</version>
-		<change>- Fixed animation conflicts with Tage</change>
+		<change>Fixed animation conflicts with Tage</change>
 
 		<version>0.0.7</version>
-		<change>- Added Spotlight as default page option
-- Added App Close Reset as a beta feature</change>
+		<change>Added Spotlight as default page option</change>
+		<change>Added App Close Reset as a beta feature</change>
 
 		<version>0.0.6</version>
-		<change>- Added iPhone 6s/6s+ support
-- Fixed newstand issues for iOS 9</change>
+		<change>Added iPhone 6s/6s+ support</change>
+		<change>Fixed newstand issues for iOS 9</change>
 
 		<version>0.0.3</version>
-		<change>- Added preferences</change>
+		<change>Added preferences</change>
 
 		<version>0.0.1</version>
-		<change>- Initial Release</change>
+		<change>Initial Release</change>
 	</changes>
 </changelog>

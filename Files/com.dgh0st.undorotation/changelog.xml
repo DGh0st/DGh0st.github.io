@@ -1,46 +1,46 @@
 <changelog>
 	<changes>
 		<version>0.0.12-1</version>
-		<change>- Fully fixed crashes on iOS 9.0.x</change>
+		<change>Fully fixed crashes on iOS 9.0.x</change>
 
 		<version>0.0.12</version>
-		<change>- Fixed crashes on iOS 9.0.x when trying to lock/unlock orientation via the button.</change>
+		<change>Fixed crashes on iOS 9.0.x when trying to lock/unlock orientation via the button.</change>
 
 		<version>0.0.11</version>
-		<change>- Fixed potential process (related to UIKit) crashes
-- Added option to modify button roundness and size
-- Added option to add text underneath the icon</change>
+		<change>Fixed potential process (related to UIKit) crashes</change>
+		<change>Added option to modify button roundness and size</changes>
+		<change>Added option to add text underneath the icon</change>
 
 		<version>0.0.10</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.9</version>
-		<change>- Added Activator action called Control Window
-- Added Whitelist to disable button in selected applications
-- Added option to disable button on homescreen</change>
+		<change>Added Activator action called Control Window</change>
+		<change>Added Whitelist to disable button in selected applications</change>
+		<change>Added option to disable button on homescreen</change>
 
 		<version>0.0.8</version>
-		<change>- Fixed preferences not loading in sandboxed applications
-- Added option to unlock orientation on view change
-- Added Alternative mode with blacklist
-- Added Activator actions</change>
+		<change>Fixed preferences not loading in sandboxed applications</change>
+		<change>Added option to unlock orientation on view change</change>
+		<change>Added Alternative mode with blacklist</changes>
+		<change>Added Activator actions</change>
 
 		<version>0.0.7</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.5</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.4</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.3</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.2</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 
 		<version>0.0.1</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 	</changes>
 </changelog>

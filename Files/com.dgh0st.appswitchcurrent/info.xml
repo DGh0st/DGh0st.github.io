@@ -15,9 +15,9 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>- Fixed a small bug with Email Support
-- Changed the repo link at the bottom of settings.
-- Also changed the label of "Email" to "Email Support" (Even though I love hearing your stories)</change>
+		<change>Fixed a small bug with Email Support</change>
+		<change>Changed the repo link at the bottom of settings.</change>
+		<change>Also changed the label of "Email" to "Email Support" (Even though I love hearing your stories)</change>
 	</changelog>
 	<links>
 	</links>

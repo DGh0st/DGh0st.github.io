@@ -15,8 +15,8 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>- Added iOS 10 support
-- Removed NC support for iOS 10</change>
+		<change>Added iOS 10 support</change>
+		<change>Removed NC support for iOS 10</change>
 	</changelog>
 	<links>
 	</links>

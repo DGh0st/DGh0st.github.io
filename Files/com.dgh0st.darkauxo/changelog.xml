@@ -1,13 +1,13 @@
 <changelog>
 	<changes>
 		<version>0.0.4</version>
-		<change>- Added iOS 10 support
-- Removed NC support for iOS 10</change>
+		<change>Added iOS 10 support</change>
+		<change>Removed NC support for iOS 10</change>
 	
 		<version>0.0.2</version>
-		<change>- Added iOS 6s/6s+ support</change>
+		<change>Added iOS 6s/6s+ support</change>
 
 		<version>0.0.1</version>
-		<change>- Initial release</change>
+		<change>Initial release</change>
 	</changes>
 </changelog>

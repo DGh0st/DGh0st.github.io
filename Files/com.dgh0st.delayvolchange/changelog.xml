@@ -1,12 +1,12 @@
 <changelog>
 	<changes>
 		<version>0.0.2</version>
-		<change>- Added iPhone 6s/6s+ support</change>
+		<change>Added iPhone 6s/6s+ support</change>
 
 		<version>0.0.1-6</version>
-		<change>- Fixed volume hud not being effected by volume buttons when music playing</change>
+		<change>Fixed volume hud not being effected by volume buttons when music playing</change>
 
 		<version>0.0.1</version>
-		<change>- Initial Release</change>
+		<change>Initial Release</change>
 	</changes>
 </changelog>

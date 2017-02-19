@@ -1,58 +1,72 @@
 <changelog>
 	<changes>
 		<version>1.6.7-1</version>
-		<change>- Improvements to Settings header/title</change>
-
+		<change>Improvements to Settings header/title</change>
+	</changes>
+	<changes>
 		<version>1.6.7</version>
-		<change>- Settings loading improvements which improves overall performance
-- Added option to dismiss switcher on last application close
-- Added option to perform one button action which performs the action of the only enabled button</change>
-
+		<change>Settings loading improvements which improves overall performance</change>
+		<change>Added option to dismiss switcher on last application close</changes>
+		<change>Added option to perform one button action which performs the action of the only enabled button</change>
+	</changes>
+	<changes>
 		<version>1.6.6-1</version>
-		<change>- Added option to invert QuickAction and Alert</change>
-
+		<change>Added option to invert QuickAction and Alert</change>
+	</changes>
+	<changes>
 		<version>1.6.6</version>
-		<change>- Changed [app] to not display the application name instead of identifier
-- Added [app id] to display application identifier
-- Improve performance by not hooking older switcher methods on newer iOS versions</change>
-
+		<change>Changed [app] to not display the application name instead of identifier</change>
+		<change>Added [app id] to display application identifier</changes>
+		<change>Improve performance by not hooking older switcher methods on newer iOS versions</change>
+	</changes>
+	<changes>
 		<version>1.6.5</version>
-		<change>- Fixed issue with Close Application and Relaunch Application QuickAction causing SpringBoard crashes on homescreen swipe up</change>
-
+		<change>Fixed issue with Close Application and Relaunch Application QuickAction causing SpringBoard crashes on homescreen swipe up</change>
+	</changes>
+	<changes>
 		<version>1.6.4</version>
-		<change>- Added Relaunch-All Applications option
-- Added new QuickAction of Relaunch-All Applications</change>
-
+		<change>Added Relaunch-All Applications option</change>
+		<change>Added new QuickAction of Relaunch-All Applications</change>
+	</changes>
+	<changes>
 		<version>1.6.3</version>
-		<change>- Added QuickAction on swipe down</change>
-
+		<change>Added QuickAction on swipe down</change>
+	</changes>
+	<changes>
 		<version>1.6.2</version>
-		<change>- Added continue now playing application when killing all applications</change>
-
+		<change>Added continue now playing application when killing all applications</change>
+	</changes>
+	<changes>
 		<version>1.6.1</version>
-		<change>- Fixed respring button causing safemode issue on iOS 9.3.3</change>
-
+		<change>Fixed respring button causing safemode issue on iOS 9.3.3</change>
+	</changes>
+	<changes>
 		<version>1.6</version>
-		<change>- Added option to enable/disable whitelist
-- Added option for vertical offset (iOS 9+)</change>
-
+		<change>Added option to enable/disable whitelist</change>
+		<change>Added option for vertical offset (iOS 9+)</change>
+	</changes>
+	<changes>
 		<version>1.5</version>
-		<change>- Fixed dismissing switcher alert action causing issues on iOS 8
-- Fixed relaunch causing issues on iOS 8
-- Added option to customize alert text
-- Added option to blacklist applications to display alert for
-- Added homescreen swipe up alert with options to Respring, Kill-All Applications and Cancel</change>
-
+		<change>Fixed dismissing switcher alert action causing issues on iOS 8</change>
+		<change>Fixed relaunch causing issues on iOS 8</changes>
+		<change>Added option to customize alert text</change>
+		<change>Added option to blacklist applications to display alert for</changes>
+		<change>Added homescreen swipe up alert with options to Respring, Kill-All Applications and Cancel</change>
+	</changes>
+	<changes>
 		<version>1.4-1</version>
-		<change>- Fixes swiping up too fast on iOS 9 issue</change>
-
+		<change>Fixes swiping up too fast on iOS 9 issue</change>
+	</changes>
+	<changes>
 		<version>1.4</version>
-		<change>- Added iOS 9 support</change>
-
+		<change>Added iOS 9 support</change>
+	</changes>
+	<changes>
 		<version>1.3</version>
-		<change>- No known data of the changes</change>
-
+		<change>No known data of the changes</change>
+	</changes>
+	<changes>
 		<version>1.2</version>
-		<change>- No known data of the changes</change>
+		<change>No known data of the changes</change>
 	</changes>
 </changelog>
