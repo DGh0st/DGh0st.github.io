@@ -15,7 +15,7 @@
 		<package>applist</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Display an alert x minutes after application open to be reminded to get back to work.</description>
+		<description>Display an alert x minutes after application open to be reminded to get back to work. Select which applications to enable reminder in and also configure the amount of minutes before the alert is displayed.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

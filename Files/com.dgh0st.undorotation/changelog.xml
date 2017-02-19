@@ -27,7 +27,7 @@
 		<version>0.0.8</version>
 		<change>Fixed preferences not loading in sandboxed applications</change>
 		<change>Added option to unlock orientation on view change</change>
-		<change>Added Alternative mode with blacklist</changes>
+		<change>Added Alternative mode with blacklist</change>
 		<change>Added Activator actions</change>
 	</changes>
 	<changes>
