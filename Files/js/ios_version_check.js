@@ -10,31 +10,37 @@ var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
-var test = "";
-
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
 
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
+		return [ 
+					parseInt(bits[0], 10),
+					parseInt(bits[1] ? bits[1] : 0, 10),
+					parseInt(bits[2] ? bits[2] : 0, 10)
+				];
 	}
 
 	function compareVersions(one, two) {
 		// https://gist.github.com/TheDistantSea/8021359
-		test = "";
 		for (var i = 0; i < one.length; ++i) {
+			if (two.length == i) {
+				return 1;
+			}
+
 			if (one[i] == two[i]) {
-				test += one[i] + "=" + two[i];
 				continue;
 			} else if (one[i] > two[i]) {
-				test += one[i] + ">" + two[i];
 				return 1;
 			} else {
-				test += one[i] + "<" + two[i];
 				return -1;
 			}
+		}
+
+		if (one.length != two.length) {
+			return -1;
 		}
 
 		return 0;
@@ -45,7 +51,11 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+	var osVersion = [ 
+						parseInt(version[2], 10),
+						parseInt(version[3], 10),
+						parseInt(version[4] ? version[5] : 0, 10)
+					],
 
 		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
@@ -69,7 +79,6 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		isBad = true;
 	}
-	message += osVersion + " " + osString + " " + minVersion + " " + minString + test;
 	callBack(message,isBad);
 
 	return (isBad?-1:1);
