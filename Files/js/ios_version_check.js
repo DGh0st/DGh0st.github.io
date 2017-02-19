@@ -22,10 +22,6 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	function compareVersions(one, two) {
 		// https://gist.github.com/TheDistantSea/8021359
 		for (var i = 0; i < one.length; ++i) {
-			if (two.length == i) {
-				return 1;
-			}
-
 			if (one[i] == two[i]) {
 				continue;
 			} else if (one[i] > two[i]) {
@@ -33,10 +29,6 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 			} else {
 				return -1;
 			}
-		}
-
-		if (one.length != two.length) {
-			return -1;
 		}
 
 		return 0;
