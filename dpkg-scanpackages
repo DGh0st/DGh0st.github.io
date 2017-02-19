@@ -172,6 +172,8 @@ FILE:
 	    if defined($tv{'Filename'});
 	
 	$tv{'Filename'}= "$pathprefix$fn";
+
+	$tv{'Depiction'} = "$binarydir/?=$p";
 	
 	open(C,"md5sum <$fn |") || die "$fn $!";
 	chop($_=<C>); close(C); $? and die sprintf(_g("\`md5sum < %s' exited with %d"), $fn, $?)."\n";
