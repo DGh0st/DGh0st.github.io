@@ -11,27 +11,27 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Display an alert with option to close application, relaunch application, dismiss switcher and cancel when you try to swipe application up through application switcher.
+		<description>Display an alert with option to close application, relaunch application, dismiss switcher and cancel when you try to swipe application up through application switcher.<br>
+<br>
+Features:<br>
+ - Configure which buttons to display on swipe up.<br>
 
-Features:
- - Configure which buttons to display on swipe up.
+ - Ability to blacklist applications so the alert is only displayed for these applications.<br>
 
- - Ability to blacklist applications so the alert is only displayed for these applications.
+ - Perform Single Action that will perform the button action when only one button is enabled.<br>
 
- - Perform Single Action that will perform the button action when only one button is enabled.
+ - Customize the text displayed in the Alert.<br>
 
- - Customize the text displayed in the Alert.
+ - Respring, Kill-All Applications (w/ white-list and option to not kill now playing application), and Cancel on home screen swipe up.<br>
 
- - Respring, Kill-All Applications (w/ white-list and option to not kill now playing application), and Cancel on home screen swipe up.
+ - Run a Quick Action when you swipe down a card.<br>
 
- - Run a Quick Action when you swipe down a card.
+ - Ability to invert QuickAction and Alert.<br>
 
- - Ability to invert QuickAction and Alert.
-
- - Configurable to auto dismiss switcher on last application close.
-
-Disclaimer: Quick Action is untested on iOS 8
-
+ - Configurable to auto dismiss switcher on last application close.<br>
+<br>
+Disclaimer: Quick Action is untested on iOS 8<br>
+<br>
 This tweak was suggested by /u/Jpasholk from /r/jailbreak</description>
 	</descriptionlist>
 	<screenshots></screenshots>

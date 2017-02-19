@@ -6,7 +6,7 @@
 	<changes>
 		<version>1.6.7</version>
 		<change>Settings loading improvements which improves overall performance</change>
-		<change>Added option to dismiss switcher on last application close</changes>
+		<change>Added option to dismiss switcher on last application close</change>
 		<change>Added option to perform one button action which performs the action of the only enabled button</change>
 	</changes>
 	<changes>
@@ -16,7 +16,7 @@
 	<changes>
 		<version>1.6.6</version>
 		<change>Changed [app] to not display the application name instead of identifier</change>
-		<change>Added [app id] to display application identifier</changes>
+		<change>Added [app id] to display application identifier</change>
 		<change>Improve performance by not hooking older switcher methods on newer iOS versions</change>
 	</changes>
 	<changes>
@@ -48,9 +48,9 @@
 	<changes>
 		<version>1.5</version>
 		<change>Fixed dismissing switcher alert action causing issues on iOS 8</change>
-		<change>Fixed relaunch causing issues on iOS 8</changes>
+		<change>Fixed relaunch causing issues on iOS 8</change>
 		<change>Added option to customize alert text</change>
-		<change>Added option to blacklist applications to display alert for</changes>
+		<change>Added option to blacklist applications to display alert for</change>
 		<change>Added homescreen swipe up alert with options to Respring, Kill-All Applications and Cancel</change>
 	</changes>
 	<changes>
