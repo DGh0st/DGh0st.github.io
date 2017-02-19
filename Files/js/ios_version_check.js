@@ -49,6 +49,8 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ];
 	if (navigator.appVersion.match(/CPU(iPhone)? OS 10_(\d+)(_(\d+))? line/i)) {
+		alert('' + version);
+		alert('' + osVersion);
 		osVersion = [ version[2], version[3], version[4], version[5] ? version[6] : 0];
 	}
 
