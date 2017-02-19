@@ -74,7 +74,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		isBad = true;
 	}
-	message = osVersion;
+	message = osVersion + " " version;
 	callBack(message,isBad);
 
 	return (isBad?-1:1);
