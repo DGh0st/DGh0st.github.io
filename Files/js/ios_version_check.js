@@ -51,8 +51,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	//var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
-	var osVersion = version,
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
 
 		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
