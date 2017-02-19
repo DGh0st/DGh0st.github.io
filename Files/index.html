@@ -35,7 +35,9 @@
 			{"type":"custom"
 				,"source":"package>name"
 				,"render":function(element,source){
-					if (navigator.userAgent.search(/Cydia/) == -1) {
+					if (navigator.userAgent.search(/Cydia/) == 0) {
+						$(element).hide();
+					} else {
 						$(element).show();
 					}
 				}

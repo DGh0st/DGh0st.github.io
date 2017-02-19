@@ -1,10 +1,13 @@
 <package>
-	<id>com.dgh0st.appswitchcurrentOrig</id>
+	<id>com.dgh0st.appswitchcurrentorig</id>
 	<name>AppSwitchCurrentOrig</name>
 	<version>1.0-6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+		<firmware>
 			<maxiOS>8.4.1</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>

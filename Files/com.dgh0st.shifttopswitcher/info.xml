@@ -5,8 +5,11 @@
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>10.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
+		</firmware>
+		<firmware>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>untested</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>

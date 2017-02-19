@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/DGh0st</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+		<link>
+			<name>Reddit</name>
+			<url>https://www.reddit.com/u/DGh0st/</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+	</footerlinks>
+</repo>
