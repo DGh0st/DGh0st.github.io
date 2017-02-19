@@ -26,13 +26,13 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		test = "";
 		for (var i = 0; i < one.length; ++i) {
 			if (one[i] == two[i]) {
-				test += one[i] "=" two[i];
+				test += one[i] + "=" + two[i];
 				continue;
 			} else if (one[i] > two[i]) {
-				test += one[i] ">" two[i];
+				test += one[i] + ">" + two[i];
 				return 1;
 			} else {
-				test += one[i] "<" two[i];
+				test += one[i] + "<" + two[i];
 				return -1;
 			}
 		}
