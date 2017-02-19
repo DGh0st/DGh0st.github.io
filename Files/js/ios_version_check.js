@@ -53,7 +53,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		minString = minIOS,
 		maxString = maxIOS,
 
-		minVersion = minString ? parseVersionString(minString) : null,
+		minVersion = parseVersionString(minString),
 		maxVersion = maxString ? parseVersionString(maxString) : null,
 
 		message = VERSION_CHECK_SUPPORTED,
