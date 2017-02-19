@@ -16,7 +16,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
+		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0, bits[3] ? bits[3] : 0];
 	}
 
 	function compareVersions(one, two) {
@@ -34,7 +34,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 				return -1;
 			}
 		}
-z
+
 		if (one.length != two.length) {
 			return -1;
 		}
@@ -47,9 +47,12 @@ z
 		return 0;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ];
+	if (navigator.appVersion.match(/CPU(iPhone)? OS 10_(\d+)(_(\d+))? line/i)) {
+		alert(version);
+	}
 
-		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
+	var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
 		maxString = maxIOS,
 
