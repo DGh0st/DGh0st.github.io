@@ -34,14 +34,14 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 				return -1;
 			}
 		}
-
+z
 		if (one.length != two.length) {
 			return -1;
 		}
 
 		return 0;
 	}
-z
+
 	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 	if (!version) {
 		return 0;
