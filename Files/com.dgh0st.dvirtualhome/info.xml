@@ -9,7 +9,10 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
 	<descriptionlist>
 		<description>My attempt at making virtual home iOS 10 compatible.</description>
 	</descriptionlist>

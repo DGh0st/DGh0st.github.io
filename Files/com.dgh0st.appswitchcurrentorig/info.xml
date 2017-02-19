@@ -1,5 +1,5 @@
 <package>
-	<id>com.dgh0st.appswitchcurrentorig</id>
+	<id>com.dgh0st.appswitchcurrentOrig</id>
 	<name>AppSwitchCurrentOrig</name>
 	<version>1.0-6</version>
 	<compatibility>
@@ -9,7 +9,10 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Opens the app switcher to the current application instead of the last application. Based on a flex tweak with some fixes. Older code of AppSwitchCurrent</description>
 	</descriptionlist>

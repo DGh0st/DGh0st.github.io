@@ -2,7 +2,8 @@
 	<changes>
 		<version>0.0.1-1</version>
 		<change>Added preferences</change>
-
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>

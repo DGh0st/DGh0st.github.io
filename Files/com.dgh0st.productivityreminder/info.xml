@@ -9,7 +9,11 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>applist</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Display an alert x minutes after application open to be reminded to get back to work.</description>
 	</descriptionlist>

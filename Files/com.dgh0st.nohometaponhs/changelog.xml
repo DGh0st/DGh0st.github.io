@@ -2,7 +2,8 @@
 	<changes>
 		<version>0.0.2</version>
 		<change>Enabled homebutton tap in newsstand and folder</change>
-
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>

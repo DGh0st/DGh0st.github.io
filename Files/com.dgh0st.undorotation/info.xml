@@ -9,7 +9,12 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>applist</package>
+		<package>Activator (optional)</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</description>
 	</descriptionlist>

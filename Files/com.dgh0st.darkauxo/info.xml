@@ -9,7 +9,9 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Makes Control Center and Notification Center (iOS 8 and 9 only) dark (including tweaks like AuxoLE).</description>
 	</descriptionlist>

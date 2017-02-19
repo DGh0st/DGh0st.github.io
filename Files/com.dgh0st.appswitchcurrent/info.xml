@@ -9,7 +9,10 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Opens the app switcher to the current application instead of the last application. Based on a flex tweak with some fixes.</description>
 	</descriptionlist>

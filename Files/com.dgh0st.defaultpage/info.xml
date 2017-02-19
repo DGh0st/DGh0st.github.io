@@ -9,9 +9,13 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>applist</package>
+	</dependencies>
 	<descriptionlist>
-		<description>My version of Easy Repring which resprings device by swiping homescreen up from the app switcher.</description>
+		<description>Set the default homescreen page to go to on home button click. Also set the default page to download new applications on. There are many other side features that can be configured in settings.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

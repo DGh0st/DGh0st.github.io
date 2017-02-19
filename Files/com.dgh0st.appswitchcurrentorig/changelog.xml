@@ -2,7 +2,8 @@
 	<changes>
 		<version>1.0-6</version>
 		<change>Fixed settings path</change>
-	
+	</changes>
+	<changes>
 		<version>1.0-2</version>
 		<change>Fixed tweak not taking effect on 64-bit devices
 	</changes>

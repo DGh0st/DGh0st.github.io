@@ -3,10 +3,12 @@
 		<version>0.0.4</version>
 		<change>Added iOS 10 support</change>
 		<change>Removed NC support for iOS 10</change>
-	
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Added iOS 6s/6s+ support</change>
-
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial release</change>
 	</changes>

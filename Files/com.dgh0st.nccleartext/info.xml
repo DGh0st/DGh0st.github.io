@@ -9,9 +9,12 @@
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
 	<descriptionlist>
-		<description>Set the Notification Center "clear" text to custom text.</description>
+		<description>Set the Notification Center "clear" text to custom text. Also set the "No Notification" text of Notification Center to custom text.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
