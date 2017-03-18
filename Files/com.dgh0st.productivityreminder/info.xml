@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.productivityreminder</id>
 	<name>ProductivityReminder</name>
-	<version>0.0.4-1</version>
+	<version>0.0.4-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -19,7 +19,8 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixed regular button not displaying when snooze is disabled</change>
+		<change>Fixed application crashes due to backgrounding application before alert is displayed</change>
+		<change>Improved preference loading speed.</change>
 	</changelog>
 	<links>
 	</links>

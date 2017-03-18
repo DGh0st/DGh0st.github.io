@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.4-2</version>
+		<change>Fixed application crashes due to backgrounding application before alert is displayed</change>
+		<change>Improved preference loading speed.</change>
+	</changes>
+	<changes>
 		<version>0.0.4-1</version>
 		<change>Fixed regular button not displaying when snooze is disabled</change>
 	</changes>
