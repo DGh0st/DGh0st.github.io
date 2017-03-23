@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Added Preferences</change>
+		<change>Added Quick Launch Applications</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Improved background color to dynamically change based on vertical offset</change>
 		<change>Increased line width to be until the start/end of label instead of fixed value</change>

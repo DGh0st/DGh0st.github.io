@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -14,12 +14,11 @@
 	</dependencies>
 	<descriptionlist>
 		<description>Display a view behind the swiped application in the switcher. The view displays various option to close application, relaunch application and dismiss switcher at different vertical offset.</description>
-		<description>This tweak has no preferences and is a bit buggy sometimes (as in it does not display the view rarely).</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Improved background color to dynamically change based on vertical offset</change>
-		<change>Increased line width to be until the start/end of label instead of fixed value</change>
+		<change>Added Preferences</change>
+		<change>Added Quick Launch Applications</change>
 	</changelog>
 	<links>
 	</links>
