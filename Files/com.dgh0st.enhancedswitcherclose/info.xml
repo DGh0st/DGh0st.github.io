@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -19,8 +19,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Added Preferences</change>
-		<change>Added Quick Launch Applications</change>
+		<change>Added option to display alert when trying to kill now playing application</change>
 	</changelog>
 	<links>
 	</links>

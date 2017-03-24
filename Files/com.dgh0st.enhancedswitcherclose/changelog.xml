@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.4</version>
+		<change>Added option to display alert when trying to kill now playing application</change>
+	</changes>
+	<changes>
 		<version>0.0.3</version>
 		<change>Added Preferences</change>
 		<change>Added Quick Launch Applications</change>
