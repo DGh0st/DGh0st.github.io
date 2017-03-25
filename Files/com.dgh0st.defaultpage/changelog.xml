@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.15-2</version>
+		<change>fixed preference header disappearance issue</change>
+		<change>fixed incompatibility with various other tweaks due to my buggy force home implementation (it is still buggy)</change>
+	</changes>
+	<changes>
 		<version>0.0.15-1</version>
 		<change>Slight improvements to header/title in settings</change>
 	</changes>

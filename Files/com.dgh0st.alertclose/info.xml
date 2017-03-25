@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.alertclose</id>
 	<name>AlertClose</name>
-	<version>1.6.7-1</version>
+	<version>1.6.8</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -21,7 +21,11 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Improvements to Settings header/title</change>
+		<change>fixed preference header disappearance issue</change>
+		<change>added Quick Launch</change>
+		<change>fixed default preference loading</change>
+		<change>fixed disabling application from whitelist not taking effect
+		<change>changed blacklist to a whitelist (sorry for the inconvenience</change>
 	</changelog>
 	<links>
 	</links>

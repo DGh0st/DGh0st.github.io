@@ -1,5 +1,13 @@
 <changelog>
 	<changes>
+		<version>1.6.8</version>
+		<change>fixed preference header disappearance issue</change>
+		<change>added Quick Launch</change>
+		<change>fixed default preference loading</change>
+		<change>fixed disabling application from whitelist not taking effect
+		<change>changed blacklist to a whitelist (sorry for the inconvenience</change>
+	</changes>
+	<changes>
 		<version>1.6.7-1</version>
 		<change>Improvements to Settings header/title</change>
 	</changes>
