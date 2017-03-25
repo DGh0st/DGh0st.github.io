@@ -24,7 +24,7 @@
 		<change>fixed preference header disappearance issue</change>
 		<change>added Quick Launch</change>
 		<change>fixed default preference loading</change>
-		<change>fixed disabling application from whitelist not taking effect
+		<change>fixed disabling application from whitelist not taking effect</change>
 		<change>changed blacklist to a whitelist (sorry for the inconvenience</change>
 	</changelog>
 	<links>
