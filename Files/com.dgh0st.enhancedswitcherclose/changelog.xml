@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6~Beta-2</version>
+		<change>Fixed settings label positon description.</change>
+	</changes>
+	<changes>
 		<version>0.0.6~Beta-1</version>
 		<change>Added option to select label position (left, center, right).</change>
 	</changes>
