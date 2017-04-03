@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6~Beta-1</version>
+		<change>Added option to select label position (left, center, right).</change>
+	</changes>
+	<changes>
 		<version>0.0.5</version>
 		<change>Added option to set default applications settings instead of having to go through every single application.</change>
 	</changes>
