@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.6~Beta-2</version>
+	<version>0.0.6~Beta-3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -13,13 +13,15 @@
 		<package>mobilesubstrate</package>
 		<package>preferenceloader</package>
 		<package>applist</package>
+		<package>libcolorpicker</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Display a view behind the swiped application in the switcher. The view displays various option to close application, relaunch application and dismiss switcher at different vertical offset.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixed settings label positon description.</change>
+		<change>Moved select label position to Personalize</change>
+		<change>Added option to color various labels and background of the tweak view</change>
 	</changelog>
 	<links>
 	</links>

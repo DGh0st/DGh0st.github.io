@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.6~Beta-3</version>
+		<change>Moved select label position to Personalize</change>
+		<change>Added option to color various labels and background of the tweak view</change>
+	</changes>
+	<changes>
 		<version>0.0.6~Beta-2</version>
 		<change>Fixed settings label positon description.</change>
 	</changes>
