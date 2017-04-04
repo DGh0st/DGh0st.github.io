@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6~Beta-4</version>
+		<change>Fixed two "Relaunch" to one "Relaunch" and one "Background" for color picker</change>
+	</changes>
+	<changes>
 		<version>0.0.6~Beta-3</version>
 		<change>Moved select label position to Personalize</change>
 		<change>Added option to color various labels and background of the tweak view</change>
