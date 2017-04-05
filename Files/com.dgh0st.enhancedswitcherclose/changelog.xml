@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.6</version>
+		<change>Added option to enable/disable swipe up/down actions</change>
+		<change>Fixed customize settings menu not having a footer</change>
+	</changes>
+	<changes>
 		<version>0.0.6~Beta-4</version>
 		<change>Fixed two "Relaunch" to one "Relaunch" and one "Background" for color picker</change>
 	</changes>
