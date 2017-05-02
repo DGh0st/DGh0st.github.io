@@ -10,5 +10,10 @@
 			<url>https://www.reddit.com/u/DGh0st/</url>
 			<iconclass>glyphicon glyphicon-user</iconclass>
 		</link>
+		<link>
+			<name>PayPal</name>
+			<url>https://paypal.me/DGh0st</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
 	</footerlinks>
 </repo>
