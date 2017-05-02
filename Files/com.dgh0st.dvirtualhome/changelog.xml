@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.1-2</version>
+		<change>Fixed Siri not being dismissed when performing same action again</change>
+		<change>Changed donate link to paypal.me link</change>
+	</changes>
+	<changes>
 		<version>0.0.1-1</version>
 		<change>Added preferences</change>
 	</changes>
