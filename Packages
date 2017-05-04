@@ -298,6 +298,21 @@ Name: CenterObey
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.centerobey
 
+Package: com.dgh0st.centerobey
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.centerobey/com.dgh0st.centerobey_0.0.2_iphoneos-arm.deb
+Size: 9004
+Installed-Size: 137
+MD5sum: 731c81c24478717e21e61b7a1e50bfc1
+Description: NC and CC will obey based on finger position.
+Name: CenterObey
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.centerobey
+
 Package: com.dgh0st.darkauxo
 Version: 0.0.1
 Section: Tweaks
