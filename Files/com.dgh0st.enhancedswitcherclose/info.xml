@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.6</version>
+	<version>0.0.7</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -20,8 +20,8 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Added option to enable/disable swipe up/down actions</change>
-		<change>Fixed customize settings menu not having a footer</change>
+		<change>Added safemode as an action</change>
+		<change>Changed donate link to paypal.me link</change>
 	</changelog>
 	<links>
 	</links>
