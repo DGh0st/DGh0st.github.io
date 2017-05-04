@@ -868,6 +868,21 @@ Name: EnhancedSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
+Package: com.dgh0st.horizontalvideos
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.horizontalvideos/com.dgh0st.horizontalvideos_0.0.1_iphoneos-arm.deb
+Size: 10344
+Installed-Size: 141
+MD5sum: 8019ccb60233526f4ccdf5655415a92b
+Description: Display videos in landscape (horizontal) mode for iOS 10.
+Name: HorizontalVideos
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.horizontalvideos
+
 Package: com.dgh0st.nccleartext
 Version: 1.0-3
 Section: Tweaks
