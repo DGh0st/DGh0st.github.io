@@ -868,6 +868,21 @@ Name: EnhancedSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
+Package: com.dgh0st.homecardiconlabel
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.homecardiconlabel/com.dgh0st.homecardiconlabel_0.0.1_iphoneos-arm.deb
+Size: 121086
+Installed-Size: 293
+MD5sum: d43b2bd6d0a74d8f8401c3ec4572e433
+Description: Enable icon and label for home card
+Name: HomeCardIconLabel
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.homecardiconlabel
+
 Package: com.dgh0st.horizontalvideos
 Version: 0.0.1
 Section: Tweaks
