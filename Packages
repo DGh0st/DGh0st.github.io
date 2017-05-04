@@ -1183,6 +1183,36 @@ Name: ReachOffset
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.reachoffset
 
+Package: com.dgh0st.scappshortcuts
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, com.dgh0st.switchercontrols | org.thebigboss.switchercontrols, applist
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.scappshortcuts/com.dgh0st.scappshortcuts_0.0.1_iphoneos-arm.deb
+Size: 137376
+Installed-Size: 394
+MD5sum: 72ee0cb9949391b564eb4dd9abd03be9
+Description: Add app shortcut section to SwitcherControls.
+Name: SCAppShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.scappshortcuts
+
+Package: com.dgh0st.sctextsection
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, com.dgh0st.switchercontrols | com.bigboss.switchercontrols
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.sctextsection/com.dgh0st.sctextsection_0.0.1_iphoneos-arm.deb
+Size: 80370
+Installed-Size: 326
+MD5sum: 645583ebd0db3b322ce4bd1ee4351f32
+Description: Add custom text as one of the sections for SwitcherControls.
+Name: SCTextSection
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.sctextsection
+
 Package: com.dgh0st.shifttopswitcher
 Version: 0.0.1
 Section: Tweaks
