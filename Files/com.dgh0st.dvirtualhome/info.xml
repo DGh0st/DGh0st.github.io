@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.1-2</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -18,8 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Fixed Siri not being dismissed when performing same action again</change>
-		<change>Changed donate link to paypal.me link</change>
+		<change>Added Screenshot, Control Center and Notification Center as actions</change>
 	</changelog>
 	<links>
 	</links>
