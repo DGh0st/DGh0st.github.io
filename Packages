@@ -283,6 +283,21 @@ Name: AppSwitchCurrentOrig
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.appswitchcurrentOrig
 
+Package: com.dgh0st.centerobey
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.centerobey/com.dgh0st.centerobey_0.0.1_iphoneos-arm.deb
+Size: 8922
+Installed-Size: 137
+MD5sum: c29c52d85851b5d9eec201f5a1773712
+Description: NC and CC will obey based on finger position.
+Name: CenterObey
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.centerobey
+
 Package: com.dgh0st.darkauxo
 Version: 0.0.1
 Section: Tweaks
