@@ -1,0 +1,25 @@
+<package>
+	<id>com.dgh0st.centerobey</id>
+	<name>CenterObey</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Makes Control Center and Notification Center obey based on finger position. The page corresponding to finger position will open.</description>
+		<description>Should work with tweaks that add pages to NC and CC, though untested.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
