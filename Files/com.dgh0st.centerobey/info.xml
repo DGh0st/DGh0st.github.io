@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.centerobey</id>
 	<name>CenterObey</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10</miniOS>
@@ -18,7 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Fixed Tweak being invoked when sliding up CC after CC already open.</change>
 	</changelog>
 	<links>
 	</links>
