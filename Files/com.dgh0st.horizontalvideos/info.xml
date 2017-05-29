@@ -1,0 +1,25 @@
+<package>
+	<id>com.dgh0st.horizontalvideos</id>
+	<name>HorizontalVideos</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Display videos in landscape (horizontal) mode.</description>
+		<description>Recommend using it with rotation lock as there is an animation bug when rotating from landscape to portrait while watching video.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
