@@ -1,0 +1,24 @@
+<package>
+	<id>com.dgh0st.homecardiconlabel</id>
+	<name>HomeCardIconLabel</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Enable icon and label for homescreen card in the app switcher</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
