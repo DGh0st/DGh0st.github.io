@@ -36,13 +36,15 @@ img {
     position: relative;
 }
 
-.previous > img {
+.arrows {
     margin: 0;
     padding: 0;
+    position: relative;
     margin-top: 20%;
     display: inline-block;
     width: 3%;
     vertical-align: top;
+    z-index: 901;
 }
 
 .previous > div {
@@ -76,52 +78,262 @@ img {
 }
 
 .projects-ios {
-    display: block;
+    display: inline-block;
     position: relative;
     text-align: center;
-    float:center;
-    width: 90%;
+    width: 100%;
+    margin-left: -15%;
+    margin-right: -15%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 .tweak {
     margin: 0;
-    text-align: center;
     position: relative;
-    float:center;
     display: inline-block;
-    width: 23%;
+    width: 25%;
     padding:0;
     vertical-align: top;
     overflow-x: hidden;
     overflow-y: hidden;
+    font-size: 1vw;
 }
 
-@keyframes fadeInFromRight{
-    from {opacity: 0; left: 21.25%}
-    to   {opacity: 1; left: 0%;}
+.tweak-animating {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding:0;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 1vw;
 }
 
-@keyframes slideFromRight{
-    from {left: 21.25%}
-    to   {left: 0%;} 
+.tweak-small {
+    opacity: 0.66;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 18%;
+    padding:0;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 0.72vw;
+}
+
+.tweak-hidden {
+    opacity: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 15%;
+    padding:0;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 0.6vw;
+    pointer-events: none;
+}
+
+.tweak-animating > center {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tweak > center {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tweak-small > center {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tweak-hidden > center {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        left: 15%;
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 15%;
+        font-size: 0.6vw;
+    }
+    to {
+        opacity: 0.66;
+        left: 0%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+}
+
+@keyframes fadeOutFromRight {
+    from {
+        opacity: 0.66;
+        left: 15%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+    to {
+        opacity: 0;
+        left: 0%;
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 15%;
+        font-size: 0.6vw;
+    }
+}
+
+@keyframes slideFromRightToBigger {
+    from {
+        opacity: 0.66;
+        left: 15%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+    to {
+        opacity: 1;
+        left: 0%;
+        margin: 0;
+        width: 25%;
+        font-size: 1vw;
+    }
+}
+
+@keyframes slideFromRightToSmaller {
+    from {
+        opacity: 1;
+        left: 15%;
+        margin: 0;
+        width: 25%;
+        font-size: 1vw;
+    }
+    to {
+        opacity: 0.66;
+        left: 0%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
 }
 
 @keyframes fadeInFromLeft{
-    from {opacity: 0; left: -21.25%}
-    to   {opacity: 1; left: 0%;}   
+    from {
+        opacity: 0;
+        left: -15%;
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 15%;
+        font-size: 0.6vw;
+    }
+    to {
+        opacity: 0.66;
+        left: 0%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
 }
 
-@keyframes slideFromLeft{
-    from {left: -21.25%}
-    to   {left: 0%;} 
+@keyframes fadeOutFromleft {
+    from {
+        opacity: 0.66;
+        left: -15%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+    to {
+        opacity: 0;
+        left: 0%;
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 15%;
+        font-size: 0.6vw;
+    }
 }
 
-@keyframes fadeSlideButton{
-    0%   {opacity: 1;}
-    50%  {opacity: 0;}
-    100% {opacity: 1;}
+@keyframes slideFromLeftToBigger {
+    from {
+        opacity: 0.66;
+        left: -15%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+    to {
+        opacity: 1;
+        left: 0%;
+        margin: 0;
+        width: 25%;
+        font-size: 1vw;
+    }
+}
+
+@keyframes slideFromLeftToSmaller {
+    from {
+        opacity: 1;
+        left: -15%;
+        margin: 0;
+        width: 25%;
+        font-size: 1vw;
+    }
+    to {
+        opacity: 0.66;
+        left: 0%;
+        margin: 0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 18%;
+        font-size: 0.72vw;
+    }
+}
+
+@keyframes fadeInText {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+@keyframes fadeOutText {
+    from {opacity: 1;}
+    to   {opacity: 0;}
 }
 
 h5 {
@@ -153,7 +365,6 @@ h5 {
     display: inline-block;
     position: relative;
     text-align: center;
-    float: center;
     margin-bottom: 2%;
 }
 
@@ -161,7 +372,6 @@ h5 {
     margin: 0;
     text-align: center;
     position: relative;
-    float:center;
     display: inline-block;
     width: 18%;
     padding:0;
