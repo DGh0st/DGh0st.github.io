@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Remove the lockscren notification blur/underlay.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/NoLSNotificationBlur.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>

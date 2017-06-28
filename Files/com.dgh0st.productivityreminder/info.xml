@@ -17,7 +17,12 @@
 	<descriptionlist>
 		<description>Display an alert x minutes after application open to be reminded to get back to work. Select which applications to enable reminder in and also configure the amount of minutes before the alert is displayed.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ProductivityReminder.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Fixed crashes for applications that did not set display name in infoDictionary</change>
 	</changelog>

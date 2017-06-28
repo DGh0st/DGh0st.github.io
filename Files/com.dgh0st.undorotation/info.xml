@@ -18,7 +18,12 @@
 	<descriptionlist>
 		<description>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/UndoRotation.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Fully fixed crashes on iOS 9.0.x</change>
 	</changelog>

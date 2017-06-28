@@ -17,7 +17,12 @@
 	<descriptionlist>
 		<description>Add custom text as one of the sections of SwitcherControls.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/SCTextSection.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>

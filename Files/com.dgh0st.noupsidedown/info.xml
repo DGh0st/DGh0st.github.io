@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Disable UpsideDown Orientation throughout IOS.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/NoUpsideDown.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added iPhone 6s/6s+ support</change>
 	</changelog>

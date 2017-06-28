@@ -17,7 +17,12 @@
 	<descriptionlist>
 		<description>Set the default homescreen page to go to on home button click. Also set the default page to download new applications on. There are many other side features that can be configured in settings.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/DefaultPage.gif</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>fixed preference header disappearance issue</change>
 		<change>fixed incompatibility with various other tweaks due to my buggy force home implementation (it is still buggy)</change>

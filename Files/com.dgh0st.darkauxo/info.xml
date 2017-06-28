@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Makes Control Center and Notification Center (iOS 8 and 9 only) dark (including tweaks like AuxoLE).</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/DarkAuxo.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added iOS 10 support</change>
 		<change>Removed NC support for iOS 10</change>

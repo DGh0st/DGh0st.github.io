@@ -17,7 +17,12 @@
 	<descriptionlist>
 		<description>Create a whitelist of applications that can never be closed from the application switcher. it also has the option to relaunch and launch application when you try to close it.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/WhitelistSwitcherClose.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added iOS 9 support</change>
 	</changelog>

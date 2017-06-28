@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Enable icon and label for homescreen card in the app switcher</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/HomeCardIconLabel.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>

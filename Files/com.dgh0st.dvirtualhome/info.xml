@@ -16,7 +16,12 @@
 	<descriptionlist>
 		<description>My attempt at making virtual home iOS 10 compatible.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/DVirtualHome.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added Screenshot, Control Center and Notification Center as actions</change>
 	</changelog>

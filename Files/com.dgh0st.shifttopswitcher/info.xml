@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Shifts the top switcher application so it seems to have focus!</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ShiftTopSwitcher.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>

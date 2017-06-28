@@ -16,7 +16,12 @@
 	<descriptionlist>
 		<description>Set a custom reachability offset with ability to customize many aspects related to reachability.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ReachOffset.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added iPhone 6s/6s+ support</change>
 	</changelog>

@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>Delays the volume change, prevents the first volume press to actually change the volume. The HUD needs to be visible in order for the volume to change.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/DelayVolChange.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Added iPhone 6s/6s+ support</change>
 	</changelog>

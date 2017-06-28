@@ -16,7 +16,12 @@
 		<description>Makes Control Center and Notification Center obey based on finger position. The page corresponding to finger position will open.</description>
 		<description>Should work with tweaks that add pages to NC and CC, though untested.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/CenterObey.gif</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Fixed Tweak being invoked when sliding up CC after CC already open.</change>
 	</changelog>
