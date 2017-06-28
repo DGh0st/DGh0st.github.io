@@ -1,0 +1,26 @@
+<package>
+	<id>com.dgh0st.sctextsection</id>
+	<name>SCTextSection</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>SwitcherControls</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Add custom text as one of the sections of SwitcherControls.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
