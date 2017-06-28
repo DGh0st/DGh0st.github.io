@@ -19,7 +19,12 @@
 		<description>Disclaimer: Quick Action is untested on iOS 8</description>
 		<description>This tweak was suggested by /u/Jpasholk from /r/jailbreak</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>Alert displayed when app is closed.</description>
+			<image>../../../img/AlertClose.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>fixed preference header disappearance issue</change>
 		<change>added Quick Launch</change>
