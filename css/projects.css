@@ -90,6 +90,7 @@ img {
 
 .tweak {
     margin: 0;
+    text-align: center;
     position: relative;
     display: inline-block;
     width: 25%;
@@ -102,6 +103,7 @@ img {
 
 .tweak-animating {
     margin: 0;
+    text-align: center;
     position: relative;
     display: inline-block;
     width: 25%;
