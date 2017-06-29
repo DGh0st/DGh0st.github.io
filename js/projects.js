@@ -48,7 +48,7 @@ function previous() {
 		div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 4) % iosprojects.length];
-		setInterval(function() {shouldAutoSlide = true;}, 500000);
+		setTimeout(function() {shouldAutoSlide = true;}, 500000);
 		div.children[4].className = "tweak-hidden";
 		div.children[4].style.animation = "fadeOutFromleft 0.5s 1";
 		div.children[3].className = "tweak-small";
@@ -85,7 +85,7 @@ function next() {
 		div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
-		setInterval(function() {shouldAutoSlide = true;}, 500000);
+		setTimeout(function() {shouldAutoSlide = true;}, 500000);
 		div.children[0].className = "tweak-hidden";
 		div.children[0].style.animation = "fadeOutFromRight 0.5s 1";
 		div.children[1].className = "tweak-small";
