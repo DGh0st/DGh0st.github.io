@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.7-1</version>
+		<change>Fixed small memory leak</change>
+		<change>Updated donate link</change>
+	</changes>
+	<changes>
 		<version>0.0.7</version>
 		<change>Added safemode as an action</change>
 		<change>Changed donate link to paypal.me link</change>

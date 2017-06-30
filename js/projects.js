@@ -41,29 +41,29 @@ function previous() {
 		i = iosprojects.length - 1;
 	}
 	
-	div.children[2].children[4].style.animation = "fadeOutText 0.20s 1";
+	div.children[2].children[4].style.animation = "fadeOutText 0.10s 1";
 	setTimeout(function() {
 		div.innerHTML = iosprojects[i % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 1) % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 2) % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
 		div.innerHTML += iosprojects[(i + 4) % iosprojects.length];
-		setTimeout(function() {shouldAutoSlide = true;}, 500000);
+		setTimeout(function() {shouldAutoSlide = true;}, 330000);
 		div.children[4].className = "tweak-hidden";
-		div.children[4].style.animation = "fadeOutFromleft 0.5s 1";
+		div.children[4].style.animation = "fadeOutFromleft 0.33s 1";
 		div.children[3].className = "tweak-small";
-		div.children[3].style.animation = "slideFromLeftToSmaller 0.5s 1";
+		div.children[3].style.animation = "slideFromLeftToSmaller 0.33s 1";
 		div.children[2].className = "tweak-animating";
-		div.children[2].style.animation = "slideFromLeftToBigger 0.5s 1";
+		div.children[2].style.animation = "slideFromLeftToBigger 0.33s 1";
 		div.children[1].className = " tweak-small";
-		div.children[1].style.animation = "fadeInFromLeft 0.5s 1";
+		div.children[1].style.animation = "fadeInFromLeft 0.33s 1";
 		div.children[0].className = "tweak-hidden";
 		setTimeout(function() {
 			isAnimating = false;
 			div.children[2].className = "tweak";
-			div.children[2].children[4].style.animation = "fadeInText 0.20s 1";
-		}, 500);
-	}, 200);
+			div.children[2].children[4].style.animation = "fadeInText 0.10s 1";
+		}, 330);
+	}, 100);
 }
 
 function next() {
@@ -78,29 +78,29 @@ function next() {
 		i = 0;
 	}
 
-	div.children[2].children[4].style.animation = "fadeOutText 0.20s 1";
+	div.children[2].children[4].style.animation = "fadeOutText 0.10s 1";
 	setTimeout(function() {
 		div.innerHTML = iosprojects[(i + 4) % iosprojects.length];
 		div.innerHTML = iosprojects[(i + 3) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[(i + 2) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
 		div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
-		setTimeout(function() {shouldAutoSlide = true;}, 500000);
+		setTimeout(function() {shouldAutoSlide = true;}, 330000);
 		div.children[0].className = "tweak-hidden";
-		div.children[0].style.animation = "fadeOutFromRight 0.5s 1";
+		div.children[0].style.animation = "fadeOutFromRight 0.33s 1";
 		div.children[1].className = "tweak-small";
-		div.children[1].style.animation = "slideFromRightToSmaller 0.5s 1";
+		div.children[1].style.animation = "slideFromRightToSmaller 0.33s 1";
 		div.children[2].className = "tweak-animating";
-		div.children[2].style.animation = "slideFromRightToBigger 0.5s 1";
+		div.children[2].style.animation = "slideFromRightToBigger 0.33s 1";
 		div.children[3].className = "tweak-small";
-		div.children[3].style.animation = "fadeInFromRight 0.5s 1";
+		div.children[3].style.animation = "fadeInFromRight 0.33s 1";
 		div.children[4].className = "tweak-hidden";
 		setTimeout(function() {
 			isAnimating = false;
 			div.children[2].className = "tweak";
-			div.children[2].children[4].style.animation = "fadeInText 0.20s 1";
-		}, 500);
-	}, 200);
+			div.children[2].children[4].style.animation = "fadeInText 0.10s 1";
+		}, 330);
+	}, 100);
 }
 
 var autoSlide = setInterval(autoSlideNext, 10000);
@@ -117,7 +117,7 @@ function autoSlideNext() {
 			i = 0;
 		}
 
-		div.children[2].children[4].style.animation = "fadeOutText 0.20s 1";
+		div.children[2].children[4].style.animation = "fadeOutText 0.10s 1";
 		setTimeout(function() {
 			div.innerHTML = iosprojects[(i + 4) % iosprojects.length];
 			div.innerHTML = iosprojects[(i + 3) % iosprojects.length] + div.innerHTML;
@@ -125,20 +125,20 @@ function autoSlideNext() {
 			div.innerHTML = iosprojects[(i + 1) % iosprojects.length] + div.innerHTML;
 			div.innerHTML = iosprojects[i % iosprojects.length] + div.innerHTML;
 			div.children[0].className = "tweak-hidden";
-			div.children[0].style.animation = "fadeOutFromRight 0.5s 1";
+			div.children[0].style.animation = "fadeOutFromRight 0.33s 1";
 			div.children[1].className = "tweak-small";
-			div.children[1].style.animation = "slideFromRightToSmaller 0.5s 1";
+			div.children[1].style.animation = "slideFromRightToSmaller 0.33s 1";
 			div.children[2].className = "tweak-animating";
-			div.children[2].style.animation = "slideFromRightToBigger 0.5s 1";
+			div.children[2].style.animation = "slideFromRightToBigger 0.33s 1";
 			div.children[3].className = "tweak-small";
-			div.children[3].style.animation = "fadeInFromRight 0.5s 1";
+			div.children[3].style.animation = "fadeInFromRight 0.33s 1";
 			div.children[4].className = "tweak-hidden";
 			setTimeout(function() {
 				isAnimating = false;
 				div.children[2].className = "tweak";
-				div.children[2].children[4].style.animation = "fadeInText 0.20s 1";
-			}, 500);
-		}, 200);
+				div.children[2].children[4].style.animation = "fadeInText 0.10s 1";
+			}, 330);
+		}, 100);
   	}
 }
 
