@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.7-2</version>
+		<change>Fixed potential conflict with other app switcher tweaks</change>
+	</changes>
+	<changes>
 		<version>0.0.7-1</version>
 		<change>Fixed small memory leak</change>
 		<change>Updated donate link</change>
