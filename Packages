@@ -898,6 +898,21 @@ Name: EnhancedSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
+Package: com.dgh0st.hideccswitchbackground
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hideccswitchbackground/com.dgh0st.hideccswitchbackground_0.0.1_iphoneos-arm.deb
+Size: 5134
+Installed-Size: 133
+MD5sum: 3a5b863fe706e9355774e988dd9494f9
+Description: Hide the background of CC switches
+Name: HideCCSwitchBackground
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground
+
 Package: com.dgh0st.homecardiconlabel
 Version: 0.0.1
 Section: Tweaks
