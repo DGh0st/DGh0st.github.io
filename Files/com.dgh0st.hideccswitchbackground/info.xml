@@ -1,0 +1,31 @@
+<package>
+	<id>com.dgh0st.hideccswitchbackground</id>
+	<name>HideCCSwitchBackground</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Hide the background of the CC Switch</description>
+		<description>Only tested on iOS 10, though it should work with any iOS version that supports flipswitch</description>
+		<description>This tweak does not remove the white overlay in the CC, use another tweak to do that</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/HideCCSwitchBackground.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
