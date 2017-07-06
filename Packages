@@ -958,6 +958,21 @@ Name: HorizontalVideos
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.horizontalvideos
 
+Package: com.dgh0st.invisblehomecard
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.invisiblehomecard/com.dgh0st.invisblehomecard_0.0.1_iphoneos-arm.deb
+Size: 4186
+Installed-Size: 133
+MD5sum: 7ce3cd3858d7f717028e8abea32de32c
+Description: Make homescreen card invisble in app switcher
+Name: InvisbleHomeCard
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.invisblehomecard
+
 Package: com.dgh0st.nccleartext
 Version: 1.0-3
 Section: Tweaks
