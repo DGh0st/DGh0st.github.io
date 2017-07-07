@@ -1,5 +1,13 @@
 <changelog>
 	<changes>
+		<version>0.0.2</version>
+		<change>Center last last application when app switcher is opened</change>
+		<change>Center last application when last application swiped all the way to the left</change>
+		<change>Fix last application being complete invisible (including blur) when swiped all the way to the left</change>
+		<change>Added "No Recent Applications" label</change>
+		<change>Fixed homescreen card not always become invisible</change>
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>
