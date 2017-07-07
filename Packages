@@ -959,12 +959,27 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.horizontalvideos
 
 Package: com.dgh0st.invisblehomecard
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.invisblehomecard/com.dgh0st.invisblehomecard_0.0.2_iphoneos-arm.deb
+Size: 10346
+Installed-Size: 141
+MD5sum: 870bb111b671cacd9d5f2cbcc00e1ca5
+Description: Remove homescreen card from app switcher
+Name: InvisibleHomeCard
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.invisblehomecard
+
+Package: com.dgh0st.invisblehomecard
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/com.dgh0st.invisiblehomecard/com.dgh0st.invisblehomecard_0.0.1_iphoneos-arm.deb
+Filename: Files/com.dgh0st.invisblehomecard/com.dgh0st.invisblehomecard_0.0.1_iphoneos-arm.deb
 Size: 4186
 Installed-Size: 133
 MD5sum: 7ce3cd3858d7f717028e8abea32de32c
