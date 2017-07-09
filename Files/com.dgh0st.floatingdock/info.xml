@@ -1,0 +1,27 @@
+<package>
+	<id>com.dgh0st.floatingdock</id>
+	<name>FloatingDock</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Make the dock float.</description>
+	</descriptionlist>
+	<screenshots>
+		<description></description>
+		<image>../../../img/FloatingDock.png</image>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
