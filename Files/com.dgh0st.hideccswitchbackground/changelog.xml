@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Noctis support</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Polus support</change>
 	</changes>
