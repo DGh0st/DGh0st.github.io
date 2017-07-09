@@ -929,6 +929,21 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground
 
 Package: com.dgh0st.hideccswitchbackground
+Version: 0.0.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hideccswitchbackground/com.dgh0st.hideccswitchbackground_0.0.3_iphoneos-arm.deb
+Size: 6878
+Installed-Size: 137
+MD5sum: 21da16221fab27558dbc6b29c6ff534a
+Description: Hide the background of CC switches
+Name: HideCCSwitchBackground
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground
+
+Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
