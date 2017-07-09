@@ -898,6 +898,21 @@ Name: EnhancedSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
+Package: com.dgh0st.floatingdock
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.floatingdock/com.dgh0st.floatingdock_0.0.1_iphoneos-arm.deb
+Size: 7442
+Installed-Size: 133
+MD5sum: b2ac52283ae41f24294ab87de6c5f3ff
+Description: Make the dock float.
+Name: FloatingDock
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.floatingdock
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.1
 Section: Tweaks
