@@ -253,6 +253,21 @@ Name: AppSwitchCurrent
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.appswitchcurrent
 
+Package: com.dgh0st.appswitchcurrent10
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.appswitchcurrent10/com.dgh0st.appswitchcurrent10_0.0.1_iphoneos-arm.deb
+Size: 23768
+Installed-Size: 318
+MD5sum: 72a712a591c7613ed97c9ee76050954e
+Description: Center current application in deck switcher instead of last application for iOS 9 and 10.
+Name: AppSwitchCurrent (9 & 10)
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.appswitchcurrent10
+
 Package: com.dgh0st.appswitchcurrentOrig
 Version: 1.0-2
 Section: Tweaks
