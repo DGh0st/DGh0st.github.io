@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.2</version>
+		<change>Fix unpaged not working sometimes</change>
+		<change>Added ability to select applications that are disabled for both portrait and landscape individually</change>
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>

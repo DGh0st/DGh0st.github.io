@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.scappshortcuts</id>
 	<name>SCAppShortcuts</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -16,7 +16,8 @@
 		<package>SwitcherControls</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Add app shortcuts as one of the sections of SwitcherControls.</description>
+		<change>Fix unpaged not working sometimes</change>
+		<change>Added ability to select applications that are disabled for both portrait and landscape individually</change>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
