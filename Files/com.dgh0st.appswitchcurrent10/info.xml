@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.appswitchcurrent10</id>
 	<name>AppSwitchCurrent (9 &amp; 10)</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -23,7 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>3D Switcher 2 Support</change>
 	</changelog>
 	<links>
 	</links>

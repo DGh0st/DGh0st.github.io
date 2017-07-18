@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.2</version>
+		<change>3D Switcher 2 support</change>
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>
