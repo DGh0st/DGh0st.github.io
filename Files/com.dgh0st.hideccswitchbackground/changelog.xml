@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.5</version>
+		<change>Remove the background of the now playing application thanks to /u/NeinZedd9</change>
+	</changes>
+	<changes>
 		<version>0.0.4</version>
 		<change>Better Noctis support by changing the alpha of switches when disabled.</change>
 	</changes>
