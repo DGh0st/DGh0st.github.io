@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6</version>
+		<change>Fix background of the now playing application not working with Noctis</change>
+	</changes>
+	<changes>
 		<version>0.0.5</version>
 		<change>Remove the background of the now playing application thanks to /u/NeinZedd9</change>
 	</changes>
