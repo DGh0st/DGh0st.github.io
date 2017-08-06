@@ -1094,6 +1094,21 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.invisblehomecard
 
 Package: com.dgh0st.lsscreenshotlimit
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.lsscreenshotlimit/com.dgh0st.lsscreenshotlimit_0.0.2_iphoneos-arm.deb
+Size: 24632
+Installed-Size: 286
+MD5sum: a50946ca122100a425d2eca28b337708
+Description: Limit the amount of screenshots on your lockscreen.
+Name: LSScreenshotLimit
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit
+
+Package: com.dgh0st.lsscreenshotlimit
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
