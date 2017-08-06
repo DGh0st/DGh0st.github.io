@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Added icon for preferences</change>
+		<change>Fixed compatibility with ScreenshotXI</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Fixed lockscreen shake not working on iOS 9</change>
 	</changes>
