@@ -1,0 +1,30 @@
+<package>
+	<id>com.dgh0st.lsscreenshotlimit</id>
+	<name>LSScreenshotLimit</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Limit the amount of screenshots that can be taken.</description>
+		<description>Untested on iOS 9 but it should work.</description>
+	</descriptionlist>
+	<screenshots>		
+		<!--<screenshot>
+			<description></description>
+			<image>../../../img/LSScreenshotLimit.png</image>
+		</screenshot>-->
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
