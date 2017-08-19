@@ -1,4 +1,8 @@
 <changelog>
+	<chages>
+		<version>0.0.7-3</version>
+		<change>Fixed color values reseting when changing other preferences.</change>
+	</chages>
 	<changes>
 		<version>0.0.7-2</version>
 		<change>Fixed potential conflict with other app switcher tweaks</change>
