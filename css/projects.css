@@ -1,5 +1,5 @@
 .intro-header {
-    padding-top: 0%;
+    padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
     background: #1f1f1f url(../img/code.jpg) no-repeat center;
@@ -7,7 +7,7 @@
 }
 
 .intro-divider {
-    width: 30%;
+    width: 60vh;
     margin-top: 0;
     margin-bottom: 0;
     border-top: 2px solid #f8f8f8;
@@ -18,8 +18,8 @@
     display: block;
     margin: 0;
     padding: 0;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 15vh;
+    padding-left: 15vh;
 }
 
 img {
@@ -62,9 +62,10 @@ img {
     margin: 0;
     display: inline-block;
     padding: 0;
-    width: 30%;
-    padding-right: 1%; 
-    padding-left: 1%;
+    max-width: 25em;
+    min-width: 15em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     vertical-align: top;
     overflow-x: visible;
 
@@ -82,10 +83,13 @@ img {
     position: relative;
     text-align: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
     margin-left: -15%;
     margin-right: -15%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .tweak {
@@ -364,10 +368,12 @@ h5 {
 }
 
 .applications-ios {
+    margin: 0;
+    padding: 0;
     display: inline-block;
     position: relative;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 2vh;
 }
 
 .application-ios {
@@ -375,7 +381,8 @@ h5 {
     text-align: center;
     position: relative;
     display: inline-block;
-    width: 18%;
+    min-width: 25vh;
+    max-width: 33vh;
     padding:0;
     vertical-align: top;
     overflow-x: hidden;
@@ -390,8 +397,8 @@ h5 {
 
 .application-ios > h5 {
     text-align: left;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
 }
 
 .application-ios > h3 {
@@ -408,13 +415,13 @@ ul.weeks-tab {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 ul.weeks-tab li {
     float: left;
-    padding: 0.5% 3%;
+    padding: 1vh 5vh;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: none;
@@ -441,8 +448,8 @@ ul.weeks-tab li.selected a {
     display: inline-block;
     width: 100%;
     padding: 0;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 .arrows:hover {
@@ -461,9 +468,12 @@ ul.weeks-tab li.selected a {
     margin: 0;
     display: inline-block;
     padding: 0;
-    width: 30%;
-    padding-right: 1%; 
-    padding-left: 1%;
+    max-width: 52vh;
+    min-width: 30vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
     vertical-align: top;
     overflow-x: visible;
 

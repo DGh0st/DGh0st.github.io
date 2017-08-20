@@ -44,24 +44,24 @@ h6 {
     z-index: 999;
     padding: 0;
     margin: 0;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .nav-bar ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
     overflow: hidden;
-    padding-right: 5%;
-    padding-left: 0;
+    margin-right: 3vh;
 }
 
 .nav-bar li {
     list-style-type: none;
     float: right;
     border-radius: 5px;
-    padding: 0.5%;
-    margin-left: 0.5%;
+    padding: 1vh;
+    margin-left: 2vh;
 }
 
 .nav-bar li a {
@@ -80,11 +80,13 @@ h6 {
 }
 
 .nav-bar li.web-title {
-    padding-left: 5%;
+    margin: 0;
+    padding: 1vh;
+    margin-left: 3vh;
     float: left;
     background: none;
     font-weight: 800;
-    font-size: 120%;
+    font-size: 1.2em;
 }
 
 a:link{
@@ -112,9 +114,9 @@ a:active{
 }
 
 footer {
-    font-size: 50%;
-    padding-top: 1%;
-    padding-bottom:1%;
+    font-size: 1em;
+    margin-top: 1vh;
+    margin-bottom:1vh;
     text-align: center;
 }
 
@@ -128,15 +130,15 @@ footer {
     display: none;
     position: absolute;
     background-color: #333333;
-    margin-left: -0.4%;
-    margin-top: 0.4%;
+    margin-left: -1vh;
+    margin-top: 1vh;
     border-radius: 5px;
     border-top-left-radius: 0;
 }
 
 .dropdown-content a {
     margin: 0;
-    padding: 2%;
+    padding: 0.25em;
     background-color: black;
     color: gray;
     text-decoration: none;
@@ -153,5 +155,5 @@ footer {
 }
 
 .mainbody {
-    padding-top: 3.3%;
+    padding-top: 3.3em;
 }
