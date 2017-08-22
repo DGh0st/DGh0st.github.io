@@ -1153,6 +1153,21 @@ Name: LSScreenshotLimit
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit
 
+Package: com.dgh0st.lsscreenshotlimit
+Version: 0.0.4
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.lsscreenshotlimit/com.dgh0st.lsscreenshotlimit_0.0.4_iphoneos-arm.deb
+Size: 28128
+Installed-Size: 298
+MD5sum: f29f5f1350624a01b17a28491e1c3ea2
+Description: Limit the amount of screenshots on your lockscreen.
+Name: LSScreenshotLimit
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit
+
 Package: com.dgh0st.nccleartext
 Version: 1.0-3
 Section: Tweaks
