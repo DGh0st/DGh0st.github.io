@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.4</version>
+		<change>Fixed compatibility with Activator on iOS 8 and 9</change>
+	</changes>
+	<changes>
 		<version>0.0.3</version>
 		<change>Added icon for preferences</change>
 		<change>Fixed compatibility with ScreenshotXI</change>
