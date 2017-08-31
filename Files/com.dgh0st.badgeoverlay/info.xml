@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.badgeoverlay</id>
 	<name>BadgeOverlay</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Added option to use black transparent background instead of badge color</change>
 	</changelog>
 	<links>
 	</links>
