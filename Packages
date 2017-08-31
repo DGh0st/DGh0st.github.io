@@ -320,9 +320,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.badgeoverlay/com.dgh0st.badgeoverlay_0.0.3_iphoneos-arm.deb
-Size: 37762
+Size: 37814
 Installed-Size: 298
-MD5sum: d3a1b29fcf61e9aa992ca87e902d809e
+MD5sum: 459804966a8a4fbb6313af570df779fb
 Description: Make badges overlay on top of icons instead of being in the corner.
 Name: BadgeOverlay
 Author: DGh0st <deeppwnage@yahoo.com>
