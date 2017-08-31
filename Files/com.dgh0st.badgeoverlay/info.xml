@@ -11,6 +11,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Make badges overlay on top of icons instead of being in the corner.</description>

@@ -11,6 +11,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Limit the amount of screenshots that can be taken.</description>
