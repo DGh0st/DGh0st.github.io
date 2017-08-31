@@ -314,6 +314,21 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.appswitchcurrentOrig
 
 Package: com.dgh0st.badgeoverlay
+Version: 0.0.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.badgeoverlay/com.dgh0st.badgeoverlay_0.0.3_iphoneos-arm.deb
+Size: 37762
+Installed-Size: 298
+MD5sum: d3a1b29fcf61e9aa992ca87e902d809e
+Description: Make badges overlay on top of icons instead of being in the corner.
+Name: BadgeOverlay
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
+
+Package: com.dgh0st.badgeoverlay
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
