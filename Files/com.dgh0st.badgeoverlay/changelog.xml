@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Made only icon badges be overlay instead of all badges (like 3D touch badges)</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Added option to use black transparent background instead of badge color</change>
 	</changes>
