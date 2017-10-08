@@ -1228,6 +1228,21 @@ Name: LSScreenshotLimit
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit
 
+Package: com.dgh0st.ncalwayschevron
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.ncalwayschevron/com.dgh0st.ncalwayschevron_0.0.1_iphoneos-arm.deb
+Size: 5186
+Installed-Size: 133
+MD5sum: 7652697b338da7e5aec5fe75f1531f51
+Description: Always display the chevron view in the notification center instead of switching to page control.
+Name: NCAlwaysChevron
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.ncalwayschevron
+
 Package: com.dgh0st.nccleartext
 Version: 1.0-3
 Section: Tweaks
