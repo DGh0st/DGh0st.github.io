@@ -988,6 +988,21 @@ Name: EnhancedSwitcherClose
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
+Package: com.dgh0st.fixwallpapereffect
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.fixwallpapereffect/com.dgh0st.fixwallpapereffect_0.0.1_iphoneos-arm.deb
+Size: 5054
+Installed-Size: 133
+MD5sum: 2504afe55ed66a03735b41197f25325a
+Description: Fix the wallpaper effect when opening/closing the app switcher.
+Name: FixWallpaperEffect
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.fixwallpapereffect
+
 Package: com.dgh0st.floatingdock
 Version: 0.0.1
 Section: Tweaks
