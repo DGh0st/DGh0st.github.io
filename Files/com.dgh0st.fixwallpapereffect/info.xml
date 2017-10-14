@@ -1,0 +1,25 @@
+<package>
+	<id>com.dgh0st.fixwallpapereffect</id>
+	<name>FixWallpaperEffect</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Fix the wallpaper effect when opening/closing app switcher from certain applications (Mail, Safari, etc.)</description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
