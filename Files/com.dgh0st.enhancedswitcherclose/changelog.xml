@@ -1,7 +1,11 @@
 <changelog>
-	<chages>
+	<changes>
+		<version>0.0.7-4</version>
+		<change>Made UI display and interact with multiple cards if multiple application cards are being swiped up/down</change>
+	</changes>
+	<changes>
 		<version>0.0.7-3</version>
-		<change>Fixed color values reseting when changing other preferences.</change>
+		<change>Fixed color values reseting when changing other preferences</change>
 	</chages>
 	<changes>
 		<version>0.0.7-2</version>
@@ -33,15 +37,15 @@
 	</changes>
 	<changes>
 		<version>0.0.6~Beta-2</version>
-		<change>Fixed settings label positon description.</change>
+		<change>Fixed settings label positon description</change>
 	</changes>
 	<changes>
 		<version>0.0.6~Beta-1</version>
-		<change>Added option to select label position (left, center, right).</change>
+		<change>Added option to select label position (left, center, right)</change>
 	</changes>
 	<changes>
 		<version>0.0.5</version>
-		<change>Added option to set default applications settings instead of having to go through every single application.</change>
+		<change>Added option to set default applications settings instead of having to go through every single application</change>
 	</changes>
 	<changes>
 		<version>0.0.4</version>
