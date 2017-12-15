@@ -156,11 +156,11 @@ var shortTitles = ["Week 1", "Week 2-3"];
 var longTitles = ["Dungeon Of Ooze (Week 1)", "The Gallant Gauntlet (Week 2 - 3)"];
 
 function changeWeek(week) {
-	alert(week);
 	for (var i = 0; i < weeks.length; i++) {
 		document.getElementById(weeks[i]).style = "display: none;";
 	}
 	document.getElementById(weeks[week]).style = "display: block;";
+	alert(week + document.getElementById(weeks[week]) + document.getElementById(weeks[week]).style);
 
 	var links = document.getElementsByClassName("weeks-tab")[0].children;
 	for (var i = 0; i < links.length; i++) {
