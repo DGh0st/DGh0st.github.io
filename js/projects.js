@@ -150,6 +150,8 @@ function autoSlideNext() {
 }
 
 var weeks = ['week1', 'week2'];
+var shortTitles = ["Week 1", "Week 2-3"];
+var longTitles = ["Dungeon Of Ooze (Week 1)", "The Gallant Gauntlet (Week 2 - 3)"];
 
 function changeWeek(week) {
 	for (var i = 0; i < weeks.length; i++) {
@@ -163,6 +165,20 @@ function changeWeek(week) {
 	}
 
 	links[week].className = "selected";
+}
+
+function changeTitles() {
+	var element = document.getElementsByClassName("weeks-tab")[0];
+	var elementWidth = element.offsetWidth;
+	if (elementWidth > 600) {
+		for (var i = 0; i < weeks.length; i++) {
+			document.getElementById(weeks[i] + '-').innerHTML = longTitles[i];
+		}
+	} else {
+		for (var i = 0; i < weeks.length; i++) {
+			document.getElementById(weeks[i] + '-').innerHTML = shortTitles[i];
+		}
+	}
 }
 
 function init() {

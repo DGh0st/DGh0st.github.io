@@ -18,6 +18,14 @@
     display: block;
     margin: 0;
     padding: 0;
-    padding-right: 15vh;
-    padding-left: 15vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    transition: all .25s linear;
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
 }
