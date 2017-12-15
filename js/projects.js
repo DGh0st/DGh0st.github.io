@@ -160,7 +160,7 @@ function changeWeek(week) {
 		document.getElementById(weeks[i]).style = "display: none;";
 	}
 	document.getElementById(weeks[week]).style = "display: block;";
-	alert(week + document.getElementById(weeks[week]) + document.getElementById(weeks[week]).style);
+	alert(week + document.getElementById(weeks[week]) + document.getElementById(weeks[week]).style.cssText);
 
 	var links = document.getElementsByClassName("weeks-tab")[0].children;
 	for (var i = 0; i < links.length; i++) {
