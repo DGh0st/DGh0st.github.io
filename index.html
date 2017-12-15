@@ -10,7 +10,7 @@
     <script src="js/projects.js" type="text/javascript"></script>
 </head>
 
-<body onresize="changeTitles()" onload="changeTitles()">
+<body>
     <div class="intro-header">
         <div class="intro-message">
             <h1>DGh0st</h1>
@@ -167,8 +167,8 @@
             <h2 id="weekChallenges" style="margin-top: -90px; padding-top: 90px; z-index: 99;">Game A Week Challenges</h2>
             <h5>These are fun little small projects where my friend and I attempted to create a game in a week to get a better understanding of new concepts and/or game engines.</h5>
             <ul class="weeks-tab">
-                <li onclick="changeWeek(0)" class="selected"><a id="week1-">Dungeon Of Ooze (Week 1)</a></li>
-                <li onclick="changeWeek(1)"><a id="week2-">The Gallant Gauntlet (Week 2 - 3)</a></li>
+                <li onclick="changeWeek(0)" ontouchstart="changeWeek(0)" class="selected"><a id="week1-">Dungeon Of Ooze (Week 1)</a></li>
+                <li onclick="changeWeek(1)" ontouchstart="changeWeek(1)"><a id="week2-">The Gallant Gauntlet (Week 2 - 3)</a></li>
             </ul>
             <div id="weekChallenge" class="weeks-content">
                 <!--WEEK 1-->

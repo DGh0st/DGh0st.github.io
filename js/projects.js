@@ -1,4 +1,6 @@
 document.onload = function(){init()};
+window.onresize = function(){changeTitles();}
+window.onload = function(){changeTitles();}
 
 var iosprojects = [
 			'<div class = "tweak-hidden"><h3>UndoRotation</h3><img src="img/UndoRotation.png"><br><a href="https://www.github.com/DGh0st/UndoRotation">GitHub</a><center><h5>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=undorotationDp">BigBoss</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.undorotation">DGh0st Beta Repo</a></h5></center></div>',
@@ -165,12 +167,14 @@ function changeWeek(week) {
 	}
 
 	links[week].className = "selected";
+
+	changeTitles();
 }
 
 function changeTitles() {
 	var element = document.getElementsByClassName("weeks-tab")[0];
 	var elementWidth = element.offsetWidth;
-	if (elementWidth > 600) {
+	if (elementWidth > 700) {
 		for (var i = 0; i < weeks.length; i++) {
 			document.getElementById(weeks[i] + '-').innerHTML = longTitles[i];
 		}
@@ -193,4 +197,5 @@ function init() {
 	div.innerHTML += iosprojects[(i + 3) % iosprojects.length];
 	iosprojects[(i + 4) % iosprojects.length].className = "tweak-hidden";
 	div.innerHTML += iosprojects[(i + 4) % iosprojects.length];
+	changeTitles();
 }
