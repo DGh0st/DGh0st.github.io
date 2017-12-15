@@ -1,6 +1,6 @@
 document.onload = function(){init()};
 window.onresize = function(){changeTitles();}
-window.onload = function(){changeTitles(0);}
+window.onload = function(){changeTitles();}
 
 var iosprojects = [
 			'<div class = "tweak-hidden"><h3>UndoRotation</h3><img src="img/UndoRotation.png"><br><a href="https://www.github.com/DGh0st/UndoRotation">GitHub</a><center><h5>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</h5><h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=undorotationDp">BigBoss</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.undorotation">DGh0st Beta Repo</a></h5></center></div>',
@@ -151,7 +151,8 @@ function autoSlideNext() {
   	}
 }
 
-var weeks = [
+var weeks = ['week1-', 'week2-'];
+var weeksDivs = [
 	"<!--WEEK 1--><div><h5>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. It is developed using <a href='https://unity3d.com'>Unity</a>.</h5><div class='week-game'><img src='img/DungeonOfOozeTitle.png'><img src='img/DungeonOfOozePlay.png'><img src='img/DungeonOfOozeGameOver.png'></div><h5>Download by follwing the links: <a href='https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0'>[unzipped dropbox version]</a>. Also the code for the game can be viewed on <a href='https://github.com/michaell308/Game-a-Week-Challenge--Week_1'>GitHub</a>.</h5></div>",
 	"<!--Week 2--><div><h5>The Gallant Gauntlet is a 2D multi-player game. It is developed using <a href='http://www.sfml-dev.org/index.php'>Simple and Fast Multimedia Library (SFML)</a>.</h5><div class='week-game'><img src='img/TheGallantGauntletTitle.png'><img src='img/TheGallantGauntletPlay.png'><img src='img/TheGallantGauntletExit.png'></div><h5>Download by follwing the links: <a href='https://www.dropbox.com/s/1c7iepyw77r9c8b/TheGallantGauntlet.zip?dl=0'>[zipped dropbox version]</a>. Also the code for the game can be viewed on <a href='https://github.com/michaell308/Game-a-Week-Challenge--Week_2'>GitHub</a>.</h5></div>"
 ];
@@ -159,7 +160,7 @@ var shortTitles = ["Week 1", "Week 2-3"];
 var longTitles = ["Dungeon Of Ooze (Week 1)", "The Gallant Gauntlet (Week 2 - 3)"];
 
 function changeWeek(week) {
-	document.getElementById("weekChallenge").innerHTML = weeks[week];
+	document.getElementById("weekChallenge").innerHTML = weeksDivs[week];
 	
 	var links = document.getElementsByClassName("weeks-tab")[0].children;
 	for (var i = 0; i < links.length; i++) {
@@ -176,11 +177,11 @@ function changeTitles() {
 	var elementWidth = element.offsetWidth;
 	if (elementWidth > 700) {
 		for (var i = 0; i < weeks.length; i++) {
-			document.getElementById(weeks[i] + '-').innerHTML = longTitles[i];
+			document.getElementById(weeks[i]).innerHTML = longTitles[i];
 		}
 	} else {
 		for (var i = 0; i < weeks.length; i++) {
-			document.getElementById(weeks[i] + '-').innerHTML = shortTitles[i];
+			document.getElementById(weeks[i]).innerHTML = shortTitles[i];
 		}
 	}
 }
@@ -199,3 +200,5 @@ function init() {
 	div.innerHTML += iosprojects[(i + 4) % iosprojects.length];
 	changeTitles();
 }
+
+changeTitles();
