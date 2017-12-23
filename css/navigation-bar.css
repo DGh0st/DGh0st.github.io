@@ -87,6 +87,11 @@
 }
 
 @media only screen and (max-device-width: 812px) {
+	.nav-bar {
+		width: 100%;
+		padding: 0px;
+	}
+	
 	.nav-bar div.pages {
 		transform: translateX(100%);
 		-moz-transform: translateX(100%);
