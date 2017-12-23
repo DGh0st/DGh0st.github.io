@@ -1,31 +1,15 @@
-.intro-header {
-    padding-top: 0%;
-    padding-bottom: 0px;
-    text-align: center;
-    background: #1f1f1f url(../img/code-1.jpg) no-repeat center;
-    background-size: 100% 150%;
+.header {
+	background-image: url(../img/trees.jpg);
+
+	transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
 }
 
-.intro-divider {
-    width: 40%;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-top: 2px solid #f8f8f8;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-}
-
-.about {
-    display: block;
-    margin: 0;
-    padding: 0;
-    padding-right: 10vh;
-    padding-left: 10vh;
-    transition: all .25s linear;
-}
-
-@media screen and (max-width: 640px) {
-    .about {
-        padding-left: 5vh;
-        padding-right: 5vh;
-    }
+@media screen and (max-width: 580px) {
+	.header .header-divider {
+		margin: -25px 10% 15px 10%;
+	}
 }

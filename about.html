@@ -1,59 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>DGh0st</title>
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/navigation-bar.css">
+		<link rel="stylesheet" href="css/about.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="js/navigation.js"></script>
+	</head>
+	<body>
+		<!-- HEADER IMAGE -->
+		<div class="header unselectable">
+			<div class="header-message">
+				<h1>About Me</h1>
+				<hr class="header-divider">
+            	<h3>"Time is not money because it never returns." - Amit Abraham</h3>
+			</div>
+		</div>
 
-<head>
-    <title>DGh0st - About</title>
+		<!-- NAVIGATION BAR -->
+		<div class="nav-bar unselectable">
+			<a href="index.html" class="title">DGh0st</a>
+			<div class="pages">
+				<li class="dropdown">
+					<a href="index.html">Projects&#x25BC;</a>
+					<div class="dropdown-content">
+						<a href="index.html#iOS_Runtime_Modifications" class="dropdown-item">iOS Runtime Modifications</a>
+						<a href="index.html#Play_Mafia" class="dropdown-item">PlayMafia</a>
+						<a href="index.html#Hexagon_Fort" class="dropdown-item">Hexagon Fort</a>
+						<a href="index.html#iOS_Applications" class="dropdown-item">iOS Applications</a>
+						<a href="index.html#Game_A_Week_Challenge" class="dropdown-item">Game A Week Challenge</a>
+						<a href="index.html#Nerd" class="dropdown-item">Nerd</a>
+						<a href="index.html#Other" class="dropdown-item">Other</a>
+					</div>
+				</li>
+				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
+				<li><a href="about.html" class="highlighted-nav">About</a></li>
+			</div>
+			<div class="underNavBarButton">
+				<a onclick="toggleBar()">&#9776;</a>
+			</div>
+		</div>
+		<div class="underNavBar unselectable">
+			<li>
+				<a href="index.html">Projects</a>
+				<div class="page-content">
+					<a href="index.html#iOS_Runtime_Modifications" onclick="toggleBar()">iOS Runtime Modifications</a>
+					<a href="index.html#Play_Mafia" onclick="toggleBar()">PlayMafia</a>
+					<a href="index.html#Hexagon_Fort" onclick="toggleBar()">Hexagon Fort</a>
+					<a href="index.html#iOS_Applications" onclick="toggleBar()">iOS Applications</a>
+					<a href="index.html#Game_A_Week_Challenge" onclick="toggleBar()">Game A Week Challenge</a>
+					<a href="index.html#Nerd" onclick="toggleBar()">Nerd</a>
+					<a href="index.html#Other" onclick="toggleBar()">Other</a>
+				</div>
+			</li>
+			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repository</a></li>
+			<li><a href="about.html" class="highlighted-nav" id="last-nav-element">About Me</a></li>
+		</div>
 
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
-    <script src="js/main.js" type="text/javascript"></script>
-</head>
+		<!-- CONTENT -->
+		<div class="content">
+			<h2>Little More About Me</h2>
+			<div class="sectionInfo">
+				<p>I'm Deep Patel.<p>
+				<p>I'm a senior at the University Of Illinois at Chicago studying Computer Science.</p>
+				<p>I love programming, playing video games and basketball in my free time. I have developed some iOS runtime modifications, applications and games which I publish under the alias of DGh0st.</p>
+				<p>Feel free to contact me through
+					<a href="mailto:patel97deep@gmail.com">patel97deep@gmail.com</a>, 
+					<a href="https://twitter.com/D_Gh0st">Twitter</a>, or 
+					<a href="https://www.reddit.com/user/DGh0st/">Reddit</a>
+				</p>
+			</div>
+		</div>
 
-<body>
-    <div class="intro-header">
-        <div class="intro-message">
-            <h1>About Me</h1>
-            <hr class="intro-divider">
-            <h3>"Time is not money because it never returns." - Amit Abraham</h3>
-        </div>
-    </div>
-    <div class="nav-bar" id="navbar">
-        <div>
-            <li class="web-title"><a href="index.html">DGh0st</a></li>
-        </div>
-        <div>
-            <ul>
-                <li class="highlight-nav"><a href="about.html">About</a></li>
-                <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
-                <li class="dropdown">
-                    <a href="index.html" class="dropbtn">Projects &#x25BC;</a>
-                    <div class="dropdown-content">
-                        <a href="index.html#iosRuntimeModifcations">iOS Runtime Modifications</a>
-                        <a href="index.html#playmafia">PlayMafia</a>
-                        <a href="index.html#hexagonFort">Hexagon Fort</a>
-                        <a href="index.html#iosApplications">iOS Applications</a>
-                        <a href="index.html#weekChallenges">Game A Week Challenge</a>
-                        <a href="index.html#other">Other</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div id="mainbody" class="mainbody">
-        <div class="about" id="about">
-            <h2>Little More About Me</h2>
-            <h5>I'm Deep Patel.
-            <br><br>
-            I'm a senior at the University Of Illinois at Chicago studying Computer Science.
-            <br><br>
-            I love programming, playing video games and basketball in my free time. I have developed some iOS runtime modifications, applications and games.
-            <br><br>
-            Feel free to contact me through 
-            <a href="mailto:patel97deep@gmail.com">patel97deep@gmail.com</a>, 
-            <a href="https://twitter.com/D_Gh0st">Twitter</a>, or 
-            <a href="https://www.reddit.com/user/DGh0st/">Reddit</a>
-            </h5>
-        </div>
-    <div>
-    <div class="footer"><footer></footer></div>
+		<!-- BACK TO TOP -->
+		<div class="backToTop unselectable">
+			<h1 onclick="backToTop()"><i style="color: white;" class="fa fa-arrow-circle-up" aria-hidden="true"></i></h1>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer unselectable">
+			<hr class="footer-separator">
+			<div class="footer-content">
+				<h2 class="name">Deep Patel</h2>
+				<li><h4><!-- EMPTY LINE FOR SPACING --></h4><li>
+				<li><a href="https://twitter.com/D_Gh0st"><h2><i style="color: #55ACEE;" class="fa fa-twitter"></i></h2><h4>D_Gh0st</h4></a></li>
+				<li><a href="https://github.com/DGh0st"><h2><i style="color: white;" class="fa fa-github"></i></h2><h4>DGh0st</h4></a></li>
+				<li><a href="https://www.reddit.com/user/DGh0st/"><h2><i style="color: red; background-color: white; border-radius: 32px;" class="fa fa-reddit"></i></h2><h4>DGh0st</h4></a></li>
+				<li><a href="mailto:patel97deep@gmail.com"><h2><i style="color: white;" class="fa fa-envelope"></i></h2><h4>patel97deep@gmail.com</h4></a></li>
+			</div>
+		</div>
+
+		<!-- OVERLAY IMAGE -->
+		<div id="overlayImage" class="unselectable">
+			<div class="unselectable"><!-- Need this to vertically align the image --></div>
+			<img id="overlayImg">
+			<i class="fa fa-times" onclick="removeOverlayImage()"></i>
+		</div>
+	</body>
 </html>

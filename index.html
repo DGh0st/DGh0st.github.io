@@ -1,194 +1,1005 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>DGh0st</title>
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/navigation-bar.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="js/all.js"></script>
+		<script type="text/javascript" src="js/navigation.js"></script>
+		<script type="text/javascript" src="js/tweaks.js"></script>
+	</head>
+	<body>
+		<!-- HEADER IMAGE -->
+		<div class="header unselectable">
+			<div class="header-message">
+				<h1>DGh0st</h1>
+				<hr class="header-divider">
+				<h3>iOS Application, iOS Runtime Modification and Game Developer</h3>
+			</div>
+		</div>
 
-<head>
-    <title>DGh0st - Projects</title>
+		<!-- NAVIGATION BAR -->
+		<div class="nav-bar unselectable">
+			<a href="index.html" class="title">DGh0st</a>
+			<div class="pages">
+				<li class="dropdown">
+					<a href="index.html" class="highlighted-nav">Projects&#x25BC;</a>
+					<div class="dropdown-content">
+						<a href="#iOS_Runtime_Modifications" class="dropdown-item">iOS Runtime Modifications</a>
+						<a href="#Play_Mafia" class="dropdown-item">PlayMafia</a>
+						<a href="#Hexagon_Fort" class="dropdown-item">Hexagon Fort</a>
+						<a href="#iOS_Applications" class="dropdown-item">iOS Applications</a>
+						<a href="#Game_A_Week_Challenge" class="dropdown-item">Game A Week Challenge</a>
+						<a href="#Nerd" class="dropdown-item">Nerd</a>
+						<a href="#Other" class="dropdown-item">Other</a>
+					</div>
+				</li>
+				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
+				<li><a href="about.html">About</a></li>
+			</div>
+			<div class="underNavBarButton">
+				<a onclick="toggleBar()">&#9776;</a>
+			</div>
+		</div>
+		<div class="underNavBar unselectable">
+			<li>
+				<a href="index.html" class="highlighted-nav">Projects</a>
+				<div class="page-content">
+					<a href="#iOS_Runtime_Modifications" onclick="toggleBar()">iOS Runtime Modifications</a>
+					<a href="#Play_Mafia" onclick="toggleBar()">PlayMafia</a>
+					<a href="#Hexagon_Fort" onclick="toggleBar()">Hexagon Fort</a>
+					<a href="#iOS_Applications" onclick="toggleBar()">iOS Applications</a>
+					<a href="#Game_A_Week_Challenge" onclick="toggleBar()">Game A Week Challenge</a>
+					<a href="#Nerd" onclick="toggleBar()">Nerd</a>
+					<a href="#Other" onclick="toggleBar()">Other</a>
+				</div>
+			</li>
+			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repository</a></li>
+			<li><a href="about.html" id="last-nav-element">About Me</a></li>
+		</div>
 
-    <link href="css/projects.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
-    <script src="js/main.js" type="text/javascript"></script>
-    <script src="js/projects.js" type="text/javascript"></script>
-</head>
+		<!-- CONTENT -->
+		<div class="content">
+			<h2 id="iOS_Runtime_Modifications">iOS Runtime Modifications</h2>
+			<div class="sectionInfo">
+				<p>These are extensions, also known as tweaks for jailbroken devices, that I work on during my free time. The extensions fulfull numerous requests of the <a href="https://www.reddit.com/r/jailbreak">/r/jailbreak</a> community and range from shifting UI elements for aesthetic purposes to overhauling features of the default iOS.</p>
+				<p>Most of these tweaks have been published to <a href="http://thebigboss.org/">TheBigBoss</a> repository, but there are a few treasures that I have kept hidden away on my beta repository. You can add my beta repository using the "Cydia Repo" button in the navigation bar. Note that I am not resposible for anything wrong that happens to your device so proceed with caution when you download any packages from my beta repo. With that out of the way, I think most of the packages are pretty stable with just a few kinks (like unstable with other tweaks).</p>
+				<p>The following are a few examples tweaks that I have worked on.</p>
+				<div class="modifications">
+					<div class="runtime_modifications">
+						<!-- AlertClose -->
+						<div class="tweak">
+							<div class="card">
+								<div class="info">
+									<div>
+										<h3 class="name">AlertClose</h3><h5 class="price"> (Free)</h5>
+										<p>Display an alert when you swip up an application in the application switcher.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/AlertClose"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.alertclose/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose"><img src="img/repo.png"></a>
+									</div>
+								</div>
+								<img src="img/AlertClose.png" onclick="overlayImage(this)">
+							</div>
+						</div>
+						<!-- BadgeOverlay -->
+						<div class="tweak">
+							<div class="card">
+								<div class="info">
+									<div>
+										<h3 class="name">BadgeOverlay</h3><h5 class="price"> (Free)</h5>
+										<p>Give badges a more sleek look by making them overlays.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/BadgeOverlay"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay"><img src="img/repo.png"></a>
+									</div>
+								</div>
+								<img src="img/BadgeOverlay.png" onclick="overlayImage(this)">
+							</div>
+						</div>
+						<!-- ScreenshotXI -->
+						<div class="tweak">
+							<div class="card">
+								<div class="info">
+									<div>
+										<h3 class="name">ScreenshotXI</h3><h5 class="price"> ($1.00)</h5>
+										<p>Brings iOS 11 style screenshotting to iOS 9 and 10.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/ScreenshotXI"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.screenshotxi/"><img src="img/cydia.png"></a>
+									</div>
+								</div>
+								<img src="img/ScreenshotXI.png" onclick="overlayImage(this)">
+							</div>
+						</div>
+						<!-- SwitcherControls -->
+						<div class="tweak">
+							<div class="card">
+								<div class="info">
+									<div>
+										<h3 class="name">SwitcherControls</h3><h5 class="price"> ($1.50)</h5>
+										<p>Have access to various control center sections while using deck switcher.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/SwitcherControls"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/org.thebigboss.switchercontrols/"><img src="img/cydia.png"></a>
+									</div>
+								</div>
+								<img src="img/SwitcherControls.png" onclick="overlayImage(this)">
+							</div>
+						</div>
+						<!-- MORE ON SEPRATE PAGE -->
+						<div class="tweak">
+							<a class="card" onclick="displayAllTweaks()">
+								<div class="info">
+									<div>
+										<h3 class="name">More</h3>
+										<p>I have made 25+ tweaks. Click this card to view them all.</p>
+									</div>
+								</div>
+								<img> <!-- needed for formating the rest of this -->
+							</a>
+						</div>
+					</div>
+					<div class="allTweaks">
+						<!-- AlertClose -->
+						<div class="app tweak">
+							<div class="card">
+								<div class="images">
+									<img src="img/AlertClose.png" onclick="overlayImage(this)">
+									<img src="img/AlertClosePreference.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">AlertClose</h3><h5 class="price"> (Free)</h5>
+										<p>Display an alert when you swip up an application in the application switcher.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/AlertClose"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.alertclose/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- AppSwitchCurrent -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/AppSwitchCurrent.gif" onclick="overlayImage(this)">
+									<img src="img/AppSwitchCurrentPreference.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">AppSwitchCurrentOrig</h3><h5 class="price"> (Free)</h5>
+										<p>Opens the app switcher to the current application instead of the last application.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/AppSwitchCurrentOrig"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.appswitchcurrent10/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.appswitchcurrentOrig"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- BadgeOverlay -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/BadgeOverlay.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">BadgeOverlay</h3><h5 class="price"> (Free)</h5>
+										<p>Give badges a more sleek look by making them overlays.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/BadgeOverlay"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- CenterObey -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/CenterObey.gif" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">CenterObey</h3><h5 class="price"> (Free)</h5>
+										<p>Open Control or Notification Center page corresponding to finger position.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/CenterObey"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.centerobey"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- DarkAuxo -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/DarkAuxo.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">DarkAuxo</h3><h5 class="price"> (Free)</h5>
+										<p>Darken Control (iOS 8 - 10) and Notification Center (iOS 8 and 9 only).</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/DarkAuxo"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.darkauxo"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- DefaultPage -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/DefaultPage.gif" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">DefaultPage</h3><h5 class="price"> (Free)</h5>
+										<p>Set the default homescreen and new applications download page.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/DefaultPage"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.defaultpage"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- DelayVolChange -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/DelayVolChange.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">DelayVolChange</h3><h5 class="price"> (Free)</h5>
+										<p>Make first volume button press have no effect on volume level.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/DelayVolChange"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.delayvolchange/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.delayvolchange"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- DVirtualHome -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/DVirtualHome.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">DVirtualHome</h3><h5 class="price"> (Free)</h5>
+										<p>Brings virtual home to iOS 10. Tap your home button instead of pressing it and add haptic feedback.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/DVirtualHome"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.dvirtualhome"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- EnhancedSwitcherClose -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/EnhancedSwitcherClose.jpg" onclick="overlayImage(this)">
+									<img src="img/EnhancedSwitcherClose2.jpg" onclick="overlayImage(this)">
+									<img src="img/EnhancedSwitcherClose3.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">EnhancedSwitcherClose</h3><h5 class="price"> (Free)</h5>
+										<p>Display a view behind the swiped application in the switcher with unique actions at different vertical offset.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/EnhancedSwitcherClose"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.enhancedswitcherclose/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- FloatingDock -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/FloatingDock.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">FloatingDock</h3><h5 class="price"> (Free)</h5>
+										<p>Gives the dock a floating look and makes the corners round.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/FloatingDock"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.floatingdock"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- HideCCSwitchBackground -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/HideCCSwitchBackground.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">HideCCSwitchBackground</h3><h5 class="price"> (Free)</h5>
+										<p>Remove the background of buttons in the CC. Requires removal of white overlay using another tweak.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/HideCCSwitchBackground"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- HomeCardIconLabel -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/HomeCardIconLabel.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">HomeCardIconLabel</h3><h5 class="price"> (Free)</h5>
+										<p>Add icon and label to the homescreen card. Change icon by replacing images at /Library/Application Support/HomeCardIconLabel.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/HomeCardIconLabel"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.homecardiconlabel/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.homecardiconlabel"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- InvisibleHomeCard -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/InvisibleHomeCard.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">InvisibleHomeCard</h3><h5 class="price"> (Free)</h5>
+										<p>Make the homescreen card invisible inside app switcher to get the perception that it has been removed.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/InvisibleHomeCard"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.invisblehomecard"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- LSScreenshotLimit -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/LSScreenshotLimit.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">LSScreenshotLimit</h3><h5 class="price"> (Free)</h5>
+										<p>Limit the amount of screenshots that can be taken on the lockscreen with ability to fake screenshots.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/LSScreenshotLimit"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.lsscreenshotlimit/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NCAlwaysChevron -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NCAlwaysChevron.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NCAlwaysChevron</h3><h5 class="price"> (Free)</h5>
+										<p>Always display the chevron view in the notification center instead of switching to page dots once notfication center is fully displayed.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NCAlwaysChevron"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.ncalwayschevron"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NCClearText -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NCClearText.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NCClearText</h3><h5 class="price"> (Free)</h5>
+										<p>Set custom text for Notification's "clear" and "No Notification" texts.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NCClearText"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.nccleartext"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NoHomeTapOnHS -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NoHomeTapOnHS.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NoHomeTapOnHS</h3><h5 class="price"> (Free)</h5>
+										<p>Disable the home button taps and presses on the homesceen.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NoHomeTapOnHS"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.nohometaponhs"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NoLSNotificationBlur -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NoLSNotificationBlur.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NoLSNotificationBlur</h3><h5 class="price"> (Free)</h5>
+										<p>Remove the lockscren blur that is displayed underneath default lockscreen when there are notifications.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NoLSNotificationBlur"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.nolsnotificationblur"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NoLSNotificationSeparators -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NoLSNotificationSeparators.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NoLSNotificationSeparators</h3><h5 class="price"> (Free)</h5>
+										<p>Remove the separators at the top and bottom of notifications list view when there are notifications on the lockscreen.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NoLSNotificationSeparators"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.nolsnotificationseparators"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- NoUpsideDown -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/NoUpsideDown.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">NoUpsideDown</h3><h5 class="price"> (Free)</h5>
+										<p>Disable the upside down orientation throughout iOS.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/NoUpsideDown"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.noupsidedown/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.noupsidedown"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ProductivityReminder -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/ProductivityReminder.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">ProductivityReminder</h3><h5 class="price"> (Free)</h5>
+										<p>Display an alert x minutes after application open to be reminded to get back to work.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/ProductivityReminder"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.productivityreminder"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ReachOffset -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/ReachOffset.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">ReachOffset</h3><h5 class="price"> (Free)</h5>
+										<p>Customize many settings related to the reachability offset and adds option to have dynamic offset based on time between clicks.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/ReachOffset"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.reachoffset/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.reachoffset"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- SCAppShortcuts -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/SCAppShortcuts.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">SCAppShortcuts</h3><h5 class="price"> (Free)</h5>
+										<p>Add another section to SwitcherControls that contains a list of application which can be launched.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/SCAppShortcuts"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.scappshortcuts"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ScreenshotXI -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/ScreenshotXI.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">ScreenshotXI</h3><h5 class="price"> ($1.00)</h5>
+										<p>Brings iOS 11 style screenshotting to iOS 9 and 10.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/ScreenshotXI"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.screenshotxi/"><img src="img/cydia.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- SCTextSection -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/SCTextSection.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">SCTextSection</h3><h5 class="price"> (Free)</h5>
+										<p>Add section to SwitcherControls that contains custom text.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/SCTextSection"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.sctextsection"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ShiftTopSwitcher -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/ShiftTopSwitcher.png" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">ShiftTopSwitcher</h3><h5 class="price"> (Free)</h5>
+										<p>Shifts the top application in the deck switcher so it seems the app switcher is open to current application.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/ShiftTopSwitcher"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.shifttopswitcher"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- SwitcherControls -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/SwitcherControls.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">SwitcherControls</h3><h5 class="price"> ($1.50)</h5>
+										<p>Have access to various control center sections while using deck switcher.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/SwitcherControls"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/org.thebigboss.switchercontrols/"><img src="img/cydia.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- UndoRotation -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/UndoRotation.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">UndoRotation</h3><h5 class="price"> (Free)</h5>
+										<p>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/UndoRotation"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.undorotation/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.undorotation"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WhiteListSwitcherClose -->
+						<div class="app tweak suppressed">
+							<div class="card">
+								<div class="images">
+									<img src="img/WhitelistSwitcher.gif" onclick="overlayImage(this)">
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">WhiteListSwitcherClose</h3><h5 class="price"> (Free)</h5>
+										<p>Create a whitelist of applications that restart, launch, or do nothing when you try to close it via application switcher.</p>
+									</div>
+									<div class="links">
+										<a href="https://www.github.com/DGh0st/WhitelistSwitcherClose"><i style="color: white;" class="fa fa-github"></i></a>
+										<a href="http://cydia.saurik.com/package/com.dgh0st.whitelistswitcher/"><img src="img/cydia.png"></a>
+										<a href="https://dgh0st.github.io/Files/?p=com.dgh0st.whitelistswitcher"><img src="img/repo.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- MORE ON SEPRATE PAGE -->
+						<div class="app tweak suppressed" id="less">
+							<a class="card" onclick="hideAllTweaks()">
+								<div class="images">
+									<img> <!-- needed for formating the rest of this -->
+								</div>
+								<div class="info">
+									<div>
+										<h3 class="name">Less</h3>
+										<p>Click this card to go back to displaying less tweaks.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<p>The total download for packages that have been published on TheBigBoss repository can be viewed at <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">DGh0st's TheBigBoss stats</a>.</p>
+			</div>
+			<h2 id="Play_Mafia">Play Mafia</h2>
+			<div class="sectionInfo">
+				<p>PlayMafia is multi-player web game based on the party game "Mafia." The idea was created for a team of seven members in a honors course at University Of Illinois at Urbana-Champaign.</p>
+				<p>We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="http://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I  designed the communication system and implemented severeal roles for the gameplay.</p>
+				<p>The website for the game has since been taken down so there is no place to play it.</p>
+				<p>Source Code:</p>
+				<div class="downloadLink">
+					<a href="https://github.com/DGh0st/Mafia-Game-Manager">
+						<h1>
+							<i style="color: white;" class="fa fa-github"></i>
+						</h1><h3>GitHub</h3>
+					</a>
+				</div>
+			</div>
+			<h2 id="Hexagon_Fort">Hexagon Fort</h2>
+			<div class="sectionInfo">
+				<p>Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). The game contains three upgradeable towers which are basic tower, spraying tower and healing tower. The basic tower shoots enemy minions at a steady rate with a big range. The spraying tower, on the other hand, shoots in multiple directions but has very small range. The healing tower shoots around like a sprinkler and heals your ally minions.</p>
+				<p>It was developed using <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a> to get a better understanding of SFML for future projects.</p>
+				<div class="hexagon-fort">
+					<div class="imageCard">
+						<img src="img/HexagonFortTitle.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/HexagonFortPause.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/HexagonFortPlay.jpg" onclick="overlayImage(this)">
+					</div>
+				</div>
+				<p>Download links:</p>
+				<div class="downloadLink">
+					<a href="https://www.dropbox.com/s/b963an1wt2414tf/Hexagon%20Fort.zip?dl=0">
+						<h1>
+							<i style="color: white;" class="fa fa-dropbox"></i>
+						</h1><h3>Dropbox (zipped)</h3>
+					</a>
+				</div>
+				<div class="downloadLink">
+					<a href="https://www.dropbox.com/sh/nz71qjoi42g3kdq/AAChYdcA4sEs6iZH0VmSZ07fa?dl=0">
+						<h1>
+							<i style="color: white;" class="fa fa-dropbox"></i>
+						</h1><h3>Dropbox (unzipped)</h3>
+					</a>
+				</div>
+				<p>Source Code:</p>
+				<div class="downloadLink">
+					<a href="https://github.com/DGh0st/Hexagon-Fort">
+						<h1>
+							<i style="color: white;" class="fa fa-github"></i>
+						</h1><h3>GitHub</h3>
+					</a>
+				</div>
+			</div>
+			<h2 id="iOS_Applications">iOS Applications</h2>
+			<div class="sectionInfo">
+				<p>These are iOS applications that I worked on during the Code Path University's iOS swift course. The course is about learning the ins and outs of iOS development to develop custom applications in swift.</p>
+				<div class="iOS-Applications">
+					<!-- Tipster -->
+					<div class="app">
+						<div class="card">
+							<img src="https://raw.githubusercontent.com/DGh0st/Tipster/master/Tipster.gif" onclick="overlayImage(this)">
+							<div class="info">
+								<div>
+									<h3 class="name">Tipster</h3>
+									<p>Tip calculator application for iOS.</p>
+								</div>
+								<div class="links">
+									<div class="downloadLink">
+										<a href="https://www.github.com/DGh0st/Tipster">
+											<h1>
+												<i style="color: white;" class="fa fa-github"></i>
+											</h1><h3>GitHub</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Flixer -->
+					<div class="app">
+						<div class="card">
+							<img src="http://imgur.com/KK0Lisc.gif" onclick="overlayImage(this)">
+							<div class="info">
+								<div>
+									<h3 class="name">Flixer</h3>
+									<p>A movies app using the <a href="http://docs.themoviedb.apiary.io/#">The Movie Database API</a>.</p>
+								</div>
+								<div class="links">
+									<div class="downloadLink">
+										<a href="https://www.github.com/DGh0st/Flixer">
+											<h1>
+												<i style="color: white;" class="fa fa-github"></i>
+											</h1><h3>GitHub</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Yelp -->
+					<div class="app">
+						<div class="card">
+							<img src="http://imgur.com/uDGPnmT.gif" onclick="overlayImage(this)">
+							<div class="info">
+								<div>
+									<h3 class="name">Yelp</h3>
+									<p>A yelp search app using the <a href="http://www.yelp.com/developers/documentation/v2/search_api">Yelp API</a>.</p>
+								</div>
+								<div class="links">
+									<div class="downloadLink">
+										<a href="https://www.github.com/DGh0st/Yelp">
+											<h1>
+												<i style="color: white;" class="fa fa-github"></i>
+											</h1><h3>GitHub</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Tweety -->
+					<div class="app">
+						<div class="card">
+							<img src="http://imgur.com/KCoNsJe.gif" onclick="overlayImage(this)">
+							<div class="info">
+								<div>
+									<h3 class="name">Tweety</h3>
+									<p>A basic twitter app to read and compose tweets using the <a href="https://apps.twitter.com/">Twitter API</a>.</p>
+								</div>
+								<div class="links">
+									<div class="downloadLink">
+										<a href="https://www.github.com/DGh0st/Tweety">
+											<h1>
+												<i style="color: white;" class="fa fa-github"></i>
+											</h1><h3>GitHub</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- SnapSync -->
+					<div class="app">
+						<div class="card">
+							<img src="http://imgur.com/6HfI8X1.gif" onclick="overlayImage(this)">
+							<div class="info">
+								<div>
+									<h3 class="name">SnapSync</h3>
+									<p>A photo sharing app using Parse as its backend.</p>
+								</div>
+								<div class="links">
+									<div class="downloadLink">
+										<a href="https://www.github.com/DGh0st/SnapSync">
+											<h1>
+												<i style="color: white;" class="fa fa-github"></i>
+											</h1><h3>GitHub</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>More info about each application (such as time spent developing, features, notes, etc.) can be found on GitHub corresponding to the project.</p>
+			</div>
+			<h2 id="Game_A_Week_Challenge">Game A Week Challenge</h2>
+			<div class="sectionInfo">
+				<p>These are fun little small projects where my friend and I attempted to create a full game in a week to get a better understanding of new concepts and/or game engines.</p>
+				<p>In the first week, we focused on Unity and 3D graphics. For the second week, we stepped back to 2D graphics with SFML and focused more on the multi-player aspect. We later extended the period for the multi-player game by another week to fix communication lag and polish it.</p>
+				<div class="tabbed">
+					<input type="radio" name="tabs" id="tab-1" checked>
+					<label for="tab-1">Dungeon of Ooze</label>
+					<input type="radio" name="tabs" id="tab-2">
+					<label for="tab-2">The Gallant Gauntlet</label>
+					<div class="tabs">
+						<div class="tab-content">
+							<!--WEEK 1-->
+							<p>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. The goal of the game is you navigate through a maze-like dugeon and fight ooze monsters to reach the exit.</p>
+							<p>It is developed using <a href="https://unity3d.com">Unity</a> to grasp the basics of 3D graphics.</p>
+							<div class="weekImages">
+								<div class="imageCard">
+									<img src="img/DungeonOfOozeTitle.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="imageCard">
+									<img src="img/DungeonOfOozePlay.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="imageCard">
+									<img src="img/DungeonOfOozeGameOver.jpg" onclick="overlayImage(this)">
+								</div>
+							</div>
+							<p>Download links:</p>
+							<div class="downloadLink">
+								<a href="https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0">
+									<h1>
+										<i style="color: white;" class="fa fa-dropbox"></i>
+									</h1><h3>Dropbox (unzipped)</h3>
+								</a>
+							</div>
+							<p>Source Code:</p>
+							<div class="downloadLink">
+								<a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_1">
+									<h1>
+										<i style="color: white;" class="fa fa-github"></i>
+									</h1><h3>GitHub</h3>
+								</a>
+							</div>
+						</div>
+						<div class="tab-content">
+							<!--WEEK 2-->
+							<p>The Gallant Gauntlet is a 2D multi-player game where you can play as a Knight, Ranger, or Mage to defeat your friends in battle.</p>
+							<p>It is developed using <a href='http://www.sfml-dev.org/index.php'>Simple and Fast Multimedia Library (SFML)</a> to apply our basic understanding of client-server communication into a game.</p>
+							<div class="weekImages">
+								<div class="imageCard">
+									<img src="img/TheGallantGauntletTitle.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="imageCard">
+									<img src="img/TheGallantGauntletPlay.jpg" onclick="overlayImage(this)">
+								</div>
+								<div class="imageCard">
+									<img src="img/TheGallantGauntletExit.jpg" onclick="overlayImage(this)">
+								</div>
+							</div>
+							<p>Download links:</p>
+							<div class="downloadLink">
+								<a href="https://www.dropbox.com/s/1c7iepyw77r9c8b/TheGallantGauntlet.zip?dl=0">
+									<h1>
+										<i style="color: white;" class="fa fa-dropbox"></i>
+									</h1><h3>Dropbox (zipped)</h3>
+								</a>
+							</div>
+							<p>Source Code:</p>
+							<div class="downloadLink">
+								<a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_2">
+									<h1>
+										<i style="color: white;" class="fa fa-github"></i>
+									</h1><h3>GitHub</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>More info about the game and how to run the game can be found on the corresponding github link.</p>
+			</div>
+			<h2 id="Nerd">Nerd</h2>
+			<div class="sectionInfo">
+				<p>Nerd is a 2D top down signle-player frogger like game where characters are based on different nerd types. The idea was created as a course project for team of three memebers in a software design class at University of Illinois at Chicago.</p>
+				<p>It is developed using Java's Swing graphics.</p>
+				<div class="nerdImages">
+					<div class="imageCard">
+						<img src="img/NerdTitle.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/NerdPlay.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/NerdGameOver.jpg" onclick="overlayImage(this)">
+					</div>
+				</div>
+				<p>We never got to creating a distributable jar file for this project, but you can still compile and run the game through the source code.</p>
+				<p>Source Code:</p>
+				<div class="downloadLink">
+						<a href="https://github.com/DGh0st/Nerd">
+						<h1>
+							<i style="color: white;" class="fa fa-github"></i>
+						</h1><h3>GitHub</h3>
+					</a>
+				</div>
+			</div>
+			<h2 id="Other">Other</h2>
+			<div class="sectionInfo">
+				<p>All my other projects that I have failed to mention above are open sourced on my <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html and css of this website.</p>
+			</div>
+		</div>
 
-<body>
-    <div class="intro-header">
-        <div class="intro-message">
-            <h1>DGh0st</h1>
-            <hr class="intro-divider">
-            <h3>iOS Application, iOS Runtime Modification and Game Developer</h3>
-        </div>
-    </div>
-    <div class="nav-bar" id="navbar">
-        <div>
-            <li class="web-title"><a href="index.html">DGh0st</a></li>
-        </div>
-        <div>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
-                <li class="dropdown highlight-nav">
-                    <a href="index.html" class="dropbtn">Projects &#x25BC;</a>
-                    <div class="dropdown-content">
-                        <a href="index.html#iosRuntimeModifcations">iOS Runtime Modifications</a>
-                        <a href="index.html#playmafia">PlayMafia</a>
-                        <a href="index.html#hexagonFort">Hexagon Fort</a>
-                        <a href="index.html#iosApplications">iOS Applications</a>
-                        <a href="index.html#weekChallenges">Game A Week Challenge</a>
-                        <a href="index.html#other">Other</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div id="mainbody" class="mainbody">
-        <div class="projects" id="iosRuntimeModifcations" style="margin-top: -90px; padding-top: 90px; z-index: 99;">
+		<!-- BACK TO TOP -->
+		<div class="backToTop unselectable">
+			<h1 onclick="backToTop()"><i style="color: white;" class="fa fa-arrow-circle-up" aria-hidden="true"></i></h1>
+		</div>
 
-            <!--IOS RUNTIME MODIFICATIONS-->
-            <h2>iOS Runtime Modifications Projects</h2>
-            <h5>These are extensions, for jailbroken devices, that I work on during my free time. The extensions fulfull numerous requests of the <a href="https://www.reddit.com/r/jailbreak">/r/jailbreak</a> community and range from shifting UI elements for aesthetic purposes to completely changing a feature of the default iOS. The total download for the packages that have been published on a public repository (<a href="http://thebigboss.org/">TheBigBoss</a>) can be viewed at <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">DGh0st's TheBigBoss stats</a></h5>
-            <div class = "previous">
-                <img class = "arrows" onclick="previous()" src="img/navLeft.png">
-                <div class="projects-ios" id="projects-slide">
-                    <div class = "tweak-hidden">
-                        <h3>UndoRotation</h3>
-                        <img src="img/UndoRotation.png">
-                        <br>
-                        <a href="https://www.github.com/DGh0st/UndoRotation">GitHub</a>
-                        <center>
-                            <h5>Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.</h5>
-                            <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=undorotationDp">BigBoss</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.undorotation">DGh0st Beta Repo</a></h5>
-                        </center>
-                    </div>
-                    <div class = "tweak-small">
-                        <h3>WhiteListSwitcherClose</h3>
-                        <img src="img/WhitelistSwitcher.gif">
-                        <br>
-                        <a href="https://www.github.com/DGh0st/WhiteListSwitcherClose">GitHub</a>
-                        <center>
-                            <h5>Create a whitelist of applications that will make applications irremovable, restart or launch when you try to close it via application switcher.</h5>
-                            <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whitelistswitchercloseDp">BigBoss</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.whitelistswitcher">DGh0st Beta Repo</a></h5>
-                        </center>
-                    </div>
-                    <div class = "tweak">
-                        <h3>AlertClose</h3>
-                        <img src="img/AlertClose.png">
-                        <br>
-                        <a href="https://www.github.com/DGh0st/AlertClose">GitHub</a>
-                        <center>
-                            <h5>Display an alert with option to close, relaunch, dismiss switcher and cancel when you swipe application up through application switcher.</h5>
-                            <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alertcloseDp">BigBoss</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose">DGh0st Beta Repo</a></h5>
-                        </center>
-                    </div>
-                    <div class = "tweak-small">
-                        <h3>AppSwitcherCurrentOrig</h3>
-                        <img src="img/AppSwitchCurent.gif">
-                        <br>
-                        <a href="https://www.github.com/DGh0st/AppSwitchCurrentOrig">GitHub</a>
-                        <center>
-                            <h5>Opens the app switcher to the current application instead of the last application. Official version is named AppSwitcherCurrent.</h5>
-                            <h5>Repo: <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appswitchcurrentDp">BigBoss (iOS 8)</a>, <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appswitchcurrent10Dp">BigBoss (iOS 9 &amp; 10)</a>, <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.appswitchcurrentOrig">DGh0st Beta Repo</a></h5>
-                        </center>
-                    </div>
-                    <div class = "tweak-hidden">
-                        <h3>BadgeOverlay</h3>
-                        <img src="img/BadgeOverlay.png">
-                        <br>
-                        <a href="https://www.github.com/DGh0st/BadgeOverlay">GitHub</a>
-                        <center>
-                            <h5>Make badges overlay on top of icons instead of being in the corner. Give badges a more sleek look by making them overlays.</h5>
-                            <h5>Repo: <a href="https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay">DGh0st Beta Repo</a></h5>
-                        </center>
-                    </div>
-                </div>
-                <img class = "arrows" onclick="next()" src="img/navRight.png">
-            </div>
+		<!-- FOOTER -->
+		<div class="footer unselectable">
+			<hr class="footer-separator">
+			<div class="footer-content">
+				<h2 class="name">Deep Patel</h2>
+				<li><h4><!-- EMPTY LINE FOR SPACING --></h4><li>
+				<li><a href="https://twitter.com/D_Gh0st"><h2><i style="color: #55ACEE;" class="fa fa-twitter"></i></h2><h4>D_Gh0st</h4></a></li>
+				<li><a href="https://github.com/DGh0st"><h2><i style="color: white;" class="fa fa-github"></i></h2><h4>DGh0st</h4></a></li>
+				<li><a href="https://www.reddit.com/user/DGh0st/"><h2><i style="color: red; background-color: white; border-radius: 32px;" class="fa fa-reddit"></i></h2><h4>DGh0st</h4></a></li>
+				<li><a href="mailto:patel97deep@gmail.com"><h2><i style="color: white;" class="fa fa-envelope"></i></h2><h4>patel97deep@gmail.com</h4></a></li>
+			</div>
+		</div>
 
-            <!--PLAYMAFIA-->
-            <h2 id="playmafia" style="margin-top: -90px; padding-top: 90px; z-index: 99;">PlayMafia</h2>
-            <h5>PlayMafia is a multi-player online game based on the party game "Mafia." I designed and developed the communication system and assited in programing several roles for the gameplay. The website for the game was sadly taken down so there is no place to play it but the code for server, game and website is on 
-            <a href="https://github.com/DGh0st/Mafia-Game-Manager">GitHub</a>.</h5>
-            <br>
-
-            <!--HEXAGON FORT-->
-            <h2 id="hexagonFort" style="margin-top: -90px; padding-top: 90px; z-index: 99;">Hexagon Fort</h2>
-            <h5>Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). It is developed using
-            <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a>. I worked on this project alone, to get a better understanding of SFML for future projects.</h5>
-            <div class="hexagon-fort">
-                <img src="img/HexagonFortTitle.png">
-                <img src="img/HexagonFortPlay.png">
-                <img src="img/HexagonFortPause.png">
-            </div>
-            <h5>Download by follwing the links: 
-            <a href="https://www.dropbox.com/s/b963an1wt2414tf/Hexagon%20Fort.zip?dl=0">[zipped dropbox version]</a> and <a href="https://www.dropbox.com/sh/nz71qjoi42g3kdq/AAChYdcA4sEs6iZH0VmSZ07fa?dl=0">[unzipped version]</a>. Also the code for the game can be viewed on
-            <a href="https://github.com/DGh0st/Hexagon-Fort">GitHub</a>.</h5>
-
-            <!--IOS APPLICATIONS-->
-            <h2 id="iosApplications" style="margin-top: -90px; padding-top: 90px; z-index: 99;">iOS Applications</h2>
-            <h5>I worked on these iOS applications during the Code Path University's iOS swift course. More info about each application (such as time spent developing, features, notes, etc.) can be found on GitHub corresponding to the project.</h5>
-            <div class="applications-ios">
-                <div class="application-ios">
-                    <h3>Tipster</h3>
-                    <img src="https://raw.githubusercontent.com/DGh0st/Tipster/master/Tipster.gif">
-                    <br>
-                    <a href="https://github.com/DGh0st/Tipster">GitHub</a>
-                    <h5>Tip calculator application for iOS.</h5>
-                </div>
-                <div class="application-ios">
-                    <h3>Flixer</h3>
-                    <img src="http://imgur.com/KK0Lisc.gif">
-                    <br>
-                    <a href="https://github.com/DGh0st/Flixer">GitHub</a>
-                    <h5>A movies app using the <a href="http://docs.themoviedb.apiary.io/#">The Movie Database API</a>.</h5>
-                </div>
-                <div class="application-ios">
-                    <h3>Yelp</h3>
-                    <img src="http://imgur.com/uDGPnmT.gif">
-                    <br>
-                    <a href="https://github.com/DGh0st/Yelp">GitHub</a>
-                    <h5>A yelp search app using the <a href="http://www.yelp.com/developers/documentation/v2/search_api">Yelp API</a>.</h5>
-                </div>
-                <div class="application-ios">
-                    <h3>Tweety</h3>
-                    <img src="http://imgur.com/KCoNsJe.gif">
-                    <br>
-                    <a href="https://github.com/DGh0st/Tweety">GitHub</a>
-                    <h5>A basic twitter app using the <a href="https://apps.twitter.com/">Twitter API</a>.</h5>
-                </div>
-                <div class="application-ios">
-                    <h3>SnapSync</h3>
-                    <img src="http://imgur.com/6HfI8X1.gif">
-                    <br>
-                    <a href="https://github.com/DGh0st/SnapSync">GitHub</a>
-                    <h5>A photo sharing app using Parse as its backend.</h5>
-                </div>
-            </div>
-
-            <!--GAME A WEEK CHALLENGES-->
-            <h2 id="weekChallenges" style="margin-top: -90px; padding-top: 90px; z-index: 99;">Game A Week Challenges</h2>
-            <h5>These are fun little small projects where my friend and I attempted to create a game in a week to get a better understanding of new concepts and/or game engines.</h5>
-            <ul class="weeks-tab">
-                <li onclick="changeWeek(0)" class="selected"><a id="week1-">Dungeon Of Ooze (Week 1)</a></li>
-                <li onclick="changeWeek(1)"><a id="week2-">The Gallant Gauntlet (Week 2 - 3)</a></li>
-            </ul>
-            <div id="weekChallenge" class="weeks-content">
-                <!--WEEK 1-->
-                <div>
-                    <h5>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. It is developed using <a href="https://unity3d.com">Unity</a>.</h5>
-                    <div class="week-game">
-                        <img src="img/DungeonOfOozeTitle.png">
-                        <img src="img/DungeonOfOozePlay.png">
-                        <img src="img/DungeonOfOozeGameOver.png">
-                    </div>
-                    <h5>Download by follwing the links: <a href="https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0">[unzipped dropbox version]</a>. Also the code for the game can be viewed on <a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_1">GitHub</a>.</h5>
-                </div>
-            </div>
-
-            <!--OTHER-->
-            <h2 id="other" style="margin-top: -90px; padding-top: 90px; z-index: 99;">Other Projects</h2>
-            <h5>All my other completed projects are open sourced on my 
-            <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html and css of this website.</h5>
-
-        </div>
-    <div>
-    <div class="footer"><footer></footer></div>
+		<!-- OVERLAY IMAGE -->
+		<div id="overlayImage" class="unselectable">
+			<div class="unselectable"><!-- Need this to vertically align the image --></div>
+			<img id="overlayImg">
+			<i class="fa fa-times" onclick="removeOverlayImage()"></i>
+		</div>
+	</body>
 </html>
