@@ -62,6 +62,7 @@
 		-o-transform: translateX(100%);
 		-webkit-transform: translateX(100%);
 		opacity: 0;
+		z-index: -1;
 	}
 }
 
@@ -73,6 +74,7 @@
 		-o-transform: translateX(100%);
 		-webkit-transform: translateX(100%);
 		opacity: 0;
+		z-index: -1;
 	}
 
 	.underNavBar {
@@ -100,6 +102,7 @@
 		-o-transform: translateX(0%);
 		-webkit-transform: translateX(0%);
 		opacity: 1;
+		z-index: 100;
 	}
 
 	.underNavBar {
