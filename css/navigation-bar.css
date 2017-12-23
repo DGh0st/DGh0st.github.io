@@ -12,13 +12,13 @@
 	grid-template-areas: "t . l";
 	
 	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 
-    overflow-x: hidden;
-    overflow-y: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .nav-bar a.title {
@@ -48,19 +48,20 @@
 	text-align: right;
 
 	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 }
 
 @media screen and (max-width: 550px) {
 	.nav-bar div.pages {
 		transform: translateX(100%);
 		-moz-transform: translateX(100%);
-    	-ms-transform: translateX(100%);
-    	-o-transform: translateX(100%);
-    	-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		z-index: -1;
 	}
 }
 
@@ -68,17 +69,18 @@
 	.nav-bar div.underNavBarButton {
 		transform: translateX(100%);
 		-moz-transform: translateX(100%);
-    	-ms-transform: translateX(100%);
-    	-o-transform: translateX(100%);
-    	-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		z-index: -1;
 	}
 
 	.underNavBar {
 		transform: translateY(-50%) scaleY(0);
 		-moz-transform: translateY(-50%) scaleY(0);
-    	-ms-transform: translateY(-50%) scaleY(0);
-    	-o-transform: translateY(-50%) scaleY(0);
-    	-webkit-transform: translateY(-50%) scaleY(0);
+		-ms-transform: translateY(-50%) scaleY(0);
+		-o-transform: translateY(-50%) scaleY(0);
+		-webkit-transform: translateY(-50%) scaleY(0);
 	}
 }
 
@@ -86,25 +88,25 @@
 	.nav-bar div.pages {
 		transform: translateX(100%);
 		-moz-transform: translateX(100%);
-    	-ms-transform: translateX(100%);
-    	-o-transform: translateX(100%);
-    	-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
 	}
 
 	.nav-bar div.underNavBarButton {
 		transform: translateX(0%);
 		-moz-transform: translateX(0%);
-    	-ms-transform: translateX(0%);
-    	-o-transform: translateX(0%);
-    	-webkit-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		-o-transform: translateX(0%);
+		-webkit-transform: translateX(0%);
 	}
 
 	.underNavBar {
 		transform: translateY(0%) scaleY(1.0);
 		-moz-transform: translateY(0%) scaleY(1.0);
-    	-ms-transform: translateY(0%) scaleY(1.0);
-    	-o-transform: translateY(0%) scaleY(1.0);
-    	-webkit-transform: translateY(0%) scaleY(1.0);
+		-ms-transform: translateY(0%) scaleY(1.0);
+		-o-transform: translateY(0%) scaleY(1.0);
+		-webkit-transform: translateY(0%) scaleY(1.0);
 	}
 }
 
@@ -143,10 +145,10 @@
 	z-index: 100;
 
 	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+	-webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 }
 
 .underNavBar a {
@@ -204,31 +206,31 @@
 }
 
 .nav-bar .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333333;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    text-align: left;
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	text-align: left;
 }
 
 .nav-bar .dropdown-content a {
-    display: block;
-    background-color: black;
-    color: gray;
-    text-decoration: none;
-    text-align: left;
+	display: block;
+	background-color: black;
+	color: gray;
+	text-decoration: none;
+	text-align: left;
 
 	margin: 5px;
 	padding: 5px 10px 5px 10px;
 }
 
 .nav-bar .dropdown-content a:hover {
-    background-color: #333333;
+	background-color: #333333;
 }
 
 .nav-bar .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 .nav-bar .dropdown:hover a:not(.dropdown-item) {
