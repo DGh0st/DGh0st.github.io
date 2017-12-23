@@ -6,6 +6,7 @@
 	height: 50px;
 	padding: 0px 50px 0px 50px;
 
+	display: block;
 	display: grid;
 	grid-template-columns: 100px auto auto;
 	grid-template-rows: auto;
@@ -24,6 +25,7 @@
 .nav-bar a.title {
 	grid-area: t;
 	display: inline-block;
+	float: left;
 	font-size: 28px;
 	font-weight: bold;
 	padding: 9px 0px 9px 0px;
@@ -91,7 +93,7 @@
 		width: 100%;
 		padding: 0px;
 	}
-	
+
 	.nav-bar div.pages {
 		transform: translateX(100%);
 		-moz-transform: translateX(100%);
@@ -118,8 +120,6 @@
 		-ms-transform: translateY(0%) scaleY(1.0);
 		-o-transform: translateY(0%) scaleY(1.0);
 		-webkit-transform: translateY(0%) scaleY(1.0);
-
-		top: 0px;
 	}
 }
 
@@ -246,7 +246,7 @@
 	display: block;
 }
 
-.nav-bar .dropdown:hover a:not(.dropdown-item) {
+.nav-bar .dropdown:hover > a {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 
@@ -255,6 +255,52 @@
 	background-color: #333333;
 }
 
-.nav-bar .dropdown:hover .dropdown-content a {
-	margin: 5px;
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active),
+@supports not(display: grid) {
+	.nav-bar {
+		white-space: nowrap;
+	}
+
+	.nav-bar div.pages {
+		display: inline-block;
+		min-width: 400px;
+		float: right;
+		height: 50px;
+	}
+
+	.nav-bar div.underNavBarButton {
+		display: inline-block;
+		margin-left: calc(100% - 335px);
+		width: 230px;
+		z-index: 100;
+		height: 50px;
+	}
+
+	@media screen and (max-width: 550px) {
+		.nav-bar div.pages {
+			width: 0px;
+		}
+	}
+
+	@media screen and (min-width: 550px) {
+		.nav-bar div.underNavBarButton {
+			width: 0px;
+		}
+
+		.underNavBar {
+			transform: translateY(-50%) scaleY(0);
+			-moz-transform: translateY(-50%) scaleY(0);
+			-ms-transform: translateY(-50%) scaleY(0);
+			-o-transform: translateY(-50%) scaleY(0);
+			-webkit-transform: translateY(-50%) scaleY(0);
+		}
+	}
+
+	.dropdown-content {
+		margin-top: -1px;
+	}
+
+	.underNavBar {
+		top: 0px;
+	}
 }

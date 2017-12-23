@@ -8,6 +8,7 @@ body, html {
 }
 
 body {
+	display: block;
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
 	grid-template-rows: 400px 50px auto 225px;
@@ -84,8 +85,8 @@ img {
 	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 100% 100%;
 	background-size: cover;
+	height: 400px;
 }
 
 .header h1 {
@@ -95,7 +96,7 @@ img {
 .header .header-message {
 	position: relative;
 
-	margin-top: 125px;
+	padding-top: 100px;
 }
 
 .header .header-divider {
@@ -169,6 +170,7 @@ img {
 	grid-area: f;
 	font-size: 12px;
 	text-align: left;
+	height: 225px;
 
 	transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
