@@ -107,6 +107,8 @@
 		-ms-transform: translateY(0%) scaleY(1.0);
 		-o-transform: translateY(0%) scaleY(1.0);
 		-webkit-transform: translateY(0%) scaleY(1.0);
+
+		top: 0px;
 	}
 }
 
