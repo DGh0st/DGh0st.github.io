@@ -2,6 +2,7 @@
 	grid-area: n;
 	background: url(../img/nav-bar-bg.png);
 	z-index: 100;
+	width: calc(100% - 100px);
 	height: 50px;
 	padding: 0px 50px 0px 50px;
 
@@ -10,24 +11,14 @@
 	grid-template-rows: auto;
 	grid-template-areas: "t . l";
 	
-	transition: padding .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -moz-transition: padding .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -ms-transition: padding .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -o-transition: padding .25s cubic-bezier(0.5, 0, 0.5, 1);
-    -webkit-transition: padding .25s cubic-bezier(0.5, 0, 0.5, 1);
+	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+    -moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+    -ms-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+    -o-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
+    -webkit-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 
     overflow-x: hidden;
     overflow-y: hidden;
-}
-
-@media screen and (max-width: 640px) {
-	.nav-bar {
-		padding: 0px;
-	}
-
-	.nav-bar a.title {
-		margin-left: 5px;
-	}
 }
 
 .nav-bar a.title {
@@ -36,6 +27,17 @@
 	font-size: 28px;
 	font-weight: bold;
 	padding: 9px 0px 9px 0px;
+}
+
+@media screen and (max-width: 640px) {
+	.nav-bar {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.nav-bar a.title {
+		margin-left: 5px;
+	}
 }
 
 .nav-bar div {
@@ -77,6 +79,32 @@
     	-ms-transform: translateY(-50%) scaleY(0);
     	-o-transform: translateY(-50%) scaleY(0);
     	-webkit-transform: translateY(-50%) scaleY(0);
+	}
+}
+
+@media only screen and (max-device-width: 812px) {
+	.nav-bar div.pages {
+		transform: translateX(100%);
+		-moz-transform: translateX(100%);
+    	-ms-transform: translateX(100%);
+    	-o-transform: translateX(100%);
+    	-webkit-transform: translateX(100%);
+	}
+
+	.nav-bar div.underNavBarButton {
+		transform: translateX(0%);
+		-moz-transform: translateX(0%);
+    	-ms-transform: translateX(0%);
+    	-o-transform: translateX(0%);
+    	-webkit-transform: translateX(0%);
+	}
+
+	.underNavBar {
+		transform: translateY(0%) scaleY(1.0);
+		-moz-transform: translateY(0%) scaleY(1.0);
+    	-ms-transform: translateY(0%) scaleY(1.0);
+    	-o-transform: translateY(0%) scaleY(1.0);
+    	-webkit-transform: translateY(0%) scaleY(1.0);
 	}
 }
 
