@@ -514,8 +514,37 @@
 	}
 }
 
-/* Since internet explorer or Safari (before iOS 11) does not support grids, we need to have special cases */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active),
+/* Since internet explorer does not support grids, we need to have special cases */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.modifications {
+		display: block;
+	}
+
+	.allTweaks {
+		display: block;
+		transform: translateX(0%);
+	}
+
+	.runtime_modifications {
+		display: none;
+	}
+
+	.app {
+		display: inline-flex;
+	}
+
+	.suppressed {
+		display: inline-flex;
+		opacity: 1;
+		transform: translateY(0%) scaleX(1.0);
+	}
+
+	.suppressed a.card {
+		display: none;
+	}
+}
+
+/* Since iOS Safari does not support grids, we need to have special case */
 @supports not(display: grid) {
 	.modifications {
 		display: block;
