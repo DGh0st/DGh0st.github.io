@@ -88,41 +88,6 @@
 	}
 }
 
-@media only screen and (max-device-width: 812px) {
-	.nav-bar {
-		width: 100%;
-		padding: 0px;
-	}
-
-	.nav-bar div.pages {
-		transform: translateX(100%);
-		-moz-transform: translateX(100%);
-		-ms-transform: translateX(100%);
-		-o-transform: translateX(100%);
-		-webkit-transform: translateX(100%);
-		opacity: 0;
-		z-index: -1;
-	}
-
-	.nav-bar div.underNavBarButton {
-		transform: translateX(0%);
-		-moz-transform: translateX(0%);
-		-ms-transform: translateX(0%);
-		-o-transform: translateX(0%);
-		-webkit-transform: translateX(0%);
-		opacity: 1;
-		z-index: 100;
-	}
-
-	.underNavBar {
-		transform: translateY(0%) scaleY(1.0);
-		-moz-transform: translateY(0%) scaleY(1.0);
-		-ms-transform: translateY(0%) scaleY(1.0);
-		-o-transform: translateY(0%) scaleY(1.0);
-		-webkit-transform: translateY(0%) scaleY(1.0);
-	}
-}
-
 .nav-bar div.underNavBarButton a:hover {
 	cursor: pointer;
 }
