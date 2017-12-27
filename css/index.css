@@ -14,7 +14,7 @@
 	}
 }
 
-#iOS_Runtime_Modifications, #Play_Mafia, #Hexagon_Fort, #iOS_Applications, #Game_A_Week_Challenge, #Nerd, #Other {
+#iOS_Runtime_Modifications, #Play_Mafia, #SuperMonsterEscaper703, #Hexagon_Fort, #iOS_Applications, #Game_A_Week_Challenge, #Nerd, #Other {
 	padding-top: 25px;
 	margin-top: -25px;
 }
@@ -204,6 +204,10 @@
 
 .downloadLink a:hover i {
 	opacity: 0.5;
+}
+
+.SuperMonsterEscaper703 {
+	text-align: center;
 }
 
 .hexagon-fort {
