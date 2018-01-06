@@ -1078,6 +1078,21 @@ Name: Force3DAppShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
 
+Package: com.dgh0st.force3dappshortcuts
+Version: 0.0.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.force3dappshortcuts/com.dgh0st.force3dappshortcuts_0.0.3_iphoneos-arm.deb
+Size: 42380
+Installed-Size: 306
+MD5sum: 132386bf19a70c679a88bb298102d35f
+Description: Enable 3D touch shortcuts on homescreen for older devices.
+Name: Force3DAppShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.5
 Section: Tweaks
@@ -1422,6 +1437,21 @@ Description: Removes the lockscreen notification blur/underlay.
 Name: NoLSNotificationBlur
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nolsnotificationblur
+
+Package: com.dgh0st.nolsnotificationseparators
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nolsnotificationseparators/com.dgh0st.nolsnotificationseparators_0.0.2_iphoneos-arm.deb
+Size: 5956
+Installed-Size: 133
+MD5sum: 819050aa2d9530a97f119c4ec1181a13
+Description: Removes the lockscreen notification separators.
+Name: NoLSNotificationSeparators
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nolsnotificationseparators
 
 Package: com.dgh0st.nolsnotificationseparators
 Version: 0.0.1
