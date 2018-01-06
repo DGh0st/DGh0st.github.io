@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.force3dappshortcuts</id>
 	<name>Force3DAppShortcuts</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,8 +23,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed app shortcuts menu being invoked when finger isn't on top of icon view</change>
-		<change>Added option to auto dismiss shortcut menu</change>
+		<change>Increased range for haptic feedback intensity</change>
+		<change>Fixed gestures not being registered the first time homescreeen is invoked</change>
+		<change>Improved selecting/dragging icons while in editing mode</change>
 	</changelog>
 	<links>
 	</links>

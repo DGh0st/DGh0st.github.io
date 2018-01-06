@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.nolsnotificationseparators</id>
 	<name>NoLSNotificationSeparators</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>9.3.5</maxiOS>
+			<maxiOS>10.3.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Added support for iOS 10</change>
 	</changelog>
 	<links>
 	</links>
