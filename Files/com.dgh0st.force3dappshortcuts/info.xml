@@ -24,7 +24,7 @@
 	</screenshots>
 	<changelog>
 		<change>Increased range for haptic feedback intensity</change>
-		<change>Fixed gestures not being registered the first time homescreeen is invoked</change>
+		<change>Fixed gestures not being registered the first time homescreen is invoked</change>
 		<change>Improved selecting/dragging icons while in editing mode</change>
 	</changelog>
 	<links>
