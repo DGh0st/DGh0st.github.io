@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.16</version>
+		<change>Fix spotlight as default page on iOS 11</change>
+		<change>Fix folder paging on iOS 11</change>
+		<change>Fix default download page on iOS 11</change>
+	</changes>
+	<changes>
 		<version>0.0.15-2</version>
 		<change>fixed preference header disappearance issue</change>
 		<change>fixed incompatibility with various other tweaks due to my buggy force home implementation (it is still buggy)</change>

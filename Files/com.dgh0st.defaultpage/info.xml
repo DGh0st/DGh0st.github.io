@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.defaultpage</id>
 	<name>DefaultPage</name>
-	<version>0.0.15-2</version>
+	<version>0.0.16</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>10.2</maxiOS>
+			<maxiOS>11.1.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -24,8 +24,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>fixed preference header disappearance issue</change>
-		<change>fixed incompatibility with various other tweaks due to my buggy force home implementation (it is still buggy)</change>
+		<change>Fix spotlight as default page on iOS 11</change>
+		<change>Fix folder paging on iOS 11</change>
+		<change>Fix default download page on iOS 11</change>
 	</changelog>
 	<links>
 	</links>

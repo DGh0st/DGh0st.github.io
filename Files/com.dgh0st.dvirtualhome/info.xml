@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,7 +23,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Added Screenshot, Control Center and Notification Center as actions</change>
+		<change>Slight optomizations to gesture creation</change>
+		<change>Fix activating switcher on iOS 10.3.3+</change>
+		<change>Made Notification Center as a action not crash on iOS 11 (don't use NC as a Action, it does nothing)</change>
 	</changelog>
 	<links>
 	</links>

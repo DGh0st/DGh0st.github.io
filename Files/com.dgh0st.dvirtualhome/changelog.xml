@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Slight optomizations to gesture creation</change>
+		<change>Fix activating switcher on iOS 10.3.3+</change>
+		<change>Made Notification Center as a action not crash on iOS 11 (don't use NC as a Action, it does nothing)</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Added Screenshot, Control Center and Notification Center as actions</change>
 	</changes>
