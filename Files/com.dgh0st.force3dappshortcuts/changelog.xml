@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.4</version>
+		<change>Fixed going into editing mode when press duration is bigger than ~0.66</change>
+	</changes>
+	<changes>
 		<version>0.0.3</version>
 		<change>Increased range for haptic feedback intensity</change>
 		<change>Fixed gestures not being registered the first time homescreen is invoked</change>

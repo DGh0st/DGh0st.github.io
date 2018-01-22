@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.force3dappshortcuts</id>
 	<name>Force3DAppShortcuts</name>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,9 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Increased range for haptic feedback intensity</change>
-		<change>Fixed gestures not being registered the first time homescreen is invoked</change>
-		<change>Improved selecting/dragging icons while in editing mode</change>
+		<change>Fixed going into editing mode when press duration is bigger than ~0.66</change>
 	</changelog>
 	<links>
 	</links>
