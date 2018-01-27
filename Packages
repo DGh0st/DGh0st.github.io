@@ -358,6 +358,21 @@ Name: BadgeOverlay
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
 
+Package: com.dgh0st.centerdockicons
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.centerdockicons/com.dgh0st.centerdockicons_0.0.1_iphoneos-arm.deb
+Size: 6120
+Installed-Size: 133
+MD5sum: abdee2ee6ccf8b132040fb1218400c1b
+Description: Center the icons in the docks vertically.
+Name: CenterDockIcons
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.centerdockicons
+
 Package: com.dgh0st.centerobey
 Version: 0.0.1
 Section: Tweaks
