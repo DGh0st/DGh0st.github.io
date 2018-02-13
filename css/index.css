@@ -104,7 +104,7 @@
 	background-color: rgba(50, 50, 50, 0.5);
 	border-radius: 0px 5px 5px 0px;
 
-	padding: 2px 16px 2px 16px;
+	padding: 0px 16px 0px 16px;
 	margin: 25px 0px 25px 0px;
 
 	display: grid;
@@ -278,6 +278,11 @@
 	grid-gap: 0px;
 }
 
+.allTweaks .app .card {
+	height: 435px;
+	grid-template-rows: 260px 175px;
+}
+
 .app .card:hover {
 	-webkit-box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 1.0);
 	-moz-box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 1.0);
@@ -293,7 +298,7 @@
 }
 
 .app .card .info {
-	padding: 2px 16px 2px 16px;
+	padding: 0px 16px 0px 16px;
 	margin: 0px;
 
 	text-align: left;
@@ -307,6 +312,11 @@
 		"info"
 		"icons";
 	height: 165px;
+}
+
+.allTweaks .app .card .info {
+	grid-template-rows: 127px 48px;
+	height: 175px;
 }
 
 .app .info div:not(.links) {
