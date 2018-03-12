@@ -501,10 +501,10 @@
 		</div>
 
 		<!-- OVERLAY IMAGE -->
-		<div id="overlayImage" class="unselectable">
+		<div id="overlayImage" onclick="removeOverlayImage(event)">
 			<div class="unselectable"><!-- Need this to vertically align the image --></div>
 			<img id="overlayImg">
-			<i class="fa fa-times" onclick="removeOverlayImage()"></i>
+			<i class="fa fa-times" onclick="removeOverlayImage(null)"></i>
 		</div>
 	</body>
 </html>

@@ -8,12 +8,14 @@ function overlayImage(imageElement) {
 	document.getElementsByTagName('body')[0].style.overflow = "hidden";
 }
 
-function removeOverlayImage() {
+function removeOverlayImage(event) {
 	var div = document.getElementById('overlayImage');
-	div.style.display = "none";
+	if (event == null || event.target === div) {
+		div.style.display = "none";
 
-	var img = document.getElementById('overlayImg');
-	img.src = '';
+		var img = document.getElementById('overlayImg');
+		img.src = '';
 
-	document.getElementsByTagName('body')[0].style.overflow = "unset";
+		document.getElementsByTagName('body')[0].style.overflow = "unset";
+	}
 }
