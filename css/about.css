@@ -16,12 +16,14 @@
 
 .languages_and_tools ul {
 	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 .languages_and_tools li {
 	display: inline-block;
-	float: left;
-	width: 25%;
+	font-size: 2em;
+	padding: 10px 10px 0px 10px;
 }
 
 @media screen and (max-width: 850px) {
