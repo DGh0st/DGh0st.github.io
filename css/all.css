@@ -51,7 +51,6 @@ img {
 #overlayImage div {
 	display: inline-block;
 	height: 100%;
-	background-color: red;
 	vertical-align: middle;
 	position: relative;
 }
@@ -111,8 +110,8 @@ img {
 
 .content {
 	grid-area: c;
-	margin: 0px 25px 0px 25px;
-	padding-top: 20px;
+	margin: 0px;
+	padding: 0px;
 	text-align: left;
 	max-width: 100%;
 
@@ -123,16 +122,21 @@ img {
     -webkit-transition: all .25s ease-in-out;
 }
 
-.content h2 {
+.content div.sectionInfo h2 {
 	font-size: 38px;
 	padding: 0px;
 	margin: 0px;
 }
 
 .content div.sectionInfo {
-	padding: 10px;
+	margin: 0px;
+	padding: 35px;
 
 	overflow: hidden;
+}
+
+.content div.sectionInfo:nth-of-type(2n) {
+	background-color: #272727;
 }
 
 .content div.sectionInfo b {
@@ -141,12 +145,12 @@ img {
 }
 
 @media screen and (max-width: 640px) {
-	.content {
-		margin: 0px 10px 0px 10px;
+	.content div.sectionInfo {
+		padding: 35px 20px 35px 20px;
 	}
 
 	.footer {
-		padding: 0px 10px 0px 10px;
+		margin: 0px 10px 0px 10px;
 	}
 }
 
@@ -157,8 +161,8 @@ img {
 }
 
 @media screen and (min-width: 1080px) {
-	.content {
-		margin: 0px 75px 0px 75px;
+	.content div.sectionInfo {
+		padding: 35px 85px 35px 85px;
 	}
 
 	.footer {

@@ -34,12 +34,13 @@
 						<a href="#SuperMonsterEscaper703">SuperMonsterEscaper703</a>
 						<a href="#Hexagon_Fort">Hexagon Fort</a>
 						<a href="#iOS_Applications">iOS Applications</a>
+						<a href="#Snake_Game">Snake Game</a>
 						<a href="#Game_A_Week_Challenge">Game A Week Challenge</a>
 						<a href="#Nerd">Nerd</a>
 						<a href="#Other">Other</a>
 					</div>
 				</li>
-				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
+				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/" class="cydia_repo">Cydia Repo</a></li>
 				<li><a href="about.html">About</a></li>
 			</div>
 			<div class="underNavBarButton">
@@ -55,21 +56,22 @@
 					<a href="#SuperMonsterEscaper703" onclick="toggleBar()">SuperMonsterEscaper703</a>
 					<a href="#Hexagon_Fort" onclick="toggleBar()">Hexagon Fort</a>
 					<a href="#iOS_Applications" onclick="toggleBar()">iOS Applications</a>
+					<a href="#Snake_Game" onclick="toggleBar()">Snake Game</a>
 					<a href="#Game_A_Week_Challenge" onclick="toggleBar()">Game A Week Challenge</a>
 					<a href="#Nerd" onclick="toggleBar()">Nerd</a>
 					<a href="#Other" onclick="toggleBar()">Other</a>
 				</div>
 			</li>
-			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repository</a></li>
+			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/" class="cydia_repo">Cydia Repository</a></li>
 			<li><a href="about.html" id="last-nav-element">About Me</a></li>
 		</div>
 
 		<!-- CONTENT -->
 		<div class="content">
-			<h2 id="iOS_Runtime_Modifications">iOS Runtime Modifications</h2>
 			<div class="sectionInfo">
+				<h2 id="iOS_Runtime_Modifications">iOS Runtime Modifications</h2>
 				<p>These are extensions, also known as tweaks for jailbroken devices, that I work on during my free time. The extensions fulfull numerous requests of the <a href="https://www.reddit.com/r/jailbreak">/r/jailbreak</a> community and range from shifting UI elements for aesthetic purposes to overhauling features of the default iOS.</p>
-				<p>Most of these tweaks have been published to <a href="http://thebigboss.org/">TheBigBoss</a> repository, but there are a few treasures that I have kept hidden away on my beta repository. You can add my beta repository using the "Cydia Repo" button in the navigation bar. Note that I am not resposible for anything wrong that happens to your device so proceed with caution when you download any packages from my beta repo. With that out of the way, I think most of the packages are pretty stable with just a few kinks (like unstable with other tweaks).</p>
+				<p>Most of these tweaks have been published to <a href="http://thebigboss.org/">TheBigBoss</a> repository, but there are a few treasures that I have kept hidden away on my beta repository. You can add my beta repository using the "Cydia Repo" button in the navigation bar. Note that I am not responsible for anything wrong that happens to your device so proceed with caution when you download any packages from my beta repo. With that out of the way, I think most of the packages are stable with just a few kinks (like unstable with other tweaks).</p>
 				<p>The following are a few examples tweaks that I have worked on.</p>
 				<div class="modifications">
 					<div class="runtime_modifications">
@@ -146,10 +148,10 @@
 				</div>
 				<p>The total download for packages that have been published on TheBigBoss repository can be viewed at <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">DGh0st's TheBigBoss stats</a>.</p>
 			</div>
-			<h2 id="Play_Mafia">Play Mafia</h2>
 			<div class="sectionInfo">
+				<h2 id="Play_Mafia">Play Mafia</h2>
 				<p>PlayMafia is multi-player web game based on the party game "Mafia." The idea was created for a team of seven members in a honors course at University Of Illinois at Urbana-Champaign.</p>
-				<p>We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="http://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I  designed the communication system and implemented severeal roles for the gameplay.</p>
+				<p>We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="http://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I designed the communication system and implemented several roles for the gameplay.</p>
 				<p>The website for the game has since been taken down so there is no place to play it.</p>
 				<p>Source Code:</p>
 				<div class="downloadLink">
@@ -160,11 +162,11 @@
 					</a>
 				</div>
 			</div>
-			<h2 id="SuperMonsterEscaper703">SuperMonsterEscaper703</h2>
 			<div class="sectionInfo">
+				<h2 id="SuperMonsterEscaper703">SuperMonsterEscaper703</h2>
 				<p>SuperMonsterEscaper703 is a 2D single-player top down maze escape game where you play as a monster. You have to escape the demons using magical spells that are spread throughout the maze.</p>
 				<p>The game was developed for <a href="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=56330">ludum dare game jam 33</a> when the theme was "You are a monster".</p>
-				<div class="SuperMonsterEscaper703">
+				<div class="project_images">
 					<div class="imageCard">
 						<img src="img/SuperMonsterEscaper703Title.jpg" onclick="overlayImage(this)">
 					</div>
@@ -197,11 +199,11 @@
 					</a>
 				</div>
 			</div>
-			<h2 id="Hexagon_Fort">Hexagon Fort</h2>
 			<div class="sectionInfo">
+				<h2 id="Hexagon_Fort">Hexagon Fort</h2>
 				<p>Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). The game contains three upgradeable towers which are basic tower, spraying tower and healing tower. The basic tower shoots enemy minions at a steady rate with a big range. The spraying tower, on the other hand, shoots in multiple directions but has very small range. The healing tower shoots around like a sprinkler and heals your ally minions.</p>
 				<p>It was developed using <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a> to get a better understanding of SFML for future projects.</p>
-				<div class="hexagon-fort">
+				<div class="project_images">
 					<div class="imageCard">
 						<img src="img/HexagonFortTitle.jpg" onclick="overlayImage(this)">
 					</div>
@@ -236,8 +238,8 @@
 					</a>
 				</div>
 			</div>
-			<h2 id="iOS_Applications">iOS Applications</h2>
 			<div class="sectionInfo">
+				<h2 id="iOS_Applications">iOS Applications</h2>
 				<p>These are iOS applications that I worked on during the Code Path University's iOS swift course. The course is about learning the ins and outs of iOS development to develop custom applications in swift.</p>
 				<div class="iOS-Applications">
 					<!-- Tipster -->
@@ -348,8 +350,31 @@
 				</div>
 				<p>More info about each application (such as time spent developing, features, notes, etc.) can be found on GitHub corresponding to the project.</p>
 			</div>
-			<h2 id="Game_A_Week_Challenge">Game A Week Challenge</h2>
 			<div class="sectionInfo">
+				<h2 id="Snake_Game">Snake Game</h2>
+				<p>This is the classic snake game with the addition of a bomb that I used to learn the basics of SFML. The bomb that will kill the snake if the head of the snake is inside the range when it detonates. If the bomb detonates when the body of the snake is inside the range then the snake's tail will be chopped to that point.</p>
+				<div class="project_images">
+					<div class="imageCard">
+						<img src="img/SnakeTitle.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/SnakePlay.jpg" onclick="overlayImage(this)">
+					</div>
+					<div class="imageCard">
+						<img src="img/SnakeGameOver.jpg" onclick="overlayImage(this)">
+					</div>
+				</div>
+				<p>Source Code:</p>
+				<div class="downloadLink">
+						<a href="https://github.com/DGh0st/SnakeGame">
+						<h1>
+							<i style="color: white;" class="fa fa-github"></i>
+						</h1><h3>GitHub</h3>
+					</a>
+				</div>
+			</div>
+			<div class="sectionInfo">
+				<h2 id="Game_A_Week_Challenge">Game A Week Challenge</h2>
 				<p>These are fun little small projects where my friend and I attempted to create a full game in a week to get a better understanding of new concepts and/or game engines.</p>
 				<p>In the first week, we focused on Unity and 3D graphics. For the second week, we stepped back to 2D graphics with SFML and focused more on the multi-player aspect. We later extended the period for the multi-player game by another week to fix communication lag and polish it.</p>
 				<div class="tabbed">
@@ -360,9 +385,9 @@
 					<div class="tabs">
 						<div class="tab-content">
 							<!--WEEK 1-->
-							<p>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. The goal of the game is you navigate through a maze-like dugeon and fight ooze monsters to reach the exit.</p>
+							<p>Dungeon of Ooze is a 3D single-player game which takes place inside a dungeon with monsters around every corner. The goal of the game is you navigate through a maze-like dungeon and fight ooze monsters to reach the exit.</p>
 							<p>It is developed using <a href="https://unity3d.com">Unity</a> to grasp the basics of 3D graphics.</p>
-							<div class="weekImages">
+							<div class="weekImages project_images">
 								<div class="imageCard">
 									<img src="img/DungeonOfOozeTitle.jpg" onclick="overlayImage(this)">
 								</div>
@@ -426,11 +451,11 @@
 				</div>
 				<p>More info about the game and how to run the game can be found on the corresponding github link.</p>
 			</div>
-			<h2 id="Nerd">Nerd</h2>
 			<div class="sectionInfo">
-				<p>Nerd is a 2D top down signle-player frogger like game where characters are based on different nerd types. The idea was created as a course project for team of three memebers in a software design class at University of Illinois at Chicago.</p>
+				<h2 id="Nerd">Nerd</h2>
+				<p>Nerd is a 2D top down single-player frogger like game where characters are based on different nerd types. The idea was created as a course project for team of three members in a software design class at University of Illinois at Chicago.</p>
 				<p>It is developed using Java's Swing graphics.</p>
-				<div class="nerdImages">
+				<div class="project_images">
 					<div class="imageCard">
 						<img src="img/NerdTitle.jpg" onclick="overlayImage(this)">
 					</div>
@@ -451,9 +476,9 @@
 					</a>
 				</div>
 			</div>
-			<h2 id="Other">Other</h2>
 			<div class="sectionInfo">
-				<p>All my other projects that I have failed to mention above are open sourced on my <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html and css of this website.</p>
+				<h2 id="Other">Other</h2>
+				<p>All my other projects that I have failed to mention above are open sourced on my <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html, css and javascript of this website.</p>
 			</div>
 		</div>
 

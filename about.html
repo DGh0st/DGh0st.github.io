@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/about.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="js/navigation.js"></script>
+		<script type="text/javascript" src="js/about.js"></script>
 	</head>
 	<body>
 		<!-- HEADER IMAGE -->
@@ -37,7 +38,7 @@
 						<a href="index.html#Other">Other</a>
 					</div>
 				</li>
-				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repo</a></li>
+				<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/" class="cydia_repo">Cydia Repo</a></li>
 				<li><a href="about.html" class="highlighted-nav">About</a></li>
 			</div>
 			<div class="underNavBarButton">
@@ -58,17 +59,32 @@
 					<a href="index.html#Other" onclick="toggleBar()">Other</a>
 				</div>
 			</li>
-			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/">Cydia Repository</a></li>
+			<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://DGh0st.github.io/" class="cydia_repo">Cydia Repository</a></li>
 			<li><a href="about.html" class="highlighted-nav" id="last-nav-element">About Me</a></li>
 		</div>
 
 		<!-- CONTENT -->
 		<div class="content">
-			<h2>Little More About Me</h2>
 			<div class="sectionInfo">
-				<p>I'm Deep Patel.<p>
+				<h2>Little More About Me</h2>
+				<p>I'm Deep Patel.</p>
 				<p>I'm a senior at the University Of Illinois at Chicago studying Computer Science.</p>
 				<p>I love programming, playing video games and basketball in my free time. I have developed some iOS runtime modifications, applications and games which I publish under the alias of DGh0st.</p>
+			</div>
+			<div class="sectionInfo">
+				<h2>Skills</h2>
+				<p>Programming Languages &amp; Tools</p>
+				<div class="languages_and_tools">
+					<ul>
+						<li id="languageTemplate"></li>
+					</ul>
+					<script>
+						addLanguages();
+					</script>
+				</div>
+			</div>
+			<div class="sectionInfo">
+				<h2>Contact</h2>
 				<p>Feel free to contact me through
 					<a href="mailto:patel97deep@gmail.com">patel97deep@gmail.com</a>, 
 					<a href="https://twitter.com/D_Gh0st">Twitter</a>, or 
@@ -96,7 +112,7 @@
 		</div>
 
 		<!-- OVERLAY IMAGE -->
-		<div id="overlayImage" class="unselectable">
+		<div id="overlayImage" onclick="removeOverlayImage()">
 			<div class="unselectable"><!-- Need this to vertically align the image --></div>
 			<img id="overlayImg">
 			<i class="fa fa-times" onclick="removeOverlayImage()"></i>

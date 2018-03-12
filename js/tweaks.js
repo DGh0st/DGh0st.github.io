@@ -5,7 +5,7 @@ var iOSTweaks = {
 		{
 			name:'AlertClose', 
 			price:' (Free)', 
-			description:'Display an alert when you swip up an application in the application switcher.',
+			description:'Display an alert when you swipe up an application in the application switcher.',
 			github:'https://www.github.com/DGh0st/AlertClose',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.alertclose/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose',
@@ -14,7 +14,7 @@ var iOSTweaks = {
 		{
 			name:'BadgeOverlay',
 			price:' (Free)', 
-			description:'Give badges a more sleek look by making them overlays.',
+			description:'Give badges a sleeker look by making them overlays.',
 			github:'https://www.github.com/DGh0st/BadgeOverlay',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay',
 			image:'img/BadgeOverlay.png'
@@ -40,7 +40,7 @@ var iOSTweaks = {
 		{
 			name:'AlertClose', 
 			price:' (Free)', 
-			description:'Display an alert when you swip up an application in the application switcher.',
+			description:'Display an alert when you swipe up an application in the application switcher.',
 			github:'https://www.github.com/DGh0st/AlertClose',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.alertclose/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose',
@@ -58,7 +58,7 @@ var iOSTweaks = {
 		{
 			name:'BadgeOverlay',
 			price:' (Free)', 
-			description:'Give badges a more sleek look by making them overlays.',
+			description:'Give badges a sleeker look by making them overlays.',
 			github:'https://www.github.com/DGh0st/BadgeOverlay',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay',
 			images:['img/BadgeOverlay.jpg']
@@ -149,7 +149,7 @@ var iOSTweaks = {
 		{
 			name:'HomeCardIconLabel', 
 			price:' (Free)', 
-			description:'Add icon and label to the homescreen card. Change icon by replacing images at<br>/Library/Application Support/HomeCardIconLabel.',
+			description:'Add icon and label to the homescreen card. Change icon by replacing images at /Library/Application Support/HomeCardIconLabel.',
 			github:'https://www.github.com/DGh0st/HomeCardIconLabel',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.homecardiconlabel/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.homecardiconlabel',
@@ -166,7 +166,7 @@ var iOSTweaks = {
 		{
 			name:'LSScreenshotLimit', 
 			price:' (Free)', 
-			description:'Limit the amount of screenshots that can be taken on the lockscreen with ability to fake screenshots.',
+			description:'Limit the number of screenshots that can be taken on the lockscreen with ability to fake screenshots.',
 			github:'https://www.github.com/DGh0st/LSScreenshotLimit',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.lsscreenshotlimit/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit',
@@ -175,7 +175,7 @@ var iOSTweaks = {
 		{
 			name:'NCAlwaysChevron', 
 			price:' (Free)', 
-			description:'Always display the chevron view in the notification center instead of switching to page dots once notfication center is fully displayed.',
+			description:'Always display the chevron view in the notification center instead of switching to page dots once notification center is fully displayed.',
 			github:'https://www.github.com/DGh0st/NCAlwaysChevron',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.ncalwayschevron/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.ncalwayschevron',
@@ -209,7 +209,7 @@ var iOSTweaks = {
 		{
 			name:'NoLSNotificationBlur', 
 			price:' (Free)', 
-			description:'Remove the lockscren blur that is displayed underneath default lockscreen when there are notifications.',
+			description:'Remove the lockscreen blur that is displayed underneath default lockscreen when there are notifications.',
 			github:'https://www.github.com/DGh0st/NoLSNotificationBlur',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.nolsnotificationblur',
 			images:['img/NoLSNotificationBlur.jpg']
@@ -225,7 +225,7 @@ var iOSTweaks = {
 		{
 			name:'NoUpsideDown', 
 			price:' (Free)', 
-			description:'Disable the upside down orientation throughout iOS.',
+			description:'Disable the upside-down orientation throughout iOS.',
 			github:'https://www.github.com/DGh0st/NoUpsideDown',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.noupsidedown/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.noupsidedown',

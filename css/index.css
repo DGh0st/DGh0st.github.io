@@ -210,11 +210,7 @@
 	opacity: 0.5;
 }
 
-.SuperMonsterEscaper703 {
-	text-align: center;
-}
-
-.hexagon-fort {
+.project_images {
 	text-align: center;
 }
 
@@ -372,7 +368,6 @@
 }
 
 .weekImages {
-	text-align: center;
 	background-color: #1f1f1f;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -444,10 +439,6 @@
 	transition: box-shadow .25s ease-in-out;
     -moz-transition: -moz-box-shadow .25s ease-in-out;
     -webkit-transition: -webkit-box-shadow .25s ease-in-out;
-}
-
-.nerdImages {
-	text-align: center;
 }
 
 .suppressed {

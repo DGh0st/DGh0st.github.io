@@ -4,6 +4,8 @@ function overlayImage(imageElement) {
 
 	var img = document.getElementById('overlayImg');
 	img.src = imageElement.src;
+
+	document.getElementsByTagName('body')[0].style.overflow = "hidden";
 }
 
 function removeOverlayImage() {
@@ -12,4 +14,6 @@ function removeOverlayImage() {
 
 	var img = document.getElementById('overlayImg');
 	img.src = '';
+
+	document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
