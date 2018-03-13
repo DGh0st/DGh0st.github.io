@@ -1,5 +1,3 @@
-window.onresize = function() { fixFirefoxResize(); }
-
 var iOSTweaks = { 
 	'showcase':[
 		{
@@ -420,30 +418,4 @@ function hideAllTweaks() {
 		}, offset * 50);
 		offset -= 1;
 	});
-}
-
-function scrollToElement(elementOffset) {
-	var velocity = 50;
-	var int = setInterval(function() {
-		window.scrollBy(0, -velocity);
-		if (window.scrollY - elementOffset < velocity) {
-			clearInterval(int);
-			window.scrollTo(window.scrollX, elementOffset);
-		}
-	}, 20);
-}
-
-var maxTries = 10;
-
-function fixFirefoxResize() {
-	var int = setInterval(function() {
-		var element = document.getElementsByClassName('allTweaks')[0];
-		maxTries -= 1;
-		if (element.style.height == "0px" || element.style.height == undefined || element.style.height == "") {
-			clearInterval(int);
-			element.style.left = "0px";
-		} else if (maxTries == 0) {
-			clearInterval(int);
-		}
-	}, 250);
 }

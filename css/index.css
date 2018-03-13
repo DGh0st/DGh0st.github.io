@@ -14,11 +14,6 @@
 	}
 }
 
-#iOS_Runtime_Modifications, #Play_Mafia, #SuperMonsterEscaper703, #Hexagon_Fort, #iOS_Applications, #Game_A_Week_Challenge, #Nerd, #Other {
-	padding-top: 25px;
-	margin-top: -25px;
-}
-
 .modifications {
 	display: grid;
 	grid-template-columns: 100% 100%;
@@ -55,7 +50,7 @@
     -webkit-transition: transform .25s ease-in-out;
 }
 
-#showcaseTemplate, #allTweakTemplate, #allTweakImageTemplate {
+#showcaseTemplate, #allTweakTemplate, #allTweakImageTemplate, #appTemplate {
 	display: none;
 }
 
@@ -80,7 +75,7 @@
 	cursor: pointer;
 }
 
-.allTweaks .tweak .card .images {
+.allTweaks .tweak .card:not(a) .images {
 	grid-area: img;
 	height: 260px;
 }
@@ -274,7 +269,7 @@
 	grid-gap: 0px;
 }
 
-.allTweaks .app .card {
+.allTweaks .app .card:not(a) {
 	height: 435px;
 	grid-template-rows: 260px 175px;
 }

@@ -8,9 +8,11 @@
 		<link rel="stylesheet" href="css/navigation-bar.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script type="text/javascript" src="js/all.js"></script>
 		<script type="text/javascript" src="js/navigation.js"></script>
 		<script type="text/javascript" src="js/tweaks.js"></script>
+		<script type="text/javascript" src="js/projects.js"></script>
+		<script type="text/javascript" src="js/apps.js"></script>
+		<script type="text/javascript" src="js/all.js"></script>
 	</head>
 	<body>
 		<!-- HEADER IMAGE -->
@@ -66,10 +68,44 @@
 			<li><a href="about.html" id="last-nav-element">About Me</a></li>
 		</div>
 
+
+		<!-- templates for components of project -->
+		<div style="display: none;">
+			<!-- template project description -->
+			<p id="templateProjectDescription"></p>
+
+			<!-- template project image card -->
+			<div class="imageCard" id="templateImageCard">
+				<img src="" onclick="overlayImage(this)">
+			</div>
+
+			<!-- template project download link -->
+			<div class="downloadLink" id="templateDownloadLink">
+				<p class="download_link_group_name"></p>
+				<a href="" class="download_link">
+					<h1>
+						<i style="color: white;" class="download_link_icon"></i>
+					</h1><h3 class="download_link_name"></h3>
+				</a>
+			</div>
+
+			<!-- template project -->
+			<div class="project" id="templateProject">
+				<h2 class="project_title"></h2>
+				<div class="project_description"></div>
+				<div class="project_images"></div>
+				<div class="project_description"></div>
+				<div class="project_links"></div>
+			</div>
+
+			<!-- template section -->
+			<div class="sectionInfo" id="templateSection"></div>
+		</div>
+
 		<!-- CONTENT -->
 		<div class="content">
-			<div class="sectionInfo">
-				<h2 id="iOS_Runtime_Modifications">iOS Runtime Modifications</h2>
+			<div class="sectionInfo" id="iOS_Runtime_Modifications">
+				<h2>iOS Runtime Modifications</h2>
 				<p>These are extensions, also known as tweaks for jailbroken devices, that I work on during my free time. The extensions fulfull numerous requests of the <a href="https://www.reddit.com/r/jailbreak">/r/jailbreak</a> community and range from shifting UI elements for aesthetic purposes to overhauling features of the default iOS.</p>
 				<p>Most of these tweaks have been published to <a href="http://thebigboss.org/">TheBigBoss</a> repository, but there are a few treasures that I have kept hidden away on my beta repository. You can add my beta repository using the "Cydia Repo" button in the navigation bar. Note that I am not responsible for anything wrong that happens to your device so proceed with caution when you download any packages from my beta repo. With that out of the way, I think most of the packages are stable with just a few kinks (like unstable with other tweaks).</p>
 				<p>The following are a few examples tweaks that I have worked on.</p>
@@ -127,18 +163,16 @@
 								</div>
 							</div>
 						</div>
-						<!-- MORE ON SEPRATE PAGE -->
-						<div class="app tweak suppressed" id="less">
+						<!-- Display Less tweaks -->
+						<div class="app tweak suppressed">
 							<a class="card" onclick="hideAllTweaks()">
-								<div class="images">
-									<img> <!-- needed for formating the rest of this -->
-								</div>
 								<div class="info">
 									<div>
 										<h3 class="name">Less</h3>
 										<p>Click this card to go back to displaying less tweaks.</p>
 									</div>
 								</div>
+								<img> <!-- needed for formating the rest of this -->
 							</a>
 						</div>
 						<script type="text/javascript">
@@ -148,112 +182,23 @@
 				</div>
 				<p>The total download for packages that have been published on TheBigBoss repository can be viewed at <a href="http://apt.thebigboss.org/stats.php?dev=dgh0st">DGh0st's TheBigBoss stats</a>.</p>
 			</div>
-			<div class="sectionInfo">
-				<h2 id="Play_Mafia">Play Mafia</h2>
-				<p>PlayMafia is multi-player web game based on the party game "Mafia." The idea was created for a team of seven members in a honors course at University Of Illinois at Urbana-Champaign.</p>
-				<p>We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="http://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I designed the communication system and implemented several roles for the gameplay.</p>
-				<p>The website for the game has since been taken down so there is no place to play it.</p>
-				<p>Source Code:</p>
-				<div class="downloadLink">
-					<a href="https://github.com/DGh0st/Mafia-Game-Manager">
-						<h1>
-							<i style="color: white;" class="fa fa-github"></i>
-						</h1><h3>GitHub</h3>
-					</a>
-				</div>
-			</div>
-			<div class="sectionInfo">
-				<h2 id="SuperMonsterEscaper703">SuperMonsterEscaper703</h2>
-				<p>SuperMonsterEscaper703 is a 2D single-player top down maze escape game where you play as a monster. You have to escape the demons using magical spells that are spread throughout the maze.</p>
-				<p>The game was developed for <a href="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=56330">ludum dare game jam 33</a> when the theme was "You are a monster".</p>
-				<div class="project_images">
-					<div class="imageCard">
-						<img src="img/SuperMonsterEscaper703Title.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/SuperMonsterEscaper703Play.jpg" onclick="overlayImage(this)">
-					</div>
-				</div>
-				<p>Web links:</p>
-				<div class="downloadLink">
-					<a href="https://www.kongregate.com/games/Brelx/super-monster-escaper-703">
-						<h1>
-							<i style="color: white;" class="fa fa-gamepad"></i>
-						</h1><h3>Kongregate</h3>
-					</a>
-				</div>
-				<p>Download links:</p>
-				<div class="downloadLink">
-					<a href="https://www.dropbox.com/s/1pbutdo0c0jnvvi/SuperMonsterEscaper703_Data.zip?dl=0">
-						<h1>
-							<i style="color: white;" class="fa fa-dropbox"></i>
-						</h1><h3>Dropbox (zipped)</h3>
-					</a>
-				</div>
-				<p>Source Code:</p>
-				<div class="downloadLink">
-					<a href="https://github.com/DGh0st/SuperMonsterEscaper703">
-						<h1>
-							<i style="color: white;" class="fa fa-github"></i>
-						</h1><h3>GitHub</h3>
-					</a>
-				</div>
-			</div>
-			<div class="sectionInfo">
-				<h2 id="Hexagon_Fort">Hexagon Fort</h2>
-				<p>Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). The game contains three upgradeable towers which are basic tower, spraying tower and healing tower. The basic tower shoots enemy minions at a steady rate with a big range. The spraying tower, on the other hand, shoots in multiple directions but has very small range. The healing tower shoots around like a sprinkler and heals your ally minions.</p>
-				<p>It was developed using <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a> to get a better understanding of SFML for future projects.</p>
-				<div class="project_images">
-					<div class="imageCard">
-						<img src="img/HexagonFortTitle.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/HexagonFortPause.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/HexagonFortPlay.jpg" onclick="overlayImage(this)">
-					</div>
-				</div>
-				<p>Download links:</p>
-				<div class="downloadLink">
-					<a href="https://www.dropbox.com/s/b963an1wt2414tf/Hexagon%20Fort.zip?dl=0">
-						<h1>
-							<i style="color: white;" class="fa fa-dropbox"></i>
-						</h1><h3>Dropbox (zipped)</h3>
-					</a>
-				</div>
-				<div class="downloadLink">
-					<a href="https://www.dropbox.com/sh/nz71qjoi42g3kdq/AAChYdcA4sEs6iZH0VmSZ07fa?dl=0">
-						<h1>
-							<i style="color: white;" class="fa fa-dropbox"></i>
-						</h1><h3>Dropbox (unzipped)</h3>
-					</a>
-				</div>
-				<p>Source Code:</p>
-				<div class="downloadLink">
-					<a href="https://github.com/DGh0st/Hexagon-Fort">
-						<h1>
-							<i style="color: white;" class="fa fa-github"></i>
-						</h1><h3>GitHub</h3>
-					</a>
-				</div>
-			</div>
-			<div class="sectionInfo">
-				<h2 id="iOS_Applications">iOS Applications</h2>
+			<!-- Insert PlayMafia, SuperMonsterEscaper703 and Hexagon Fort -->
+			<div class="sectionInfo" id="iOS_Applications">
+				<h2>iOS Applications</h2>
 				<p>These are iOS applications that I worked on during the Code Path University's iOS swift course. The course is about learning the ins and outs of iOS development to develop custom applications in swift.</p>
 				<div class="iOS-Applications">
-					<!-- Tipster -->
-					<div class="app">
+					<!-- App -->
+					<div class="app" id="appTemplate">
 						<div class="card">
-							<img src="https://raw.githubusercontent.com/DGh0st/Tipster/master/Tipster.gif" onclick="overlayImage(this)">
+							<img src="" onclick="overlayImage(this)">
 							<div class="info">
 								<div>
-									<h3 class="name">Tipster</h3>
-									<p>Tip calculator application for iOS.</p>
+									<h3 class="name"></h3>
+									<p></p>
 								</div>
 								<div class="links">
 									<div class="downloadLink">
-										<a href="https://www.github.com/DGh0st/Tipster">
+										<a href="">
 											<h1>
 												<i style="color: white;" class="fa fa-github"></i>
 											</h1><h3>GitHub</h3>
@@ -263,118 +208,15 @@
 							</div>
 						</div>
 					</div>
-					<!-- Flixer -->
-					<div class="app">
-						<div class="card">
-							<img src="http://imgur.com/KK0Lisc.gif" onclick="overlayImage(this)">
-							<div class="info">
-								<div>
-									<h3 class="name">Flixer</h3>
-									<p>A movies app using the <a href="http://docs.themoviedb.apiary.io/#">The Movie Database API</a>.</p>
-								</div>
-								<div class="links">
-									<div class="downloadLink">
-										<a href="https://www.github.com/DGh0st/Flixer">
-											<h1>
-												<i style="color: white;" class="fa fa-github"></i>
-											</h1><h3>GitHub</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Yelp -->
-					<div class="app">
-						<div class="card">
-							<img src="http://imgur.com/uDGPnmT.gif" onclick="overlayImage(this)">
-							<div class="info">
-								<div>
-									<h3 class="name">Yelp</h3>
-									<p>A yelp search app using the <a href="http://www.yelp.com/developers/documentation/v2/search_api">Yelp API</a>.</p>
-								</div>
-								<div class="links">
-									<div class="downloadLink">
-										<a href="https://www.github.com/DGh0st/Yelp">
-											<h1>
-												<i style="color: white;" class="fa fa-github"></i>
-											</h1><h3>GitHub</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Tweety -->
-					<div class="app">
-						<div class="card">
-							<img src="http://imgur.com/KCoNsJe.gif" onclick="overlayImage(this)">
-							<div class="info">
-								<div>
-									<h3 class="name">Tweety</h3>
-									<p>A basic twitter app to read and compose tweets using the <a href="https://apps.twitter.com/">Twitter API</a>.</p>
-								</div>
-								<div class="links">
-									<div class="downloadLink">
-										<a href="https://www.github.com/DGh0st/Tweety">
-											<h1>
-												<i style="color: white;" class="fa fa-github"></i>
-											</h1><h3>GitHub</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- SnapSync -->
-					<div class="app">
-						<div class="card">
-							<img src="http://imgur.com/6HfI8X1.gif" onclick="overlayImage(this)">
-							<div class="info">
-								<div>
-									<h3 class="name">SnapSync</h3>
-									<p>A photo sharing app using Parse as its backend.</p>
-								</div>
-								<div class="links">
-									<div class="downloadLink">
-										<a href="https://www.github.com/DGh0st/SnapSync">
-											<h1>
-												<i style="color: white;" class="fa fa-github"></i>
-											</h1><h3>GitHub</h3>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<script type="text/javascript">
+						addiOSApplications();
+					</script>
 				</div>
 				<p>More info about each application (such as time spent developing, features, notes, etc.) can be found on GitHub corresponding to the project.</p>
 			</div>
-			<div class="sectionInfo">
-				<h2 id="Snake_Game">Snake Game</h2>
-				<p>This is the classic snake game with the addition of a bomb that I used to learn the basics of SFML. The bomb that will kill the snake if the head of the snake is inside the range when it detonates. If the bomb detonates when the body of the snake is inside the range then the snake's tail will be chopped to that point.</p>
-				<div class="project_images">
-					<div class="imageCard">
-						<img src="img/SnakeTitle.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/SnakePlay.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/SnakeGameOver.jpg" onclick="overlayImage(this)">
-					</div>
-				</div>
-				<p>Source Code:</p>
-				<div class="downloadLink">
-						<a href="https://github.com/DGh0st/SnakeGame">
-						<h1>
-							<i style="color: white;" class="fa fa-github"></i>
-						</h1><h3>GitHub</h3>
-					</a>
-				</div>
-			</div>
-			<div class="sectionInfo">
-				<h2 id="Game_A_Week_Challenge">Game A Week Challenge</h2>
+			<!-- Insert Snake Game -->
+			<div class="sectionInfo" id="Game_A_Week_Challenge">
+				<h2>Game A Week Challenge</h2>
 				<p>These are fun little small projects where my friend and I attempted to create a full game in a week to get a better understanding of new concepts and/or game engines.</p>
 				<p>In the first week, we focused on Unity and 3D graphics. For the second week, we stepped back to 2D graphics with SFML and focused more on the multi-player aspect. We later extended the period for the multi-player game by another week to fix communication lag and polish it.</p>
 				<div class="tabbed">
@@ -398,16 +240,16 @@
 									<img src="img/DungeonOfOozeGameOver.jpg" onclick="overlayImage(this)">
 								</div>
 							</div>
-							<p>Download links:</p>
 							<div class="downloadLink">
+								<p>Download links:</p>
 								<a href="https://www.dropbox.com/sh/91moyux4huj0itj/AADela8R2kJp_CEM6Riavw2ra?dl=0">
 									<h1>
 										<i style="color: white;" class="fa fa-dropbox"></i>
 									</h1><h3>Dropbox (unzipped)</h3>
 								</a>
 							</div>
-							<p>Source Code:</p>
 							<div class="downloadLink">
+								<p>Source Code:</p>
 								<a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_1">
 									<h1>
 										<i style="color: white;" class="fa fa-github"></i>
@@ -430,16 +272,16 @@
 									<img src="img/TheGallantGauntletExit.jpg" onclick="overlayImage(this)">
 								</div>
 							</div>
-							<p>Download links:</p>
 							<div class="downloadLink">
+								<p>Download links:</p>
 								<a href="https://www.dropbox.com/s/1c7iepyw77r9c8b/TheGallantGauntlet.zip?dl=0">
 									<h1>
 										<i style="color: white;" class="fa fa-dropbox"></i>
 									</h1><h3>Dropbox (zipped)</h3>
 								</a>
 							</div>
-							<p>Source Code:</p>
 							<div class="downloadLink">
+								<p>Source Code:</p>
 								<a href="https://github.com/michaell308/Game-a-Week-Challenge--Week_2">
 									<h1>
 										<i style="color: white;" class="fa fa-github"></i>
@@ -451,31 +293,7 @@
 				</div>
 				<p>More info about the game and how to run the game can be found on the corresponding github link.</p>
 			</div>
-			<div class="sectionInfo">
-				<h2 id="Nerd">Nerd</h2>
-				<p>Nerd is a 2D top down single-player frogger like game where characters are based on different nerd types. The idea was created as a course project for team of three members in a software design class at University of Illinois at Chicago.</p>
-				<p>It is developed using Java's Swing graphics.</p>
-				<div class="project_images">
-					<div class="imageCard">
-						<img src="img/NerdTitle.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/NerdPlay.jpg" onclick="overlayImage(this)">
-					</div>
-					<div class="imageCard">
-						<img src="img/NerdGameOver.jpg" onclick="overlayImage(this)">
-					</div>
-				</div>
-				<p>We never got to creating a distributable jar file for this project, but you can still compile and run the game through the source code.</p>
-				<p>Source Code:</p>
-				<div class="downloadLink">
-						<a href="https://github.com/DGh0st/Nerd">
-						<h1>
-							<i style="color: white;" class="fa fa-github"></i>
-						</h1><h3>GitHub</h3>
-					</a>
-				</div>
-			</div>
+			<!-- Insert Nerd Game and other new projects -->
 			<div class="sectionInfo">
 				<h2 id="Other">Other</h2>
 				<p>All my other projects that I have failed to mention above are open sourced on my <a href="https://www.github.com/DGh0st/">GitHub</a>, including the html, css and javascript of this website.</p>

@@ -1,9 +1,9 @@
-document.onscroll = function() { displayScrollToTop(); }
-document.onwheel = function() { displayScrollToTop(); }
-window.onload = function() { 
+document.addEventListener('scroll', displayScrollToTop);
+document.addEventListener('wheel', displayScrollToTop);
+window.addEventListener('load', function() { 
 	displayScrollToTop();
 	removeCydiaRepoLinks();
-}
+});
 
 function toggleBar() {
 	Array.prototype.forEach.call(document.getElementsByClassName('underNavBar'), function(element) {
@@ -46,6 +46,7 @@ function backToTop() {
 			window.scrollTo(window.scrollX, 0);
 		}
 	}, 20);
+	history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 
 function removeCydiaRepoLinks() {
