@@ -1,6 +1,9 @@
 document.onscroll = function() { displayScrollToTop(); }
 document.onwheel = function() { displayScrollToTop(); }
-window.onload = function() { displayScrollToTop(); }
+window.onload = function() { 
+	displayScrollToTop();
+	removeCydiaRepoLinks();
+}
 
 function toggleBar() {
 	Array.prototype.forEach.call(document.getElementsByClassName('underNavBar'), function(element) {
@@ -16,18 +19,20 @@ function toggleBar() {
 
 function displayScrollToTop() {
 	var element = document.getElementsByClassName('backToTop')[0];
-	if (window.scrollY > 400) {
-		element.style.transform = "translateX(0px)";
-		element.style.MozTransform = "translateX(0px)";
-		element.style.msTransform = "translateX(0px)";
-		element.style.OTransform = "translateX(0px)";
-		element.style.webkitTransform = "translateX(0px)";
-	} else {
-		element.style.transform = "translateX(200%)";
-		element.style.MozTransform = "translateX(200%)";
-		element.style.msTransform = "translateX(200%)";
-		element.style.OTransform = "translateX(200%)";
-		element.style.webkitTransform = "translateX(200%)";
+	if (element != undefined) {
+		if (window.scrollY > 400) {
+			element.style.transform = "translateX(0px)";
+			element.style.MozTransform = "translateX(0px)";
+			element.style.msTransform = "translateX(0px)";
+			element.style.OTransform = "translateX(0px)";
+			element.style.webkitTransform = "translateX(0px)";
+		} else {
+			element.style.transform = "translateX(200%)";
+			element.style.MozTransform = "translateX(200%)";
+			element.style.msTransform = "translateX(200%)";
+			element.style.OTransform = "translateX(200%)";
+			element.style.webkitTransform = "translateX(200%)";
+		}
 	}
 }
 
@@ -41,4 +46,18 @@ function backToTop() {
 			window.scrollTo(window.scrollX, 0);
 		}
 	}, 20);
+}
+
+function removeCydiaRepoLinks() {
+	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	if (!iOS) {
+		var navbarRepoLinks = document.getElementsByClassName("cydia_repo");
+		for (var i = 0; i < navbarRepoLinks.length; i++) {
+			var link = navbarRepoLinks[i];
+			link.href = "javascript:void(0)";
+			link.onclick = function() {
+				alert("This link only works on iOS, please open the website on your device or add \"https://DGh0st.github.io/\" repo manually through cydia.");
+			};
+		}
+	}
 }
