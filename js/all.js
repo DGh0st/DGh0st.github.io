@@ -19,9 +19,6 @@ window.addEventListener('load', function() {
 		}, 25);
 	}
 });
-document.addEventListener('wheel', function() {
-	history.pushState("", document.title, window.location.pathname + window.location.search);
-});
 window.addEventListener('beforeunload', function() {
 	sessionStorage.setItem('page', document.getElementsByClassName("highlighted-nav")[0].href);
 	sessionStorage.setItem('scrollY', window.scrollY);
