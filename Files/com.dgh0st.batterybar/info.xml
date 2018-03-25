@@ -1,0 +1,32 @@
+<package>
+	<id>com.dgh0st.batterybar</id>
+	<name>BatteryBar</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>11.1.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>libcolorpicker</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Tested on iOS 10.2 only, iPhone X not supported.</description>
+		<description>Add a bar to the status bar that represents the current battery level.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/BatteryBar.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

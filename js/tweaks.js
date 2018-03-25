@@ -62,6 +62,14 @@ var iOSTweaks = {
 			images:['img/BadgeOverlay.jpg']
 		},
 		{
+			name:'BatteryBar',
+			price:' (Free)',
+			description:'Add a bar to the status bar that represents the current battery level.',
+			github:'https://www.github.com/DGh0st/BatteryBar',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.batterybar',
+			images:['img/BatteryBar.jpg']
+		},
+		{
 			name:'CenterObey',
 			price:' (Free)', 
 			description:'Open Control or Notification Center page corresponding to finger position.',
