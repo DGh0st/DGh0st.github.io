@@ -238,6 +238,14 @@ var iOSTweaks = {
 			images:['img/NoUpsideDown.png']
 		},
 		{
+			name:'PreferredRotation',
+			price:' (Free)',
+			description:'Forces device to only rotate to preferred orientation (Portrait for most part).',
+			github:'https://www.github.com/DGh0st/PreferredRotation',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.preferredrotation',
+			images:['img/PreferredRotation.jpg']
+		},
+		{
 			name:'ProductivityReminder', 
 			price:' (Free)', 
 			description:'Display an alert x minutes after application open to be reminded to get back to work.',
