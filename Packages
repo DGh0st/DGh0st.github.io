@@ -1589,6 +1589,21 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.noupsidedown
 
+Package: com.dgh0st.preferredrotation
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.preferredrotation/com.dgh0st.preferredrotation_0.0.1_iphoneos-arm.deb
+Size: 22068
+Installed-Size: 298
+MD5sum: 19e891c7e7598382a681a20b66563cf3
+Description: Forces device to only rotate to preferred orientation.
+Name: PreferredRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.preferredrotation
+
 Package: com.dgh0st.productivityreminder
 Version: 0.0.1
 Section: Tweaks
