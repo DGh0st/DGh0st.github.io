@@ -1,12 +1,12 @@
 <package>
 	<id>com.dgh0st.batterybar</id>
 	<name>BatteryBar</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
 			<maxiOS>11.1.2</maxiOS>
-			<otherVersions>unsupported</otherVersions>
+			<otherersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -25,7 +25,10 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed freezes when opening Control Center with "Always White" style on iOS 11</change>
+		<change>Forces background to be displayed when background style bar is selected</change>
+		<change>Now uses color instead of blur for the background (if you want to use blur again you can modify the plist file and add isBlurBackgroundEnabled)</change>
+		<change>Added ability to modify white and black background grayness which is used for the background color by modifying the plist file and adding WhiteBackgroundGrayness or BlackBackgroundGrayness</change>
 	</changelog>
 	<links>
 	</links>
