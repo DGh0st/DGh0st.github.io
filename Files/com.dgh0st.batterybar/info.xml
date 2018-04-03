@@ -27,8 +27,8 @@
 	<changelog>
 		<change>Fixed freezes when opening Control Center with "Always White" style on iOS 11</change>
 		<change>Forces background to be displayed when background style bar is selected</change>
-		<change>Now uses color instead of blur for the background (if you want to use blur again you can modify the plist file and add isBlurBackgroundEnabled)</change>
-		<change>Added ability to modify white and black background grayness which is used for the background color by modifying the plist file and adding WhiteBackgroundGrayness or BlackBackgroundGrayness</change>
+		<change>Uses color instead of blur for the background (to reenable blur, modify the plist file and add isBlurBackgroundEnabled)</change>
+		<change>Added ability to modify white and black background grayness which is used for the background color by modifying the plist file and adding WhiteBackgroundGrayness or BlackBackgroundGrayness (respectively)</change>
 	</changelog>
 	<links>
 	</links>
