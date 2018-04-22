@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.3-2</version>
+		<change>Fixed support of Lithium Ion (version on private repo)</change>
+		<change>Added option to update bar at every battery level instead of every 5 levels</change>
+	</changes>
+	<changes>
 		<version>0.0.3-1</version>
 		<change>Reverted back to old approach for charging animations to fix some CPU usage problem introduced in previous version</change>
 		<change>Added support for Lithium Ion</change>
