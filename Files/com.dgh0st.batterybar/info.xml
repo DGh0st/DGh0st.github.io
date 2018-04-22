@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.batterybar</id>
 	<name>BatteryBar</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -25,10 +25,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed freezes when opening Control Center with "Always White" style on iOS 11</change>
-		<change>Forces background to be displayed when background style bar is selected</change>
-		<change>Uses color instead of blur for the background (to reenable blur, modify the plist file and add isBlurBackgroundEnabled)</change>
-		<change>Added ability to modify white and black background grayness which is used for the background color by modifying the plist file and adding WhiteBackgroundGrayness or BlackBackgroundGrayness (respectively)</change>
+		<change>Improved pulse charging animation (initial glitch on device plug-in)</change>
+		<change>Added a slider to configure the height of the bar</change>
+		<change>Added a sway charging animation</change>
 	</changelog>
 	<links>
 	</links>

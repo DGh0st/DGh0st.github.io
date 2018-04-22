@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.3</version>
+		<change>Improved pulse charging animation (initial glitch on device plug-in)</change>
+		<change>Added a slider to configure the height of the bar</change>
+		<change>Added a sway charging animation</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Fixed freezes when opening Control Center with "Always White" style on iOS 11</change>
 		<change>Forces background to be displayed when background style bar is selected</change>
