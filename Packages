@@ -375,6 +375,22 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.batterybar
 
 Package: com.dgh0st.batterybar
+Version: 0.0.3-2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Conflicts: com.skylerk99.powerbar, org.thebigboss.batterystatusbar
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.batterybar/com.dgh0st.batterybar_0.0.3-2_iphoneos-arm.deb
+Size: 40754
+Installed-Size: 358
+MD5sum: 3e841a5faf3a1f9bad25556a41b7f60c
+Description: Display a bar that represents the battery percentage in the status bar.
+Name: BatteryBar
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.batterybar
+
+Package: com.dgh0st.batterybar
 Version: 0.0.2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
