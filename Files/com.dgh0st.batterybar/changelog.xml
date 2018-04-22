@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.3-1</version>
+		<change>Reverted back to old approach for charging animations to fix some CPU usage problem introduced in previous version</change>
+		<change>Added support for Lithium Ion</change>
+	</changes>
+	<changes>
 		<version>0.0.3</version>
 		<change>Improved pulse charging animation (initial glitch on device plug-in)</change>
 		<change>Added a slider to configure the height of the bar</change>
