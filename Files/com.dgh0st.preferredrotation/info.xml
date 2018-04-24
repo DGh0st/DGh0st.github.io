@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.preferredrotation</id>
 	<name>PreferredRotation</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>6.0</miniOS>
@@ -25,7 +25,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fix for Inbox app crashing when trying to open a PDF</change>
+		<change>Fix for Amazon app generating a crash when closing it via App Switcher</change>
 	</changelog>
 	<links>
 	</links>
