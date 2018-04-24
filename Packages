@@ -1668,6 +1668,21 @@ Name: PreferredRotation
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.preferredrotation
 
+Package: com.dgh0st.preferredrotation
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.preferredrotation/com.dgh0st.preferredrotation_0.0.2_iphoneos-arm.deb
+Size: 18258
+Installed-Size: 290
+MD5sum: 23302b10c5ca1d4e3e9ab890952a62dd
+Description: Forces device to only rotate to preferred orientation.
+Name: PreferredRotation
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.preferredrotation
+
 Package: com.dgh0st.productivityreminder
 Version: 0.0.1
 Section: Tweaks
