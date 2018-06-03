@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.3-3</version>
+		<change>Fixed preferences not loading in some System applications such as Photos</change>
+		<change>Fixed crashreport generating crashes when Amazon is reopened</change>
+	</changes>
+	<changes>
 		<version>0.0.3-2</version>
 		<change>Fixed support of Lithium Ion (version on private repo)</change>
 		<change>Added option to update bar at every battery level instead of every 5 levels</change>
