@@ -1,0 +1,29 @@
+<package>
+	<id>com.dgh0st.lstapnotifications</id>
+	<name>LSTapNotifications</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Tap to open notoifications on lockscreen for iOS 10.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/LSTapNotifications.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

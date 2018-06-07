@@ -180,6 +180,14 @@ var iOSTweaks = {
 			images:['img/LSScreenshotLimit.jpg']
 		},
 		{
+			name:'LSTapNotifications',
+			price:' (Free)',
+			description:'Tap to open notoifications on lockscreen for iOS 10.',
+			github:'https://www.github.com/DGh0st/LSTapNotifications',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.lstapnotifications',
+			images:['img/LSTapNotifications.jpg']
+		},
+		{
 			name:'NCAlwaysChevron', 
 			price:' (Free)', 
 			description:'Always display the chevron view in the notification center instead of switching to page dots once notification center is fully displayed.',
