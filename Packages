@@ -1489,6 +1489,21 @@ Name: LSScreenshotLimit
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit
 
+Package: com.dgh0st.lstapnotifications
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.lstapnotifications/com.dgh0st.lstapnotifications_0.0.1_iphoneos-arm.deb
+Size: 3066
+Installed-Size: 133
+MD5sum: 9f97fef738aad02931a1de1fcefc2b9c
+Description: Tap to open notifications on iOS 10.
+Name: LSTapNotifications
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lstapnotifications
+
 Package: com.dgh0st.ncalwayschevron
 Version: 0.0.1
 Section: Tweaks
