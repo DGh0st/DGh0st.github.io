@@ -1,0 +1,26 @@
+<package>
+	<id>com.dgh0st.syncflashlight</id>
+	<name>SyncFlashlight</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>flipswitch</package>
+		<package>Flash</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Sync the flashlight used by Flipswitch and Flash.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
