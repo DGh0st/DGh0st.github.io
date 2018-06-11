@@ -1924,6 +1924,21 @@ Name: ShiftTopSwitcher
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.shifttopswitcher
 
+Package: com.dgh0st.syncflashlight
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, com.golddavid.flash
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.syncflashlight/com.dgh0st.syncflashlight_0.0.1_iphoneos-arm.deb
+Size: 2960
+Installed-Size: 133
+MD5sum: e1a0c17b35a876204f9851cebf0b0aff
+Description: Sync the flashlight used by Flipswitch and Flash.
+Name: SyncFlashlight
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.syncflashlight
+
 Package: com.dgh0st.undorotation
 Version: 0.0.9
 Section: Tweaks
