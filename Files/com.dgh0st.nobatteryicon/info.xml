@@ -1,0 +1,24 @@
+<package>
+	<id>com.dgh0st.nobatteryicon</id>
+	<name>NoBatteryIcon</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>11.3.1</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Remove the battery icon from the status bar without removing the charging bolt.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

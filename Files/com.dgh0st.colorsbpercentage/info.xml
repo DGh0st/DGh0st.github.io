@@ -1,0 +1,27 @@
+<package>
+	<id>com.dgh0st.colorsbpercentage</id>
+	<name>ColorSBPercentage</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>libcolorpicker</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Color the battery percentage in the status bar.</description>
+		<description>May or may not cause battery drain. For best performance use gradient style with Low Power Mode and Charging Colors disabled.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
