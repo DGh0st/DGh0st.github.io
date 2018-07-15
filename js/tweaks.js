@@ -87,6 +87,14 @@ var iOSTweaks = {
 			images:['img/CenterDockIcons.jpg']
 		},
 		{
+			name:'ColorSBPercentage',
+			price:' (Free)',
+			description:'Color the battery percentage in the status bar.',
+			github:'https://www.github.com/DGh0st/ColorSBPercentage',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.colorsbpercentage',
+			images:['img/ColorSBPercentage.jpg']
+		},
+		{
 			name:'DarkAuxo', 
 			price:' (Free)', 
 			description:'Darken Control (iOS 8 - 10) and Notification Center (iOS 8 and 9 only).',

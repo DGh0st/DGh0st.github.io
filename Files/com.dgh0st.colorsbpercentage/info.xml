@@ -18,7 +18,12 @@
 		<description>Color the battery percentage in the status bar.</description>
 		<description>May or may not cause battery drain. For best performance use gradient style with Low Power Mode and Charging Colors disabled.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ColorSBPercentage.jpg</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
