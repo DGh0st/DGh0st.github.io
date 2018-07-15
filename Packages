@@ -514,6 +514,21 @@ Name: CenterObey
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.centerobey
 
+Package: com.dgh0st.colorsbpercentage
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.colorsbpercentage/com.dgh0st.colorsbpercentage_0.0.1_iphoneos-arm.deb
+Size: 33314
+Installed-Size: 330
+MD5sum: e5010e653dfceacd1e35efd2b89acac7
+Description: Color the status bar percentage
+Name: ColorSBPercentage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.colorsbpercentage
+
 Package: com.dgh0st.darkauxo
 Version: 0.0.2
 Section: Tweaks
@@ -1608,6 +1623,21 @@ Description: Remove the widgets from 3D touch shortcuts on homescreen.
 Name: No3DTouchWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.no3dtouchwidgets
+
+Package: com.dgh0st.nobatteryicon
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nobatteryicon/com.dgh0st.nobatteryicon_0.0.1_iphoneos-arm.deb
+Size: 3344
+Installed-Size: 133
+MD5sum: 8b929a6e519b8f0f26ab43bf4b630204
+Description: Hide the battery icon without the hiding the charging bolt.
+Name: NoBatteryIcon
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nobatteryicon
 
 Package: com.dgh0st.nohometaponhs
 Version: 0.0.1
