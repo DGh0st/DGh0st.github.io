@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.17</version>
+		<change>Made it so that selected default page is displayed after respring</change>
+	</changes>
+	<changes>
 		<version>0.0.16</version>
 		<change>Fix spotlight as default page on iOS 11</change>
 		<change>Fix folder paging on iOS 11</change>

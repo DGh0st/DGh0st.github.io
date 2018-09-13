@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.defaultpage</id>
 	<name>DefaultPage</name>
-	<version>0.0.16</version>
+	<version>0.0.17</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -24,9 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix spotlight as default page on iOS 11</change>
-		<change>Fix folder paging on iOS 11</change>
-		<change>Fix default download page on iOS 11</change>
+		<change>Made it so that selected default page is displayed after respring</change>
 	</changelog>
 	<links>
 	</links>
