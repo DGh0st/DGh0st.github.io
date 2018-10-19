@@ -320,9 +320,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.badgeoverlay/com.dgh0st.badgeoverlay_0.0.4_iphoneos-arm.deb
-Size: 27516
-Installed-Size: 298
-MD5sum: 796ea5b079533fb5796410c588d01cf4
+Size: 22038
+Installed-Size: 290
+MD5sum: fbe5734eb40b084847596d57415a4cb4
 Description: Make badges overlay on top of icons instead of being in the corner.
 Name: BadgeOverlay
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -521,9 +521,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.colorsbpercentage/com.dgh0st.colorsbpercentage_0.0.1_iphoneos-arm.deb
-Size: 33314
-Installed-Size: 330
-MD5sum: e5010e653dfceacd1e35efd2b89acac7
+Size: 25842
+Installed-Size: 318
+MD5sum: 2908218c8c54dd5d9b6ba4c32b0a8702
 Description: Color the status bar percentage
 Name: ColorSBPercentage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -656,9 +656,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.17_iphoneos-arm.deb
-Size: 18920
-Installed-Size: 322
-MD5sum: 842370d19b7ecd5049a734dc94aa301a
+Size: 15298
+Installed-Size: 318
+MD5sum: 2b02dc2f0d01cbd538f63a3ced595b56
 Description: Set the default homescreen page.
 Name: DefaultPage
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -926,9 +926,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.3-2_iphoneos-arm.deb
-Size: 25180
-Installed-Size: 302
-MD5sum: d88e20c0b3cdb61239d8b408b8976422
+Size: 19534
+Installed-Size: 290
+MD5sum: 1404aee616607337cda456e226e98c8f
 Description: My attempt at making virtual home iOS 10 compatible.
 Name: DVirtualHome
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -1541,9 +1541,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.lstapnotifications/com.dgh0st.lstapnotifications_0.0.1_iphoneos-arm.deb
-Size: 3066
+Size: 3068
 Installed-Size: 133
-MD5sum: 9f97fef738aad02931a1de1fcefc2b9c
+MD5sum: 01484c45d2a9f7bbc47cc73e1e1b9bab
 Description: Tap to open notifications on iOS 10.
 Name: LSTapNotifications
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -1648,7 +1648,7 @@ Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.nobatteryicon/com.dgh0st.nobatteryicon_0.0.1_iphoneos-arm.deb
 Size: 3344
 Installed-Size: 133
-MD5sum: 8b929a6e519b8f0f26ab43bf4b630204
+MD5sum: 7177189362cc6c1195769c4b7d7005b4
 Description: Hide the battery icon without the hiding the charging bolt.
 Name: NoBatteryIcon
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -1781,9 +1781,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.preferredrotation/com.dgh0st.preferredrotation_0.0.2_iphoneos-arm.deb
-Size: 18258
+Size: 18228
 Installed-Size: 290
-MD5sum: 23302b10c5ca1d4e3e9ab890952a62dd
+MD5sum: b18192f98c0f471f300742629f2946ae
 Description: Forces device to only rotate to preferred orientation.
 Name: PreferredRotation
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -1991,9 +1991,9 @@ Maintainer: DGh0st <deeppwnage@yahoo.com>
 Depends: mobilesubstrate, com.a3tweaks.flipswitch, com.golddavid.flash
 Architecture: iphoneos-arm
 Filename: Files/com.dgh0st.syncflashlight/com.dgh0st.syncflashlight_0.0.1_iphoneos-arm.deb
-Size: 2960
+Size: 2964
 Installed-Size: 133
-MD5sum: e1a0c17b35a876204f9851cebf0b0aff
+MD5sum: 83fccf5899e3a268463a207f56bcde89
 Description: Sync the flashlight used by Flipswitch and Flash.
 Name: SyncFlashlight
 Author: DGh0st <deeppwnage@yahoo.com>
