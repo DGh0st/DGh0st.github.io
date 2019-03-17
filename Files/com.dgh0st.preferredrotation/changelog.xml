@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.2-1</version>
+		<change>Fix memory leak on preference change</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Fix for Inbox app crashing when trying to open a PDF</change>
 		<change>Fix for Amazon app generating a crash when closing it via App Switcher</change>

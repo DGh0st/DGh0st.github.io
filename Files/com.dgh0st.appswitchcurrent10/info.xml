@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.appswitchcurrent10</id>
 	<name>AppSwitchCurrent (9 &amp; 10)</name>
-	<version>0.0.2</version>
+	<version>0.0.2-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -27,7 +27,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>3D Switcher 2 Support</change>
+		<change>Fix memory leak on preference change</change>
 	</changelog>
 	<links>
 	</links>

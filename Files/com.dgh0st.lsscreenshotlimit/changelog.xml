@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.4-1</version>
+		<change>Fix potential crash due to unnecessary freeing of memory</change>
+	</changes>
+	<changes>
 		<version>0.0.4</version>
 		<change>Fixed compatibility with Activator on iOS 8 and 9</change>
 	</changes>

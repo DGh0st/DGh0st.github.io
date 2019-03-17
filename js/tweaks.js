@@ -19,7 +19,7 @@ var iOSTweaks = {
 		},
 		{
 			name:'ScreenshotXI',
-			price:' ($1.00)',
+			price:' (<del>$1.00</del> Free)',
 			description:'Brings iOS 11 style screenshotting to iOS 9 and 10.',
 			github:'https://www.github.com/DGh0st/ScreenshotXI',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
@@ -27,7 +27,7 @@ var iOSTweaks = {
 		},
 		{
 			name:'SwitcherControls',
-			price:' ($1.50)',
+			price:' (<del>$1.50</del> Free)',
 			description:'Have access to various control center sections while using deck switcher.',
 			github:'https://www.github.com/DGh0st/SwitcherControls',
 			cydiaRepo:'http://cydia.saurik.com/package/org.thebigboss.switchercontrols/',
@@ -289,7 +289,7 @@ var iOSTweaks = {
 		},
 		{
 			name:'ScreenshotXI', 
-			price:' ($1.00)', 
+			price:' (<del>$1.00</del> Free)', 
 			description:'Brings iOS 11 style screenshotting to iOS 9 and 10.',
 			github:'https://www.github.com/DGh0st/ScreenshotXI',
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
@@ -313,7 +313,7 @@ var iOSTweaks = {
 		},
 		{
 			name:'SwitcherControls', 
-			price:' ($1.50)', 
+			price:' (<del>$1.50</del> Free)', 
 			description:'Have access to various control center sections while using deck switcher.',
 			github:'https://www.github.com/DGh0st/SwitcherControls',
 			cydiaRepo:'http://cydia.saurik.com/package/org.thebigboss.switchercontrols/',

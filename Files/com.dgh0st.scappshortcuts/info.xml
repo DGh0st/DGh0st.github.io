@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.scappshortcuts</id>
 	<name>SCAppShortcuts</name>
-	<version>0.0.2</version>
+	<version>0.0.2-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -26,7 +26,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Fix memory leak on preference change</change>
+		<change>Fix preference crash with the new app list update</change>
 	</changelog>
 	<links>
 	</links>

@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.3-2</version>
+	<version>0.0.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>11.1.2</maxiOS>
+			<maxiOS>12.1.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -23,7 +23,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix crashes on iOS 11</change>
+		<change>Fix memory leak</change>
+		<change>Slightly improve performance by removing uncessary instructions</change>
 	</changelog>
 	<links>
 	</links>

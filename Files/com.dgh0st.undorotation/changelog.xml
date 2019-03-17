@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.12-2</version>
+		<change>Fix memory leak on preference change</change>
+	</changes>
+	<changes>
 		<version>0.0.12-1</version>
 		<change>Fully fixed crashes on iOS 9.0.x</change>
 	</changes>

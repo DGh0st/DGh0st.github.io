@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.lsscreenshotlimit</id>
 	<name>LSScreenshotLimit</name>
-	<version>0.0.4</version>
+	<version>0.0.4-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -23,7 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed compatibility with Activator on iOS 8 and 9</change>
+		<change>Fix potential crash due to unnecessary freeing of memory</change>
 	</changelog>
 	<links>
 	</links>

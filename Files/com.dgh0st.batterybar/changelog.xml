@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.3-4</version>
+		<change>Fix memory leak on preference change</change>
+	</changes>
+	<changes>
 		<version>0.0.3-3</version>
 		<change>Fixed preferences not loading in some System applications such as Photos</change>
 		<change>Fixed crashreport generating crashes when Amazon is reopened</change>

@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.2-1</version>
+		<change>Fix memory leak on preference change</change>
+		<change>Fix preference crash with the new app list update</change>
+	</changes>
+	<changes>
 		<version>0.0.2</version>
 		<change>Fix unpaged not working sometimes</change>
 		<change>Added ability to select applications that are disabled for both portrait and landscape individually</change>

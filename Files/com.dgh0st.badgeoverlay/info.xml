@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.badgeoverlay</id>
 	<name>BadgeOverlay</name>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
-			<maxiOS>10.2</maxiOS>
+			<maxiOS>11.1.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -23,7 +23,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Added option to change opacity of the black background</change>
+		<change>Fix incorrect alignment of badge number when the number increases/decreases</change>
+		<change>Fix memory leak on preference change</change>
 	</changelog>
 	<links>
 	</links>
