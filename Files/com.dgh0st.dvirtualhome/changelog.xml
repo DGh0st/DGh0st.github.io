@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.5</version>
+		<change>Fix long hold being invoked after tap and hold fails, so long hold should be faster now</change>
+	</changes>
+	<changes>
 		<version>0.0.4</version>
 		<change>Fix memory leak</change>
 		<change>Slightly improve performance by removing uncessary instructions</change>
