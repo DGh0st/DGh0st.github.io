@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.18</version>
+		<change>Fix for wrong page being displayed after respring on newer iOS thanks to NoisyFlake</change>
+	</changes>
+	<changes>
 		<version>0.0.17</version>
 		<change>Made it so that selected default page is displayed after respring</change>
 	</changes>
