@@ -16,7 +16,20 @@
 		<description>Add custom widgets right on your homescreen. This includes widgets such as time/date and apple's today widgets.</description>
 		<description>Sadly, the today widgets don't function exactly as I wanted them so there might be a few bugs here and there. Due to which features have been disabled, they still exist in code so they can be enabled via either directly modifying the /var/mobile/Library/Preferences/com.dgh0st.hswidget.widgetlayouts.plist or creating another tweak. More information about plist values available <a href="https://github.com/DGh0st/HSWidgets#layout-customization">here</a>.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/HSWidgetsHomescreen.png</image>
+		</screenshot>
+		<screenshot>
+			<description></description>
+			<image>../../../img/HSWidgetsAddNew.png</image>
+		</screenshot>
+		<screenshot>
+			<description></description>
+			<image>../../../img/HSWidgetsTodayWidgets.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
