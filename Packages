@@ -1535,6 +1535,21 @@ Name: HideCCSwitchBackground
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground
 
+Package: com.dgh0st.hidesbtime
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hidesbtime/com.dgh0st.hidesbtime_0.0.1_iphoneos-arm.deb
+Size: 2970
+Installed-Size: 133
+MD5sum: 2cc23aad3af499c4739657a75709fd9a
+Description: Hide Homescreen and lockscreen time from status bar.
+Name: HideSBTime
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hidesbtime
+
 Package: com.dgh0st.homecardiconlabel
 Version: 0.0.1
 Section: Tweaks
@@ -1564,6 +1579,21 @@ Description: Display videos in landscape (horizontal) mode for iOS 10.
 Name: HorizontalVideos
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.horizontalvideos
+
+Package: com.dgh0st.hswidgets
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hswidgets/com.dgh0st.hswidgets_0.0.1_iphoneos-arm.deb
+Size: 423956
+Installed-Size: 1400
+MD5sum: f8eec6055b1179a6dbdb8ef6b14d0a00
+Description: Add today widgets or custom widgets to home screen.
+Name: HSWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hswidgets
 
 Package: com.dgh0st.invisblehomecard
 Version: 0.0.1
