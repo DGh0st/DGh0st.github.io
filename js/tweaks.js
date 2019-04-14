@@ -1,21 +1,20 @@
 var iOSTweaks = { 
 	'showcase':[
 		{
-			name:'AlertClose', 
-			price:' (Free)', 
-			description:'Display an alert when you swipe up an application in the application switcher.',
-			github:'https://www.github.com/DGh0st/AlertClose',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.alertclose/',
-			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose',
-			image:'img/AlertClose.png'
-		},
-		{
 			name:'BadgeOverlay',
 			price:' (Free)', 
 			description:'Give badges a sleeker look by making them overlays.',
 			github:'https://www.github.com/DGh0st/BadgeOverlay',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.badgeoverlay',
 			image:'img/BadgeOverlay.png'
+		},
+		{
+			name:'HSWidgets', 
+			price:' (Free)', 
+			description:'Add options to display widgets right on your homescreen.',
+			github:'https://www.github.com/DGh0st/HSWidgets',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.hswidgets',
+			image:'img/HSWidgets.png'
 		},
 		{
 			name:'ScreenshotXI',
@@ -71,20 +70,20 @@ var iOSTweaks = {
 			images:['img/BatteryBar.jpg']
 		},
 		{
-			name:'CenterObey',
-			price:' (Free)', 
-			description:'Open Control or Notification Center page corresponding to finger position.',
-			github:'https://www.github.com/DGh0st/CenterObey',
-			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.centerobey',
-			images:['img/CenterObey.gif']
-		},
-		{
 			name:'CenterDockIcons', 
 			price:' (Free)', 
 			description:'Center the icons in the dock vertically.',
 			github:'https://www.github.com/DGh0st/CenterDockIcons',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.centerdockicons',
 			images:['img/CenterDockIcons.jpg']
+		},
+		{
+			name:'CenterObey',
+			price:' (Free)', 
+			description:'Open Control or Notification Center page corresponding to finger position.',
+			github:'https://www.github.com/DGh0st/CenterObey',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.centerobey',
+			images:['img/CenterObey.gif']
 		},
 		{
 			name:'ColorSBPercentage',
@@ -162,6 +161,14 @@ var iOSTweaks = {
 			images:['img/HideCCSwitchBackground.jpg']
 		},
 		{
+			name:'HideSBTime', 
+			price:' (Free)', 
+			description:'Hide the status bar time from Homescreen and Lockscreen.',
+			github:'https://www.github.com/DGh0st/HideSBTime',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.hidesbtime',
+			images:['img/HideSBTime.png']
+		},
+		{
 			name:'HomeCardIconLabel', 
 			price:' (Free)', 
 			description:'Add icon and label to the homescreen card. Change icon by replacing images at /Library/Application Support/HomeCardIconLabel.',
@@ -169,6 +176,14 @@ var iOSTweaks = {
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.homecardiconlabel/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.homecardiconlabel',
 			images:['img/HomeCardIconLabel.jpg']
+		},
+		{
+			name:'HSWidgets', 
+			price:' (Free)', 
+			description:'Add options to display widgets right on your homescreen.',
+			github:'https://www.github.com/DGh0st/HSWidgets',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.hswidgets',
+			images:['img/HSWidgetsAddNew.png', 'img/HSWidgetsHomescreen.png', 'img/HSWidgetsTodayWidgets.png']
 		},
 		{
 			name:'InvisibleHomeCard', 
@@ -220,6 +235,14 @@ var iOSTweaks = {
 			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.no3dtouchwidgets/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.no3dtouchwidgets',
 			images:['img/No3DTouchWidgets.jpg']
+		},
+		{
+			name:'NoBatteryIcon', 
+			price:' (Free)', 
+			description:'Remove the battery icon from the status bar without removing the charging bolt.',
+			github:'https://www.github.com/DGh0st/NoBatteryIcon',
+			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.nobatteryicon',
+			images:['img/NoBatteryIcon.png']
 		},
 		{
 			name:'NoHomeTapOnHS', 

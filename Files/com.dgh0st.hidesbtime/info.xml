@@ -1,10 +1,10 @@
 <package>
-	<id>com.dgh0st.nobatteryicon</id>
-	<name>NoBatteryIcon</name>
+	<id>com.dgh0st.hidesbtime</id>
+	<name>HideSBTime</name>
 	<version>0.0.1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.0</miniOS>
+			<miniOS>5.0</miniOS>
 			<maxiOS>12.1.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
@@ -13,12 +13,12 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Remove the battery icon from the status bar without removing the charging bolt.</description>
+		<description>Hide the status bar time on homescreen and lockscreen</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
 			<description></description>
-			<image>../../../img/NoBatteryIcon.png</image>
+			<image>../../../img/HideSBTime.png</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
