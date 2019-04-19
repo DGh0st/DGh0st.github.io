@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-1</version>
+	<version>0.0.1-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,8 +32,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix crashes for iOS 12 due to method name change.</change>
-		<change>Fix crashes for iOS 11+ due to variable being removed.</change>
+		<change>Fix "X" not showing when going into wiggle mode.</change>
+		<change>Fix widget doesn't stop wiggling when leaving wiggle mode.</change>
+		<change>Fix tapping "+" not doing anythign by adding IconSupport compatibility.</change>
 	</changelog>
 	<links>
 		<link>
