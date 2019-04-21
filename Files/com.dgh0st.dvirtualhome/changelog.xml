@@ -1,5 +1,12 @@
 <changelog>
 	<changes>
+		<version>0.0.6</version>
+		<change>Added option to waste battery (wake up device using tap)</change>
+		<change>Added option to open last app as one of the actions</change>
+		<change>Added option to lock rotations</change>
+		<change>Added option to rotate to portrait orientation and lock</change>
+	</changes>
+	<changes>
 		<version>0.0.5</version>
 		<change>Fix long hold being invoked after tap and hold fails, so long hold should be faster now</change>
 	</changes>
