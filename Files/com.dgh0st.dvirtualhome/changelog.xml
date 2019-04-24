@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6-1</version>
+		<change>Fix actions being performed during Touch ID Authentication</change>
+	</changes>
+	<changes>
 		<version>0.0.6</version>
 		<change>Added option to waste battery (wake up device using tap)</change>
 		<change>Added option to open last app as one of the actions</change>
