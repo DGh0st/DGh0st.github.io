@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-2</version>
+	<version>0.0.1-3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,9 +32,10 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix "X" not showing when going into wiggle mode.</change>
-		<change>Fix widget doesn't stop wiggling when leaving wiggle mode.</change>
-		<change>Fix tapping "+" not doing anythign by adding IconSupport compatibility.</change>
+		<change>Fix crashes on some devices</change>
+		<change>Improve widget loading</change>
+		<change>Added option to expand/shrink clock widget</change>
+		<change>Added material view background to today widgets for iOS 11+</change>
 	</changelog>
 	<links>
 		<link>
