@@ -41,6 +41,8 @@ my @fieldpri= ('Package',
 	       'Size',
 	       'Installed-Size',
 	       'MD5sum',
+	       'SHA1',
+	       'SHA256',
 	       'Description',
 	       'Origin',
 	       'Bugs',
@@ -175,10 +177,30 @@ FILE:
 
 	$tv{'Depiction'} = "https://DGh0st.github.io/$binarydir/?p=$p";
 	
-	open(C,"md5sum <$fn |") || die "$fn $!";
-	chop($_=<C>); close(C); $? and die sprintf(_g("\`md5sum < %s' exited with %d"), $fn, $?)."\n";
-	/^([0-9a-f]{32})\s*-?\s*$/ or die sprintf(_g("Strange text from \`md5sum < %s': \`%s'"), $fn, $_)."\n";
-	$tv{'MD5sum'}= $1;
+	my @checksums = (
+		{
+			command => "md5sum",
+			fieldName => "MD5sum",
+			sumLength => 32 
+		}, {
+			command => "sha1sum",
+			fieldName => "SHA1",
+			sumLength => 40 
+		}, {
+			command => "sha256sum",
+			fieldName => "SHA256",
+			sumLength => 64
+		}
+	);
+	foreach my $checksum (@checksums) {
+		my $checksumCommand = @$checksum{command};
+		my $checksumFieldName = @$checksum{fieldName};
+		my $checksumLength = @$checksum{sumLength};
+		open(C,"$checksumCommand <$fn |") || die "$fn $!";
+		chop($_=<C>); close(C); $? and die sprintf(_g("\`$checksumCommand < %s' exited with %d"), $fn, $?)."\n";
+		/^([0-9a-f]{$checksumLength})\s*-?\s*$/ or die sprintf(_g("Strange text from \`$checksumCommand < %s': \`%s'"), $fn, $_)."\n";
+		$tv{$checksumFieldName}= $1;
+	}
 	
 	my @stat= stat($fn) or die sprintf(_g("Couldn't stat %s: %s"), $fn, $!)."\n";
 	$stat[7] or die sprintf(_g("%s is empty"), $fn)."\n";
