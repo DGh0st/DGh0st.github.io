@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-3</version>
+	<version>0.0.1-4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,10 +32,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix crashes on some devices</change>
-		<change>Improve widget loading</change>
-		<change>Added option to expand/shrink clock widget</change>
-		<change>Added material view background to today widgets for iOS 11+</change>
+		<change>Rewrote clock widget from scratch to get better compatibility with iOS 11+</change>
+		<change>Fix widgets not being saved correctly when whole pages are removed/shifted</change>
 	</changelog>
 	<links>
 		<link>
