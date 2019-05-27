@@ -14,6 +14,18 @@
 	</dependencies>
 	<descriptionlist>
 		<description>Just another FLEX loader. Why? because we need one more. This one flexes on all other loaders ;D</description>
+		<description>What is FLEX? 
+			FLEX (Flipboard Explorer) is a set of debugging and exploration tools for iOS development. When presented, FLEX shows a toolbar that lives in a window above your application. From this toolbar, you can view and modify nearly every piece of state in your running application.
+		</description>
+		<description>Activation: 
+			- Long press on status bar
+			- Long press anywhere with three finger
+		</description>
+		<description>Additional Features:
+			- Displayed above Alerts (including SpringBoard alerts)
+			- Prevent sleep on lockscreen when using exploring through the FLEX views
+			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
+			- Fix color of status bar when FLEX explorer is displayed on homescreen
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
