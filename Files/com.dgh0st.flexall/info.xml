@@ -26,6 +26,7 @@
 			- Prevent sleep on lockscreen when using exploring through the FLEX views
 			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
 			- Fix color of status bar when FLEX explorer is displayed on homescreen
+		</description>
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
