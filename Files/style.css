@@ -28,3 +28,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     margin-left: 5px;
     margin-right: 10px;
 }
+
+#descriptionList > li > p {
+    white-space: pre-line; /* have multi-line descriptions with new lines */
+}
