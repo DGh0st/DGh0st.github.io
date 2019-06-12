@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-2</version>
+		<change>Update FLEX version (May 31 2019 commit) which should have the fix for frame/bounds causing crash on iOS 12 devices</change>
+	</changes>
+	<changes>
 		<version>0.0.1-1</version>
 		<change>Fix status bar color when explorer is opened on homescreen</change>
 		<change>Add done button when explorer classes so you don't have to go all the way back to dismiss the explorer</change>
