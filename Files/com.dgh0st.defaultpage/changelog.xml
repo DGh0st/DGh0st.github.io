@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.19</version>
+		<change>Rewrite preferences so it is cached now (making it less resource intensive)</change>4
+		<change>Fix crashes on downloading new icons for iOS 11+ with default download page option enabled</change>
+		<change>Double make sure the page selected is opened after respring (cause why not?)</change>
+	</changes>
+	<changes>
 		<version>0.0.18</version>
 		<change>Fix for wrong page being displayed after respring on newer iOS thanks to NoisyFlake</change>
 	</changes>
