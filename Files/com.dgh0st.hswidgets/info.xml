@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-4</version>
+	<version>0.0.1-5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,8 +32,13 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Rewrote clock widget from scratch to get better compatibility with iOS 11+</change>
-		<change>Fix widgets not being saved correctly when whole pages are removed/shifted</change>
+		<change>Rewrote today widget from scratch to get better compatibility with iOS 11+</change>
+		<change>Improve compatibility with JellyFish (not completely compatible just yet)</change>
+		<change>Fix icon moving issues with tweaks that modify the number of rows on home screen</change>
+		<change>Display HSWidgets alphabetically in the Add new widget view</change>
+		<change>Fix widgets expansion/shrink causing size issues with multiple widgets on the same page</change>
+		<change>Add more layout configuration options (view Layout Configuration link for more information)</change>
+		<change>Added A12 device (arm64e) compatibility</change>
 	</changelog>
 	<links>
 		<link>
