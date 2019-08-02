@@ -2725,6 +2725,22 @@ Name: SyncFlashlight
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.syncflashlight
 
+Package: com.dgh0st.systeminfowidget
+Version: 0.0.1
+Section: Addons (Today Widget)
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.systeminfowidget/com.dgh0st.systeminfowidget_0.0.1_iphoneos-arm.deb
+Size: 111420
+Installed-Size: 484
+MD5sum: 6a133b5556465c081e5ecae58df65ab0
+SHA1: 0b0342141be09b813c15f59fb37c9e4f15df0175
+SHA256: 3de8124dfaad7734d3604b4095ce30e16984f320adc7cd0a6320991fd77880da
+Description: System Info Widget that displays battery and storage space
+Name: SystemInfoWidget
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.systeminfowidget
+
 Package: com.dgh0st.undorotation
 Version: 0.0.10
 Section: Tweaks

@@ -1,0 +1,23 @@
+<package>
+	<id>com.dgh0st.systeminfowidget</id>
+	<name>SystemInfoWidget</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>12.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<descriptionlist>
+		<description>System Info Widget that displays battery and storage space.</description>
+	</descriptionlist>
+	<screenshots>../../../SystemInfoWidget.png</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

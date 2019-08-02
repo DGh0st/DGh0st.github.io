@@ -343,6 +343,14 @@ var iOSTweaks = {
 			images:['img/SwitcherControls.jpg']
 		},
 		{
+			name:'SystemInfoWidget',
+			price:' (Free)',
+			description:'System Info Widget that displays battery and storage space.',
+			github:'https://www.github.com/DGh0st/SystemInfoWidget',
+			cydiaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.systeminfowidget',
+			images:['img/SystemInfoWidget.png']
+		},
+		{
 			name:'UndoRotation', 
 			price:' (Free)', 
 			description:'Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.',
