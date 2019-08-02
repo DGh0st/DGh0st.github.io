@@ -14,7 +14,12 @@
 	<descriptionlist>
 		<description>System Info Widget that displays battery and storage space.</description>
 	</descriptionlist>
-	<screenshots>../../../SystemInfoWidget.png</screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../SystemInfoWidget.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
