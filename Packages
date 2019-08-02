@@ -1859,6 +1859,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hideccswitchbackground
 
 Package: com.dgh0st.hidesbtime
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hidesbtime/com.dgh0st.hidesbtime_0.0.1-1_iphoneos-arm.deb
+Size: 3106
+Installed-Size: 116
+MD5sum: 3b6ee5b95315a9a01e65372979967d78
+SHA1: 53f14d613fcae13c0a08149d33d45613cc3257cb
+SHA256: bd1da65273d42e7a4d8a8d26a7bc1178789f626f1e68766873190088fc1a50f6
+Description: Hide Homescreen and lockscreen time from status bar.
+Name: HideSBTime
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hidesbtime
+
+Package: com.dgh0st.hidesbtime
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>

@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hidesbtime</id>
 	<name>HideSBTime</name>
-	<version>0.0.1</version>
+	<version>0.0.1-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>5.0</miniOS>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fix time element reappearing for a brief moment when animating from a folder</change>
 	</changelog>
 	<links>
 	</links>
