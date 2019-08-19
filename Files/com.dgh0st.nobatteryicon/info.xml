@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.nobatteryicon</id>
 	<name>NoBatteryIcon</name>
-	<version>0.0.1</version>
+	<version>0.0.1-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fix battery icon sometimes displaying behind the charging bolt</change>
 	</changelog>
 	<links>
 	</links>

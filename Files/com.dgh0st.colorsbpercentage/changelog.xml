@@ -1,5 +1,13 @@
 <changelog>
 	<changes>
+		<version>0.0.1-1~Twelve</version>
+		<change>Better iOS 12 compatibility</change>
+	</changes>
+	<changes>
+		<version>0.0.1-1~Eleven</version>
+		<change>Better iOS 11 compatibility</change>
+	</changes>
+	<changes>
 		<version>0.0.1-1</version>
 		<change>Fix memory leak on preference change</change>
 	</changes>

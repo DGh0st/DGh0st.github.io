@@ -652,6 +652,40 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.colorsbpercentage
 
 Package: com.dgh0st.colorsbpercentage
+Version: 0.0.1-1~Eleven
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.colorsbpercentage/com.dgh0st.colorsbpercentage_0.0.1-1~Eleven_iphoneos-arm.deb
+Size: 19042
+Installed-Size: 188
+MD5sum: 00abfd05a076c1af839d0ba596b082fc
+SHA1: 6dae56f8988616cd03d0e4a1c7a85093b08a3b82
+SHA256: ebf90e3dd58114e6489feb6817aa6f2954d05cd791736126d84d2b3cac912305
+Description: Color the status bar percentage for iOS 11.
+Name: ColorSBPercentage (iOS 11)
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.colorsbpercentage
+
+Package: com.dgh0st.colorsbpercentage
+Version: 0.0.1-1~Twelve
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.colorsbpercentage/com.dgh0st.colorsbpercentage_0.0.1-1~Twelve_iphoneos-arm.deb
+Size: 19006
+Installed-Size: 188
+MD5sum: 73dc2abc8cbaad4829008b2a24bb0939
+SHA1: 7689c2910e6363d51728aff15b0b0081414a8954
+SHA256: 5e88d8e2386c73212c068cbbc914f4d7cfc84aa067a44cdddbd5c579e9d311c0
+Description: Color the status bar percentage
+Name: ColorSBPercentage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.colorsbpercentage
+
+Package: com.dgh0st.colorsbpercentage
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -2265,6 +2299,23 @@ Description: Remove the widgets from 3D touch shortcuts on homescreen.
 Name: No3DTouchWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.no3dtouchwidgets
+
+Package: com.dgh0st.nobatteryicon
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nobatteryicon/com.dgh0st.nobatteryicon_0.0.1-1_iphoneos-arm.deb
+Size: 4120
+Installed-Size: 132
+MD5sum: b3372b62d5ddef81adfcdf0465b8c4bc
+SHA1: 9b2f120b5568c15c96eb262bb6632a7c18672833
+SHA256: 26326da1526b3a62012cf70f20e3b99ad725108a209424d4f7412fe7fbd608cc
+Description: Hide the battery icon without the hiding the charging bolt.
+Name: NoBatteryIcon
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nobatteryicon
 
 Package: com.dgh0st.nobatteryicon
 Version: 0.0.1

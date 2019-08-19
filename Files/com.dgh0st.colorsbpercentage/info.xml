@@ -5,7 +5,7 @@
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -25,7 +25,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix memory leak on preference change</change>
+		<change>Separate into iOS 10 (1-1), iOS 11 (1-1~Eleven) and iOS 12 (1-1~Twelve) versions, future updates will most likely only support one of these versions</change>
 	</changelog>
 	<links>
 	</links>
