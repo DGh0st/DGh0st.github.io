@@ -1,5 +1,8 @@
 <changelog>
 	<changes>
+		<version>0.0.5</version>
+		<change>Add iOS 11+ compatibility</change>
+	<changes>
 		<version>0.0.4-1</version>
 		<change>Fix memory leak on preference change</change>
 	</changes>
