@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6</version>
+		<change>Fix UI placement issues for iOS 12</change>
+	</changes>
+	<changes>
 		<version>0.0.5</version>
 		<change>Fix incorrect alignment of badge number when the number increases/decreases</change>
 		<change>Fix memory leak on preference change</change>
