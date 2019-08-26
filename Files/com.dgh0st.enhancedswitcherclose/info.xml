@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.7-4</version>
+	<version>0.0.7-5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>10.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -33,7 +33,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Made UI display and interact with multiple cards if multiple application cards are being swiped up/down</change>
+		<change>Added support for iOS 11+</change>
 	</changelog>
 	<links>
 	</links>
