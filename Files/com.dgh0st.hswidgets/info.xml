@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-5</version>
+	<version>0.0.1-6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -32,13 +32,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Rewrote today widget from scratch to get better compatibility with iOS 11+</change>
-		<change>Improve compatibility with JellyFish (not completely compatible just yet)</change>
-		<change>Fix icon moving issues with tweaks that modify the number of rows on home screen</change>
-		<change>Display HSWidgets alphabetically in the Add new widget view</change>
-		<change>Fix widgets expansion/shrink causing size issues with multiple widgets on the same page</change>
-		<change>Add more layout configuration options (view Layout Configuration link for more information)</change>
-		<change>Added A12 device (arm64e) compatibility</change>
+		<change>Improved zoom to center animation for widgets</change>
+		<change>Force reconnect today widgets after 12 hours</change>
+		<change>Improve today widget loadign after respring for iOS 11+</change>
 	</changelog>
 	<links>
 		<link>

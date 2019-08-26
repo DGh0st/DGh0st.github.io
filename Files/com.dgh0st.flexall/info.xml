@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-3</version>
+	<version>0.0.1-4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -29,7 +29,7 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Update FLEX version (July 10 2019 commit) which includes a bunch of UI refactoring</change>
+		<change>Update FLEX version (August 20 2019 commit) which includes a lot of UI refactoring, UI bug fixes, and adds ability to pass addresses as params for id args</change>
 	</changelog>
 	<links>
 	</links>

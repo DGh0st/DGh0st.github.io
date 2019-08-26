@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-4</version>
+		<change>Update FLEX version (August 20 2019 commit) which includes a lot of UI refactoring, UI bug fixes, and adds ability to pass addresses as params for id args</change>
+	</changes>
+	<changes>
 		<version>0.0.1-3</version>
 		<change>Update FLEX version (July 10 2019 commit) which includes a bunch of UI refactoring</change>
 	</changes>

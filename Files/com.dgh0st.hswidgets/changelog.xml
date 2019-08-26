@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.1-6</version>
+		<change>Improved zoom to center animation for widgets</change>
+		<change>Force reconnect today widgets after 12 hours</change>
+		<change>Improve today widget loadign after respring for iOS 11+</change>
+	</changes>
+	<changes>
 		<version>0.0.1-5</version>
 		<change>Rewrote today widget from scratch to get better compatibility with iOS 11+</change>
 		<change>Improve compatibility with JellyFish (not completely compatible just yet)</change>
