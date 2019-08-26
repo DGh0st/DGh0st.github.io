@@ -975,6 +975,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
 
 Package: com.dgh0st.defaultpage
+Version: 0.0.20
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.20_iphoneos-arm.deb
+Size: 15098
+Installed-Size: 316
+MD5sum: af349be102af5c4cca123a87c546222a
+SHA1: 4496372c8678c002fd271eeb1fc68fac81032b90
+SHA256: 0eef1ac8b851b2dfd162304afa64a45c901a93001239198ce8e9163765486891
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
+
+Package: com.dgh0st.defaultpage
 Version: 0.0.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -1587,6 +1604,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
 Package: com.dgh0st.enhancedswitcherclose
+Version: 0.0.7-5
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.enhancedswitcherclose/com.dgh0st.enhancedswitcherclose_0.0.7-5_iphoneos-arm.deb
+Size: 36602
+Installed-Size: 376
+MD5sum: ae9ea34663397653f1af74eeca311e82
+SHA1: 1bf4cc899d1d422968ec580c3da0b73e9b406ad1
+SHA256: 411b50d8e473ba7250ab644a92b9e2f58ba4b0cc65389f511e2da8b7385f0d55
+Description: Enhance Switcher Close by adding more swipe up features with clean UI.
+Name: EnhancedSwitcherClose
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
+
+Package: com.dgh0st.enhancedswitcherclose
 Version: 0.0.7
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -1666,6 +1700,23 @@ Installed-Size: 2804
 MD5sum: 07671e0310a097810012686b2d161bda
 SHA1: 2a814b903c817a1b43dc857c519a6383e5f0f8e1
 SHA256: 8a8a3217fd4b9c42e96301c5b0f6f875642e6ad5912088ea8ac72bb669d8f850
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
+Version: 0.0.1-4
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-4_iphoneos-arm.deb
+Size: 640842
+Installed-Size: 3032
+MD5sum: e05947849b6e59a2141cbb3d3bf0c7b5
+SHA1: 962462097c763cb4ab8fd992e65d101fc4eb5d71
+SHA256: e3a672b4e4cc58d25adf329f3d01ab1d270d26cdee1a9e105849e1eee9974bc8
 Description: Load FLEX loader dynamically.
 Name: FLEXall
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -2074,6 +2125,23 @@ Installed-Size: 1756
 MD5sum: b7cd800860cc6e43c087c33bd00dfb6c
 SHA1: a8af54c3aa83e7efac5f9562fa1557b5ac1c9ce7
 SHA256: f8ec79e26be67dfb36b12b03c9ffc937cc3b0dd4be791492edef8c18e3cf95cd
+Description: Add today widgets or custom widgets to home screen.
+Name: HSWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hswidgets
+
+Package: com.dgh0st.hswidgets
+Version: 0.0.1-6
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hswidgets/com.dgh0st.hswidgets_0.0.1-6_iphoneos-arm.deb
+Size: 452030
+Installed-Size: 1772
+MD5sum: 22ba30efeabd00ab598524d248b1ca4d
+SHA1: 46ce7cc7ee6803f96d74893aea49d54bf350e5e2
+SHA256: 11a9ec925b969d334be6ead2e6284c6fd2b97838ef8b3803e27bbb6d34f541d8
 Description: Add today widgets or custom widgets to home screen.
 Name: HSWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
