@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.1-5</version>
+		<change>Fix sleep prevention on lockscreen when exploring FLEX views for iOS 11+</change>
+		<change>Update FLEX version (August 27 2019 commit) which includes fix for crash when viewing NSNumber</change>
+	</changes>
+	<changes>
 		<version>0.0.1-4</version>
 		<change>Update FLEX version (August 20 2019 commit) which includes a lot of UI refactoring, UI bug fixes, and adds ability to pass addresses as params for id args</change>
 	</changes>
