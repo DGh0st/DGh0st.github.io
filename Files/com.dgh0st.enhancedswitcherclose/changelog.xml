@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.7-6</version>
+		<change>Fix compatibility with grid switcher</change>
+	</changes>
+	<changes>
 		<version>0.0.7-5</version>
 		<change>Added support for iOS 11+</change>
 	</changes>
