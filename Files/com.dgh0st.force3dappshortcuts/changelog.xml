@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.6</version>
+		<change>Add Zenith compatibility</change>
+	</changes>
+	<changes>
 		<version>0.0.5</version>
 		<change>Add iOS 11+ compatibility</change>
 	<changes>

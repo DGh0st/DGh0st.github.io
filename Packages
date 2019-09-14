@@ -1638,6 +1638,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
 
 Package: com.dgh0st.enhancedswitcherclose
+Version: 0.0.7-7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader, applist, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.enhancedswitcherclose/com.dgh0st.enhancedswitcherclose_0.0.7-7_iphoneos-arm.deb
+Size: 36672
+Installed-Size: 376
+MD5sum: f670cea23af1b5737eefe7051721de93
+SHA1: b86c41d1c1f2cb53b29da03fc5de1e45d78bb633
+SHA256: a645e2d256f39a04ef5f998f8bc6c4b7a43d7d59d261120ae56be0854c75bbe2
+Description: Enhance Switcher Close by adding more swipe up features with clean UI.
+Name: EnhancedSwitcherClose
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose
+
+Package: com.dgh0st.enhancedswitcherclose
 Version: 0.0.7
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -1904,6 +1921,23 @@ Installed-Size: 292
 MD5sum: 05c1f506305511999a714b8f0e9abbf1
 SHA1: 34a06bea9d48ea471238fa1ea98712bd7d168a6c
 SHA256: d66014d85a0891b00933dde83f9ce48586f328b192b61707dccc799f017d9a16
+Description: Enable 3D touch shortcuts on homescreen for older devices.
+Name: Force3DAppShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
+
+Package: com.dgh0st.force3dappshortcuts
+Version: 0.0.6
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.force3dappshortcuts/com.dgh0st.force3dappshortcuts_0.0.6_iphoneos-arm.deb
+Size: 21718
+Installed-Size: 292
+MD5sum: 42e6e6efc90521ec7eaa5a7e41ef0c13
+SHA1: 377c1aa08bf28373e8887199649760d3b19691e2
+SHA256: 7632eefaa48b5e2f16f13cd9e5177fb68c1ff943a1d84be458d72da203a99a3e
 Description: Enable 3D touch shortcuts on homescreen for older devices.
 Name: Force3DAppShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>

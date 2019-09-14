@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.7-7</version>
+		<change>Improve swiping up distance for deck and grid switcher (try to stay consistent with swipe down distance)</change>
+	</changes>
+	<changes>
 		<version>0.0.7-6</version>
 		<change>Fix compatibility with grid switcher</change>
 	</changes>

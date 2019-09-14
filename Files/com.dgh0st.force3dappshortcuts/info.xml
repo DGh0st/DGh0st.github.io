@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.force3dappshortcuts</id>
 	<name>Force3DAppShortcuts</name>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,7 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Add iOS 11+ compatibility</change>
+		<change>Add Zenith compatibility</change>
 	</changelog>
 	<links>
 	</links>

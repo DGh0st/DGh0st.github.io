@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.enhancedswitcherclose</id>
 	<name>EnhancedSwitcherClose</name>
-	<version>0.0.7-6</version>
+	<version>0.0.7-7</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -33,7 +33,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix compatibility with grid switcher</change>
+		<change>Improve swiping up distance for deck and grid switcher (try to stay consistent with swipe down distance)</change>
 	</changelog>
 	<links>
 	</links>
