@@ -1943,6 +1943,23 @@ Name: Force3DAppShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
 
+Package: com.dgh0st.force3dappshortcuts
+Version: 0.0.7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.force3dappshortcuts/com.dgh0st.force3dappshortcuts_0.0.7_iphoneos-arm.deb
+Size: 27072
+Installed-Size: 424
+MD5sum: 274749f859e059124118217f5f699f4d
+SHA1: 120d491d22714dc7dfdc4acae9ccf1e1908f83d8
+SHA256: 3111be7c7003a29212af0b3e838d70d6aa35cb15e829e89843e0bc0a5a69038e
+Description: Enable 3D touch shortcuts on homescreen for older devices.
+Name: Force3DAppShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.1
 Section: Tweaks
