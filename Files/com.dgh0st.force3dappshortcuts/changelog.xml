@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.7</version>
+		<change>Add arm64e compatibility</change>
+	<changes>
+	<changes>
 		<version>0.0.6</version>
 		<change>Add Zenith compatibility</change>
 	</changes>
