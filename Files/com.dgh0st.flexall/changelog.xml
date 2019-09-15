@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-7</version>
+		<change>Update FLEX version (September 15 2019 commit) which unreverts the crash issue and fixes the fields defaulting to 0 (or nil) and method calls no-oping</change>
+	</changes>
+	<changes>
 		<version>0.0.1-6</version>
 		<change>Update FLEX version (September 14 2019 commit) which includes more UI refactoring and cleanup</change>
 		<change>Reverts the crash for viewing NSNumber (August 27 2019 commit)</change>
