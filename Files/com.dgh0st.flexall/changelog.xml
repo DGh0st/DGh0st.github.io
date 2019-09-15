@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.1-6</version>
+		<change>Update FLEX version (September 14 2019 commit) which includes more UI refactoring and cleanup</change>
+		<change>Reverts the crash for viewing NSNumber (August 27 2019 commit)</change>
+	</changes>
+	<changes>
 		<version>0.0.1-5</version>
 		<change>Fix sleep prevention on lockscreen when exploring FLEX views for iOS 11+</change>
 		<change>Update FLEX version (August 27 2019 commit) which includes fix for crash when viewing NSNumber</change>
