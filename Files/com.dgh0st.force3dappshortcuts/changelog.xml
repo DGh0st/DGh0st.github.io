@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.8</version>
+		<change>Fix memory leak when used with Zenith</change>
+		<change>Rewrote memory management for better performance</change>
+	</changes>
+	<changes>
 		<version>0.0.7</version>
 		<change>Add arm64e compatibility</change>
 	<changes>

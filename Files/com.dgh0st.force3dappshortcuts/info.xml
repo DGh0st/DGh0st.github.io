@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.force3dappshortcuts</id>
 	<name>Force3DAppShortcuts</name>
-	<version>0.0.7</version>
+	<version>0.0.8</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,7 +23,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Add arm64e compatibility</change>
+		<change>Fix memory leak when used with Zenith</change>
+		<change>Rewrote memory management for better performance</change>
 	</changelog>
 	<links>
 	</links>
