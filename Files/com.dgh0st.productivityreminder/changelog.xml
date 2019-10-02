@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.4-4</version>
+		<change>Add arm64e support (untested)</change>
+	</changes>
+	<changes>
 		<version>0.0.4-3</version>
 		<change>Fixed crashes for applications that did not set display name in infoDictionary</change>
 	</changes>

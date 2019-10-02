@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.productivityreminder</id>
 	<name>ProductivityReminder</name>
-	<version>0.0.4-3</version>
+	<version>0.0.4-4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -24,7 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed crashes for applications that did not set display name in infoDictionary</change>
+		<change>Add arm64e support (untested)</change>
 	</changelog>
 	<links>
 	</links>
