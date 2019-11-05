@@ -13,9 +13,10 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Mirror the selfie that is taken so you get what you see</description>
+		<description>Mirror the selfie images so you get what you see.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
