@@ -2436,23 +2436,6 @@ Name: LSTapNotifications
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lstapnotifications
 
-Package: com.dgh0st.mirrorselfie
-Version: 0.0.1
-Section: Tweaks
-Maintainer: DGh0st <deeppwnage@yahoo.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: Files/com.dgh0st.mirrorselfie/com.dgh0st.mirrorselfie_0.0.1_iphoneos-arm.deb
-Size: 3428
-Installed-Size: 200
-MD5sum: 747579fc0a2928c00936ae4dee244fe1
-SHA1: 3625e15c30373c829551ef8982024a115e9d0bca
-SHA256: 1f217105aee153d64007a89cc59f611da3850b7d7841ccb37412ebd159c383a0
-Description: Mirror the selfie that is saved
-Name: MirrorSelfie
-Author: DGh0st <deeppwnage@yahoo.com>
-Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.mirrorselfie
-
 Package: com.dgh0st.ncalwayschevron
 Version: 0.0.1
 Section: Tweaks
