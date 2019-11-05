@@ -15,12 +15,7 @@
 	<descriptionlist>
 		<description>Mirror the selfie that is taken so you get what you see</description>
 	</descriptionlist>
-	<screenshots>
-		<screenshot>
-			<description></description>
-			<image></image>
-		</screenshot>
-	</screenshots>
+	<screenshots></screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
