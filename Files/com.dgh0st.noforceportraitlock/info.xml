@@ -1,0 +1,26 @@
+<package>
+	<id>com.dgh0st.NoForcePortraitLock</id>
+	<name>NoForcePortraitLock</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>4.0</miniOS>
+			<maxiOS>12.4</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Don't force portrait orientation lock on iPhones/iPods.</description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
+

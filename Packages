@@ -2436,6 +2436,23 @@ Name: LSTapNotifications
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.lstapnotifications
 
+Package: com.dgh0st.mirrorselfie
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.mirrorselfie/com.dgh0st.mirrorselfie_0.0.1_iphoneos-arm.deb
+Size: 3430
+Installed-Size: 200
+MD5sum: 6eba5eb916af1a8bc0f66e5ed6695ebc
+SHA1: c641c4ef4acd30bf74ec5d8cd7490e20c25887db
+SHA256: b057ef3fd1d2e4dd7dc35268cddcd1c80f3950cf5ce4cfce48248f9a0ea609e9
+Description: Mirror the selfie that is saved
+Name: MirrorSelfie
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.mirrorselfie
+
 Package: com.dgh0st.ncalwayschevron
 Version: 0.0.1
 Section: Tweaks
@@ -2571,6 +2588,23 @@ Description: Hide the battery icon without the hiding the charging bolt.
 Name: NoBatteryIcon
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nobatteryicon
+
+Package: com.dgh0st.noforceportraitlock
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.noforceportraitlock/com.dgh0st.noforceportraitlock_0.0.1_iphoneos-arm.deb
+Size: 3204
+Installed-Size: 152
+MD5sum: c2ebdfe425e8f6dbd5431097e32d25cb
+SHA1: 5b3d065962ab1f868bbf4dcd054d5eb68445cca4
+SHA256: 0c4c0a7257c0d2379e2cdda4820eccc912c46ede22f6b4b7902c62dc2afc6446
+Description: Don't force portrait orientation when locking on iPhones
+Name: NoForcePortraitLock
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.noforceportraitlock
 
 Package: com.dgh0st.nohometaponhs
 Version: 0.0.1
