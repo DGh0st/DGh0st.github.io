@@ -1,10 +1,10 @@
 <package>
-	<id>com.dgh0st.noforceportraitlock</id>
-	<name>NoForcePortraitLock</name>
+	<id>com.dgh0st.forcelsshortcuts</id>
+	<name>ForceLSShortcuts</name>
 	<version>0.0.1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>4.0</miniOS>
+			<miniOS>11.0</miniOS>
 			<maxiOS>12.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
@@ -13,9 +13,13 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Don't force portrait orientation lock on iPhones/iPods.</description>
+		<description>Force enable the lockscreen shortcuts on unsupported devices.</description>
 	</descriptionlist>
 	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ForceLSShortcuts.png</image>
+		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
