@@ -2011,6 +2011,23 @@ Name: Force3DAppShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts
 
+Package: com.dgh0st.forcelsshortcuts
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.forcelsshortcuts/com.dgh0st.forcelsshortcuts_0.0.1_iphoneos-arm.deb
+Size: 12516
+Installed-Size: 288
+MD5sum: ea94218629836c5508a5da4ffa79f259
+SHA1: ce19adc985d12dc0c92535d647f61bb1d4c3e424
+SHA256: 274fed8aba8b3365885184952a062759edefb1fad9f03d11d890e95379213147
+Description: Force enable lockscreen shortcuts on non-supported devices
+Name: ForceLSShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.forcelsshortcuts
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.1
 Section: Tweaks
