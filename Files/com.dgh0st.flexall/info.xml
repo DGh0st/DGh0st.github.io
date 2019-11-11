@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-7</version>
+	<version>0.0.1-8</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -16,20 +16,21 @@
 		<description>Just another FLEX loader. Why? because we need one more. This one flexes on all other loaders ;D</description>
 		<description>FLEX (Flipboard Explorer) is a set of debugging and exploration tools for iOS development. When presented, FLEX shows a toolbar that lives in a window above your application. From this toolbar, you can view and modify nearly every piece of state in your running application.</description>
 		<description>Activation:
-			- Long press on status bar
+			- Long press on status bar (pre-iOS 13)
 			- Long press anywhere with three finger
 		</description>
 		<description>Additional Features:
 			- Displayed above Alerts (including SpringBoard alerts)
 			- Prevent sleep on lockscreen when using exploring through the FLEX views
 			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
-			- Fix color of status bar when FLEX explorer is displayed on homescreen
 		</description>
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Update FLEX version (September 15 2019 commit) which unreverts the crash issue and fixes the fields defaulting to 0 (or nil) and method calls no-oping</change>
+		<change>Update FLEX version (November 8 2019 commit) which has a few crash fixes and adds file brower for iOS 13</change>
+		<change>Fix lockscreen crashes on iOS 13</change>
+		<change>Remove the status color fix for homescreen as it was completely beign removed when you leave explorer</change>
 	</changelog>
 	<links>
 	</links>

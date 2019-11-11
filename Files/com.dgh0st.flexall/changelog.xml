@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.1-8</version>
+		<change>Update FLEX version (November 8 2019 commit) which has a few crash fixes and adds file brower for iOS 13</change>
+		<change>Fix lockscreen crashes on iOS 13</change>
+		<change>Remove the status color fix for homescreen as it was completely beign removed when you leave explorer</change>
+	</changes>
+	<changes>
 		<version>0.0.1-7</version>
 		<change>Update FLEX version (September 15 2019 commit) which unreverts the crash issue and fixes the fields defaulting to 0 (or nil) and method calls no-oping</change>
 	</changes>
