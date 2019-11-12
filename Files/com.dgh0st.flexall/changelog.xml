@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.1-9</version>
+		<change>Update FLEX version (November 11 2019 commit) which has minor code style change (no function or UI changes)</change>
+		<change>Fix selecting different class in the carousel (inheritance list) not displaying correct results on iOS 13+</change>
+	</changes>
+	<changes>
 		<version>0.0.1-8</version>
 		<change>Update FLEX version (November 8 2019 commit) which has a few crash fixes and adds file brower for iOS 13</change>
 		<change>Fix lockscreen crashes on iOS 13</change>

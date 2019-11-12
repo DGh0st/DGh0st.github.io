@@ -27,10 +27,8 @@
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
-	<changelog>
-		<change>Update FLEX version (November 8 2019 commit) which has a few crash fixes and adds file brower for iOS 13</change>
-		<change>Fix lockscreen crashes on iOS 13</change>
-		<change>Remove the status color fix for homescreen as it was completely beign removed when you leave explorer</change>
+	<changelog><change>Update FLEX version (November 11 2019 commit) which has minor code style change (no function or UI changes)</change>
+		<change>Fix selecting different class in the carousel (inheritance list) not displaying correct results on iOS 13+</change>
 	</changelog>
 	<links>
 	</links>
