@@ -1,7 +1,13 @@
 <changelog>
 	<changes>
+		<version>0.0.1-10</version>
+		<change>Update FLEX version (November 13 2019 commit) which has some code cleanup (no functionality or UI changes)</change>
+		<change>Fix FLEX not being loaded in some process</change>
+		<change>Move the "Object Graph" to be right after the "Shortcuts", because lets be honest its a really convenient feature that you shouldn't have to scroll all the way to the bottom for</change>
+	</changes>
+	<changes>
 		<version>0.0.1-9</version>
-		<change>Update FLEX version (November 11 2019 commit) which has minor code style change (no function or UI changes)</change>
+		<change>Update FLEX version (November 11 2019 commit) which has minor code style change (no functionality or UI changes)</change>
 		<change>Fix selecting different class in the carousel (inheritance list) not displaying correct results on iOS 13+</change>
 	</changes>
 	<changes>

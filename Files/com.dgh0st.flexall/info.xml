@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-8</version>
+	<version>0.0.1-10</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>12.4</maxiOS>
+			<maxiOS>13.2.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -27,8 +27,10 @@
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
-	<changelog><change>Update FLEX version (November 11 2019 commit) which has minor code style change (no function or UI changes)</change>
-		<change>Fix selecting different class in the carousel (inheritance list) not displaying correct results on iOS 13+</change>
+	<changelog>
+		<change>Update FLEX version (November 13 2019 commit) which has some code cleanup (no functionality or UI changes)</change>
+		<change>Fix FLEX not being loaded in some process</change>
+		<change>Move the "Object Graph" to be right after the "Shortcuts", because lets be honest its a really convenient feature that you shouldn't have to scroll all the way to the bottom for</change>
 	</changelog>
 	<links>
 	</links>
