@@ -1689,6 +1689,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.fixwallpapereffect
 
 Package: com.dgh0st.flexall
+Version: 0.0.1-10
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-10_iphoneos-arm.deb
+Size: 649894
+Installed-Size: 3080
+MD5sum: 923dc61b5b6eb44514a9a30f0d738e98
+SHA1: a5090de87c85ab6acd7080e8dd1c9701ceef6af0
+SHA256: d44cc6a09abdc0e41cf5124a925f416019920fb0b891b60c0b9a68969602d5bd
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
 Version: 0.0.1-1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
