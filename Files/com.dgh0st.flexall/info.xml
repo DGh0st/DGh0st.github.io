@@ -23,6 +23,7 @@
 			- Displayed above Alerts (including SpringBoard alerts)
 			- Prevent sleep on lockscreen when using exploring through the FLEX views
 			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
+			- Move the "Object Graph" to be right after the "Shortcuts" (instead of all the way at the bottom)
 		</description>
 	</descriptionlist>
 	<screenshots>
