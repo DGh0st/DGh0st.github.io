@@ -16,7 +16,7 @@
 		<description>Just another FLEX loader. Why? because we need one more. This one flexes on all other loaders ;D</description>
 		<description>FLEX (Flipboard Explorer) is a set of debugging and exploration tools for iOS development. When presented, FLEX shows a toolbar that lives in a window above your application. From this toolbar, you can view and modify nearly every piece of state in your running application.</description>
 		<description>Activation:
-			- Long press on status bar (pre-iOS 13)
+			- Long press on status bar
 			- Long press anywhere with three finger
 		</description>
 		<description>Additional Features:
