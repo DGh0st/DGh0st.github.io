@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.nohometaponhs</id>
 	<name>NoHomeTapOnHS</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>12.1.2</maxiOS>
+			<maxiOS>13.2.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Enabled homebutton tap in newsstand and folder</change>
+		<change>Add iOS 13 compatibility</change>
 	</changelog>
 	<links>
 	</links>

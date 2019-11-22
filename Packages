@@ -474,6 +474,23 @@ Name: BadgeOverlay
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
 
+Package: com.dgh0st.badgeoverlay
+Version: 0.0.7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.badgeoverlay/com.dgh0st.badgeoverlay_0.0.7_iphoneos-arm.deb
+Size: 21966
+Installed-Size: 288
+MD5sum: 5a6ee378f3d65a6291a7776b611179cc
+SHA1: c506b62b81df9edf9d3daab6a34c66d25674ca0d
+SHA256: 5d72f5de108ffb4781e4658462961302af9ef78a9d4de5a4223e24c045189a79
+Description: Make badges overlay on top of icons instead of being in the corner.
+Name: BadgeOverlay
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
+
 Package: com.dgh0st.batterybar
 Version: 0.0.1
 Section: Tweaks
@@ -992,6 +1009,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
 
 Package: com.dgh0st.defaultpage
+Version: 0.0.21
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.21_iphoneos-arm.deb
+Size: 17422
+Installed-Size: 304
+MD5sum: 993bd3a53c97936ba2ac10ed96a02e71
+SHA1: 1f98294b6e04737a61ac6e15c8383ca2d5323aa5
+SHA256: ce182ad636796d56a119df73e9c1553229d2e176fa7709e34a2b4f812fe137bb
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
+
+Package: com.dgh0st.defaultpage
 Version: 0.0.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -1360,6 +1394,23 @@ Installed-Size: 294
 MD5sum: 7e9f0c3fe1d776eab36d2b7cfb3f66b5
 SHA1: c6087bd85c2207f10534263022d2fb8e51c81331
 SHA256: c15f0cb08339cf2ce0fd7ef4c22b060acbc7f1797f9c02921faec36745495039
+Description: My attempt at making virtual home iOS 10 compatible.
+Name: DVirtualHome
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
+
+Package: com.dgh0st.dvirtualhome
+Version: 0.0.7-2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.7-2_iphoneos-arm.deb
+Size: 23008
+Installed-Size: 276
+MD5sum: 88ce4c019a51d06c17e99fb28b1894bf
+SHA1: cf807859b701dce2ae1c80334fc9fb2bc2e8292c
+SHA256: bbcf72f6ec07a0a367e1d9101f7640b2e38aa4dc7563df05b20fcb52dbe06521
 Description: My attempt at making virtual home iOS 10 compatible.
 Name: DVirtualHome
 Author: DGh0st <deeppwnage@yahoo.com>
@@ -2096,6 +2147,23 @@ Name: ForceLSShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.forcelsshortcuts
 
+Package: com.dgh0st.forcelsshortcuts
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.forcelsshortcuts/com.dgh0st.forcelsshortcuts_0.0.2_iphoneos-arm.deb
+Size: 12730
+Installed-Size: 280
+MD5sum: 2a87a243d6425af9b0a3eb576786e325
+SHA1: 9100a65f9621e9e3c02eaef8b8d79f2a6ee93bd4
+SHA256: 025260936530a93813f2158358552e0d1b50ce460db70280ebacefdc56c062d7
+Description: Force enable lockscreen shortcuts on non-supported devices
+Name: ForceLSShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.forcelsshortcuts
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.1
 Section: Tweaks
@@ -2720,6 +2788,23 @@ Installed-Size: 133
 MD5sum: 12e2cc52f148ff5ee1f8f4095172ee0b
 SHA1: 8383fd5a775c4970079ba4c02bac25747b57eb65
 SHA256: f2e97ecad82026b07f5e5ac42408714944334b7004bac7e9763e95747b3c9aa5
+Description: Disable the home button press on springboard/homescreen.
+Name: NoHomePressOnHS
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nohometaponhs
+
+Package: com.dgh0st.nohometaponhs
+Version: 0.0.3
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nohometaponhs/com.dgh0st.nohometaponhs_0.0.3_iphoneos-arm.deb
+Size: 2912
+Installed-Size: 132
+MD5sum: 7a66a3f0096ccc88ab669aabd212ca73
+SHA1: a46d095822dad57846641923e239312003b17447
+SHA256: 3c2498b05066360f5fee3fc918cf1edc3e9ec655e4a7cad8fc65c76ba4764c3f
 Description: Disable the home button press on springboard/homescreen.
 Name: NoHomePressOnHS
 Author: DGh0st <deeppwnage@yahoo.com>

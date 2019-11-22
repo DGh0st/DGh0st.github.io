@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.7</version>
+		<change>Add iOS 13 compatibility</change>
+	</changes>
+	<changes>
 		<version>0.0.6</version>
 		<change>Fix UI placement issues for iOS 12</change>
 	</changes>

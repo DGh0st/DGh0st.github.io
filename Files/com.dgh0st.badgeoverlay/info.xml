@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.badgeoverlay</id>
 	<name>BadgeOverlay</name>
-	<version>0.0.6</version>
+	<version>0.0.7</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
-			<maxiOS>12.4</maxiOS>
+			<maxiOS>13.2.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -23,7 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix UI placement issues for iOS 12</change>
+		<change>Add iOS 13 compatibility</change>
 	</changelog>
 	<links>
 	</links>

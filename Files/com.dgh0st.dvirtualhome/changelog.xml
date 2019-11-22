@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.7-2</version>
+		<change>Add iOS 13 compatibility (missing disable while authentication)</change>
+		<change>Change how vibration is handled (should still function the same)</change>
+		<change>Force enable reachability for iPads so other tweaks are not required anymore</change>
+	</changes>
+	<changes>
 		<version>0.0.6-1</version>
 		<change>Fix actions being performed during Touch ID Authentication</change>
 	</changes>

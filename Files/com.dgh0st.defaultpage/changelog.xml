@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.21</version>
+		<change>Add iOS 13 compatibility</change>
+	</changes>
+	<changes>
 		<version>0.0.20</version>
 		<change>Fix home button tap not exiting wiggle mode</change>
 	</changes>

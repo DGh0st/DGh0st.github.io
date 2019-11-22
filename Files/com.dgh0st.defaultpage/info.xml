@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.defaultpage</id>
 	<name>DefaultPage</name>
-	<version>0.0.20</version>
+	<version>0.0.21</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>12.4</maxiOS>
+			<maxiOS>13.2.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -24,7 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix home button tap not exiting wiggle mode</change>
+		<change>Add iOS 13 compatibility</change>
 	</changelog>
 	<links>
 	</links>
