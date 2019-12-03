@@ -11,6 +11,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>libflex</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Just another FLEX loader. Why? because we need one more. This one flexes on all other loaders ;D</description>
