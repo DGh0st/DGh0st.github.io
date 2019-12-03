@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-11</version>
+	<version>0.0.1-12</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -29,8 +29,7 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Fix status bar gesture for apps (Thanks level3tjg for the right direction)</change>
-		<change>Fix FLEX not being loaded in some process (Thanks opa334 for helping me realize what was wrong)</change>
+		<change>Depend on libflex</change>
 	</changelog>
 	<links>
 	</links>

@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-12</version>
+		<change>Depend on libflex</change>
+	</changes>
+	<changes>
 		<version>0.0.1-11</version>
 		<change>Fix status bar gesture for apps (Thanks level3tjg for the right direction)</change>
 	</changes>
