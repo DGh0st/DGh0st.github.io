@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.2</version>
+		<change>Add dark mode compatibility for iOS 13</change>
+		<change>Improved percentage bar width management</change>
+		<change>Use slightly different shade of gray for the battery bar background</change>
+	</changes>
+	<changes>
 		<version>0.0.1</version>
 		<change>Initial Release</change>
 	</changes>

@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.systeminfowidget</id>
 	<name>SystemInfoWidget</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>12.4.3</maxiOS>
+			<maxiOS>13.2.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -21,7 +21,9 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Add dark mode compatibility for iOS 13</change>
+		<change>Improved percentage bar width management</change>
+		<change>Use slightly different shade of gray for the battery bar background</change>
 	</changelog>
 	<links>
 	</links>
