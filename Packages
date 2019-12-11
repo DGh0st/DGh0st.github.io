@@ -3285,6 +3285,22 @@ Name: SystemInfoWidget
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.systeminfowidget
 
+Package: com.dgh0st.systeminfowidget
+Version: 0.0.2
+Section: Addons (Today Widget)
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.systeminfowidget/com.dgh0st.systeminfowidget_0.0.2_iphoneos-arm.deb
+Size: 176440
+Installed-Size: 524
+MD5sum: 383bb4aac54584d39699347ffb5841ee
+SHA1: 496ca8586aeb6d7fd78fbe4c78765b526b84cb20
+SHA256: 6e660066f0ae0ac4ce07036f364878dc809290e322b3112a430b87ecd0877f53
+Description: System Info Widget that displays battery and storage space
+Name: SystemInfoWidget
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.systeminfowidget
+
 Package: com.dgh0st.undorotation
 Version: 0.0.10
 Section: Tweaks
