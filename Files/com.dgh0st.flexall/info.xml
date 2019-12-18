@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-12</version>
+	<version>0.0.1-13</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>13.2.3</maxiOS>
+			<maxiOS>13.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -22,7 +22,7 @@
 		</description>
 		<description>Additional Features:
 			- Displayed above Alerts (including SpringBoard alerts)
-			- Prevent sleep on lockscreen when using exploring through the FLEX views
+			- Prevent sleep when using exploring through the FLEX views (pre iOS 11 the idle timer isn't disabled, instead it is reset)
 			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
 			- Move the "Object Graph" to be right after the "Shortcuts" (instead of all the way at the bottom)
 		</description>
@@ -30,7 +30,9 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Depend on libflex</change>
+		<change>Fix not being invoked on lockscreen on iOS 13.3</change>
+		<change>Disable idle timer when explorer shown instead of resetting it (for iOS 11+)</change>
+		<change>Fix multiple three finger long press gestures being added to windows</change>
 	</changelog>
 	<links>
 	</links>

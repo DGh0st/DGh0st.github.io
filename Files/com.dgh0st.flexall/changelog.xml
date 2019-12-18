@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.1-13</version>
+		<change>Fix not being invoked on lockscreen on iOS 13.3</change>
+		<change>Disable idle timer when explorer shown instead of resetting it (for iOS 11+)</change>
+		<change>Fix multiple three finger long press gestures being added to windows</change>
+	</changes>
+	<changes>
 		<version>0.0.1-12</version>
 		<change>Depend on libflex</change>
 	</changes>
