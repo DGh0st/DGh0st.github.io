@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-13</version>
+	<version>0.0.1-14</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -30,9 +30,7 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Fix not being invoked on lockscreen on iOS 13.3</change>
-		<change>Disable idle timer when explorer shown instead of resetting it (for iOS 11+)</change>
-		<change>Fix multiple three finger long press gestures being added to windows</change>
+		<change>Fix tweak being pulled into non-UIKit processes like Daemons and other non UI processes (Thanks opa334 for pointing it out)</change>
 	</changelog>
 	<links>
 	</links>

@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-14</version>
+		<change>Fix tweak being pulled into non-UIKit processes like Daemons and other non UI processes (Thanks opa334 for pointing it out)</change>
+	</changes>
+	<changes>
 		<version>0.0.1-13</version>
 		<change>Fix not being invoked on lockscreen on iOS 13.3</change>
 		<change>Disable idle timer when explorer shown instead of resetting it (for iOS 11+)</change>
