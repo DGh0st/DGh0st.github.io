@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.0.1-15</version>
+		<change>Add a way to disable processes using the whitelist plist</change>
+		<change>Default to not load into Snapchat when no whitelist plist is specified</change>
+	</changes>
+	<changes>
 		<version>0.0.1-14</version>
 		<change>Fix tweak being pulled into non-UIKit processes like Daemons and other non UI processes (Thanks opa334 for pointing it out)</change>
 	</changes>

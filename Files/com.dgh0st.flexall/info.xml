@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-14</version>
+	<version>0.0.1-15</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -30,8 +30,14 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Fix tweak being pulled into non-UIKit processes like Daemons and other non UI processes (Thanks opa334 for pointing it out)</change>
+		<change>Add a way to disable processes using the whitelist plist</change>
+		<change>Default to not load into Snapchat when no whitelist plist is specified</change>
 	</changelog>
 	<links>
+		<link>
+            <name>Whitelist Processes</name>
+            <url>https://github.com/DGh0st/FLEXall#whitelist-processes</url>
+            <iconclass>glyphicon glyphicon-th-list</iconclass>
+        </link>
 	</links>
 </package>
