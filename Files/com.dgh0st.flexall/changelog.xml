@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-16</version>
+		<change>Rename whitelist to blacklist, because it actually is a blacklist</change>
+	</changes>
+	<changes>
 		<version>0.0.1-15</version>
 		<change>Add a way to disable processes using the whitelist plist</change>
 		<change>Default to not load into Snapchat when no whitelist plist is specified</change>

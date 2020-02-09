@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-15</version>
+	<version>0.0.1-16</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -30,13 +30,12 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Add a way to disable processes using the whitelist plist</change>
-		<change>Default to not load into Snapchat when no whitelist plist is specified</change>
+		<change>Rename whitelist to blacklist, because it actually is a blacklist</change>
 	</changelog>
 	<links>
 		<link>
-            <name>Whitelist Processes</name>
-            <url>https://github.com/DGh0st/FLEXall#whitelist-processes</url>
+            <name>Blacklist Processes</name>
+            <url>https://github.com/DGh0st/FLEXall#blacklist-processes</url>
             <iconclass>glyphicon glyphicon-th-list</iconclass>
         </link>
 	</links>
