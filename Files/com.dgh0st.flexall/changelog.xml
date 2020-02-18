@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.17</version>
+		<change>Fix FLEX view controllers not appearing on lockscreen for iOS 13.3+</change>
+	</changes>
+	<changes>
 		<version>0.0.1-16</version>
 		<change>Rename whitelist to blacklist, because it actually is a blacklist</change>
 	</changes>

@@ -1433,6 +1433,23 @@ Name: DVirtualHome
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
 
+Package: com.dgh0st.dvirtualhome
+Version: 0.0.8
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.8_iphoneos-arm.deb
+Size: 24400
+Installed-Size: 280
+MD5sum: 597b2ce33be6619c467fe72ecedb1359
+SHA1: c63e5a1133e566875d50347ad5030e794c2ec127
+SHA256: 3a6ea2f618eef2ef1cb8513f5db778a887639ee74141761bda4faa754797789b
+Description: My attempt at making virtual home iOS 10 compatible.
+Name: DVirtualHome
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
+
 Package: com.dgh0st.enhancedswitcherclose
 Version: 0.0.1
 Section: Tweaks
@@ -1870,6 +1887,23 @@ Installed-Size: 260
 MD5sum: 4cc5f8468cc7c4cce20ff280d0c65ecb
 SHA1: ae63456f10e0e21fc1000a503a458ceb108846bc
 SHA256: d40e699dedb6a5cc3f00a25cdde1bc66c9cdbc363d7b79c92e6aa4e69a6ff5db
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
+Version: 0.0.1-17
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, libflex
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-17_iphoneos-arm.deb
+Size: 17916
+Installed-Size: 260
+MD5sum: d66f9a0a11d751023957975a8acd172e
+SHA1: 95e45df42f0af6bd6bab487758709674d2374782
+SHA256: a0ebdde46ff83518f9d248fb012f72f87d64157d59f8c9ff2409fdb62041731a
 Description: Load FLEX loader dynamically.
 Name: FLEXall
 Author: DGh0st <deeppwnage@yahoo.com>
