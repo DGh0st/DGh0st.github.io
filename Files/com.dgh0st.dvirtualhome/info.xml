@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.7-2</version>
+	<version>0.0.8</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -14,7 +14,7 @@
 		<package>preferenceloader</package>
 	</dependencies>
 	<descriptionlist>
-		<description>My attempt at making virtual home iOS 10 - 12 compatible (Tested on iOS 10 only).</description>
+		<description>My attempt at making virtual home iOS 10 - 13 compatible (Tested on iOS 10 only).</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
