@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.8</version>
+	<version>0.0.9</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
