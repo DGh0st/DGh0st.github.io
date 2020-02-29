@@ -24,9 +24,7 @@
 	</screenshots>
 	<changelog>
 		<change>Add iOS 13 compatibility (missing disable while authentication)</change>
-		<change>Make taps not ignore physical button presses</change>
-		<change>Fix LastApp action reopening app that was already closed, it'll do nothing now</change>
-		<change>Fix disable actions not working for iOS 10 - 10.1</change>
+		<change>Improve physical button press handling after a long hold</change>
 	</changelog>
 	<links>
 	</links>
