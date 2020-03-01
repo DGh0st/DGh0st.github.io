@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.10</version>
+		<change>Fix taps being broken due to physical button changes from previous version</change>
+	</changes>
+	<changes>
 		<version>0.0.9</version>
 		<change>Improve physical button press handling after a long hold</change>
 	</changes>

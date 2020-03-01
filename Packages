@@ -1264,6 +1264,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
 
 Package: com.dgh0st.dvirtualhome
+Version: 0.0.10
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.10_iphoneos-arm.deb
+Size: 24702
+Installed-Size: 296
+MD5sum: a3eb7b6c8c3cc4cca1c164ab767c9ecf
+SHA1: 488b9cfe36b1e3e57b8bdb215ae32d0dfa90e323
+SHA256: 97c6a8ab6d18ac4f6ce04d0ce51ea9f4c21542f7fc234ad3b08bf1dfa2836cdd
+Description: My attempt at making virtual home iOS 10 compatible.
+Name: DVirtualHome
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
+
+Package: com.dgh0st.dvirtualhome
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
