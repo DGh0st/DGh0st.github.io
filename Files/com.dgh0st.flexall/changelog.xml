@@ -1,6 +1,11 @@
 <changelog>
 	<changes>
-		<version>0.0.17</version>
+		<version>0.0.1-18</version>
+		<change>Fix freezes when pressing Done button with the new FLEX 4 update</change>
+		<change>Fix Object Graph not being positioned after the shortcuts with the new FLEX 4 udpate</change>
+	</changes>
+	<changes>
+		<version>0.0.1-17</version>
 		<change>Fix FLEX view controllers not appearing on lockscreen for iOS 13.3+</change>
 	</changes>
 	<changes>
