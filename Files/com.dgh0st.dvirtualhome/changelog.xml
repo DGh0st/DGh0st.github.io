@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.11</version>
+		<change>Fix crash when invoking Notification Center action on lockscreen</change>
+	</changes>
+	<changes>
 		<version>0.0.10</version>
 		<change>Fix taps being broken due to physical button changes from previous version</change>
 	</changes>

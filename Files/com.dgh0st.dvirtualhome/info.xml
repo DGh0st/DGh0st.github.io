@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.10</version>
+	<version>0.0.11</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -24,7 +24,7 @@
 	</screenshots>
 	<changelog>
 		<change>Add iOS 13 compatibility (missing disable while authentication)</change>
-		<change>Fix taps being broken due to physical button changes from previous version</change>
+		<change>Fix crash when invoking Notification Center action on lockscreen</change>
 	</changelog>
 	<links>
 	</links>
