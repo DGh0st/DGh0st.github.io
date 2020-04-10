@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-19</version>
+		<change>Fix FLEX 4 not appearing on lockscreen</change>
+	</changes>
+	<changes>
 		<version>0.0.1-18</version>
 		<change>Fix freezes when pressing Done button with the new FLEX 4 update</change>
 		<change>Fix Object Graph not being positioned after the shortcuts with the new FLEX 4 udpate</change>
