@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.11</version>
+	<version>0.0.12</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>13.3</maxiOS>
+			<maxiOS>13.4.1</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -23,8 +23,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Add iOS 13 compatibility (missing disable while authentication)</change>
-		<change>Fix crash when invoking Notification Center action on lockscreen</change>
+		<change>Fix Notification Center action crashing on iOS 13.4+</change>
+		<change>Fix action disabling in applications for iOS 13+ (still broken on lockscreen).</change>
 	</changelog>
 	<links>
 	</links>
