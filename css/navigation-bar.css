@@ -2,15 +2,15 @@
 	grid-area: n;
 	background: url(../img/nav-bar-bg.png);
 	z-index: 100;
-	width: calc(100% - 100px);
+	width: 100%;
 	height: 50px;
-	padding: 0px 50px 0px 50px;
+	padding: 0px;
 
 	display: block;
 	display: grid;
-	grid-template-columns: 100px auto auto;
+	grid-template-columns: repeat(16, 1fr);
 	grid-template-rows: auto;
-	grid-template-areas: "t . l";
+	grid-template-areas: ". t . . l l l l l l l l l l l ."
 	
 	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 	-moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
@@ -33,12 +33,23 @@
 
 @media screen and (max-width: 640px) {
 	.nav-bar {
-		width: 100%;
-		padding: 0px;
+		grid-template-areas: "t . . . . l l l l l l l l l l l"
 	}
 
 	.nav-bar a.title {
 		margin-left: 5px;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1080px) {
+	.nav-bar {
+		grid-template-areas: ". t . . l l l l l l l l l l l ."
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.nav-bar {
+		grid-template-areas: ". . t . l l l l l l l l l l . ."
 	}
 }
 

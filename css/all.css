@@ -15,8 +15,8 @@ body {
 	grid-template-areas:
 		"h h h h h h h h h h h h h h h h"
 		"n n n n n n n n n n n n n n n n"
-		"c c c c c c c c c c c c c c c c"
-		"f f f f f f f f f f f f f f f f";
+		". c c c c c c c c c c c c c c ."
+		". f f f f f f f f f f f f f f .";
 	text-align: center;
 }
 
@@ -145,6 +145,14 @@ img {
 }
 
 @media screen and (max-width: 640px) {
+	body {
+		grid-template-areas:
+			"h h h h h h h h h h h h h h h h"
+			"n n n n n n n n n n n n n n n n"
+			"c c c c c c c c c c c c c c c c"
+			"f f f f f f f f f f f f f f f f";
+	}
+
 	.content div.sectionInfo {
 		padding: 35px 20px 35px 20px;
 	}
@@ -155,12 +163,28 @@ img {
 }
 
 @media screen and (min-width: 640px) and (max-width: 1080px) {
+	body {
+		grid-template-areas:
+		"h h h h h h h h h h h h h h h h"
+		"n n n n n n n n n n n n n n n n"
+		". c c c c c c c c c c c c c c ."
+		". f f f f f f f f f f f f f f .";
+	}
+
 	.footer {
 		margin: 0px 25px 0px 25px;
 	}
 }
 
 @media screen and (min-width: 1080px) {
+	body {
+		grid-template-areas:
+			"h h h h h h h h h h h h h h h h"
+			"n n n n n n n n n n n n n n n n"
+			". . c c c c c c c c c c c c . ."
+			". . f f f f f f f f f f f f . .";
+	}
+
 	.content div.sectionInfo {
 		padding: 35px 85px 35px 85px;
 	}

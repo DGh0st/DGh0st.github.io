@@ -14,13 +14,17 @@ window.addEventListener('load', function() {
 	} else {
 		setTimeout(function() {
 			var page = sessionStorage.getItem('page');
-			if (page != null && page === document.getElementsByClassName("highlighted-nav")[0].href)
+			var highlightedNavItem = document.getElementsByClassName("highlighted-nav")[0];
+			if (page != null && highlightedNavItem != undefined && page === highlightedNavItem.href)
 				window.scrollTo(sessionStorage.getItem('scrollX'), sessionStorage.getItem('scrollY'));
 		}, 25);
 	}
 });
+
 window.addEventListener('beforeunload', function() {
-	sessionStorage.setItem('page', document.getElementsByClassName("highlighted-nav")[0].href);
+	var highlightedNavItem = document.getElementsByClassName("highlighted-nav")[0];
+	if (highlightedNavItem != undefined)
+		sessionStorage.setItem('page', highlightedNavItem.href);
 	sessionStorage.setItem('scrollY', window.scrollY);
 	sessionStorage.setItem('scrollX', window.scrollX);
 })
