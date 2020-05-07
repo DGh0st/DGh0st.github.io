@@ -21,7 +21,7 @@ var iOSTweaks = {
 			price:' (<del>$1.00</del> Free)',
 			description:'Brings iOS 11 style screenshotting to iOS 9 and 10.',
 			github:'https://www.github.com/DGh0st/ScreenshotXI',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
 			image:'img/ScreenshotXI.png'
 		},
 		{
@@ -29,7 +29,7 @@ var iOSTweaks = {
 			price:' (<del>$1.50</del> Free)',
 			description:'Have access to various control center sections while using deck switcher.',
 			github:'https://www.github.com/DGh0st/SwitcherControls',
-			cydiaRepo:'http://cydia.saurik.com/package/org.thebigboss.switchercontrols/',
+			cydiaRepo:'https://cydia.saurik.com/package/org.thebigboss.switchercontrols/',
 			image:'img/SwitcherControls.png'
 		}
 	],
@@ -39,7 +39,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Display an alert when you swipe up an application in the application switcher.',
 			github:'https://www.github.com/DGh0st/AlertClose',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.alertclose/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.alertclose/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.alertclose',
 			images:['img/AlertClose.png', 'img/AlertClosePreference.jpg']
 		},
@@ -48,7 +48,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Opens the app switcher to the current application instead of the last application.',
 			github:'https://www.github.com/DGh0st/AppSwitchCurrentOrig',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.appswitchcurrent10/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.appswitchcurrent10/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.appswitchcurrentOrig',
 			images:['img/AppSwitchCurrent.gif', 'img/AppSwitchCurrentPreference.jpg']
 		},
@@ -65,7 +65,7 @@ var iOSTweaks = {
 			price:' (Free)',
 			description:'Add a bar to the status bar that represents the current battery level.',
 			github:'https://www.github.com/DGh0st/BatteryBar',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.batterybar/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.batterybar/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.batterybar',
 			images:['img/BatteryBar.jpg']
 		},
@@ -114,7 +114,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Make first volume button press have no effect on volume level.',
 			github:'https://www.github.com/DGh0st/DelayVolChange',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.delayvolchange/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.delayvolchange/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.delayvolchange',
 			images:['img/DelayVolChange.png']
 		},
@@ -131,7 +131,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Display a view behind the swiped application in the switcher with unique actions at different vertical offset.',
 			github:'https://www.github.com/DGh0st/EnhancedSwitcherClose',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.enhancedswitcherclose/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.enhancedswitcherclose/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.enhancedswitcherclose',
 			images:['img/EnhancedSwitcherClose.jpg', 'img/EnhancedSwitcherClose2.jpg', 'img/EnhancedSwitcherClose3.jpg']
 		},
@@ -148,7 +148,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Enable 3D touch shortcuts on homescreen for older devices.',
 			github:'https://www.github.com/DGh0st/Force3DAppShortcuts',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.force3dappshortcuts/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.force3dappshortcuts/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.force3dappshortcuts',
 			images:['img/Force3DAppShortcuts.jpg']
 		},
@@ -173,7 +173,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Add icon and label to the homescreen card. Change icon by replacing images at /Library/Application Support/HomeCardIconLabel.',
 			github:'https://www.github.com/DGh0st/HomeCardIconLabel',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.homecardiconlabel/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.homecardiconlabel/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.homecardiconlabel',
 			images:['img/HomeCardIconLabel.jpg']
 		},
@@ -198,7 +198,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Limit the number of screenshots that can be taken on the lockscreen with ability to fake screenshots.',
 			github:'https://www.github.com/DGh0st/LSScreenshotLimit',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.lsscreenshotlimit/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.lsscreenshotlimit/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.lsscreenshotlimit',
 			images:['img/LSScreenshotLimit.jpg']
 		},
@@ -215,7 +215,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Always display the chevron view in the notification center instead of switching to page dots once notification center is fully displayed.',
 			github:'https://www.github.com/DGh0st/NCAlwaysChevron',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.ncalwayschevron/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.ncalwayschevron/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.ncalwayschevron',
 			images:['img/NCAlwaysChevron.jpg']
 		},
@@ -232,7 +232,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Remove the widgets from 3D touch shortcuts on homescreen.',
 			github:'https://www.github.com/DGh0st/No3DTouchWidgets',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.no3dtouchwidgets/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.no3dtouchwidgets/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.no3dtouchwidgets',
 			images:['img/No3DTouchWidgets.jpg']
 		},
@@ -273,7 +273,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Disable the upside-down orientation throughout iOS.',
 			github:'https://www.github.com/DGh0st/NoUpsideDown',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.noupsidedown/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.noupsidedown/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.noupsidedown',
 			images:['img/NoUpsideDown.png']
 		},
@@ -298,7 +298,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Customize many settings related to the reachability offset and adds option to have dynamic offset based on time between clicks.',
 			github:'https://www.github.com/DGh0st/ReachOffset',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.reachoffset/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.reachoffset/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.reachoffset',
 			images:['img/ReachOffset.png']
 		},
@@ -315,7 +315,7 @@ var iOSTweaks = {
 			price:' (<del>$1.00</del> Free)', 
 			description:'Brings iOS 11 style screenshotting to iOS 9 and 10.',
 			github:'https://www.github.com/DGh0st/ScreenshotXI',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.screenshotxi/',
 			images:['img/ScreenshotXI.jpg']
 		},
 		{
@@ -339,7 +339,7 @@ var iOSTweaks = {
 			price:' (<del>$1.50</del> Free)', 
 			description:'Have access to various control center sections while using deck switcher.',
 			github:'https://www.github.com/DGh0st/SwitcherControls',
-			cydiaRepo:'http://cydia.saurik.com/package/org.thebigboss.switchercontrols/',
+			cydiaRepo:'https://cydia.saurik.com/package/org.thebigboss.switchercontrols/',
 			images:['img/SwitcherControls.jpg']
 		},
 		{
@@ -355,7 +355,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Whenever you rotate your device, a button will be displayed on the screen allowing you to either undo rotation, lock orientation or both.',
 			github:'https://www.github.com/DGh0st/UndoRotation',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.undorotation/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.undorotation/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.undorotation',
 			images:['img/UndoRotation.jpg']
 		},
@@ -364,7 +364,7 @@ var iOSTweaks = {
 			price:' (Free)', 
 			description:'Create a whitelist of applications that restart, launch, or do nothing when you try to close it via application switcher.',
 			github:'https://www.github.com/DGh0st/WhiteListSwitcherClose',
-			cydiaRepo:'http://cydia.saurik.com/package/com.dgh0st.whitelistswitcher/',
+			cydiaRepo:'https://cydia.saurik.com/package/com.dgh0st.whitelistswitcher/',
 			betaRepo:'https://dgh0st.github.io/Files/?p=com.dgh0st.whitelistswitcher',
 			images:['img/WhitelistSwitcher.gif']
 		}

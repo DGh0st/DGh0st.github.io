@@ -13,7 +13,7 @@ var projects = {
 		name: 'PlayMafia',
 		descriptionsBeforeImages: [
 			'PlayMafia is multi-player web game based on the party game "Mafia." The idea was created for a team of seven members in a honors course at University Of Illinois at Urbana-Champaign.',
-			'We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="http://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I designed the communication system and implemented several roles for the gameplay.',
+			'We successfully deployed our server on <a href="https://www.digitalocean.com/">DigitalOcean</a> and made use of <a href="https://flask.pocoo.org/">flask</a> to create and run matches. Additionally, I designed the communication system and implemented several roles for the gameplay.',
 			'The website for the game has since been taken down so there is no place to play it.'
 		],
 		images: null,
@@ -32,7 +32,7 @@ var projects = {
 		name: 'SuperMonsterEscaper703',
 		descriptionsBeforeImages: [
 			'SuperMonsterEscaper703 is a 2D single-player top down maze escape game where you play as a monster. You have to escape the demons using magical spells that are spread throughout the maze.',
-			'The game was developed for <a href="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=56330">ludum dare game jam 33</a> when the theme was "You are a monster".'
+			'The game was developed for <a href="https://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=56330">ludum dare game jam 33</a> when the theme was "You are a monster".'
 		],
 		images: [
 			'img/SuperMonsterEscaper703Title.jpg',
@@ -65,7 +65,7 @@ var projects = {
 		name: 'Hexagon Fort',
 		descriptionsBeforeImages: [
 			'Hexagon Fort is a 2D single-player tower defense/offense game against an easy computer (AI). The game contains three upgradeable towers which are basic tower, spraying tower and healing tower. The basic tower shoots enemy minions at a steady rate with a big range. The spraying tower, on the other hand, shoots in multiple directions but has very small range. The healing tower shoots around like a sprinkler and heals your ally minions.',
-			'It was developed using <a href="http://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a> to get a better understanding of SFML for future projects.'
+			'It was developed using <a href="https://www.sfml-dev.org/index.php">Simple and Fast Multimedia Library (SFML)</a> to get a better understanding of SFML for future projects.'
 		],
 		images: [
 			'img/HexagonFortTitle.jpg',

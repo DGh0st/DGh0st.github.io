@@ -121,6 +121,8 @@
 	-ms-user-select: none;
 	-o-user-select: none;
 	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
 }
 
 .underNavBar {
@@ -158,11 +160,11 @@
 }
 
 .nav-bar a:hover:not(.title) {
-	background-color: #333333
+	background-color: #333333;
 }
 
 .underNavBar a:hover:not(.title) {
-	background-color: #333333
+	background-color: #333333;
 }
 
 .nav-bar a.highlighted-nav {

@@ -8,26 +8,26 @@ var apps = {
 		},
 		{
 			name: 'Flixer',
-			description: 'A movies app using the <a href="http://docs.themoviedb.apiary.io/#">The Movie Database API</a>.',
-			image: 'http://imgur.com/KK0Lisc.gif',
+			description: 'A movies app using the <a href="https://docs.themoviedb.apiary.io/#">The Movie Database API</a>.',
+			image: 'https://imgur.com/KK0Lisc.gif',
 			github: 'https://www.github.com/DGh0st/Flixer'
 		},
 		{
 			name: 'Yelp',
-			description: 'A yelp search app using the <a href="http://www.yelp.com/developers/documentation/v2/search_api">Yelp API</a>.',
-			image: 'http://imgur.com/uDGPnmT.gif',
+			description: 'A yelp search app using the <a href="https://www.yelp.com/developers/documentation/v2/search_api">Yelp API</a>.',
+			image: 'https://imgur.com/uDGPnmT.gif',
 			github: 'https://www.github.com/DGh0st/Yelp'
 		},
 		{
 			name: 'Tweety',
 			description: 'A basic twitter app to read and compose tweets using the <a href="https://apps.twitter.com/">Twitter API</a>.',
-			image: 'http://imgur.com/KCoNsJe.gif',
+			image: 'https://imgur.com/KCoNsJe.gif',
 			github: 'https://www.github.com/DGh0st/Tweety'
 		},
 		{
 			name: 'SnapSync',
 			description: 'A photo sharing app using Parse as its backend.',
-			image: 'http://imgur.com/6HfI8X1.gif',
+			image: 'https://imgur.com/6HfI8X1.gif',
 			github: 'https://www.github.com/DGh0st/SnapSync'
 		}
 	]
