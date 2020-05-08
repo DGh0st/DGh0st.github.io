@@ -22,7 +22,7 @@
 	overflow-y: hidden;
 }
 
-.nav-bar a.title {
+.nav-bar .title {
 	grid-area: t;
 	display: inline-block;
 	float: left;
@@ -36,7 +36,7 @@
 		grid-template-areas: "t . . . . l l l l l l l l l l l"
 	}
 
-	.nav-bar a.title {
+	.nav-bar .title {
 		margin-left: 5px;
 	}
 }
@@ -159,11 +159,11 @@
 	color: gray;
 }
 
-.nav-bar a:hover:not(.title) {
+.nav-bar div:not(.title) a:hover {
 	background-color: #333333;
 }
 
-.underNavBar a:hover:not(.title) {
+.underNavBar div:not(.title) a:hover {
 	background-color: #333333;
 }
 
