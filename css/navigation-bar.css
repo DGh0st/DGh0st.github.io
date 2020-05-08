@@ -10,7 +10,7 @@
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
 	grid-template-rows: auto;
-	grid-template-areas: ". t . . l l l l l l l l l l l ."
+	grid-template-areas: ". t . l l l l l l l l l l l l ."
 	
 	transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
 	-moz-transition: all .25s cubic-bezier(0.5, 0, 0.5, 1);
@@ -22,7 +22,7 @@
 	overflow-y: hidden;
 }
 
-.nav-bar .title {
+.nav-bar a.title {
 	grid-area: t;
 	display: inline-block;
 	float: left;
@@ -33,23 +33,23 @@
 
 @media screen and (max-width: 640px) {
 	.nav-bar {
-		grid-template-areas: "t . . . . l l l l l l l l l l l"
+		grid-template-areas: "t . . . l l l l l l l l l l l l"
 	}
 
-	.nav-bar .title {
+	.nav-bar a.title {
 		margin-left: 5px;
 	}
 }
 
 @media screen and (min-width: 640px) and (max-width: 1080px) {
 	.nav-bar {
-		grid-template-areas: ". t . . l l l l l l l l l l l ."
+		grid-template-areas: ". t . l l l l l l l l l l l l ."
 	}
 }
 
 @media screen and (min-width: 1080px) {
 	.nav-bar {
-		grid-template-areas: ". . t . l l l l l l l l l l . ."
+		grid-template-areas: ". . t l l l l l l l l l l l . ."
 	}
 }
 
@@ -159,11 +159,11 @@
 	color: gray;
 }
 
-.nav-bar div:not(.title) a:hover {
+.nav-bar a:hover:not(.title) {
 	background-color: #333333;
 }
 
-.underNavBar div:not(.title) a:hover {
+.underNavBar a:hover:not(.title) {
 	background-color: #333333;
 }
 
