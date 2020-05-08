@@ -11,10 +11,11 @@ body {
 	display: block;
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
-	grid-template-rows: 400px 50px auto 225px;
+	grid-template-rows: 400px 50px 0px auto 225px;
 	grid-template-areas:
 		"h h h h h h h h h h h h h h h h"
 		"n n n n n n n n n n n n n n n n"
+		"b b b b b b b b b b b b b b b b"
 		". c c c c c c c c c c c c c c ."
 		". f f f f f f f f f f f f f f .";
 	text-align: center;
@@ -149,6 +150,7 @@ img {
 		grid-template-areas:
 			"h h h h h h h h h h h h h h h h"
 			"n n n n n n n n n n n n n n n n"
+			"b b b b b b b b b b b b b b b b"
 			"c c c c c c c c c c c c c c c c"
 			"f f f f f f f f f f f f f f f f";
 	}
@@ -167,6 +169,7 @@ img {
 		grid-template-areas:
 		"h h h h h h h h h h h h h h h h"
 		"n n n n n n n n n n n n n n n n"
+		"b b b b b b b b b b b b b b b b"
 		". c c c c c c c c c c c c c c ."
 		". f f f f f f f f f f f f f f .";
 	}
@@ -181,6 +184,7 @@ img {
 		grid-template-areas:
 			"h h h h h h h h h h h h h h h h"
 			"n n n n n n n n n n n n n n n n"
+			"b b b b b b b b b b b b b b b b"
 			". . c c c c c c c c c c c c . ."
 			". . f f f f f f f f f f f f . .";
 	}

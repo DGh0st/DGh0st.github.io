@@ -19,8 +19,9 @@ function toggleBar() {
 
 function displayScrollToTop() {
 	var element = document.getElementsByClassName('backToTop')[0];
-	if (element != undefined) {
-		if (window.scrollY > 400) {
+	var navBarElement = document.getElementsByClassName('nav-bar')[0];
+	if (element != undefined && navBarElement != undefined) {
+		if (window.scrollY > navBarElement.offsetTop + navBarElement.offsetHeight) {
 			element.style.transform = "translateX(0px)";
 			element.style.MozTransform = "translateX(0px)";
 			element.style.msTransform = "translateX(0px)";
