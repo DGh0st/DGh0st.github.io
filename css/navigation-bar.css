@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 640px) {
 	.nav-bar {
-		grid-template-areas: "t . . . l l l l l l l l l l l l"
+		grid-template-areas: "t . . l l l l l l l l l l l l l"
 	}
 
 	.nav-bar a.title {
