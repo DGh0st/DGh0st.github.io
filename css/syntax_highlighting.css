@@ -1,0 +1,128 @@
+pre {
+	margin: 12px;
+}
+
+pre code {
+	font-family: monospace;
+}
+
+.codeblock {
+	padding: 8px;
+	background-color: #272822;
+	color: #f8f8f2;
+	overflow-x: auto;
+	font-family: monospace;
+	white-space: nowrap;
+}
+
+.codeblockinline {
+	padding: 8px;
+	background-color: #272822;
+	color: #f8f8f2;
+	font-family: monospace;
+	white-space: nowrap;
+}
+
+.codeblock code {
+	padding: 0px;
+}
+
+.codeblock a {
+	color: unset;
+	text-decoration: none;
+}
+
+.codeblock a:hover {
+	text-decoration: underline;
+}
+
+.codeblock + .codeblockdescription {
+	margin: 2px;
+	color: gray;
+	margin: 2px 5px 2px 5px;
+}
+
+.codeblock + .codeblockdescription .descriptionHeader:before {
+	content: "Note: ";
+}
+
+/* Using the Monokai Theme */
+
+.plaintext .highlight {
+	color: #a6e22e; /* green */
+}
+
+.plaintext .highlight-alt {
+	color: #d4aF37;/* gold */
+}
+
+.terminal .variable {
+	color: #66d9ef; /* blue */
+}
+
+.xml .tag {
+	color: #f92672; /* red */
+}
+
+.xml .attribute {
+	color: #a6e22e; /* green */	
+}
+
+.xml .stringliteral {
+	color: #e6db74; /* yellow */
+}
+
+.xml .comment {
+	color: #75715e; /* gray */
+}
+
+.makefile .reservedkeyword {
+	color: #f92672; /* red */
+}
+
+.makefile .variable {
+	color: #66d9ef; /* blue */
+}
+
+.objectivec .comment {
+	color: #75715e; /* gray */
+}
+
+.objectivec .reservedkeyword {
+	color: #f92672; /* red */
+}
+
+.objectivec .signatureargument,
+.objectivec .reservedkeywordalt {
+	color: #fd971f; /* orange */
+}
+
+.objectivec .stringliteral {
+	color: #e6db74; /* yellow */
+}
+
+.objectivec .typedefidentifier,
+.objectivec .classidentifier,
+.objectivec .functionsignature,
+.objectivec .methodsignature {
+	color: #a6e22e; /* green */
+}
+
+.objectivec .subclassidentifier {
+	color: #6dd638; /* darker green */
+}
+
+.objectivec .reservedidentifier,
+.objectivec .functioncall,
+.objectivec .methodcall,
+.objectivec .macro,
+.objectivec .classname,
+.objectivec .primitive,
+.objectivec .struct,
+.objectivec .enum {
+	color: #66d9ef; /* blue */
+}
+
+.objectivec .literal {
+	color: #ae81ff; /* purple */
+}

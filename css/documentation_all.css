@@ -1,0 +1,344 @@
+body {
+	grid-template-rows: 0px 50px 0px auto 80px;
+	color: #c1c1c1;
+}
+
+.nav-bar {
+	grid-template-areas: ". t t . . . l l l l l l l l l ."
+}
+
+.content .content-separator {
+	display: block;
+	margin: 0px 35px 0px 35px;
+	height: 2px;
+	background-color: #3f3f3f;
+	border: none;
+}
+
+.content div.content-nav-links {
+	margin: 10px 20px 10px 20px;
+	padding: 15px 15px 15px 15px;
+	background-color: #272727;
+    font-size: 0;
+	overflow-wrap: anywhere;
+}
+
+.content div.content-nav-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.content div.content-nav-links a:hover:not(.home) {
+	color: gray;
+}
+
+.content div.content-nav-links a.home::before {
+	content: "Documentation";
+}
+
+.content div.content-nav-links .current {
+	user-select: unset;
+	-moz-user-select: unset;
+	-ms-user-select: unset;
+	-o-user-select: unset;
+	-webkit-user-select: unset;
+	-khtml-user-select: unset;
+	-webkit-touch-callout: unset;
+
+	cursor: default;
+	-moz-cursor: default;
+	-webkit-cursor: default;
+
+	color: #909090;
+}
+
+.content div.content-nav-links p {
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.content div.content-nav-links * {
+	display: inline-block;
+	margin-right: 10px;
+    font-size: initial;
+}
+
+.content div.sectionInfo:nth-of-type(2n) {
+	background-color: unset;
+}
+
+.content div.sectionInfo li,
+.content div.sectionInfo p {
+	line-height: 200%;
+}
+
+.content .sectionInfo:not(.referenceSection) {
+	padding-bottom: 20px;
+}
+
+.content .sectionInfo:not(.referenceSection):not(.containerReferenceSection) ~ .sectionInfo:not(.referenceSection):not(.containerReferenceSection) {
+	padding-top: 0px;
+}
+
+.content div.sectionInfo .api-type {
+	color: gray;
+	font-size: 24px;
+}
+
+.content div.sectionInfo .api-type + .api-name {
+	padding-top: 15px;
+}
+
+.content .api-separator {
+	display: block;
+	margin: 35px 0px 0px 0px;
+	height: 2px;
+	background-color: #3f3f3f;
+	border: none;
+}
+
+.content .referenceSection {
+	margin: 0px;
+	padding: 0px;
+	overflow-wrap: break-word;
+
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto 0px;
+	grid-template-areas:
+		"n n n n . l l l l l l l"
+		"c c c c c c c c c c c c";
+}
+
+.content div.containerReferenceSection {
+	grid-template-rows: auto 10px;
+	padding-top: 60px;
+}
+
+.content .containerReferenceSection .referenceSection {
+	padding: 0px 30px 0px 30px;
+}
+
+.content .fakeReferenceName,
+.content .referenceName {
+	grid-area: n;
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+	word-break: break-word;
+}
+
+.content .fakeReferenceName .fakeReferenceCopy,
+.content .referenceName .referenceCopy {
+	display: inline-block;
+	visibility: hidden;
+	font-size: 1rem;
+	vertical-align: middle;
+}
+
+.content .referenceName:hover .referenceCopy {
+	visibility: unset;
+	cursor: pointer;
+}
+
+.content .referenceName .referenceCopy:active {
+	opacity: 0.5;
+}
+
+.content .referenceName *:not(.referenceCopy) {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 90%;
+}
+
+.content .referenceInfo {
+	grid-area: l;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+}
+
+.content .referenceInfo li {
+	margin: 15px;
+}
+
+.content ul.referenceInfo li {
+	list-style-type: none;
+}
+
+.content ul.referenceInfo li a {
+	text-decoration: none;
+	color: #0077cc;
+}
+
+.content ul.referenceInfo li a:hover {
+	text-decoration: underline;
+}
+
+.content .referenceInfo h3.referenceName {
+	margin-left: -20px;
+}
+
+.content .referenceInfo li .bold {
+	font-weight: bolder;
+}
+
+.content .referenceInfo .imageContainer {
+	width: 100%;
+	text-align: center;
+}
+
+.content .referenceInfo .imageContainer img {
+	max-width: 100%;
+}
+
+.content .referenceInfo li p:not(:first-child) {
+	margin-left: 30px;
+}
+
+.content .referenceContent {
+	grid-area: c;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+}
+
+.content .referencemethodtype {
+	color: white;
+}
+
+.content div.continuation-links {
+	margin-top: 35px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.content div.continuation-links .continuation-prev {
+	float: left;
+}
+
+.content div.continuation-links .continuation-next {
+	float: right;
+}
+
+@media screen and (max-width: 640px) {
+	.nav-bar {
+		grid-template-areas: "t t . . . . l l l l l l l l l l"
+	}
+
+	.content div.content-nav-links {
+		padding: 15px 10px 15px 10px;
+	}
+
+	.content div.content-nav-links a.home:not(.is-home)::before {
+		content: "Doc";
+	}
+
+	.content .content-separator {
+		margin: 0px 20px 0px 20px;
+	}
+	
+	.content .referenceSection {
+		grid-template-rows: auto auto 0px;
+		grid-template-areas:
+			"n n n n n n n n n n n n"
+			"l l l l l l l l l l l l"
+			"c c c c c c c c c c c c";
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1080px) {
+	.nav-bar {
+		grid-template-areas: ". t t . . . l l l l l l l l l ."
+	}
+
+	.content .referenceSection {
+		grid-template-rows: auto auto 0px;
+		grid-template-areas:
+			"n n n n n n n n n n n n"
+			"l l l l l l l l l l l l"
+			"c c c c c c c c c c c c";
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.nav-bar {
+		grid-template-areas: ". . t t . l l l l l l l l l . ."
+	}
+
+	.content div.content-nav-links {
+		padding: 15px 50px 15px 50px;
+	}
+
+	.content .content-separator {
+		margin: 0px 85px 0px 85px;
+	}
+
+	.content .referenceSection {
+		grid-template-rows: auto 0px;
+		grid-template-areas:
+			"n n n n n l l l l l l l"
+			"c c c c c c c c c c c c";
+	}
+}
+
+.nav-bar a.title {
+	color: white;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.nav-bar a:hover:not(.title) {
+	background-color: unset;
+	text-decoration: underline;
+}
+
+.nav-bar div a {
+	background-color: unset;
+}
+
+@media screen and (max-width: 550px) {
+	.nav-bar div.pages {
+		transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+		-webkit-transform: translateX(0);
+		opacity: 1;
+		z-index: 100;
+	}
+}
+
+.footer {
+	height: unset;
+}
+
+blockquote {
+	line-height: 200%;
+	border-left: 5px solid #373737;
+	padding: 0px 0px 0px 20px;
+}
+
+blockquote:before {
+	color: #373737;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+blockquote:after {
+	visibility: hidden;
+	content: close-quote;
+}
+
+blockquote p {
+	display: inline;
+}
+
+ul.unbulleted li {
+	list-style-type: none;
+}

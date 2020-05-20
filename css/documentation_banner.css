@@ -1,0 +1,46 @@
+body {
+	grid-template-rows: 0px 50px 250px auto 150px;
+}
+
+.banner-content {
+	grid-area: b;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #272727;
+
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: ". m m m m m m m m m m m m m m .";
+}
+
+.banner-content .documentation-main {
+	grid-area: m;
+	margin: 0px;
+	padding: 50px 0px 50px 0px;
+	text-align: center;
+}
+
+.banner-content .documentation-main .documentation-reference-icon {
+	font-size: 4em;
+}
+
+@media screen and (max-width: 640px) {
+	.banner-content {
+		grid-template-areas: "m m m m m m m m m m m m m m m m";
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1080px) {
+	.banner-content {
+		grid-template-areas: ". m m m m m m m m m m m m m m .";
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.banner-content {
+		grid-template-areas: ". . m m m m m m m m m m m m . .";
+	}
+}
