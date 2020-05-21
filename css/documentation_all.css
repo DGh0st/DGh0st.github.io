@@ -149,6 +149,7 @@ body {
 	opacity: 0.5;
 }
 
+.content .fakeReferenceName *:not(.fakeReferenceCopy),
 .content .referenceName *:not(.referenceCopy) {
 	display: inline-block;
 	vertical-align: middle;
@@ -178,6 +179,7 @@ body {
 	text-decoration: underline;
 }
 
+.content .referenceInfo h3.fakeReferenceName,
 .content .referenceInfo h3.referenceName {
 	margin-left: -20px;
 }
