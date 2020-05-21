@@ -1,9 +1,19 @@
 window.addEventListener('DOMContentLoaded', function() {
 	// remove first empty line from code block
-	var codeBlock = document.getElementsByTagName("code");
-	for (var i = 0; i < codeBlock.length; i++) {
-		var text = codeBlock[i].firstChild.nodeValue;
-		codeBlock[i].firstChild.nodeValue = text.replace(/^\n+|\n+$/g, "");
+	var codeBlocks = document.getElementsByTagName("code");
+	for (var i = 0; i < codeBlocks.length; i++) {
+		var text = codeBlocks[i].firstChild.nodeValue;
+		codeBlocks[i].firstChild.nodeValue = text.replace(/^\n+|\n+$/g, "");
+	}
+
+	// add ids for all referenceName
+	var referenceNames = document.getElementsByClassName("referenceName");
+	for (var i = 0; i < referenceNames.length; i++) {
+		var referenceName = referenceNames[i];
+		if (referenceName.id == "" && !referenceName.classList.contains("api-name")) {
+			var referenceTitleText = referenceName.getElementsByTagName("span")[0].textContent;
+			referenceName.id = referenceTitleText.replace(/^[^a-z]+|[^\w]+/gi, "_");
+		}
 	}
 });
 
