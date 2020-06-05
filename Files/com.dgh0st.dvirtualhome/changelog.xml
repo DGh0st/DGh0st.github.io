@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.13</version>
+		<change>Add arm64e compatibility for new 5S model</change>
+	</changes>
+	<changes>
 		<version>0.0.12</version>
 		<change>Fix Notification Center action crashing on iOS 13.4+</change>
 		<change>Fix action disabling in applications for iOS 13+ (still broken on lockscreen).</change>

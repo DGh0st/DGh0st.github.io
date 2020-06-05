@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.defaultpage</id>
 	<name>DefaultPage</name>
-	<version>0.0.22</version>
+	<version>0.0.23</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>13.4.1</maxiOS>
+			<maxiOS>13.5.1</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -24,8 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix crashes on pre iOS 13 caused by the iOS 13 compatibility changes</change>
-		<change>Fix force home screen not working on iOS 11 - 12</change>
+		<change>Add arm64e compatibility for new 5S model (even though X devices will work with this version, they are not officially supported)</change>
 	</changelog>
 	<links>
 	</links>

@@ -491,6 +491,23 @@ Name: BadgeOverlay
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
 
+Package: com.dgh0st.badgeoverlay
+Version: 0.0.8
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.badgeoverlay/com.dgh0st.badgeoverlay_0.0.8_iphoneos-arm.deb
+Size: 26876
+Installed-Size: 420
+MD5sum: 14940380d17a4d2c62325a793ff4eced
+SHA1: 10bdaebdcacd4d7edd1f522171b321f5c58970b3
+SHA256: a20e44d9c868450da4686503a0227baf3992daf9283a3d8340503a3d781e10de
+Description: Make badges overlay on top of icons instead of being in the corner.
+Name: BadgeOverlay
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.badgeoverlay
+
 Package: com.dgh0st.batterybar
 Version: 0.0.1
 Section: Tweaks
@@ -1043,6 +1060,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
 
 Package: com.dgh0st.defaultpage
+Version: 0.0.23
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.defaultpage/com.dgh0st.defaultpage_0.0.23_iphoneos-arm.deb
+Size: 22036
+Installed-Size: 444
+MD5sum: 82b208608b869cd60d382e1af691be0a
+SHA1: 7eb0d649bfa4b4756040b6d228a39dd5ceccfa1f
+SHA256: 67b1e7d794bf86cd135316d3459c81263d9b53bc7c5fe7be6331491f28b44ecd
+Description: Set the default homescreen page.
+Name: DefaultPage
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.defaultpage
+
+Package: com.dgh0st.defaultpage
 Version: 0.0.3
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -1309,6 +1343,23 @@ Installed-Size: 296
 MD5sum: b078e9bae034ae06d34f75dcf86c3aa1
 SHA1: b363059555a5575c3bfe67d1df2fb2f369da419e
 SHA256: 1fc80a884aa93ede81f57f7177d121b1beb9b04a54893b8338136197f443d663
+Description: My attempt at making virtual home iOS 10 compatible.
+Name: DVirtualHome
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
+
+Package: com.dgh0st.dvirtualhome
+Version: 0.0.13
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.13_iphoneos-arm.deb
+Size: 29664
+Installed-Size: 420
+MD5sum: d58cc4a1544d3ce29b2aed6cae1e192d
+SHA1: 15f41eb10f39450da61a0488b4fbf87e7040de83
+SHA256: 7016fdf4eeb61ce676d5ee2322a60e72441f0564ae3266825aa12e43557993d0
 Description: My attempt at making virtual home iOS 10 compatible.
 Name: DVirtualHome
 Author: DGh0st <deeppwnage@yahoo.com>
