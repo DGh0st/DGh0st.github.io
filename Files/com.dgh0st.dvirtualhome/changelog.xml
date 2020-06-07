@@ -1,7 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.0.14</version>
+		<change>Fix Apple not disabling sensor on some devices after screen being turned off causing actions to be invoked.</change>
+	</changes>
+	<changes>
 		<version>0.0.13</version>
-		<change>Add arm64e compatibility for new 5S model</change>
+		<change>Add arm64e compatibility for new SE model</change>
 	</changes>
 	<changes>
 		<version>0.0.12</version>

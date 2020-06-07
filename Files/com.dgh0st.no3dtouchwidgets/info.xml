@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.no3dtouchwidgets</id>
 	<name>No3DTouchWidgets</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>12.4.3</maxiOS>
+			<maxiOS>13.5.1</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -22,7 +22,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Add iOS 13 compatibility</change>
+		<change>Add arm64e compatibility</change>
 	</changelog>
 	<links>
 	</links>

@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.13</version>
+	<version>0.0.14</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -24,7 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Add arm64e compatibility for new 5S model</change>
+		<change>Fix Apple not disabling sensor on some devices after screen being turned off causing actions to be invoked.</change>
 		<change>Fix action disabling in applications for iOS 13+ (still broken on lockscreen).</change>
 	</changelog>
 	<links>
