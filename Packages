@@ -1366,6 +1366,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
 
 Package: com.dgh0st.dvirtualhome
+Version: 0.0.14
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dvirtualhome/com.dgh0st.dvirtualhome_0.0.14_iphoneos-arm.deb
+Size: 47126
+Installed-Size: 528
+MD5sum: ec79e7f4cb5a90264141c5d18e86578b
+SHA1: 248040d17e77c72b3956e173b774c4605d3f1de2
+SHA256: 83e270ef58e639f6e6312fe463518840d2cdd56e882992882784219b94b2b6cc
+Description: My attempt at making virtual home iOS 10 compatible.
+Name: DVirtualHome
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dvirtualhome
+
+Package: com.dgh0st.dvirtualhome
 Version: 0.0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -2992,6 +3009,23 @@ Installed-Size: 133
 MD5sum: a2f023c9b0f9ea4d36dffaf4b0320ca0
 SHA1: 7bdc4f3e1f12516ec9cbc0d10323b4a33e9dd83d
 SHA256: 918536c9b394216d2e9d44133d00596d5b5646f3acdeb80925ed221754e14958
+Description: Remove the widgets from 3D touch shortcuts on homescreen.
+Name: No3DTouchWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.no3dtouchwidgets
+
+Package: com.dgh0st.no3dtouchwidgets
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.no3dtouchwidgets/com.dgh0st.no3dtouchwidgets_0.0.2_iphoneos-arm.deb
+Size: 4698
+Installed-Size: 196
+MD5sum: 1b1f1820ada994d2b8ca8aeb54308aab
+SHA1: dac8224afaa7a5db4f1cdb15f0ab98eff3ee6566
+SHA256: d0de28c10a6d6934c6943590a141e84fec5805754d5c591ee9f21bc9b0fdf7ed
 Description: Remove the widgets from 3D touch shortcuts on homescreen.
 Name: No3DTouchWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
