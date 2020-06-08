@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-19</version>
+	<version>0.0.1-20</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -31,7 +31,7 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Fix FLEX 4 not appearing on lockscreen</change>
+		<change>Fix compatibility with libflex beta versions</change>
 	</changelog>
 	<links>
 		<link>

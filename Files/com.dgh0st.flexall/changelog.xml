@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-20</version>
+		<change>Fix compatibility with libflex beta versions</change>
+	</changes>
+	<changes>
 		<version>0.0.1-19</version>
 		<change>Fix FLEX 4 not appearing on lockscreen</change>
 	</changes>
