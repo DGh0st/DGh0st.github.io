@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.15</version>
+		<change>Fix Siri not automatically stopping listening on invoke.</change>
+	</changes>
+	<changes>
 		<version>0.0.14</version>
 		<change>Fix Apple not disabling sensor on some devices after screen being turned off causing actions to be invoked.</change>
 	</changes>
