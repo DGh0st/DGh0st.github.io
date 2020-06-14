@@ -1,5 +1,16 @@
 <changelog>
 	<changes>
+		<version>0.1</version>
+		<change>Redesigned to provide custom widget shapes instead of being restricted to rows</change>
+		<change>Add ability to have unique preferences per widget and display them right along the widget</change>
+		<change>Add iOS 13 and arm64e compatibility</change>
+		<change>Improve compatibility with iPad</change>
+		<change>Improve today widget loading</change>
+		<change>Add preferences for Clock and Today Widgets</change>
+		<change>Add Photo Widget for iOS 13, thanks to Tr1fecta</change>
+		<change>Improve API and provide docs for developers to implement their own custom widgets</change>
+	</changes>
+	<changes>
 		<version>0.0.1-6</version>
 		<change>Improved zoom to center animation for widgets</change>
 		<change>Force reconnect today widgets after 12 hours</change>

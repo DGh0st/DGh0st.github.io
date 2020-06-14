@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.0.1-6</version>
+	<version>0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>12.4.3</maxiOS>
+			<maxiOS>13.5.1</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -14,8 +14,8 @@
 	</dependencies>
 	<descriptionlist>
 		<description>Add custom widgets right on your homescreen. This includes widgets such as time/date and apple's today widgets.</description>
-		<description>Sadly, the today widgets don't function exactly as I wanted them so there might be a few bugs here and there. Due to which features have been disabled, they still exist in code so they can be enabled via either directly modifying the /var/mobile/Library/Preferences/com.dgh0st.hswidget.widgetlayouts.plist or creating another tweak. More information about plist values available at "layout configuration" link below.</description>
-		<description>If you want to create your own custom widgets take a look "how to create your own widgets" link below.</description>
+		<description>Widgets can be selected by tapping on a placeholder icon in wiggle mode.</description>
+		<description>Developers, if you want to create your own custom widgets take a look at documentation link below.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -32,19 +32,19 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Improved zoom to center animation for widgets</change>
-		<change>Force reconnect today widgets after 12 hours</change>
-		<change>Improve today widget loadign after respring for iOS 11+</change>
+		<change>Redesigned to provide custom widget shapes instead of being restricted to rows</change>
+		<change>Add ability to have unique preferences per widget and display them right along the widget</change>
+		<change>Add iOS 13 and arm64e compatibility</change>
+		<change>Improve compatibility with iPad</change>
+		<change>Improve today widget loading</change>
+		<change>Add preferences for Clock and Today Widgets</change>
+		<change>Add Photo Widget for iOS 13, thanks to Tr1fecta</change>
+		<change>Improve API and provide docs for developers to implement their own custom widgets</change>
 	</changelog>
 	<links>
 		<link>
-            <name>Layout Configuration</name>
-            <url>https://github.com/DGh0st/HSWidgets#layout-customization</url>
-            <iconclass>glyphicon glyphicon-cog</iconclass>
-        </link>
-		<link>
-            <name>How to create your own widgets</name>
-            <url>https://github.com/DGh0st/HSWidgets#how-to-create-your-own-widgets</url>
+            <name>HSWidgets Documentation</name>
+            <url>https://dgh0st.github.io/HSWidgets</url>
             <iconclass>glyphicon glyphicon-plus</iconclass>
         </link>
 	</links>
