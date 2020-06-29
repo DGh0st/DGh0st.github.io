@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.1</version>
+	<version>0.1-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,14 +32,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Redesigned to provide custom widget shapes instead of being restricted to rows</change>
-		<change>Add ability to have unique preferences per widget and display them right along the widget</change>
-		<change>Add iOS 13 and arm64e compatibility</change>
-		<change>Improve compatibility with iPad</change>
-		<change>Improve today widget loading</change>
-		<change>Add preferences for Clock and Today Widgets</change>
-		<change>Add Photo Widget for iOS 13, thanks to Tr1fecta</change>
-		<change>Improve API and provide docs for developers to implement their own custom widgets</change>
+		<change>Fix widgets being lost on respring due to reduced motion being enabled or when another tweak disables fly in animation</change>
+		<change>Improve UI of widget selection to make it easier to understand when widgets are disabled</change>
 	</changelog>
 	<links>
 		<link>

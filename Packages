@@ -2794,6 +2794,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hswidgets
 
 Package: com.dgh0st.hswidgets
+Version: 0.1-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hswidgets/com.dgh0st.hswidgets_0.1-1_iphoneos-arm.deb
+Size: 287292
+Installed-Size: 3628
+MD5sum: cd7d01bbd36748d864dccf0a2b375646
+SHA1: 9fc935fd9346cde4ce54933503fcad7ca77d5d13
+SHA256: 86d4e7c8e27a3a4f96e0d530765fdf2e9cae5be69e3e4c35eeee9605ff96bbb5
+Description: Add today widgets or custom widgets to home screen.
+Name: HSWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hswidgets
+
+Package: com.dgh0st.hswidgets
 Version: 0.1
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>

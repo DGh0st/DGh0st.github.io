@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.1-1</version>
+		<change>Fix widgets being lost on respring due to reduced motion being enabled or when another tweak disables fly in animation</change>
+		<change>Improve UI of widget selection to make it easier to understand when widgets are disabled</change>
+	</changes>
+	<changes>
 		<version>0.1</version>
 		<change>Redesigned to provide custom widget shapes instead of being restricted to rows</change>
 		<change>Add ability to have unique preferences per widget and display them right along the widget</change>
