@@ -1,5 +1,15 @@
 <changelog>
 	<changes>
+		<version>0.2</version>
+		<change>Add RTL language support</change>
+		<change>Improve placement of accessory buttons when widget is small</change>
+		<change>Fix today widget recognizing touches when scrolling between pages</change>
+		<change>Add modern battery widget</change>
+		<change>make it easier to create custom modern widget view controllers for developers</change>
+		<change>Fix insufficient space widgets filtering to not include widgets whose instance limit has been reached</change>
+		<change>Make it easier for developers to set the corner radius of custom widgets</change>
+	</changes>
+	<changes>
 		<version>0.1-1</version>
 		<change>Fix widgets being lost on respring due to reduced motion being enabled or when another tweak disables fly in animation</change>
 		<change>Improve UI of widget selection to make it easier to understand when widgets are disabled</change>
