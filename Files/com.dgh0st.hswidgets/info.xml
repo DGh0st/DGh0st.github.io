@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.1-1</version>
+	<version>0.2-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>13.5.1</maxiOS>
+			<maxiOS>13.6</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -34,6 +34,7 @@
 	<changelog>
 		<change>Add RTL language support</change>
 		<change>Improve placement of accessory buttons when widget is small</change>
+		<change>Fix crash when swiping between pages with today widgets</change>
 		<change>Fix today widget recognizing touches when scrolling between pages</change>
 		<change>Add modern battery widget</change>
 		<change>make it easier to create custom modern widget view controllers for developers</change>

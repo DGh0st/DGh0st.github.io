@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.2-1</version>
+		<change>Fix crash when swiping between pages with today widgets</change>
+	</changes>
+	<changes>
 		<version>0.2</version>
 		<change>Add RTL language support</change>
 		<change>Improve placement of accessory buttons when widget is small</change>
