@@ -39,7 +39,6 @@
 		<change>make it easier to create custom modern widget view controllers for developers</change>
 		<change>Fix insufficient space widgets filtering to not include widgets whose instance limit has been reached</change>
 		<change>Make it easier for developers to set the corner radius of custom widgets</change>
-	</changes>
 	</changelog>
 	<links>
 		<link>
