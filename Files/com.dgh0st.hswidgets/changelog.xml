@@ -1,5 +1,15 @@
 <changelog>
 	<changes>
+		<version>0.3</version>
+		<change>Photos Widget rewrite to support album and image picking with iOS 10+ support</change>
+		<change>Allow widget addition on empty pages that aren't going to be removed at the end of wiggle mode</change>
+		<change>Fix potential crash when dragging widget while page swiped off screen (for reuse)</change>
+		<change>Make modern widgets less rounder by default (applies to Battery Widget)</change>
+		<change>Developers can now specify custom starting size instead of using the minimum size</change>
+		<change>Fix today widget potentially causing crashes due to double free</change>
+		<change>Fix today widget causing crashes on iOS 10</change>
+	</changes>
+	<changes>
 		<version>0.2-1</version>
 		<change>Fix crash when swiping between pages with today widgets</change>
 	</changes>
