@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.2-1</version>
+	<version>0.3-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -39,6 +39,9 @@
 		<change>Developers can now specify custom starting size instead of using the minimum size</change>
 		<change>Fix today widget potentially causing crashes due to double free</change>
 		<change>Fix today widget causing crashes on iOS 10</change>
+		<change>Fix today widget sizing issue caused by incompatibility with other tweaks</change>
+		<change>Fix potential crash due to race condition between page removal and widget updates</change>
+		<change>Improve loading of previews used in album picker of Photos widget</change>
 	</changelog>
 	<links>
 		<link>

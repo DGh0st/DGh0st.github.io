@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>0.3-1</version>
+		<change>Fix today widget sizing issue caused by incompatibility with other tweaks</change>
+		<change>Fix potential crash due to race condition between page removal and widget updates</change>
+		<change>Improve loading of previews used in album picker of Photos widget</change>
+	</changes>
+	<changes>
 		<version>0.3</version>
 		<change>Photos Widget rewrite to support album and image picking with iOS 10+ support</change>
 		<change>Allow widget addition on empty pages that aren't going to be removed at the end of wiggle mode</change>
