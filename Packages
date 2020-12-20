@@ -3354,6 +3354,23 @@ Name: NoUpsideDown
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.noupsidedown
 
+Package: com.dgh0st.nowidgetlistdate
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nowidgetlistdate/com.dgh0st.nowidgetlistdate_0.0.1_iphoneos-arm.deb
+Size: 2836
+Installed-Size: 132
+MD5sum: 62ecb4fe350410b729fcc1dafafc69f8
+SHA1: 69ae00a5df83b3d8ff7e4051b53ed8e6078fc1f4
+SHA256: 7fcb9f0108e25efd67b5168e059ff94dfd351bc4583da87d447faa685b36e5e9
+Description: Remove the time/date from the widget list view
+Name: NoWidgetListDate
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nowidgetlistdate
+
 Package: com.dgh0st.preferredrotation
 Version: 0.0.1
 Section: Tweaks

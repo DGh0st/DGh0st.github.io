@@ -1,0 +1,29 @@
+<package>
+	<id>com.dgh0st.nowidgetlistdate</id>
+	<name>NoWidgetListDate</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>13.0</miniOS>
+			<maxiOS>14.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Remove the time/date from the widget list view.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/NoWidgetListDate.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
