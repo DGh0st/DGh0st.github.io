@@ -2504,6 +2504,23 @@ Name: ForceLSShortcuts
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.forcelsshortcuts
 
+Package: com.dgh0st.forceswitchergesture
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.forceswitchergesture/com.dgh0st.forceswitchergesture_0.0.1-1_iphoneos-arm.deb
+Size: 3824
+Installed-Size: 68
+MD5sum: 08c60620971c58360ec64dca8a3cffca
+SHA1: 61d6c2586f4f52c6a299c89c893bfc4f92702d66
+SHA256: f44a3360db7fd76fac58e061637e6f674d52cfbe94a1c7130c56c55a9da18f52
+Description: Force the switcher gesture on unsupported devices
+Name: ForceSwitcherGesture
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.forceswitchergesture
+
 Package: com.dgh0st.hideccswitchbackground
 Version: 0.0.1
 Section: Tweaks

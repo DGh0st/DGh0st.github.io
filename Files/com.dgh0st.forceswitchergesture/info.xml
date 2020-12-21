@@ -1,0 +1,34 @@
+<package>
+	<id>com.dgh0st.forceswitchergesture</id>
+	<name>ForceSwitcherGesture</name>
+	<version>0.0.1-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>14.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Force enable the switcher gesture on unsupported devices.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ForceSwitcherGesture.png</image>
+		</screenshot>
+		<screenshot>
+			<description></description>
+			<image>../../../img/ForceSwitcherGestureCC.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+	</links>
+</package>
+
