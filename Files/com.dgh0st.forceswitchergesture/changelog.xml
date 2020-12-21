@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-2</version>
+		<change>Fix crashes on some iOS versions due to gesture type being different on minor iOS versions</change>
+	</changes>
+	<changes>
 		<version>0.0.1-1</version>
 		<change>Initial Release</change>
 	</changes>

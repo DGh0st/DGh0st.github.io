@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.forceswitchergesture</id>
 	<name>ForceSwitcherGesture</name>
-	<version>0.0.1-1</version>
+	<version>0.0.1-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -26,7 +26,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fix crashes on some iOS versions due to gesture type being different on minor iOS versions</change>
 	</changelog>
 	<links>
 	</links>
