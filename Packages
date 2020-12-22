@@ -3303,6 +3303,23 @@ Name: NoHomePressOnHS
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nohometaponhs
 
+Package: com.dgh0st.nohssearch
+Version: 0.0.1
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nohssearch/com.dgh0st.nohssearch_0.0.1_iphoneos-arm.deb
+Size: 3314
+Installed-Size: 132
+MD5sum: 548fdb7f8f7480a7243960447dc8190f
+SHA1: 76171dce8020800d90a611945abdd3e5e5d2ce74
+SHA256: 9d99e6e1cbdf0eb39ca562231d1e75679794e13c3cd77046c8db658bc0011eab
+Description: Remove the top spotlight and left today page from homescreen.
+Name: NoHSSearch
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nohssearch
+
 Package: com.dgh0st.nolsnotificationblur
 Version: 0.0.1
 Section: Tweaks
