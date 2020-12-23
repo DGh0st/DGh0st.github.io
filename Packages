@@ -1263,6 +1263,23 @@ Name: DelayVolChange
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.delayvolchange
 
+Package: com.dgh0st.dimness
+Version: 1.0
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.dimness/com.dgh0st.dimness_1.0_iphoneos-arm.deb
+Size: 8668
+Installed-Size: 136
+MD5sum: a79d4d86aeabc78d42c7b78992a29013
+SHA1: 5eed9ddde6dd75c46145734ec0523e10303e9c16
+SHA256: 4d4502760fd13cf76d7a643a88f33a1392f7e622d2d3bcd2f092312f274eb1c2
+Description: Allow lower screen brightness via software dimming.
+Name: Dimness
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.dimness
+
 Package: com.dgh0st.dvirtualhome
 Version: 0.0.1-1
 Section: Tweaks
