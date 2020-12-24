@@ -3252,6 +3252,23 @@ Name: NoBatteryIcon
 Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nobatteryicon
 
+Package: com.dgh0st.nofloatingdockrecents
+Version: 1.0
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nofloatingdockrecents/com.dgh0st.nofloatingdockrecents_1.0_iphoneos-arm.deb
+Size: 2340
+Installed-Size: 68
+MD5sum: e3cca074446441040b8e39b30d70c070
+SHA1: 79423f8b810795a139575b6c85cc4304c4265cfb
+SHA256: f8ab4d2576615c78b08497f7c8b09b6a33e86119c111efc10dad518daa0ec136
+Description: No recent apps for floating dock
+Name: NoFloatingDockRecents
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nofloatingdockrecents
+
 Package: com.dgh0st.noforceportraitlock
 Version: 0.0.1
 Section: Tweaks
@@ -3332,6 +3349,23 @@ Installed-Size: 132
 MD5sum: 548fdb7f8f7480a7243960447dc8190f
 SHA1: 76171dce8020800d90a611945abdd3e5e5d2ce74
 SHA256: 9d99e6e1cbdf0eb39ca562231d1e75679794e13c3cd77046c8db658bc0011eab
+Description: Remove the top spotlight and left today page from homescreen.
+Name: NoHSSearch
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.nohssearch
+
+Package: com.dgh0st.nohssearch
+Version: 0.0.2
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.nohssearch/com.dgh0st.nohssearch_0.0.2_iphoneos-arm.deb
+Size: 23984
+Installed-Size: 296
+MD5sum: 5af114b572cb482e149f674f94b3f088
+SHA1: 1c339cccd7abc8797585dc7f2cde7125cbe41c46
+SHA256: b9f1c1986179a23e9a2f6d928eeb9036dfdd018fb3e48050102dd28130f4aacd
 Description: Remove the top spotlight and left today page from homescreen.
 Name: NoHSSearch
 Author: DGh0st <deeppwnage@yahoo.com>

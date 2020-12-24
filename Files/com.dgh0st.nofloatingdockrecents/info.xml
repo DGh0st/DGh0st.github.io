@@ -1,7 +1,7 @@
 <package>
-	<id>com.dgh0st.nohssearch</id>
-	<name>NoHSSearch</name>
-	<version>0.0.2</version>
+	<id>com.dgh0st.nofloatingdockrecents</id>
+	<name>NoFloatingDockRecents</name>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -13,11 +13,11 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Remove the top spotlight and left today page from homescreen.</description>
+		<description>No recent apps for floating dock.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Add preferences to allow disabling either spotlight, today page or both</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links>
 	</links>
