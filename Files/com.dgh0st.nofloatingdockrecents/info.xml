@@ -15,7 +15,12 @@
 	<descriptionlist>
 		<description>No recent apps for floating dock.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>../../../img/NoFloatingDockRecents.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
