@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.3-2</version>
+		<change>Add Control Center Module widgets for iOS 13</change>
+	</changes>
+	<changes>
 		<version>0.3-1</version>
 		<change>Fix today widget sizing issue caused by incompatibility with other tweaks</change>
 		<change>Fix potential crash due to race condition between page removal and widget updates</change>

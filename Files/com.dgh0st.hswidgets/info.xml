@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.3-1</version>
+	<version>0.3-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,16 +32,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Photos Widget rewrite to support album and image picking with iOS 10+ support</change>
-		<change>Allow widget addition on empty pages that aren't going to be removed at the end of wiggle mode</change>
-		<change>Fix potential crash when dragging widget while page swiped off screen (for reuse)</change>
-		<change>Make modern widgets less rounder by default (applies to Battery Widget)</change>
-		<change>Developers can now specify custom starting size instead of using the minimum size</change>
-		<change>Fix today widget potentially causing crashes due to double free</change>
-		<change>Fix today widget causing crashes on iOS 10</change>
-		<change>Fix today widget sizing issue caused by incompatibility with other tweaks</change>
-		<change>Fix potential crash due to race condition between page removal and widget updates</change>
-		<change>Improve loading of previews used in album picker of Photos widget</change>
+		<change>Add Control Center Module widgets for iOS 13</change>
 	</changelog>
 	<links>
 		<link>
