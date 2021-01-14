@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.3-3</version>
+		<change>Add modern weather widget</change>
+		<change>Fix recording module causing a crash on removal</change>
+	</changes>
+	<changes>
 		<version>0.3-2</version>
 		<change>Add Control Center Module widgets for iOS 13</change>
 	</changes>
