@@ -1,5 +1,12 @@
 <changelog>
 	<changes>
+		<version>0.3-4</version>
+		<change>Fix crash due to city not selected for weather data</change>
+		<change>Fix crash when page of widget gets removed</change>
+		<change>Update UI to truncate names inside of using smaller fonts</change>
+		<change>Update weather image padding to be consistent</change>
+	</changes>
+	<changes>
 		<version>0.3-3</version>
 		<change>Add modern weather widget</change>
 		<change>Fix recording module causing a crash on removal</change>
