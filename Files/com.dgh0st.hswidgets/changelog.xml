@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.3-5</version>
+		<change>Reimplement fix for crash due to city not selected for weather data</change>
+		<change>Change placeholder values to make it clear that data is unknown</change>
+	</changes>
+	<changes>
 		<version>0.3-4</version>
 		<change>Fix crash due to city not selected for weather data</change>
 		<change>Fix crash when page of widget gets removed</change>

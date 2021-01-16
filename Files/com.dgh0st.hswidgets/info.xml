@@ -1,7 +1,7 @@
 <package>
 	<id>com.dgh0st.hswidgets</id>
 	<name>HSWidgets</name>
-	<version>0.3-4</version>
+	<version>0.3-5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -32,10 +32,8 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix crash due to city not selected for weather data</change>
-		<change>Fix crash when page of widget gets removed</change>
-		<change>Update UI to truncate names inside of using smaller fonts</change>
-		<change>Update weather image padding to be consistent</change>
+		<change>Reimplement fix for crash due to city not selected for weather data</change>
+		<change>Change placeholder values to make it clear that data is unknown</change>
 	</changelog>
 	<links>
 		<link>
