@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>0.3-6</version>
+		<change>Fix inconsistent UI layout between 2x4 and 4x4 modern weather widget sizes</change>
+		<change>Fix modern weather widget UI content sizing for smaller devices</change>
+	</changes>
+	<changes>
 		<version>0.3-5</version>
 		<change>Reimplement fix for crash due to city not selected for weather data</change>
 		<change>Change placeholder values to make it clear that data is unknown</change>
