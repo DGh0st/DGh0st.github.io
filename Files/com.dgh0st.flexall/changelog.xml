@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-21</version>
+		<change>Dynamically load libflex to improve process load times</change>
+	</changes>
+	<changes>
 		<version>0.0.1-20</version>
 		<change>Fix compatibility with libflex beta versions</change>
 	</changes>

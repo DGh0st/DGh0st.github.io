@@ -2165,6 +2165,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
 
 Package: com.dgh0st.flexall
+Version: 0.0.1-21
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, libflex
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-21_iphoneos-arm.deb
+Size: 22780
+Installed-Size: 260
+MD5sum: 1734bb400b9cf0432ce13c6d1973d984
+SHA1: 0671ee9464d9030e0eeafe2763c13cb956dd0bf1
+SHA256: c16b28b398aff16d343085caf7839a92da1b6611f3b5c2a6abb51f20e46bd9cd
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
 Version: 0.0.1-2
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -3026,6 +3043,23 @@ Installed-Size: 4668
 MD5sum: 38d9f17784410ff0aff8b24afb3561af
 SHA1: 4b853da20c67b09ec2d737c9f3762010f38047ee
 SHA256: 8c1ecfee8d297fe1b342fb68bf53dbf343452de7610a6486d1d8c66db0aeec54
+Description: Add today widgets or custom widgets to home screen.
+Name: HSWidgets
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.hswidgets
+
+Package: com.dgh0st.hswidgets
+Version: 0.3-7
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.hswidgets/com.dgh0st.hswidgets_0.3-7_iphoneos-arm.deb
+Size: 447290
+Installed-Size: 4668
+MD5sum: ee1ab83709f4d2e7a2845ecbce18b97c
+SHA1: 15a6945f6d7d0b0aacd764d5e2fb0ef600e2ec5e
+SHA256: c46116d3da345a24721ea467b30fdc7b648334d05fdc038c8760e3cf9783e55c
 Description: Add today widgets or custom widgets to home screen.
 Name: HSWidgets
 Author: DGh0st <deeppwnage@yahoo.com>
