@@ -12,6 +12,7 @@ my $dpkglibdir="/usr/lib/dpkg"; # This line modified by Makefile
 ($0) = $0 =~ m:.*/(.+):;
 
 push(@INC,$dpkglibdir);
+push(@INC,"./");
 require 'dpkg-gettext.pl';
 textdomain("dpkg-dev");
 
