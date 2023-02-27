@@ -1,11 +1,11 @@
 <package>
 	<id>com.dgh0st.dvirtualhome</id>
 	<name>DVirtualHome</name>
-	<version>0.0.15</version>
+	<version>0.0.16</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>14.3</maxiOS>
+			<maxiOS>15.7.3</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
@@ -24,8 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fix Siri not automatically stopping listening on invoke.</change>
-		<change>Fix action disabling in applications for iOS 13+ (still broken on lockscreen).</change>
+		<change>Fix home button action crash on iOS 15+</change>
 	</changelog>
 	<links>
 	</links>
