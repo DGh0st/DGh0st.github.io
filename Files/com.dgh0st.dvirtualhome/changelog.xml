@@ -1,6 +1,6 @@
 <changelog>
 	<changes>
-		<vesion>0.0.16</version>
+		<version>0.0.16</version>
 		<change>Fix home button action crash on iOS 15+</change>
 	</changes>
 	<changes>
