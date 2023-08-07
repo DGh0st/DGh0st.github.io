@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.0.1-23</version>
+		<change>Add rootless support</change>
+	</changes>
+	<changes>
 		<version>0.0.1-22</version>
 		<change>Fix compatibility with libflex 5</change>
 	</changes>
