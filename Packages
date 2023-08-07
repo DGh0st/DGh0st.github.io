@@ -1995,6 +1995,23 @@ Author: DGh0st <deeppwnage@yahoo.com>
 Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
 
 Package: com.dgh0st.flexall
+Version: 0.0.1-24
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, libflex
+Architecture: iphoneos-arm64
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-24_iphoneos-arm64.deb
+Size: 13274
+Installed-Size: 136
+MD5sum: c1bd4c76edf06a84ff8fc2f27cfde92f
+SHA1: 82ffddf0cc4dd62f4b9cd6ed7ec2ebc442cd6276
+SHA256: 97e415ca6ff8b077fc0b38cd430309c8d6a4b588dcca4ebfd7f56ee042ad6156
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
 Version: 0.0.1-18
 Section: Tweaks
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -2210,6 +2227,23 @@ Installed-Size: 3048
 MD5sum: 0106d42c2104f1d8ccc1c612d05d3de1
 SHA1: 36c4c32120940515ddaf5f15632f07d3f64b0bda
 SHA256: b8302722d944b86893893aeee8d61505b188533cde0690ff61b2314f09aa05d4
+Description: Load FLEX loader dynamically.
+Name: FLEXall
+Author: DGh0st <deeppwnage@yahoo.com>
+Depiction: https://DGh0st.github.io/Files/?p=com.dgh0st.flexall
+
+Package: com.dgh0st.flexall
+Version: 0.0.1-24
+Section: Tweaks
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Depends: mobilesubstrate, libflex
+Architecture: iphoneos-arm
+Filename: Files/com.dgh0st.flexall/com.dgh0st.flexall_0.0.1-24_iphoneos-arm.deb
+Size: 25750
+Installed-Size: 296
+MD5sum: 3f5cbc8285d01f8babf41a910d69c527
+SHA1: 50ef648450f5c0af832a6869d2238e981fc67cf6
+SHA256: 7c1fca481a10192bf61fbf52ab849e3c56e754966d5189f7d1430d314d60c8ab
 Description: Load FLEX loader dynamically.
 Name: FLEXall
 Author: DGh0st <deeppwnage@yahoo.com>

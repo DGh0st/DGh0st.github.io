@@ -1,17 +1,18 @@
 <package>
 	<id>com.dgh0st.flexall</id>
 	<name>FLEXall</name>
-	<version>0.0.1-23</version>
+	<version>0.0.1-24</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<maxiOS>14.3</maxiOS>
+			<maxiOS>16.5</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<package>libflex</package>
+		<package>libreflex (optional)</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Just another FLEX loader. Why? because we need one more. This one flexes on all other loaders ;D</description>
@@ -24,13 +25,14 @@
 			- Displayed above Alerts (including SpringBoard alerts)
 			- Prevent sleep when using exploring through the FLEX views (pre iOS 11 the idle timer isn't disabled, instead it is reset)
 			- Dismiss explorer window using the done navigation bar instead of having to go all the way to initial view
-			- Move the "Object Graph" to be right after the "Shortcuts" (instead of all the way at the bottom)
+			- Move the "Object Graph" to be right after the "Shortcuts" instead of all the way at the bottom (pre libFLEX 5)
 		</description>
-		<description>libflex is available on https:://nscake.github.io (NSExceptional's repo).</description>
+		<description>libflex and libreflex are available on https:://nscake.github.io (NSExceptional's repo).</description>
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
 	<changelog>
+		<change>Add libreflex support</change>
 		<change>Add rootless support</change>
 		<change>Fix compatibility with libflex 5</change>
 	</changelog>
